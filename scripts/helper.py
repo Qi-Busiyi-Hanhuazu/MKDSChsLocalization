@@ -2,6 +2,7 @@ import json
 import os
 import re
 from typing import TypedDict
+
 import ndspy.fnt
 
 DIR_TEXT_FILES = "texts"
@@ -28,6 +29,12 @@ CHINESE_TO_JAPANESE = {
   "·": "・",
 }
 FONT_REPLACE_CHAR = {}
+DUPLICATE_FILES = {
+  "Scene/MenuDL_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
+  "Scene/Record_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
+  "Scene/Nickname_ja/mission.bmg": "Scene/Logo_ja/mission.bmg",
+  "Scene/MenuDL_ja/rule.bmg": "Scene/Menu_ja/rule.bmg",
+}
 
 
 class TranslationItem(TypedDict):
@@ -90,6 +97,7 @@ def get_used_characters(json_root: str) -> set[str]:
 def half_to_full(char: str) -> str:
   char = CHINESE_TO_JAPANESE.get(char, char)
   return char
+
 
 def enumrate_narc_files(folder: ndspy.fnt.Folder, prefix: str = ""):
   for i, file_name in enumerate(folder.files):

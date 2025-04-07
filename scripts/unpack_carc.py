@@ -1,8 +1,8 @@
 import os
+
 import ndspy.fnt
 import ndspy.lz10
 import ndspy.narc
-
 from helper import DIR_DATA, DIR_ORIGINAL_FILES, DIR_UNPACKED_FILES, enumrate_narc_files
 
 

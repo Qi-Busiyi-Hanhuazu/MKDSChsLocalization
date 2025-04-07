@@ -2,8 +2,8 @@
   {
     "key": "Scene_Menu_ja_rule_0000",
     "original": "クラス",
-    "translation": "班级",
-    "context": "**翻译辅助**：\n\n班级\n\n类别"
+    "translation": "级别",
+    "context": "**翻译辅助**：\n\n级别"
   },
   {
     "key": "Scene_Menu_ja_rule_0001",
@@ -14,8 +14,8 @@
   {
     "key": "Scene_Menu_ja_rule_0002",
     "original": "コース",
-    "translation": "航向",
-    "context": "**翻译辅助**：\n\n航向\n\n课程"
+    "translation": "赛道",
+    "context": "**翻译辅助**：\n\n赛道"
   },
   {
     "key": "Scene_Menu_ja_rule_0003",
@@ -33,25 +33,25 @@
     "key": "Scene_Menu_ja_rule_0005",
     "original": "50cc",
     "translation": "50cc",
-    "context": "**翻译辅助**：\n\n50cc\n\n50 cc"
+    "context": ""
   },
   {
     "key": "Scene_Menu_ja_rule_0006",
     "original": "100cc",
     "translation": "100cc",
-    "context": "**翻译辅助**：\n\n100cc\n\n100 cc"
+    "context": ""
   },
   {
     "key": "Scene_Menu_ja_rule_0007",
     "original": "150cc",
     "translation": "150cc",
-    "context": "**翻译辅助**：\n\n150cc\n\n150 cc"
+    "context": ""
   },
   {
     "key": "Scene_Menu_ja_rule_0008",
     "original": "ミラー",
-    "translation": "反射镜",
-    "context": "**翻译辅助**：\n\n反射镜\n\n镜子"
+    "translation": "镜像",
+    "context": "**翻译辅助**：\n\n镜像"
   },
   {
     "key": "Scene_Menu_ja_rule_0009",
@@ -86,8 +86,8 @@
   {
     "key": "Scene_Menu_ja_rule_0014",
     "original": "じゅんばん",
-    "translation": "纯版",
-    "context": "**翻译辅助**：\n\n纯版\n\n顺序"
+    "translation": "依次",
+    "context": "**翻译辅助**：\n\n依次"
   },
   {
     "key": "Scene_Menu_ja_rule_0015",

@@ -26,20 +26,14 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0004",
     "original": "こくないのだれかと",
-    "translation": "和国内的某人",
-    "context": "**翻译辅助**：\n\n和国内的某人\n\n国内的某个人"
+    "translation": "区域",
+    "context": "**翻译辅助**：\n\n区域"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0005",
     "original": "せかいのだれとでも",
-    "translation": "和世界上的任何人",
-    "context": "**翻译辅助**：\n\n和世界上的任何人"
-  },
-  {
-    "key": "Scene_WiFiMenu_ja_wifi_0006",
-    "original": "",
-    "translation": "",
-    "context": ""
+    "translation": "全球",
+    "context": "**翻译辅助**：\n\n全球"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0007",
@@ -308,14 +302,14 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0051",
     "original": "プクプクビーチ",
-    "translation": "普克普克海滩",
-    "context": "**翻译辅助**：\n\n普克普克海滩\n\n泡泡海滩"
+    "translation": "泡泡怪海滩",
+    "context": "**翻译辅助**：\n\n泡泡怪海滩"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0052",
     "original": "ルイージマンション",
-    "translation": "路易吉公寓",
-    "context": "**翻译辅助**：\n\n路易吉公寓"
+    "translation": "路易吉洋馆",
+    "context": "**翻译辅助**：\n\n路易吉洋馆"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0053",
@@ -332,14 +326,14 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0055",
     "original": "ワルイージピンボール",
-    "translation": "瓦尔伊弹球",
-    "context": "**翻译辅助**：\n\n瓦尔伊弹球\n\n钢丝绳球"
+    "translation": "瓦路易吉弹珠台",
+    "context": "**翻译辅助**：\n\n瓦路易吉弹珠台"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0056",
     "original": "キノコリッジウェイ",
-    "translation": "蘑菇岭道",
-    "context": "**翻译辅助**：\n\n蘑菇岭道\n\n蘑菇脊"
+    "translation": "蘑菇山脊路",
+    "context": "**翻译辅助**：\n\n蘑菇山脊路"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0057",
@@ -350,14 +344,14 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0058",
     "original": "チクタクロック",
-    "translation": "滴答时钟",
-    "context": "**翻译辅助**：\n\n滴答时钟\n\n尖头锁"
+    "translation": "嘀嗒时钟",
+    "context": "**翻译辅助**：\n\n嘀嗒时钟"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0059",
     "original": "マリオサーキット",
     "translation": "马力欧赛道",
-    "context": "**翻译辅助**：\n\n马力欧赛道\n\n万豪电路"
+    "context": "**翻译辅助**：\n\n马力欧赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0060",
@@ -368,26 +362,26 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0061",
     "original": "ワリオスタジアム",
-    "translation": "瓦里奥体育场",
-    "context": "**翻译辅助**：\n\n瓦里奥体育场"
+    "translation": "瓦力欧竞技场",
+    "context": "**翻译辅助**：\n\n瓦力欧竞技场"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0062",
     "original": "ピーチガーデン",
-    "translation": "桃花园",
-    "context": "**翻译辅助**：\n\n桃花园\n\n桃子花园"
+    "translation": "碧姬公主花园",
+    "context": "**翻译辅助**：\n\n碧姬公主花园"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0063",
     "original": "クッパキャッスル",
     "translation": "酷霸城堡",
-    "context": "**翻译辅助**：\n\n酷霸城堡\n\n库帕城堡"
+    "context": "**翻译辅助**：\n\n酷霸城堡"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0064",
     "original": "レインボーロード",
-    "translation": "彩虹路",
-    "context": "**翻译辅助**：\n\n彩虹路"
+    "translation": "彩虹之路",
+    "context": "**翻译辅助**：\n\n彩虹之路"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0065",

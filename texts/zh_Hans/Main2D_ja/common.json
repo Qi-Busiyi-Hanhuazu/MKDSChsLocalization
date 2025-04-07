@@ -15,7 +15,7 @@
     "key": "Main2D_ja_common_0002",
     "original": "もどる",
     "translation": "返回",
-    "context": "**翻译辅助**：\n\n返回\n\n退席"
+    "context": "**翻译辅助**：\n\n返回"
   },
   {
     "key": "Main2D_ja_common_0003",
@@ -129,25 +129,25 @@
     "key": "Main2D_ja_common_0021",
     "original": "ルイージ",
     "translation": "路易吉",
-    "context": "**翻译辅助**：\n\n路易吉\n\n路基"
+    "context": "**翻译辅助**：\n\n路易吉"
   },
   {
     "key": "Main2D_ja_common_0022",
     "original": "ピーチ",
-    "translation": "蜜桃",
-    "context": "**翻译辅助**：\n\n蜜桃\n\n剥皮机"
+    "translation": "碧姬公主",
+    "context": "**翻译辅助**：\n\n碧姬公主"
   },
   {
     "key": "Main2D_ja_common_0023",
     "original": "ヨッシー",
-    "translation": "约西",
-    "context": "**翻译辅助**：\n\n约西\n\n耀西"
+    "translation": "耀西",
+    "context": "**翻译辅助**：\n\n耀西"
   },
   {
     "key": "Main2D_ja_common_0024",
     "original": "キノピオ",
-    "translation": "木薯",
-    "context": "**翻译辅助**：\n\n木薯\n\n喹啉"
+    "translation": "奇诺比奥",
+    "context": "**翻译辅助**：\n\n奇诺比奥"
   },
   {
     "key": "Main2D_ja_common_0025",
@@ -158,32 +158,32 @@
   {
     "key": "Main2D_ja_common_0026",
     "original": "ワリオ",
-    "translation": "瓦里奥",
-    "context": "**翻译辅助**：\n\n瓦里奥"
+    "translation": "瓦力欧",
+    "context": "**翻译辅助**：\n\n瓦力欧"
   },
   {
     "key": "Main2D_ja_common_0027",
     "original": "クッパ",
-    "translation": "库帕",
-    "context": "**翻译辅助**：\n\n库帕\n\n酷霸"
+    "translation": "酷霸",
+    "context": "**翻译辅助**：\n\n酷霸"
   },
   {
     "key": "Main2D_ja_common_0028",
     "original": "デイジー",
-    "translation": "黛西",
-    "context": "**翻译辅助**：\n\n黛西\n\n雏菊"
+    "translation": "黛西公主",
+    "context": "**翻译辅助**：\n\n黛西公主"
   },
   {
     "key": "Main2D_ja_common_0029",
     "original": "カロン",
-    "translation": "卡龙",
-    "context": "**翻译辅助**：\n\n卡龙\n\n卡隆"
+    "translation": "枯骨怪",
+    "context": "**翻译辅助**：\n\n枯骨怪"
   },
   {
     "key": "Main2D_ja_common_0030",
     "original": "ワルイージ",
-    "translation": "钢丝绳",
-    "context": "**翻译辅助**：\n\n钢丝绳\n\n不好意思"
+    "translation": "瓦路易吉",
+    "context": "**翻译辅助**：\n\n瓦路易吉"
   },
   {
     "key": "Main2D_ja_common_0031",
@@ -194,20 +194,20 @@
   {
     "key": "Main2D_ja_common_0032",
     "original": "ヘイホー",
-    "translation": "海霍",
-    "context": "**翻译辅助**：\n\n海霍\n\n海豪"
+    "translation": "嘿呵",
+    "context": "**翻译辅助**：\n\n嘿呵"
   },
   {
     "key": "Main2D_ja_common_0033",
     "original": "ドンキーコング",
-    "translation": "大金刚",
-    "context": "**翻译辅助**：\n\n大金刚\n\n东键组合"
+    "translation": "咚奇刚",
+    "context": "**翻译辅助**：\n\n咚奇刚"
   },
   {
     "key": "Main2D_ja_common_0034",
     "original": "カロン",
-    "translation": "卡龙",
-    "context": "**翻译辅助**：\n\n卡龙\n\n卡隆"
+    "translation": "枯骨怪",
+    "context": "**翻译辅助**：\n\n枯骨怪"
   },
   {
     "key": "Main2D_ja_common_0035",
@@ -230,14 +230,14 @@
   {
     "key": "Main2D_ja_common_0038",
     "original": "フラワーカップ",
-    "translation": "花杯",
-    "context": "**翻译辅助**：\n\n花杯\n\n鲜花杯"
+    "translation": "鲜花杯",
+    "context": "**翻译辅助**：\n\n鲜花杯"
   },
   {
     "key": "Main2D_ja_common_0039",
     "original": "スターカップ",
-    "translation": "星形杯",
-    "context": "**翻译辅助**：\n\n星形杯"
+    "translation": "星星杯",
+    "context": "**翻译辅助**：\n\n星星杯"
   },
   {
     "key": "Main2D_ja_common_0040",
@@ -248,8 +248,8 @@
   {
     "key": "Main2D_ja_common_0041",
     "original": "こうらカップ",
-    "translation": "甲壳杯",
-    "context": "**翻译辅助**：\n\n甲壳杯\n\n钢杯"
+    "translation": "龟壳杯",
+    "context": "**翻译辅助**：\n\n龟壳杯"
   },
   {
     "key": "Main2D_ja_common_0042",
@@ -260,14 +260,14 @@
   {
     "key": "Main2D_ja_common_0043",
     "original": "このはカップ",
-    "translation": "这是杯子",
-    "context": "**翻译辅助**：\n\n这是杯子\n\n树叶杯"
+    "translation": "树叶杯",
+    "context": "**翻译辅助**：\n\n树叶杯"
   },
   {
     "key": "Main2D_ja_common_0044",
     "original": "サンダーカップ",
-    "translation": "雷达杯",
-    "context": "**翻译辅助**：\n\n雷达杯\n\n打磨杯"
+    "translation": "闪电杯",
+    "context": "**翻译辅助**：\n\n闪电杯"
   },
   {
     "key": "Main2D_ja_common_0045",
@@ -284,14 +284,14 @@
   {
     "key": "Main2D_ja_common_0047",
     "original": "プクプクビーチ",
-    "translation": "普克普克海滩",
-    "context": "**翻译辅助**：\n\n普克普克海滩\n\n泡泡海滩"
+    "translation": "泡泡怪海滩",
+    "context": "**翻译辅助**：\n\n泡泡怪海滩"
   },
   {
     "key": "Main2D_ja_common_0048",
     "original": "ルイージマンション",
-    "translation": "路易吉公寓",
-    "context": "**翻译辅助**：\n\n路易吉公寓"
+    "translation": "路易吉洋馆",
+    "context": "**翻译辅助**：\n\n路易吉洋馆"
   },
   {
     "key": "Main2D_ja_common_0049",
@@ -308,14 +308,14 @@
   {
     "key": "Main2D_ja_common_0051",
     "original": "ワルイージピンボール",
-    "translation": "瓦尔伊弹球",
-    "context": "**翻译辅助**：\n\n瓦尔伊弹球\n\n钢丝绳球"
+    "translation": "瓦路易吉弹珠台",
+    "context": "**翻译辅助**：\n\n瓦路易吉弹珠台"
   },
   {
     "key": "Main2D_ja_common_0052",
     "original": "キノコリッジウェイ",
-    "translation": "蘑菇岭道",
-    "context": "**翻译辅助**：\n\n蘑菇岭道\n\n蘑菇脊"
+    "translation": "蘑菇山脊路",
+    "context": "**翻译辅助**：\n\n蘑菇山脊路"
   },
   {
     "key": "Main2D_ja_common_0053",
@@ -326,14 +326,14 @@
   {
     "key": "Main2D_ja_common_0054",
     "original": "チクタクロック",
-    "translation": "滴答时钟",
-    "context": "**翻译辅助**：\n\n滴答时钟\n\n尖头锁"
+    "translation": "嘀嗒时钟",
+    "context": "**翻译辅助**：\n\n嘀嗒时钟"
   },
   {
     "key": "Main2D_ja_common_0055",
     "original": "マリオサーキット",
     "translation": "马力欧赛道",
-    "context": "**翻译辅助**：\n\n马力欧赛道\n\n万豪电路"
+    "context": "**翻译辅助**：\n\n马力欧赛道"
   },
   {
     "key": "Main2D_ja_common_0056",
@@ -344,26 +344,26 @@
   {
     "key": "Main2D_ja_common_0057",
     "original": "ワリオスタジアム",
-    "translation": "瓦里奥体育场",
-    "context": "**翻译辅助**：\n\n瓦里奥体育场"
+    "translation": "瓦力欧竞技场",
+    "context": "**翻译辅助**：\n\n瓦力欧竞技场"
   },
   {
     "key": "Main2D_ja_common_0058",
     "original": "ピーチガーデン",
-    "translation": "桃花园",
-    "context": "**翻译辅助**：\n\n桃花园\n\n桃子花园"
+    "translation": "碧姬公主花园",
+    "context": "**翻译辅助**：\n\n碧姬公主花园"
   },
   {
     "key": "Main2D_ja_common_0059",
     "original": "クッパキャッスル",
     "translation": "酷霸城堡",
-    "context": "**翻译辅助**：\n\n酷霸城堡\n\n库帕城堡"
+    "context": "**翻译辅助**：\n\n酷霸城堡"
   },
   {
     "key": "Main2D_ja_common_0060",
     "original": "レインボーロード",
-    "translation": "彩虹路",
-    "context": "**翻译辅助**：\n\n彩虹路"
+    "translation": "彩虹之路",
+    "context": "**翻译辅助**：\n\n彩虹之路"
   },
   {
     "key": "Main2D_ja_common_0061",
@@ -506,8 +506,8 @@
   {
     "key": "Main2D_ja_common_0084",
     "original": "ふうせんバトル",
-    "translation": "气球大战",
-    "context": "**翻译辅助**：\n\n气球大战\n\n浮选战"
+    "translation": "气球对战",
+    "context": "**翻译辅助**：\n\n气球对战"
   },
   {
     "key": "Main2D_ja_common_0085",
@@ -536,8 +536,8 @@
   {
     "key": "Main2D_ja_common_0089",
     "original": "キングテレサ",
-    "translation": "泰瑞莎国王",
-    "context": "**翻译辅助**：\n\n泰瑞莎国王\n\n电传王器"
+    "translation": "害羞幽灵王",
+    "context": "**翻译辅助**：\n\n害羞幽灵王"
   },
   {
     "key": "Main2D_ja_common_0090",
@@ -554,14 +554,14 @@
   {
     "key": "Main2D_ja_common_0092",
     "original": "ハナチャン",
-    "translation": "韩亚",
-    "context": "**翻译辅助**：\n\n韩亚\n\n小花"
+    "translation": "花毛毛",
+    "context": "**翻译辅助**：\n\n花毛毛"
   },
   {
     "key": "Main2D_ja_common_0093",
     "original": "ゲームをつづける",
-    "translation": "继续打游戏",
-    "context": "**翻译辅助**：\n\n继续打游戏\n\n继续游戏"
+    "translation": "继续游戏",
+    "context": "**翻译辅助**：\n\n继续游戏"
   },
   {
     "key": "Main2D_ja_common_0094",
@@ -572,8 +572,8 @@
   {
     "key": "Main2D_ja_common_0095",
     "original": "ゲームをやめる",
-    "translation": "停止游戏",
-    "context": "**翻译辅助**：\n\n停止游戏"
+    "translation": "退出游戏",
+    "context": "**翻译辅助**：\n\n退出游戏"
   },
   {
     "key": "Main2D_ja_common_0096",
@@ -596,8 +596,8 @@
   {
     "key": "Main2D_ja_common_0099",
     "original": "はじめからリプレイ",
-    "translation": "从一开始重放",
-    "context": "**翻译辅助**：\n\n从一开始重放\n\n从头开始重播"
+    "translation": "从头开始回放",
+    "context": "**翻译辅助**：\n\n从头开始回放"
   },
   {
     "key": "Main2D_ja_common_0100",
@@ -608,20 +608,20 @@
   {
     "key": "Main2D_ja_common_0101",
     "original": "コースをかえる",
-    "translation": "改变路线",
-    "context": "**翻译辅助**：\n\n改变路线"
+    "translation": "更改赛道",
+    "context": "**翻译辅助**：\n\n更改赛道"
   },
   {
     "key": "Main2D_ja_common_0102",
     "original": "キャラクターをかえる",
-    "translation": "改变角色",
-    "context": "**翻译辅助**：\n\n改变角色\n\n更换角色"
+    "translation": "更改角色",
+    "context": "**翻译辅助**：\n\n更改角色"
   },
   {
     "key": "Main2D_ja_common_0103",
     "original": "もういちど",
-    "translation": "再一次",
-    "context": "**翻译辅助**：\n\n再一次"
+    "translation": "重试",
+    "context": "**翻译辅助**：\n\n重试"
   },
   {
     "key": "Main2D_ja_common_0104",
@@ -638,20 +638,20 @@
   {
     "key": "Main2D_ja_common_0106",
     "original": "リプレイをつづける",
-    "translation": "继续重播",
-    "context": "**翻译辅助**：\n\n继续重播\n\n继续重放"
+    "translation": "继续回放",
+    "context": "**翻译辅助**：\n\n继续回放"
   },
   {
     "key": "Main2D_ja_common_0107",
     "original": "ON",
     "translation": "ON",
-    "context": "**翻译辅助**：\n\nON\n\non"
+    "context": ""
   },
   {
     "key": "Main2D_ja_common_0108",
     "original": "OFF",
     "translation": "OFF",
-    "context": "**翻译辅助**：\n\nOFF\n\noff"
+    "context": ""
   },
   {
     "key": "Main2D_ja_common_0109",
@@ -663,25 +663,25 @@
     "key": "Main2D_ja_common_0110",
     "original": "50cc",
     "translation": "50cc",
-    "context": "**翻译辅助**：\n\n50cc\n\n50 cc"
+    "context": ""
   },
   {
     "key": "Main2D_ja_common_0111",
     "original": "100cc",
     "translation": "100cc",
-    "context": "**翻译辅助**：\n\n100cc\n\n100 cc"
+    "context": ""
   },
   {
     "key": "Main2D_ja_common_0112",
     "original": "150cc",
     "translation": "150cc",
-    "context": "**翻译辅助**：\n\n150cc\n\n150 cc"
+    "context": ""
   },
   {
     "key": "Main2D_ja_common_0113",
     "original": "ミラー",
-    "translation": "反射镜",
-    "context": "**翻译辅助**：\n\n反射镜\n\n镜子"
+    "translation": "镜像",
+    "context": "**翻译辅助**：\n\n镜像"
   },
   {
     "key": "Main2D_ja_common_0114",

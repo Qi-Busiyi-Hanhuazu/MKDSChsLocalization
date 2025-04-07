@@ -1,8 +1,15 @@
 import os
+
 import ndspy.lz10
 import ndspy.narc
-
-from helper import DIR_DATA, DIR_ORIGINAL_FILES, DIR_OUT, DIR_TEMP_IMPORT, enumrate_narc_files
+from helper import (
+  DIR_DATA,
+  DIR_ORIGINAL_FILES,
+  DIR_OUT,
+  DIR_TEMP_IMPORT,
+  DUPLICATE_FILES,
+  enumrate_narc_files,
+)
 
 
 def repack_carc(input_root: str, replace_root: str, output_root: str):
@@ -19,7 +26,10 @@ def repack_carc(input_root: str, replace_root: str, output_root: str):
       narc = ndspy.narc.NARC(raw_bytes)
       changed = False
       for i, file_name in enumrate_narc_files(narc.filenames):
-        full_path = f"{replace_root}/{relative_path[:-5]}/{file_name}"
+        sub_file_path = f"{relative_path[:-5]}/{file_name}"
+        if sub_file_path in DUPLICATE_FILES:
+          sub_file_path = DUPLICATE_FILES[sub_file_path]
+        full_path = f"{replace_root}/{sub_file_path}"
         if not os.path.exists(full_path):
           continue
 

@@ -1,11 +1,12 @@
 import io
 import json
 import os
-import ndspy.bmg
 
+import ndspy.bmg
 from helper import (
   DIR_TEXT_FILES,
   DIR_UNPACKED_FILES,
+  DUPLICATE_FILES,
   TRASH_PATTERN,
   TranslationItem,
 )
@@ -34,7 +35,7 @@ def parse_messages(reader: io.BytesIO, sheet_name: str) -> list[TranslationItem]
 def convert_bmg_to_json(input_root: str, json_root: str, language: str):
   for root, dirs, files in os.walk(input_root):
     for file_name in files:
-      lower_file_name  = file_name.lower()
+      lower_file_name = file_name.lower()
       if not lower_file_name.endswith(".bmg"):
         continue
       if any(map(lambda x: x in lower_file_name, ["staffroll", "_es", "_fr", "_ge", "_it", "_us"])):
@@ -43,6 +44,9 @@ def convert_bmg_to_json(input_root: str, json_root: str, language: str):
       file_path = os.path.relpath(f"{root}/{file_name}", input_root)
       output_path = f"{json_root}/{language}/{file_path.removesuffix('.bmg')}.json"
       sheet_name = file_path.removesuffix(".bmg").replace("\\", "/")
+
+      if f"{sheet_name}.bmg" in DUPLICATE_FILES:
+        continue
 
       with open(f"{input_root}/{file_path}", "rb") as reader:
         parsed = parse_messages(reader, sheet_name)

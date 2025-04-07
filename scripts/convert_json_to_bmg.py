@@ -2,8 +2,6 @@ import io
 import os
 
 import ndspy.bmg
-
-
 from helper import (
   CHINESE_TO_JAPANESE,
   DIR_TEMP_IMPORT,
