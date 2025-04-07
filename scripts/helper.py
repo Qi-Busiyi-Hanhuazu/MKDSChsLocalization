@@ -19,7 +19,7 @@ BANNER_PATH = "original_files/banner.bin"
 BANNER_OUT_PATH = "out/banner.bin"
 
 
-TRASH_PATTERN = re.compile(r"^[\-\. ]+$", re.DOTALL)
+TRASH_PATTERN = re.compile(r"^[\-\. ]*$", re.DOTALL)
 CONTROL_PATTERN = re.compile(r"\^[0-9A-Za-z]|%[ds]|~[CFcf][0-9\-]+")
 KANA_PATTERN = re.compile(r"[\u3040-\u309F\u30A0-\u30FF]+")
 

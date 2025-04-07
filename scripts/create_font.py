@@ -143,7 +143,7 @@ def compress_cmap(char_map: dict[int, int]) -> list[CMAP]:
 
 def create_font():
   for file_name, config in FONT_CONFIG.items():
-    characters = sorted(get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans") | set("丂丄丅丆"))
+    characters = sorted(get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans"))
     nftr = NFTR(f"{DIR_UNPACKED_FILES}/{file_name}")
 
     handle: Callable[[NFTR], NFTR] = config.get("handle")
@@ -160,8 +160,7 @@ def create_font():
 
     new_char_map = {}
     for code in sorted(nftr.char_map.keys()):
-      char = nftr.char_map[code]
-      new_char_map[code] = char
+      new_char_map[code] = nftr.char_map[code]
 
     tile = nftr.cglp.tiles[0]
     for chs in characters:
@@ -178,6 +177,20 @@ def create_font():
 
       nftr.cglp.tiles.append(new_tile)
       nftr.cwdh.info.append(CWDHInfo(0, char_width, char_length))
+
+    new_tiles: list[CGLPTile] = []
+    new_infos: list[CWDHInfo] = []
+    new_new_char_map = {}
+    code = 0
+    for old_code, char in sorted(new_char_map.items(), key=lambda x: x[1]):
+      new_new_char_map[code] = char
+      new_tiles.append(nftr.cglp.tiles[old_code])
+      new_infos.append(nftr.cwdh.info[old_code])
+      code += 1
+
+    nftr.cglp.tiles = new_tiles
+    nftr.cwdh.info = new_infos
+    new_char_map = new_new_char_map
 
     nftr.cmaps = compress_cmap(new_char_map)
     nftr.char_map = new_char_map
