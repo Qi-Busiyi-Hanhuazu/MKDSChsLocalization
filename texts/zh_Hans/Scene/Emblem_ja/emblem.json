@@ -1,0 +1,20 @@
+[
+  {
+    "key": "Scene_Emblem_ja_emblem_0000",
+    "original": "きろくしておわる",
+    "translation": "记下来就完了",
+    "context": "**翻译辅助**：\n\n记下来就完了\n\n记录完毕"
+  },
+  {
+    "key": "Scene_Emblem_ja_emblem_0001",
+    "original": "きろくせずにおわる",
+    "translation": "没记下来就结束了",
+    "context": "**翻译辅助**：\n\n没记下来就结束了\n\n不记录就结束"
+  },
+  {
+    "key": "Scene_Emblem_ja_emblem_0002",
+    "original": "やっぱりつづける",
+    "translation": "还是继续吧",
+    "context": "**翻译辅助**：\n\n还是继续吧\n\n还是继续"
+  }
+]

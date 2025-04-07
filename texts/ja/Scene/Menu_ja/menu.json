@@ -1,0 +1,140 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Menu_ja_menu_0000",
+    "original": "ブロックとりで",
+    "translation": "ブロックとりで"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Menu_ja_menu_0001",
+    "original": "どかんひろば",
+    "translation": "どかんひろば"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Menu_ja_menu_0002",
+    "original": "ニンテンドーDS",
+    "translation": "ニンテンドーDS"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Menu_ja_menu_0003",
+    "original": "ゆうやみハウス",
+    "translation": "ゆうやみハウス"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Menu_ja_menu_0004",
+    "original": "サザンリーフ",
+    "translation": "サザンリーフ"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Menu_ja_menu_0005",
+    "original": "スイートタルト",
+    "translation": "スイートタルト"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Menu_ja_menu_0006",
+    "original": "ふうせんバトル",
+    "translation": "ふうせんバトル"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Menu_ja_menu_0007",
+    "original": "あつめてシャイン",
+    "translation": "あつめてシャイン"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Menu_ja_menu_0008",
+    "original": "TIME",
+    "translation": "TIME"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Menu_ja_menu_0009",
+    "original": "ゴーストデータ",
+    "translation": "ゴーストデータ"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Menu_ja_menu_0010",
+    "original": "なし",
+    "translation": "なし"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Menu_ja_menu_0011",
+    "original": "マイゴースト",
+    "translation": "マイゴースト"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Menu_ja_menu_0012",
+    "original": "ダウンロードゴースト",
+    "translation": "ダウンロードゴースト"
+  },
+  {
+    "index": 13,
+    "key": "Scene_Menu_ja_menu_0013",
+    "original": "スタッフゴースト",
+    "translation": "スタッフゴースト"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Menu_ja_menu_0014",
+    "original": "あざやかなドライビング・テクニックで\nライバルたちを　ぶっちぎろう!",
+    "translation": "あざやかなドライビング・テクニックで\nライバルたちを　ぶっちぎろう!"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Menu_ja_menu_0015",
+    "original": "アイテムで　ライバルのふうせんをわろう!\nふくらんだふうせんが　なくなったらまけだ!\nマイクにいきをふいて　ふうせんをふくらまそう!",
+    "translation": "アイテムで　ライバルのふうせんをわろう!\nふくらんだふうせんが　なくなったらまけだ!\nマイクにいきをふいて　ふうせんをふくらまそう!"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Menu_ja_menu_0016",
+    "original": "だれよりもたくさんシャインをあつめろ!\nライバルのシャインも　うばいとってしまおう!\nシャインがすくないと　じかんとともにアウト!",
+    "translation": "だれよりもたくさんシャインをあつめろ!\nライバルのシャインも　うばいとってしまおう!\nシャインがすくないと　じかんとともにアウト!"
+  },
+  {
+    "index": 17,
+    "key": "Scene_Menu_ja_menu_0017",
+    "original": "VS",
+    "translation": "VS"
+  },
+  {
+    "index": 18,
+    "key": "Scene_Menu_ja_menu_0018",
+    "original": "ふうせんバトル",
+    "translation": "ふうせんバトル"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Menu_ja_menu_0019",
+    "original": "あつめてシャイン",
+    "translation": "あつめてシャイン"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Menu_ja_menu_0020",
+    "original": "つづける",
+    "translation": "つづける"
+  },
+  {
+    "index": 21,
+    "key": "Scene_Menu_ja_menu_0021",
+    "original": "このゲームをやめる",
+    "translation": "このゲームをやめる"
+  },
+  {
+    "index": 22,
+    "key": "Scene_Menu_ja_menu_0022",
+    "original": "つうしんをやめる",
+    "translation": "つうしんをやめる"
+  }
+]

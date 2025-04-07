@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+venv/
+
+# Fonts
+files/fonts/*.ttf
+
+# Photoshop
+*.psd
+
+# Excel
+*.xlsx
+
+# IDA
+*.idb
+*.id0
+*.id1
+*.nam
+*.til
+
+# VS Code
+.vscode/
+
+# Temporary files
+temp/
+unpacked/
+out/
+maintenance/
+
+# ARM9 patch
+arm9_patch/build/
+arm9_patch/repl_*

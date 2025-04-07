@@ -1,0 +1,254 @@
+[
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0000",
+    "original": "スピード",
+    "translation": "速度",
+    "context": "**翻译辅助**：\n\n速度"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0001",
+    "original": "かそく",
+    "translation": "加速度",
+    "context": "**翻译辅助**：\n\n加速度\n\n加速"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0002",
+    "original": "おもさ",
+    "translation": "重量",
+    "context": "**翻译辅助**：\n\n重量"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0003",
+    "original": "ハンドリング",
+    "translation": "操作",
+    "context": "**翻译辅助**：\n\n操作\n\n操纵"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0004",
+    "original": "ドリフト",
+    "translation": "漂移",
+    "context": "**翻译辅助**：\n\n漂移"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0005",
+    "original": "アイテム",
+    "translation": "项目",
+    "context": "**翻译辅助**：\n\n项目"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0006",
+    "original": "スタンダードMR",
+    "translation": "标准ＭＲ",
+    "context": "**翻译辅助**：\n\n标准MR"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0007",
+    "original": "シューティング・スター",
+    "translation": "射击明星",
+    "context": "**翻译辅助**：\n\n射击明星"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0008",
+    "original": "Bダッシュ",
+    "translation": "Ｂ破折号",
+    "context": "**翻译辅助**：\n\nB破折号\n\nB短跑"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0009",
+    "original": "スタンダードLG",
+    "translation": "标准ＬＧ",
+    "context": "**翻译辅助**：\n\n标准LG"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0010",
+    "original": "オバキューム",
+    "translation": "奥巴库姆",
+    "context": "**翻译辅助**：\n\n奥巴库姆\n\n真空"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0011",
+    "original": "ストリームライン",
+    "translation": "流水线",
+    "context": "**翻译辅助**：\n\n流水线\n\n流线"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0012",
+    "original": "スタンダードPC",
+    "translation": "标准电脑",
+    "context": "**翻译辅助**：\n\n标准电脑\n\n标准PC"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0013",
+    "original": "ライトステップ PC",
+    "translation": "光步PC",
+    "context": "**翻译辅助**：\n\n光步PC"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0014",
+    "original": "ピアレス",
+    "translation": "佩雷斯",
+    "context": "**翻译辅助**：\n\n佩雷斯\n\n无穿孔"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0015",
+    "original": "スタンダードYS",
+    "translation": "标准YS",
+    "context": "**翻译辅助**：\n\n标准YS"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0016",
+    "original": "エッグ・ワン",
+    "translation": "汪蛋",
+    "context": "**翻译辅助**：\n\n汪蛋\n\n蛋汪"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0017",
+    "original": "キューカンバー",
+    "translation": "立方酒吧",
+    "context": "**翻译辅助**：\n\n立方酒吧\n\n球杆"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0018",
+    "original": "スタンダードKO",
+    "translation": "标准KO",
+    "context": "**翻译辅助**：\n\n标准KO"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0019",
+    "original": "マッシュ",
+    "translation": "土豆泥",
+    "context": "**翻译辅助**：\n\n土豆泥\n\n泥浆"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0020",
+    "original": "フォー・ホイール・クレイドル",
+    "translation": "车轮起重机",
+    "context": "**翻译辅助**：\n\n车轮起重机\n\n四轮摇篮"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0021",
+    "original": "スタンダードDK",
+    "translation": "标准DK",
+    "context": "**翻译辅助**：\n\n标准DK"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0022",
+    "original": "ワイルドライフ",
+    "translation": "狂野生活",
+    "context": "**翻译辅助**：\n\n狂野生活\n\n野生动物"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0023",
+    "original": "ジャングルカーゴ",
+    "translation": "丛林货物",
+    "context": "**翻译辅助**：\n\n丛林货物\n\n丛林货运"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0024",
+    "original": "スタンダードWR",
+    "translation": "标准WR",
+    "context": "**翻译辅助**：\n\n标准WR"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0025",
+    "original": "ブルータル",
+    "translation": "布鲁塔尔",
+    "context": "**翻译辅助**：\n\n布鲁塔尔\n\n蓝色萤火虫"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0026",
+    "original": "ドラゴンフライ",
+    "translation": "炸龙",
+    "context": "**翻译辅助**：\n\n炸龙\n\n龙飞"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0027",
+    "original": "スタンダードKP",
+    "translation": "标准KP",
+    "context": "**翻译辅助**：\n\n标准KP"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0028",
+    "original": "ハリケーン",
+    "translation": "飓风",
+    "context": "**翻译辅助**：\n\n飓风"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0029",
+    "original": "タイラント",
+    "translation": "泰兰德",
+    "context": "**翻译辅助**：\n\n泰兰德\n\n连接"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0030",
+    "original": "スタンダードDS",
+    "translation": "标准DS",
+    "context": "**翻译辅助**：\n\n标准DS"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0031",
+    "original": "ライトステップ DS",
+    "translation": "写入步骤DS",
+    "context": "**翻译辅助**：\n\n写入步骤DS\n\n光步DS"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0032",
+    "original": "フラウリィ",
+    "translation": "弗拉里",
+    "context": "**翻译辅助**：\n\n弗拉里\n\n黄牛"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0033",
+    "original": "スタンダードKA",
+    "translation": "标准KA",
+    "context": "**翻译辅助**：\n\n标准KA"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0034",
+    "original": "カロン・カノン",
+    "translation": "卡农",
+    "context": "**翻译辅助**：\n\n卡农\n\n卡农卡农"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0035",
+    "original": "バニッシュ",
+    "translation": "香草糖",
+    "context": "**翻译辅助**：\n\n香草糖\n\n香草"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0036",
+    "original": "スタンダードWL",
+    "translation": "标准WL",
+    "context": "**翻译辅助**：\n\n标准WL"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0037",
+    "original": "ゴールド・マンティス",
+    "translation": "goldmantis",
+    "context": "**翻译辅助**：\n\ngoldmantis\n\n金曼蒂斯"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0038",
+    "original": "トリッパー",
+    "translation": "tripper",
+    "context": "**翻译辅助**：\n\ntripper\n\n跳闸"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0039",
+    "original": "スタンダードRB",
+    "translation": "标准RB",
+    "context": "**翻译辅助**：\n\n标准RB"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0040",
+    "original": "HVC-BLS",
+    "translation": "HVC-BLS",
+    "context": "**翻译辅助**：\n\nHVC-BLS\n\nhvc-bls"
+  },
+  {
+    "key": "CharacterKartSelect_ja_kart_select_0041",
+    "original": "HVC-LGS",
+    "translation": "HVC-LGS",
+    "context": "**翻译辅助**：\n\nHVC-LGS\n\nhvc-lgs"
+  }
+]

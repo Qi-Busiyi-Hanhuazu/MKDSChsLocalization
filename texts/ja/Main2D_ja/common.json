@@ -1,0 +1,842 @@
+[
+  {
+    "index": 0,
+    "key": "Main2D_ja_common_0000",
+    "original": "はい",
+    "translation": "はい"
+  },
+  {
+    "index": 1,
+    "key": "Main2D_ja_common_0001",
+    "original": "いいえ",
+    "translation": "いいえ"
+  },
+  {
+    "index": 2,
+    "key": "Main2D_ja_common_0002",
+    "original": "もどる",
+    "translation": "もどる"
+  },
+  {
+    "index": 3,
+    "key": "Main2D_ja_common_0003",
+    "original": "けってい",
+    "translation": "けってい"
+  },
+  {
+    "index": 4,
+    "key": "Main2D_ja_common_0004",
+    "original": "OK",
+    "translation": "OK"
+  },
+  {
+    "index": 5,
+    "key": "Main2D_ja_common_0005",
+    "original": "キャンセル",
+    "translation": "キャンセル"
+  },
+  {
+    "index": 6,
+    "key": "Main2D_ja_common_0006",
+    "original": "つぎへ",
+    "translation": "つぎへ"
+  },
+  {
+    "index": 7,
+    "key": "Main2D_ja_common_0007",
+    "original": "フレンドコードを\nにゅうりょくしてください。",
+    "translation": "フレンドコードを\nにゅうりょくしてください。"
+  },
+  {
+    "index": 8,
+    "key": "Main2D_ja_common_0008",
+    "original": "かりのなまえを\nいれてください。\nフレンドリストにとうろく\nされたとき せいしきな\nなまえに かきかわります。",
+    "translation": "かりのなまえを\nいれてください。\nフレンドリストにとうろく\nされたとき せいしきな\nなまえに かきかわります。"
+  },
+  {
+    "index": 9,
+    "key": "Main2D_ja_common_0009",
+    "original": "フレンドコードを\nとうろくしました。",
+    "translation": "フレンドコードを\nとうろくしました。"
+  },
+  {
+    "index": 10,
+    "key": "Main2D_ja_common_0010",
+    "original": "フレンドコードが\nまちがっています。",
+    "translation": "フレンドコードが\nまちがっています。"
+  },
+  {
+    "index": 11,
+    "key": "Main2D_ja_common_0011",
+    "original": "そのフレンドコードは\nすでにとうろくされています。",
+    "translation": "そのフレンドコードは\nすでにとうろくされています。"
+  },
+  {
+    "index": 12,
+    "key": "Main2D_ja_common_0012",
+    "original": "ニックネームは\n[255:00000100][1:0a00]\n[255:00000000]で　いいですか？\nオプションがめんで　あとから\nへんしゅうすることもできます。",
+    "translation": "ニックネームは\n[255:00000100][1:0a00]\n[255:00000000]で　いいですか？\nオプションがめんで　あとから\nへんしゅうすることもできます。"
+  },
+  {
+    "index": 13,
+    "key": "Main2D_ja_common_0013",
+    "original": "レースちゅうは\n[255:00000100][1:0b00]\n[255:00000000]と　ひょうじされます。\nこれでいいですか？",
+    "translation": "レースちゅうは\n[255:00000100][1:0b00]\n[255:00000000]と　ひょうじされます。\nこれでいいですか？"
+  },
+  {
+    "index": 14,
+    "key": "Main2D_ja_common_0014",
+    "original": "レースちゅうは\n[255:00000100][1:ff00]\n[255:00000000]と　ひょうじされます。\nこれでいいですか？",
+    "translation": "レースちゅうは\n[255:00000100][1:ff00]\n[255:00000000]と　ひょうじされます。\nこれでいいですか？"
+  },
+  {
+    "index": 15,
+    "key": "Main2D_ja_common_0015",
+    "original": "ニックネームを\nにゅうりょくしてください。",
+    "translation": "ニックネームを\nにゅうりょくしてください。"
+  },
+  {
+    "index": 16,
+    "key": "Main2D_ja_common_0016",
+    "original": "ニックネームを\nとうろくしました。",
+    "translation": "ニックネームを\nとうろくしました。"
+  },
+  {
+    "index": 17,
+    "key": "Main2D_ja_common_0017",
+    "original": "これでいいですか？",
+    "translation": "これでいいですか？"
+  },
+  {
+    "index": 18,
+    "key": "Main2D_ja_common_0018",
+    "original": "とうろくしました。",
+    "translation": "とうろくしました。"
+  },
+  {
+    "index": 19,
+    "key": "Main2D_ja_common_0019",
+    "original": "じぶんのエンブレムを\nさくせいしますか？\n\nオプションがめんで　あとから\nへんしゅうすることもできます。",
+    "translation": "じぶんのエンブレムを\nさくせいしますか？\n\nオプションがめんで　あとから\nへんしゅうすることもできます。"
+  },
+  {
+    "index": 20,
+    "key": "Main2D_ja_common_0020",
+    "original": "マリオ",
+    "translation": "マリオ"
+  },
+  {
+    "index": 21,
+    "key": "Main2D_ja_common_0021",
+    "original": "ルイージ",
+    "translation": "ルイージ"
+  },
+  {
+    "index": 22,
+    "key": "Main2D_ja_common_0022",
+    "original": "ピーチ",
+    "translation": "ピーチ"
+  },
+  {
+    "index": 23,
+    "key": "Main2D_ja_common_0023",
+    "original": "ヨッシー",
+    "translation": "ヨッシー"
+  },
+  {
+    "index": 24,
+    "key": "Main2D_ja_common_0024",
+    "original": "キノピオ",
+    "translation": "キノピオ"
+  },
+  {
+    "index": 25,
+    "key": "Main2D_ja_common_0025",
+    "original": "ドンキー",
+    "translation": "ドンキー"
+  },
+  {
+    "index": 26,
+    "key": "Main2D_ja_common_0026",
+    "original": "ワリオ",
+    "translation": "ワリオ"
+  },
+  {
+    "index": 27,
+    "key": "Main2D_ja_common_0027",
+    "original": "クッパ",
+    "translation": "クッパ"
+  },
+  {
+    "index": 28,
+    "key": "Main2D_ja_common_0028",
+    "original": "デイジー",
+    "translation": "デイジー"
+  },
+  {
+    "index": 29,
+    "key": "Main2D_ja_common_0029",
+    "original": "カロン",
+    "translation": "カロン"
+  },
+  {
+    "index": 30,
+    "key": "Main2D_ja_common_0030",
+    "original": "ワルイージ",
+    "translation": "ワルイージ"
+  },
+  {
+    "index": 31,
+    "key": "Main2D_ja_common_0031",
+    "original": "HVC-012",
+    "translation": "HVC-012"
+  },
+  {
+    "index": 32,
+    "key": "Main2D_ja_common_0032",
+    "original": "ヘイホー",
+    "translation": "ヘイホー"
+  },
+  {
+    "index": 33,
+    "key": "Main2D_ja_common_0033",
+    "original": "ドンキーコング",
+    "translation": "ドンキーコング"
+  },
+  {
+    "index": 34,
+    "key": "Main2D_ja_common_0034",
+    "original": "カロン",
+    "translation": "カロン"
+  },
+  {
+    "index": 35,
+    "key": "Main2D_ja_common_0035",
+    "original": "ニトログランプリ",
+    "translation": "ニトログランプリ"
+  },
+  {
+    "index": 36,
+    "key": "Main2D_ja_common_0036",
+    "original": "レトログランプリ",
+    "translation": "レトログランプリ"
+  },
+  {
+    "index": 37,
+    "key": "Main2D_ja_common_0037",
+    "original": "キノコカップ",
+    "translation": "キノコカップ"
+  },
+  {
+    "index": 38,
+    "key": "Main2D_ja_common_0038",
+    "original": "フラワーカップ",
+    "translation": "フラワーカップ"
+  },
+  {
+    "index": 39,
+    "key": "Main2D_ja_common_0039",
+    "original": "スターカップ",
+    "translation": "スターカップ"
+  },
+  {
+    "index": 40,
+    "key": "Main2D_ja_common_0040",
+    "original": "スペシャルカップ",
+    "translation": "スペシャルカップ"
+  },
+  {
+    "index": 41,
+    "key": "Main2D_ja_common_0041",
+    "original": "こうらカップ",
+    "translation": "こうらカップ"
+  },
+  {
+    "index": 42,
+    "key": "Main2D_ja_common_0042",
+    "original": "バナナカップ",
+    "translation": "バナナカップ"
+  },
+  {
+    "index": 43,
+    "key": "Main2D_ja_common_0043",
+    "original": "このはカップ",
+    "translation": "このはカップ"
+  },
+  {
+    "index": 44,
+    "key": "Main2D_ja_common_0044",
+    "original": "サンダーカップ",
+    "translation": "サンダーカップ"
+  },
+  {
+    "index": 45,
+    "key": "Main2D_ja_common_0045",
+    "original": "エイトクロスサーキット",
+    "translation": "エイトクロスサーキット"
+  },
+  {
+    "index": 46,
+    "key": "Main2D_ja_common_0046",
+    "original": "ヨッシーフォールズ",
+    "translation": "ヨッシーフォールズ"
+  },
+  {
+    "index": 47,
+    "key": "Main2D_ja_common_0047",
+    "original": "プクプクビーチ",
+    "translation": "プクプクビーチ"
+  },
+  {
+    "index": 48,
+    "key": "Main2D_ja_common_0048",
+    "original": "ルイージマンション",
+    "translation": "ルイージマンション"
+  },
+  {
+    "index": 49,
+    "key": "Main2D_ja_common_0049",
+    "original": "サンサンさばく",
+    "translation": "サンサンさばく"
+  },
+  {
+    "index": 50,
+    "key": "Main2D_ja_common_0050",
+    "original": "モンテタウン",
+    "translation": "モンテタウン"
+  },
+  {
+    "index": 51,
+    "key": "Main2D_ja_common_0051",
+    "original": "ワルイージピンボール",
+    "translation": "ワルイージピンボール"
+  },
+  {
+    "index": 52,
+    "key": "Main2D_ja_common_0052",
+    "original": "キノコリッジウェイ",
+    "translation": "キノコリッジウェイ"
+  },
+  {
+    "index": 53,
+    "key": "Main2D_ja_common_0053",
+    "original": "DKスノーマウンテン",
+    "translation": "DKスノーマウンテン"
+  },
+  {
+    "index": 54,
+    "key": "Main2D_ja_common_0054",
+    "original": "チクタクロック",
+    "translation": "チクタクロック"
+  },
+  {
+    "index": 55,
+    "key": "Main2D_ja_common_0055",
+    "original": "マリオサーキット",
+    "translation": "マリオサーキット"
+  },
+  {
+    "index": 56,
+    "key": "Main2D_ja_common_0056",
+    "original": "キラーシップ",
+    "translation": "キラーシップ"
+  },
+  {
+    "index": 57,
+    "key": "Main2D_ja_common_0057",
+    "original": "ワリオスタジアム",
+    "translation": "ワリオスタジアム"
+  },
+  {
+    "index": 58,
+    "key": "Main2D_ja_common_0058",
+    "original": "ピーチガーデン",
+    "translation": "ピーチガーデン"
+  },
+  {
+    "index": 59,
+    "key": "Main2D_ja_common_0059",
+    "original": "クッパキャッスル",
+    "translation": "クッパキャッスル"
+  },
+  {
+    "index": 60,
+    "key": "Main2D_ja_common_0060",
+    "original": "レインボーロード",
+    "translation": "レインボーロード"
+  },
+  {
+    "index": 61,
+    "key": "Main2D_ja_common_0061",
+    "original": "SFC・マリオサーキット1",
+    "translation": "SFC・マリオサーキット1"
+  },
+  {
+    "index": 62,
+    "key": "Main2D_ja_common_0062",
+    "original": "64・モーモーファーム",
+    "translation": "64・モーモーファーム"
+  },
+  {
+    "index": 63,
+    "key": "Main2D_ja_common_0063",
+    "original": "GBA・ピーチサーキット",
+    "translation": "GBA・ピーチサーキット"
+  },
+  {
+    "index": 64,
+    "key": "Main2D_ja_common_0064",
+    "original": "GC・ルイージサーキット",
+    "translation": "GC・ルイージサーキット"
+  },
+  {
+    "index": 65,
+    "key": "Main2D_ja_common_0065",
+    "original": "SFC・ドーナツへいや1",
+    "translation": "SFC・ドーナツへいや1"
+  },
+  {
+    "index": 66,
+    "key": "Main2D_ja_common_0066",
+    "original": "64・フラッペスノーランド",
+    "translation": "64・フラッペスノーランド"
+  },
+  {
+    "index": 67,
+    "key": "Main2D_ja_common_0067",
+    "original": "GBA・クッパキャッスル2",
+    "translation": "GBA・クッパキャッスル2"
+  },
+  {
+    "index": 68,
+    "key": "Main2D_ja_common_0068",
+    "original": "GC・ベビィパーク",
+    "translation": "GC・ベビィパーク"
+  },
+  {
+    "index": 69,
+    "key": "Main2D_ja_common_0069",
+    "original": "SFC・ノコノコビーチ2",
+    "translation": "SFC・ノコノコビーチ2"
+  },
+  {
+    "index": 70,
+    "key": "Main2D_ja_common_0070",
+    "original": "64・チョコマウンテン",
+    "translation": "64・チョコマウンテン"
+  },
+  {
+    "index": 71,
+    "key": "Main2D_ja_common_0071",
+    "original": "GBA・ルイージサーキット",
+    "translation": "GBA・ルイージサーキット"
+  },
+  {
+    "index": 72,
+    "key": "Main2D_ja_common_0072",
+    "original": "GC・キノコブリッジ",
+    "translation": "GC・キノコブリッジ"
+  },
+  {
+    "index": 73,
+    "key": "Main2D_ja_common_0073",
+    "original": "SFC・チョコレーとう2",
+    "translation": "SFC・チョコレーとう2"
+  },
+  {
+    "index": 74,
+    "key": "Main2D_ja_common_0074",
+    "original": "64・ヒュードロいけ",
+    "translation": "64・ヒュードロいけ"
+  },
+  {
+    "index": 75,
+    "key": "Main2D_ja_common_0075",
+    "original": "GBA・スカイガーデン",
+    "translation": "GBA・スカイガーデン"
+  },
+  {
+    "index": 76,
+    "key": "Main2D_ja_common_0076",
+    "original": "GC・ヨッシーサーキット",
+    "translation": "GC・ヨッシーサーキット"
+  },
+  {
+    "index": 77,
+    "key": "Main2D_ja_common_0077",
+    "original": "ブロックとりで",
+    "translation": "ブロックとりで"
+  },
+  {
+    "index": 78,
+    "key": "Main2D_ja_common_0078",
+    "original": "どかんひろば",
+    "translation": "どかんひろば"
+  },
+  {
+    "index": 79,
+    "key": "Main2D_ja_common_0079",
+    "original": "ニンテンドーDS",
+    "translation": "ニンテンドーDS"
+  },
+  {
+    "index": 80,
+    "key": "Main2D_ja_common_0080",
+    "original": "ゆうやみハウス",
+    "translation": "ゆうやみハウス"
+  },
+  {
+    "index": 81,
+    "key": "Main2D_ja_common_0081",
+    "original": "サザンリーフ",
+    "translation": "サザンリーフ"
+  },
+  {
+    "index": 82,
+    "key": "Main2D_ja_common_0082",
+    "original": "スイートタルト",
+    "translation": "スイートタルト"
+  },
+  {
+    "index": 83,
+    "key": "Main2D_ja_common_0083",
+    "original": "VS",
+    "translation": "VS"
+  },
+  {
+    "index": 84,
+    "key": "Main2D_ja_common_0084",
+    "original": "ふうせんバトル",
+    "translation": "ふうせんバトル"
+  },
+  {
+    "index": 85,
+    "key": "Main2D_ja_common_0085",
+    "original": "あつめてシャイン",
+    "translation": "あつめてシャイン"
+  },
+  {
+    "index": 86,
+    "key": "Main2D_ja_common_0086",
+    "original": "ボスどんけつ",
+    "translation": "ボスどんけつ"
+  },
+  {
+    "index": 87,
+    "key": "Main2D_ja_common_0087",
+    "original": "イワンテ",
+    "translation": "イワンテ"
+  },
+  {
+    "index": 88,
+    "key": "Main2D_ja_common_0088",
+    "original": "クリキング",
+    "translation": "クリキング"
+  },
+  {
+    "index": 89,
+    "key": "Main2D_ja_common_0089",
+    "original": "キングテレサ",
+    "translation": "キングテレサ"
+  },
+  {
+    "index": 90,
+    "key": "Main2D_ja_common_0090",
+    "original": "ボムキング",
+    "translation": "ボムキング"
+  },
+  {
+    "index": 91,
+    "key": "Main2D_ja_common_0091",
+    "original": "キングアイスどんけつ",
+    "translation": "キングアイスどんけつ"
+  },
+  {
+    "index": 92,
+    "key": "Main2D_ja_common_0092",
+    "original": "ハナチャン",
+    "translation": "ハナチャン"
+  },
+  {
+    "index": 93,
+    "key": "Main2D_ja_common_0093",
+    "original": "ゲームをつづける",
+    "translation": "ゲームをつづける"
+  },
+  {
+    "index": 94,
+    "key": "Main2D_ja_common_0094",
+    "original": "なかまをさがす",
+    "translation": "なかまをさがす"
+  },
+  {
+    "index": 95,
+    "key": "Main2D_ja_common_0095",
+    "original": "ゲームをやめる",
+    "translation": "ゲームをやめる"
+  },
+  {
+    "index": 96,
+    "key": "Main2D_ja_common_0096",
+    "original": "つぎのコースへ",
+    "translation": "つぎのコースへ"
+  },
+  {
+    "index": 97,
+    "key": "Main2D_ja_common_0097",
+    "original": "リプレイをみる",
+    "translation": "リプレイをみる"
+  },
+  {
+    "index": 98,
+    "key": "Main2D_ja_common_0098",
+    "original": "つぎへすすむ",
+    "translation": "つぎへすすむ"
+  },
+  {
+    "index": 99,
+    "key": "Main2D_ja_common_0099",
+    "original": "はじめからリプレイ",
+    "translation": "はじめからリプレイ"
+  },
+  {
+    "index": 100,
+    "key": "Main2D_ja_common_0100",
+    "original": "スタートをやりなおす",
+    "translation": "スタートをやりなおす"
+  },
+  {
+    "index": 101,
+    "key": "Main2D_ja_common_0101",
+    "original": "コースをかえる",
+    "translation": "コースをかえる"
+  },
+  {
+    "index": 102,
+    "key": "Main2D_ja_common_0102",
+    "original": "キャラクターをかえる",
+    "translation": "キャラクターをかえる"
+  },
+  {
+    "index": 103,
+    "key": "Main2D_ja_common_0103",
+    "original": "もういちど",
+    "translation": "もういちど"
+  },
+  {
+    "index": 104,
+    "key": "Main2D_ja_common_0104",
+    "original": "ゴーストをセーブする",
+    "translation": "ゴーストをセーブする"
+  },
+  {
+    "index": 105,
+    "key": "Main2D_ja_common_0105",
+    "original": "ミッションをえらぶ",
+    "translation": "ミッションをえらぶ"
+  },
+  {
+    "index": 106,
+    "key": "Main2D_ja_common_0106",
+    "original": "リプレイをつづける",
+    "translation": "リプレイをつづける"
+  },
+  {
+    "index": 107,
+    "key": "Main2D_ja_common_0107",
+    "original": "ON",
+    "translation": "ON"
+  },
+  {
+    "index": 108,
+    "key": "Main2D_ja_common_0108",
+    "original": "OFF",
+    "translation": "OFF"
+  },
+  {
+    "index": 109,
+    "key": "Main2D_ja_common_0109",
+    "original": "ゴーストをセーブできません",
+    "translation": "ゴーストをセーブできません"
+  },
+  {
+    "index": 110,
+    "key": "Main2D_ja_common_0110",
+    "original": "50cc",
+    "translation": "50cc"
+  },
+  {
+    "index": 111,
+    "key": "Main2D_ja_common_0111",
+    "original": "100cc",
+    "translation": "100cc"
+  },
+  {
+    "index": 112,
+    "key": "Main2D_ja_common_0112",
+    "original": "150cc",
+    "translation": "150cc"
+  },
+  {
+    "index": 113,
+    "key": "Main2D_ja_common_0113",
+    "original": "ミラー",
+    "translation": "ミラー"
+  },
+  {
+    "index": 114,
+    "key": "Main2D_ja_common_0114",
+    "original": "COM",
+    "translation": "COM"
+  },
+  {
+    "index": 115,
+    "key": "Main2D_ja_common_0115",
+    "original": "BEST TIME",
+    "translation": "BEST TIME"
+  },
+  {
+    "index": 116,
+    "key": "Main2D_ja_common_0116",
+    "original": "BEST LAP",
+    "translation": "BEST LAP"
+  },
+  {
+    "index": 117,
+    "key": "Main2D_ja_common_0117",
+    "original": "エンディングをみる",
+    "translation": "エンディングをみる"
+  },
+  {
+    "index": 118,
+    "key": "Main2D_ja_common_0118",
+    "original": "フレンドリストに\nだれもとうろく\nされていません。",
+    "translation": "フレンドリストに\nだれもとうろく\nされていません。"
+  },
+  {
+    "index": 119,
+    "key": "Main2D_ja_common_0119",
+    "original": "Thanks for playing!",
+    "translation": "Thanks for playing!"
+  },
+  {
+    "index": 120,
+    "key": "Main2D_ja_common_0120",
+    "original": "Thanks for playing!",
+    "translation": "Thanks for playing!"
+  },
+  {
+    "index": 121,
+    "key": "Main2D_ja_common_0121",
+    "original": "しばらくおまちください...",
+    "translation": "しばらくおまちください..."
+  },
+  {
+    "index": 122,
+    "key": "Main2D_ja_common_0122",
+    "original": "ゆうしょうしたのは...",
+    "translation": "ゆうしょうしたのは..."
+  },
+  {
+    "index": 123,
+    "key": "Main2D_ja_common_0123",
+    "original": "データがこわれています。\nすべてのデータを\nけしてもいいですか？",
+    "translation": "データがこわれています。\nすべてのデータを\nけしてもいいですか？"
+  },
+  {
+    "index": 124,
+    "key": "Main2D_ja_common_0124",
+    "original": "すべてのデータを\nけしてもいいですか？",
+    "translation": "すべてのデータを\nけしてもいいですか？"
+  },
+  {
+    "index": 125,
+    "key": "Main2D_ja_common_0125",
+    "original": "セーブデータが こわれている\nかのうせいがあります。\nもんだいのあるデータを\nしょうきょします。",
+    "translation": "セーブデータが こわれている\nかのうせいがあります。\nもんだいのあるデータを\nしょうきょします。"
+  },
+  {
+    "index": 126,
+    "key": "Main2D_ja_common_0126",
+    "original": "データをけしています。",
+    "translation": "データをけしています。"
+  },
+  {
+    "index": 127,
+    "key": "Main2D_ja_common_0127",
+    "original": "すべてのデータをけしました。",
+    "translation": "すべてのデータをけしました。"
+  },
+  {
+    "index": 128,
+    "key": "Main2D_ja_common_0128",
+    "original": "もんだいのあるデータを\nけしました。",
+    "translation": "もんだいのあるデータを\nけしました。"
+  },
+  {
+    "index": 129,
+    "key": "Main2D_ja_common_0129",
+    "original": "セーブしています...",
+    "translation": "セーブしています..."
+  },
+  {
+    "index": 130,
+    "key": "Main2D_ja_common_0130",
+    "original": "つうしんがせつだんされました。\nAボタンでタイトルにもどります。",
+    "translation": "つうしんがせつだんされました。\nAボタンでタイトルにもどります。"
+  },
+  {
+    "index": 131,
+    "key": "Main2D_ja_common_0131",
+    "original": "データをよめませんでした。\nでんげんをきって　カードを\nさしこみなおしてください。",
+    "translation": "データをよめませんでした。\nでんげんをきって　カードを\nさしこみなおしてください。"
+  },
+  {
+    "index": 132,
+    "key": "Main2D_ja_common_0132",
+    "original": "かきこみにしっぱいしました。\nでんげんをきって　カードを\nさしこみなおしてください。",
+    "translation": "かきこみにしっぱいしました。\nでんげんをきって　カードを\nさしこみなおしてください。"
+  },
+  {
+    "index": 133,
+    "key": "Main2D_ja_common_0133",
+    "original": "カードがぬけています。\nでんげんをきって　カードを\nさしこみなおしてください。",
+    "translation": "カードがぬけています。\nでんげんをきって　カードを\nさしこみなおしてください。"
+  },
+  {
+    "index": 134,
+    "key": "Main2D_ja_common_0134",
+    "original": "Wi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。\nエラーコード [1:ff00]",
+    "translation": "Wi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。\nエラーコード [1:ff00]"
+  },
+  {
+    "index": 135,
+    "key": "Main2D_ja_common_0135",
+    "original": "30びょうかんキーにゅうりょくがなかったため\nWi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。",
+    "translation": "30びょうかんキーにゅうりょくがなかったため\nWi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。"
+  },
+  {
+    "index": 136,
+    "key": "Main2D_ja_common_0136",
+    "original": "たいせんあいてがいなくなりました。\nＡボタンで たいせんあいてのせっていに\nもどります。",
+    "translation": "たいせんあいてがいなくなりました。\nＡボタンで たいせんあいてのせっていに\nもどります。"
+  },
+  {
+    "index": 137,
+    "key": "Main2D_ja_common_0137",
+    "original": "ＤＳほんたいの\nWi-Fiユーザじょうほうが\nきえたかのうせいがあります。",
+    "translation": "ＤＳほんたいの\nWi-Fiユーザじょうほうが\nきえたかのうせいがあります。"
+  },
+  {
+    "index": 138,
+    "key": "Main2D_ja_common_0138",
+    "original": "Wi-Fiせってい で\nせつぞくさきのせっていを\nごかくにんください。",
+    "translation": "Wi-Fiせってい で\nせつぞくさきのせっていを\nごかくにんください。"
+  },
+  {
+    "index": 139,
+    "key": "Main2D_ja_common_0139",
+    "original": "コースは\n[255:00000100][1:ff00][255:00000000]\nに きまりました。",
+    "translation": "コースは\n[255:00000100][1:ff00][255:00000000]\nに きまりました。"
+  }
+]

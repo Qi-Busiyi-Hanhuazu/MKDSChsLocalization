@@ -1,0 +1,80 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Record_ja_record_0000",
+    "original": "あなたのせんせき",
+    "translation": "あなたのせんせき"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Record_ja_record_0001",
+    "original": "さいごにたいせんしたひ",
+    "translation": "さいごにたいせんしたひ"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Record_ja_record_0002",
+    "original": "けしたいデータをえらんでください",
+    "translation": "けしたいデータをえらんでください"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Record_ja_record_0003",
+    "original": "データをけす",
+    "translation": "データをけす"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Record_ja_record_0004",
+    "original": "データをけします。\nけしたいデータを\nえらんでください。",
+    "translation": "データをけします。\nけしたいデータを\nえらんでください。"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Record_ja_record_0005",
+    "original": "[255:00000100][1:ff00][255:00000000]\nを　けします。\nいちどけしたデータは\nもとにはもどりません。\nほんとうにけしますか?",
+    "translation": "[255:00000100][1:ff00][255:00000000]\nを　けします。\nいちどけしたデータは\nもとにはもどりません。\nほんとうにけしますか?"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Record_ja_record_0006",
+    "original": "ＶＳ",
+    "translation": "ＶＳ"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Record_ja_record_0007",
+    "original": "バトル",
+    "translation": "バトル"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Record_ja_record_0008",
+    "original": "Wi-Fi たいせん",
+    "translation": "Wi-Fi たいせん"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Record_ja_record_0009",
+    "original": "つうさんせいせき",
+    "translation": "つうさんせいせき"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Record_ja_record_0010",
+    "original": "[255:00000100][1:ff00][255:00000000]\nの　きろくをけします。\nいちどけしたきろくは\nもとにはもどりません。\nほんとうにけしますか?",
+    "translation": "[255:00000100][1:ff00][255:00000000]\nの　きろくをけします。\nいちどけしたきろくは\nもとにはもどりません。\nほんとうにけしますか?"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Record_ja_record_0011",
+    "original": "フレンドコード",
+    "translation": "フレンドコード"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Record_ja_record_0012",
+    "original": "おたがいに フレンドコードをとうろくして\nWi-Fiコネクションへのせつぞくも すませたのに\nいつまでたっても このがめんのままなときは、\nフレンドコードにまちがいがないか\nかくにんしてください。",
+    "translation": "おたがいに フレンドコードをとうろくして\nWi-Fiコネクションへのせつぞくも すませたのに\nいつまでたっても このがめんのままなときは、\nフレンドコードにまちがいがないか\nかくにんしてください。"
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Ghost_ja_ghost_0000",
+    "original": "ゴーストをえらんでください。",
+    "translation": "ゴーストをえらんでください。"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Ghost_ja_ghost_0001",
+    "original": "ゴーストをもらうあいてを\nえらんでください。",
+    "translation": "ゴーストをもらうあいてを\nえらんでください。"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Ghost_ja_ghost_0002",
+    "original": "[255:00000100]つうしんエラー",
+    "translation": "[255:00000100]つうしんエラー"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Ghost_ja_ghost_0003",
+    "original": "ほぞんするばしょが\nいっぱいです。\nどこに　うわがきしますか?",
+    "translation": "ほぞんするばしょが\nいっぱいです。\nどこに　うわがきしますか?"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Ghost_ja_ghost_0004",
+    "original": "はい",
+    "translation": "はい"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Ghost_ja_ghost_0005",
+    "original": "いいえ",
+    "translation": "いいえ"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Ghost_ja_ghost_0006",
+    "original": "やめる",
+    "translation": "やめる"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Ghost_ja_ghost_0007",
+    "original": "もどる",
+    "translation": "もどる"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Ghost_ja_ghost_0008",
+    "original": "このデータでいいですか?",
+    "translation": "このデータでいいですか?"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Ghost_ja_ghost_0009",
+    "original": "ゴーストをわたすあいてが\nくるのをまっています。",
+    "translation": "ゴーストをわたすあいてが\nくるのをまっています。"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Ghost_ja_ghost_0010",
+    "original": "[255:00000100][1:0000][255:00000000]　さんへ\nゴーストをわたしても\nいいですか?",
+    "translation": "[255:00000100][1:0000][255:00000000]　さんへ\nゴーストをわたしても\nいいですか?"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Ghost_ja_ghost_0011",
+    "original": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストをダウンロード\nしています。",
+    "translation": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストをダウンロード\nしています。"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Ghost_ja_ghost_0012",
+    "original": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストのダウンロードを\nかんりょうしました。",
+    "translation": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストのダウンロードを\nかんりょうしました。"
+  },
+  {
+    "index": 13,
+    "key": "Scene_Ghost_ja_ghost_0013",
+    "original": "[255:00000100]つうしんが\nせつだんされました。",
+    "translation": "[255:00000100]つうしんが\nせつだんされました。"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Ghost_ja_ghost_0014",
+    "original": "このデータでいいですか?",
+    "translation": "このデータでいいですか?"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Ghost_ja_ghost_0015",
+    "original": "ゴーストをダウンロード\nしています。",
+    "translation": "ゴーストをダウンロード\nしています。"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Ghost_ja_ghost_0016",
+    "original": "ゴーストのダウンロードが\nおわりました。",
+    "translation": "ゴーストのダウンロードが\nおわりました。"
+  },
+  {
+    "index": 17,
+    "key": "Scene_Ghost_ja_ghost_0017",
+    "original": "[255:00000100]つうしんが\nせつだんされました。\n\nゴーストをもらうことは\nできませんでした。",
+    "translation": "[255:00000100]つうしんが\nせつだんされました。\n\nゴーストをもらうことは\nできませんでした。"
+  },
+  {
+    "index": 18,
+    "key": "Scene_Ghost_ja_ghost_0018",
+    "original": "[255:00000100][1:ff00][255:00000000]\nのデータをけします。\nいちどけしたデータは\nもとにはもどりません。\nそれでもいいですか?",
+    "translation": "[255:00000100][1:ff00][255:00000000]\nのデータをけします。\nいちどけしたデータは\nもとにはもどりません。\nそれでもいいですか?"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Ghost_ja_ghost_0019",
+    "original": "エイトクロスサーキット",
+    "translation": "エイトクロスサーキット"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Ghost_ja_ghost_0020",
+    "original": "ヨッシーフォールズ",
+    "translation": "ヨッシーフォールズ"
+  },
+  {
+    "index": 21,
+    "key": "Scene_Ghost_ja_ghost_0021",
+    "original": "プクプクビーチ",
+    "translation": "プクプクビーチ"
+  },
+  {
+    "index": 22,
+    "key": "Scene_Ghost_ja_ghost_0022",
+    "original": "ルイージマンション",
+    "translation": "ルイージマンション"
+  },
+  {
+    "index": 23,
+    "key": "Scene_Ghost_ja_ghost_0023",
+    "original": "サンサンさばく",
+    "translation": "サンサンさばく"
+  },
+  {
+    "index": 24,
+    "key": "Scene_Ghost_ja_ghost_0024",
+    "original": "モンテタウン",
+    "translation": "モンテタウン"
+  },
+  {
+    "index": 25,
+    "key": "Scene_Ghost_ja_ghost_0025",
+    "original": "ワルイージピンボール",
+    "translation": "ワルイージピンボール"
+  },
+  {
+    "index": 26,
+    "key": "Scene_Ghost_ja_ghost_0026",
+    "original": "キノコリッジウェイ",
+    "translation": "キノコリッジウェイ"
+  },
+  {
+    "index": 27,
+    "key": "Scene_Ghost_ja_ghost_0027",
+    "original": "DKスノーマウンテン",
+    "translation": "DKスノーマウンテン"
+  },
+  {
+    "index": 28,
+    "key": "Scene_Ghost_ja_ghost_0028",
+    "original": "チクタクロック",
+    "translation": "チクタクロック"
+  },
+  {
+    "index": 29,
+    "key": "Scene_Ghost_ja_ghost_0029",
+    "original": "マリオサーキット",
+    "translation": "マリオサーキット"
+  },
+  {
+    "index": 30,
+    "key": "Scene_Ghost_ja_ghost_0030",
+    "original": "キラーシップ",
+    "translation": "キラーシップ"
+  },
+  {
+    "index": 31,
+    "key": "Scene_Ghost_ja_ghost_0031",
+    "original": "ワリオスタジアム",
+    "translation": "ワリオスタジアム"
+  },
+  {
+    "index": 32,
+    "key": "Scene_Ghost_ja_ghost_0032",
+    "original": "ピーチガーデン",
+    "translation": "ピーチガーデン"
+  },
+  {
+    "index": 33,
+    "key": "Scene_Ghost_ja_ghost_0033",
+    "original": "クッパキャッスル",
+    "translation": "クッパキャッスル"
+  },
+  {
+    "index": 34,
+    "key": "Scene_Ghost_ja_ghost_0034",
+    "original": "レインボーロード",
+    "translation": "レインボーロード"
+  },
+  {
+    "index": 35,
+    "key": "Scene_Ghost_ja_ghost_0035",
+    "original": "SFC・マリオサーキット1",
+    "translation": "SFC・マリオサーキット1"
+  },
+  {
+    "index": 36,
+    "key": "Scene_Ghost_ja_ghost_0036",
+    "original": "64・モーモーファーム",
+    "translation": "64・モーモーファーム"
+  },
+  {
+    "index": 37,
+    "key": "Scene_Ghost_ja_ghost_0037",
+    "original": "GBA・ピーチサーキット",
+    "translation": "GBA・ピーチサーキット"
+  },
+  {
+    "index": 38,
+    "key": "Scene_Ghost_ja_ghost_0038",
+    "original": "GC・ルイージサーキット",
+    "translation": "GC・ルイージサーキット"
+  },
+  {
+    "index": 39,
+    "key": "Scene_Ghost_ja_ghost_0039",
+    "original": "SFC・ドーナツへいや1",
+    "translation": "SFC・ドーナツへいや1"
+  },
+  {
+    "index": 40,
+    "key": "Scene_Ghost_ja_ghost_0040",
+    "original": "64・フラッペスノーランド",
+    "translation": "64・フラッペスノーランド"
+  },
+  {
+    "index": 41,
+    "key": "Scene_Ghost_ja_ghost_0041",
+    "original": "GBA・クッパキャッスル2",
+    "translation": "GBA・クッパキャッスル2"
+  },
+  {
+    "index": 42,
+    "key": "Scene_Ghost_ja_ghost_0042",
+    "original": "GC・ベビィパーク",
+    "translation": "GC・ベビィパーク"
+  },
+  {
+    "index": 43,
+    "key": "Scene_Ghost_ja_ghost_0043",
+    "original": "SFC・ノコノコビーチ2",
+    "translation": "SFC・ノコノコビーチ2"
+  },
+  {
+    "index": 44,
+    "key": "Scene_Ghost_ja_ghost_0044",
+    "original": "64・チョコマウンテン",
+    "translation": "64・チョコマウンテン"
+  },
+  {
+    "index": 45,
+    "key": "Scene_Ghost_ja_ghost_0045",
+    "original": "GBA・ルイージサーキット",
+    "translation": "GBA・ルイージサーキット"
+  },
+  {
+    "index": 46,
+    "key": "Scene_Ghost_ja_ghost_0046",
+    "original": "GC・キノコブリッジ",
+    "translation": "GC・キノコブリッジ"
+  },
+  {
+    "index": 47,
+    "key": "Scene_Ghost_ja_ghost_0047",
+    "original": "SFC・チョコレーとう2",
+    "translation": "SFC・チョコレーとう2"
+  },
+  {
+    "index": 48,
+    "key": "Scene_Ghost_ja_ghost_0048",
+    "original": "64・ヒュードロいけ",
+    "translation": "64・ヒュードロいけ"
+  },
+  {
+    "index": 49,
+    "key": "Scene_Ghost_ja_ghost_0049",
+    "original": "GBA・スカイガーデン",
+    "translation": "GBA・スカイガーデン"
+  },
+  {
+    "index": 50,
+    "key": "Scene_Ghost_ja_ghost_0050",
+    "original": "GC・ヨッシーサーキット",
+    "translation": "GC・ヨッシーサーキット"
+  },
+  {
+    "index": 51,
+    "key": "Scene_Ghost_ja_ghost_0051",
+    "original": "エイトクロスサーキット",
+    "translation": "エイトクロスサーキット"
+  },
+  {
+    "index": 52,
+    "key": "Scene_Ghost_ja_ghost_0052",
+    "original": "ヨッシーフォールズ",
+    "translation": "ヨッシーフォールズ"
+  },
+  {
+    "index": 53,
+    "key": "Scene_Ghost_ja_ghost_0053",
+    "original": "プクプクビーチ",
+    "translation": "プクプクビーチ"
+  },
+  {
+    "index": 54,
+    "key": "Scene_Ghost_ja_ghost_0054",
+    "original": "ルイージマンション",
+    "translation": "ルイージマンション"
+  },
+  {
+    "index": 55,
+    "key": "Scene_Ghost_ja_ghost_0055",
+    "original": "サンサンさばく",
+    "translation": "サンサンさばく"
+  },
+  {
+    "index": 56,
+    "key": "Scene_Ghost_ja_ghost_0056",
+    "original": "モンテタウン",
+    "translation": "モンテタウン"
+  },
+  {
+    "index": 57,
+    "key": "Scene_Ghost_ja_ghost_0057",
+    "original": "ワルイージピンボール",
+    "translation": "ワルイージピンボール"
+  },
+  {
+    "index": 58,
+    "key": "Scene_Ghost_ja_ghost_0058",
+    "original": "キノコリッジウェイ",
+    "translation": "キノコリッジウェイ"
+  },
+  {
+    "index": 59,
+    "key": "Scene_Ghost_ja_ghost_0059",
+    "original": "DKスノーマウンテン",
+    "translation": "DKスノーマウンテン"
+  },
+  {
+    "index": 60,
+    "key": "Scene_Ghost_ja_ghost_0060",
+    "original": "チクタクロック",
+    "translation": "チクタクロック"
+  },
+  {
+    "index": 61,
+    "key": "Scene_Ghost_ja_ghost_0061",
+    "original": "マリオサーキット",
+    "translation": "マリオサーキット"
+  },
+  {
+    "index": 62,
+    "key": "Scene_Ghost_ja_ghost_0062",
+    "original": "キラーシップ",
+    "translation": "キラーシップ"
+  },
+  {
+    "index": 63,
+    "key": "Scene_Ghost_ja_ghost_0063",
+    "original": "ワリオスタジアム",
+    "translation": "ワリオスタジアム"
+  },
+  {
+    "index": 64,
+    "key": "Scene_Ghost_ja_ghost_0064",
+    "original": "ピーチガーデン",
+    "translation": "ピーチガーデン"
+  },
+  {
+    "index": 65,
+    "key": "Scene_Ghost_ja_ghost_0065",
+    "original": "クッパキャッスル",
+    "translation": "クッパキャッスル"
+  },
+  {
+    "index": 66,
+    "key": "Scene_Ghost_ja_ghost_0066",
+    "original": "レインボーロード",
+    "translation": "レインボーロード"
+  },
+  {
+    "index": 67,
+    "key": "Scene_Ghost_ja_ghost_0067",
+    "original": "SFC・マリオサーキット1",
+    "translation": "SFC・マリオサーキット1"
+  },
+  {
+    "index": 68,
+    "key": "Scene_Ghost_ja_ghost_0068",
+    "original": "64・モーモーファーム",
+    "translation": "64・モーモーファーム"
+  },
+  {
+    "index": 69,
+    "key": "Scene_Ghost_ja_ghost_0069",
+    "original": "GBA・ピーチサーキット",
+    "translation": "GBA・ピーチサーキット"
+  },
+  {
+    "index": 70,
+    "key": "Scene_Ghost_ja_ghost_0070",
+    "original": "GC・ルイージサーキット",
+    "translation": "GC・ルイージサーキット"
+  },
+  {
+    "index": 71,
+    "key": "Scene_Ghost_ja_ghost_0071",
+    "original": "SFC・ドーナツへいや1",
+    "translation": "SFC・ドーナツへいや1"
+  },
+  {
+    "index": 72,
+    "key": "Scene_Ghost_ja_ghost_0072",
+    "original": "64・フラッペスノーランド",
+    "translation": "64・フラッペスノーランド"
+  },
+  {
+    "index": 73,
+    "key": "Scene_Ghost_ja_ghost_0073",
+    "original": "GBA・クッパキャッスル2",
+    "translation": "GBA・クッパキャッスル2"
+  },
+  {
+    "index": 74,
+    "key": "Scene_Ghost_ja_ghost_0074",
+    "original": "GC・ベビィパーク",
+    "translation": "GC・ベビィパーク"
+  },
+  {
+    "index": 75,
+    "key": "Scene_Ghost_ja_ghost_0075",
+    "original": "SFC・ノコノコビーチ2",
+    "translation": "SFC・ノコノコビーチ2"
+  },
+  {
+    "index": 76,
+    "key": "Scene_Ghost_ja_ghost_0076",
+    "original": "64・チョコマウンテン",
+    "translation": "64・チョコマウンテン"
+  },
+  {
+    "index": 77,
+    "key": "Scene_Ghost_ja_ghost_0077",
+    "original": "GBA・ルイージサーキット",
+    "translation": "GBA・ルイージサーキット"
+  },
+  {
+    "index": 78,
+    "key": "Scene_Ghost_ja_ghost_0078",
+    "original": "GC・キノコブリッジ",
+    "translation": "GC・キノコブリッジ"
+  },
+  {
+    "index": 79,
+    "key": "Scene_Ghost_ja_ghost_0079",
+    "original": "SFC・チョコレーとう2",
+    "translation": "SFC・チョコレーとう2"
+  },
+  {
+    "index": 80,
+    "key": "Scene_Ghost_ja_ghost_0080",
+    "original": "64・ヒュードロいけ",
+    "translation": "64・ヒュードロいけ"
+  },
+  {
+    "index": 81,
+    "key": "Scene_Ghost_ja_ghost_0081",
+    "original": "GBA・スカイガーデン",
+    "translation": "GBA・スカイガーデン"
+  },
+  {
+    "index": 82,
+    "key": "Scene_Ghost_ja_ghost_0082",
+    "original": "GC・ヨッシーサーキット",
+    "translation": "GC・ヨッシーサーキット"
+  },
+  {
+    "index": 83,
+    "key": "Scene_Ghost_ja_ghost_0083",
+    "original": "わたすことのできるゴーストを\nもっていません。",
+    "translation": "わたすことのできるゴーストを\nもっていません。"
+  },
+  {
+    "index": 84,
+    "key": "Scene_Ghost_ja_ghost_0084",
+    "original": "ゴーストをセーブするのを\nやめました。\n",
+    "translation": "ゴーストをセーブするのを\nやめました。\n"
+  },
+  {
+    "index": 85,
+    "key": "Scene_Ghost_ja_ghost_0085",
+    "original": "[255:00000100][1:ff00][255:00000000]\nには ダウンロードゴーストが\nすでにセーブされています。\n\nうわがきしても　いいですか？",
+    "translation": "[255:00000100][1:ff00][255:00000000]\nには ダウンロードゴーストが\nすでにセーブされています。\n\nうわがきしても　いいですか？"
+  },
+  {
+    "index": 86,
+    "key": "Scene_Ghost_ja_ghost_0086",
+    "original": "マイゴースト",
+    "translation": "マイゴースト"
+  },
+  {
+    "index": 87,
+    "key": "Scene_Ghost_ja_ghost_0087",
+    "original": "ダウンロードゴースト",
+    "translation": "ダウンロードゴースト"
+  }
+]

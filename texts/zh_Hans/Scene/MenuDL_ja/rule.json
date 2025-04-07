@@ -1,0 +1,146 @@
+[
+  {
+    "key": "Scene_MenuDL_ja_rule_0000",
+    "original": "クラス",
+    "translation": "班级",
+    "context": "**翻译辅助**：\n\n班级\n\n类别"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0001",
+    "original": "COMカート",
+    "translation": "COM购物车",
+    "context": "**翻译辅助**：\n\nCOM购物车\n\nCOM卡特"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0002",
+    "original": "コース",
+    "translation": "航向",
+    "context": "**翻译辅助**：\n\n航向\n\n课程"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0003",
+    "original": "ルール",
+    "translation": "规则",
+    "context": "**翻译辅助**：\n\n规则"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0004",
+    "original": "チームせん",
+    "translation": "团队战",
+    "context": "**翻译辅助**：\n\n团队战\n\n组线"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0005",
+    "original": "50cc",
+    "translation": "50cc",
+    "context": "**翻译辅助**：\n\n50cc\n\n50 cc"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0006",
+    "original": "100cc",
+    "translation": "100cc",
+    "context": "**翻译辅助**：\n\n100cc\n\n100 cc"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0007",
+    "original": "150cc",
+    "translation": "150cc",
+    "context": "**翻译辅助**：\n\n150cc\n\n150 cc"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0008",
+    "original": "ミラー",
+    "translation": "反射镜",
+    "context": "**翻译辅助**：\n\n反射镜\n\n镜子"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0009",
+    "original": "あり",
+    "translation": "有",
+    "context": "**翻译辅助**：\n\n有\n\n在工作空间的边缘"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0010",
+    "original": "なし",
+    "translation": "的下界",
+    "context": "**翻译辅助**：\n\n的下界\n\n没有"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0011",
+    "original": "よわい",
+    "translation": "弱",
+    "context": "**翻译辅助**：\n\n弱\n\n不幸的"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0012",
+    "original": "ふつう",
+    "translation": "普通",
+    "context": "**翻译辅助**：\n\n普通"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0013",
+    "original": "つよい",
+    "translation": "强",
+    "context": "**翻译辅助**：\n\n强\n\n强健"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0014",
+    "original": "じゅんばん",
+    "translation": "纯版",
+    "context": "**翻译辅助**：\n\n纯版\n\n顺序"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0015",
+    "original": "ランダム",
+    "translation": "随机",
+    "context": "**翻译辅助**：\n\n随机"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0016",
+    "original": "まいかいえらぶ",
+    "translation": "每次选择",
+    "context": "**翻译辅助**：\n\n每次选择\n\n弯曲"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0017",
+    "original": "●かい かったら　かち",
+    "translation": "●买了就赢了",
+    "context": "**翻译辅助**：\n\n●买了就赢了\n\n●画的话价值"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0018",
+    "original": "●レースの　ポイントすう",
+    "translation": "●比赛点数",
+    "context": "**翻译辅助**：\n\n●比赛点数\n\n●比赛的分数"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0019",
+    "original": "フリー",
+    "translation": "自由的",
+    "context": "**翻译辅助**：\n\n自由的\n\n自由"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0020",
+    "original": "ゲームルール　せっていちゅう",
+    "translation": "游戏规则",
+    "context": "**翻译辅助**：\n\n游戏规则\n\n游戏规则设置中"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0021",
+    "original": "でチームをえらんでください",
+    "translation": "请用篙划一个队",
+    "context": "**翻译辅助**：\n\n请用篙划一个队\n\n请在选择您的团队"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0022",
+    "original": "[1:ff00]かい かったら　かち",
+    "translation": "[1:ff00]买了就赢",
+    "context": "**翻译辅助**：\n\n[1:ff00]买了就赢\n\n[1:ff00]开罐价值"
+  },
+  {
+    "key": "Scene_MenuDL_ja_rule_0023",
+    "original": "[1:ff00]レースの ポイントすう",
+    "translation": "[1:ff00]比赛点数",
+    "context": "**翻译辅助**：\n\n[1:ff00]比赛点数\n\n[1:ff00]比赛分数"
+  }
+]

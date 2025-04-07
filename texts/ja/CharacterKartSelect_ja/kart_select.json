@@ -1,0 +1,254 @@
+[
+  {
+    "index": 0,
+    "key": "CharacterKartSelect_ja_kart_select_0000",
+    "original": "スピード",
+    "translation": "スピード"
+  },
+  {
+    "index": 1,
+    "key": "CharacterKartSelect_ja_kart_select_0001",
+    "original": "かそく",
+    "translation": "かそく"
+  },
+  {
+    "index": 2,
+    "key": "CharacterKartSelect_ja_kart_select_0002",
+    "original": "おもさ",
+    "translation": "おもさ"
+  },
+  {
+    "index": 3,
+    "key": "CharacterKartSelect_ja_kart_select_0003",
+    "original": "ハンドリング",
+    "translation": "ハンドリング"
+  },
+  {
+    "index": 4,
+    "key": "CharacterKartSelect_ja_kart_select_0004",
+    "original": "ドリフト",
+    "translation": "ドリフト"
+  },
+  {
+    "index": 5,
+    "key": "CharacterKartSelect_ja_kart_select_0005",
+    "original": "アイテム",
+    "translation": "アイテム"
+  },
+  {
+    "index": 6,
+    "key": "CharacterKartSelect_ja_kart_select_0006",
+    "original": "スタンダードMR",
+    "translation": "スタンダードMR"
+  },
+  {
+    "index": 7,
+    "key": "CharacterKartSelect_ja_kart_select_0007",
+    "original": "シューティング・スター",
+    "translation": "シューティング・スター"
+  },
+  {
+    "index": 8,
+    "key": "CharacterKartSelect_ja_kart_select_0008",
+    "original": "Bダッシュ",
+    "translation": "Bダッシュ"
+  },
+  {
+    "index": 9,
+    "key": "CharacterKartSelect_ja_kart_select_0009",
+    "original": "スタンダードLG",
+    "translation": "スタンダードLG"
+  },
+  {
+    "index": 10,
+    "key": "CharacterKartSelect_ja_kart_select_0010",
+    "original": "オバキューム",
+    "translation": "オバキューム"
+  },
+  {
+    "index": 11,
+    "key": "CharacterKartSelect_ja_kart_select_0011",
+    "original": "ストリームライン",
+    "translation": "ストリームライン"
+  },
+  {
+    "index": 12,
+    "key": "CharacterKartSelect_ja_kart_select_0012",
+    "original": "スタンダードPC",
+    "translation": "スタンダードPC"
+  },
+  {
+    "index": 13,
+    "key": "CharacterKartSelect_ja_kart_select_0013",
+    "original": "ライトステップ PC",
+    "translation": "ライトステップ PC"
+  },
+  {
+    "index": 14,
+    "key": "CharacterKartSelect_ja_kart_select_0014",
+    "original": "ピアレス",
+    "translation": "ピアレス"
+  },
+  {
+    "index": 15,
+    "key": "CharacterKartSelect_ja_kart_select_0015",
+    "original": "スタンダードYS",
+    "translation": "スタンダードYS"
+  },
+  {
+    "index": 16,
+    "key": "CharacterKartSelect_ja_kart_select_0016",
+    "original": "エッグ・ワン",
+    "translation": "エッグ・ワン"
+  },
+  {
+    "index": 17,
+    "key": "CharacterKartSelect_ja_kart_select_0017",
+    "original": "キューカンバー",
+    "translation": "キューカンバー"
+  },
+  {
+    "index": 18,
+    "key": "CharacterKartSelect_ja_kart_select_0018",
+    "original": "スタンダードKO",
+    "translation": "スタンダードKO"
+  },
+  {
+    "index": 19,
+    "key": "CharacterKartSelect_ja_kart_select_0019",
+    "original": "マッシュ",
+    "translation": "マッシュ"
+  },
+  {
+    "index": 20,
+    "key": "CharacterKartSelect_ja_kart_select_0020",
+    "original": "フォー・ホイール・クレイドル",
+    "translation": "フォー・ホイール・クレイドル"
+  },
+  {
+    "index": 21,
+    "key": "CharacterKartSelect_ja_kart_select_0021",
+    "original": "スタンダードDK",
+    "translation": "スタンダードDK"
+  },
+  {
+    "index": 22,
+    "key": "CharacterKartSelect_ja_kart_select_0022",
+    "original": "ワイルドライフ",
+    "translation": "ワイルドライフ"
+  },
+  {
+    "index": 23,
+    "key": "CharacterKartSelect_ja_kart_select_0023",
+    "original": "ジャングルカーゴ",
+    "translation": "ジャングルカーゴ"
+  },
+  {
+    "index": 24,
+    "key": "CharacterKartSelect_ja_kart_select_0024",
+    "original": "スタンダードWR",
+    "translation": "スタンダードWR"
+  },
+  {
+    "index": 25,
+    "key": "CharacterKartSelect_ja_kart_select_0025",
+    "original": "ブルータル",
+    "translation": "ブルータル"
+  },
+  {
+    "index": 26,
+    "key": "CharacterKartSelect_ja_kart_select_0026",
+    "original": "ドラゴンフライ",
+    "translation": "ドラゴンフライ"
+  },
+  {
+    "index": 27,
+    "key": "CharacterKartSelect_ja_kart_select_0027",
+    "original": "スタンダードKP",
+    "translation": "スタンダードKP"
+  },
+  {
+    "index": 28,
+    "key": "CharacterKartSelect_ja_kart_select_0028",
+    "original": "ハリケーン",
+    "translation": "ハリケーン"
+  },
+  {
+    "index": 29,
+    "key": "CharacterKartSelect_ja_kart_select_0029",
+    "original": "タイラント",
+    "translation": "タイラント"
+  },
+  {
+    "index": 30,
+    "key": "CharacterKartSelect_ja_kart_select_0030",
+    "original": "スタンダードDS",
+    "translation": "スタンダードDS"
+  },
+  {
+    "index": 31,
+    "key": "CharacterKartSelect_ja_kart_select_0031",
+    "original": "ライトステップ DS",
+    "translation": "ライトステップ DS"
+  },
+  {
+    "index": 32,
+    "key": "CharacterKartSelect_ja_kart_select_0032",
+    "original": "フラウリィ",
+    "translation": "フラウリィ"
+  },
+  {
+    "index": 33,
+    "key": "CharacterKartSelect_ja_kart_select_0033",
+    "original": "スタンダードKA",
+    "translation": "スタンダードKA"
+  },
+  {
+    "index": 34,
+    "key": "CharacterKartSelect_ja_kart_select_0034",
+    "original": "カロン・カノン",
+    "translation": "カロン・カノン"
+  },
+  {
+    "index": 35,
+    "key": "CharacterKartSelect_ja_kart_select_0035",
+    "original": "バニッシュ",
+    "translation": "バニッシュ"
+  },
+  {
+    "index": 36,
+    "key": "CharacterKartSelect_ja_kart_select_0036",
+    "original": "スタンダードWL",
+    "translation": "スタンダードWL"
+  },
+  {
+    "index": 37,
+    "key": "CharacterKartSelect_ja_kart_select_0037",
+    "original": "ゴールド・マンティス",
+    "translation": "ゴールド・マンティス"
+  },
+  {
+    "index": 38,
+    "key": "CharacterKartSelect_ja_kart_select_0038",
+    "original": "トリッパー",
+    "translation": "トリッパー"
+  },
+  {
+    "index": 39,
+    "key": "CharacterKartSelect_ja_kart_select_0039",
+    "original": "スタンダードRB",
+    "translation": "スタンダードRB"
+  },
+  {
+    "index": 40,
+    "key": "CharacterKartSelect_ja_kart_select_0040",
+    "original": "HVC-BLS",
+    "translation": "HVC-BLS"
+  },
+  {
+    "index": 41,
+    "key": "CharacterKartSelect_ja_kart_select_0041",
+    "original": "HVC-LGS",
+    "translation": "HVC-LGS"
+  }
+]

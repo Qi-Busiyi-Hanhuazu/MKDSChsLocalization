@@ -1,0 +1,68 @@
+[
+  {
+    "key": "Scene_WLMenu_ja_banner_0000",
+    "original": "MARIO KART DS",
+    "translation": "MARIO KART DS",
+    "context": "**翻译辅助**：\n\nMARIO KART DS\n\nMARIO KART"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0001",
+    "original": "たいせんで　アツくなれ!\nライバルたちを　ぶっちぎれ!",
+    "translation": "在大战中变热！\n粉碎你的竞争对手！",
+    "context": "**翻译辅助**：\n\n在大战中变热！  \n粉碎你的竞争对手！\n\n不要激动！  \n打败竞争对手！"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0002",
+    "original": "グループをつくる",
+    "translation": "组成小组",
+    "context": "**翻译辅助**：\n\n组成小组"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0003",
+    "original": "マリオカートDSを\nもっているひとだけで　たいせん",
+    "translation": "\n只有拥有马力欧卡丁车DS的人才能对战",
+    "context": "**翻译辅助**：\n\n  \n只有拥有马力欧卡丁车DS的人才能对战\n\n只有拥有马力欧赛车DS的人"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0004",
+    "original": "マリオカートDSを\nもっていないひともいっしょに　たいせん",
+    "translation": "\n没有马力欧卡丁车DS的人也一起对战",
+    "context": "**翻译辅助**：\n\n  \n没有马力欧卡丁车DS的人也一起对战\n\n没有马力欧赛车DS的人也一起加油"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0005",
+    "original": "げんざいのエントリーすう...　",
+    "translation": "现在的报名数。。　",
+    "context": "**翻译辅助**：\n\n现在的报名数。。　\n\n目前的报名人数……"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0006",
+    "original": "しめきる",
+    "translation": "关闭",
+    "context": "**翻译辅助**：\n\n关闭\n\n结束"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0007",
+    "original": "グループをえらんでください。\nグループがひとつもないときや\nあたらしく　つくりたいときは\n「グループをつくる」\nをえらんでください。",
+    "translation": "你帮我看一下群。\n没有一个组合的时候或者想新建的时候请选择\n组成组合\n。\n",
+    "context": "**翻译辅助**：\n\n你帮我看一下群。  \n没有一个组合的时候或者想新建的时候请选择  \n组成组合  \n。  \n\n\n请选择一个团体。  \n一个小组也没有的时候或者  \n想要建立新的时候请选择  \n“创建小组”。"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0009",
+    "original": "たいせんあいては\nさいだい 7にん。\n「しめきる」をおすと\nさきに すすみます。",
+    "translation": "最重要的是7岁。\n按下“蘑菇”\n首先前进。\n",
+    "context": "**翻译辅助**：\n\n最重要的是7岁。  \n按下“蘑菇”  \n首先前进。  \n\n\n对战对手最多7人。  \n按“关闭”  \n继续前进。"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0010",
+    "original": "ほかの たいせんあいてを\nまっています。\nしばらくおまちください。",
+    "translation": "等待着其他的重要时刻。\n请稍等片刻。\n",
+    "context": "**翻译辅助**：\n\n等待着其他的重要时刻。  \n请稍等片刻。  \n\n\n  \n等待其他对手。请稍等。"
+  },
+  {
+    "key": "Scene_WLMenu_ja_banner_0011",
+    "original": "[255:00000100]エラーがはっせいしました。",
+    "translation": "[255:00000100]发生错误。",
+    "context": "**翻译辅助**：\n\n[255:00000100]发生错误。"
+  }
+]

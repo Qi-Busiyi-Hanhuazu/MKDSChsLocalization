@@ -1,0 +1,488 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_WiFiMenu_ja_wifi_0000",
+    "original": "たいせんあいてのじょうけんを\nきめてください。",
+    "translation": "たいせんあいてのじょうけんを\nきめてください。"
+  },
+  {
+    "index": 1,
+    "key": "Scene_WiFiMenu_ja_wifi_0001",
+    "original": "たいせんあいて",
+    "translation": "たいせんあいて"
+  },
+  {
+    "index": 2,
+    "key": "Scene_WiFiMenu_ja_wifi_0002",
+    "original": "ともだちと",
+    "translation": "ともだちと"
+  },
+  {
+    "index": 3,
+    "key": "Scene_WiFiMenu_ja_wifi_0003",
+    "original": "ライバルと",
+    "translation": "ライバルと"
+  },
+  {
+    "index": 4,
+    "key": "Scene_WiFiMenu_ja_wifi_0004",
+    "original": "こくないのだれかと",
+    "translation": "こくないのだれかと"
+  },
+  {
+    "index": 5,
+    "key": "Scene_WiFiMenu_ja_wifi_0005",
+    "original": "せかいのだれとでも",
+    "translation": "せかいのだれとでも"
+  },
+  {
+    "index": 6,
+    "key": "Scene_WiFiMenu_ja_wifi_0006",
+    "original": "",
+    "translation": ""
+  },
+  {
+    "index": 7,
+    "key": "Scene_WiFiMenu_ja_wifi_0007",
+    "original": "フレンドリスト",
+    "translation": "フレンドリスト"
+  },
+  {
+    "index": 8,
+    "key": "Scene_WiFiMenu_ja_wifi_0008",
+    "original": "あいてをさがしています。\nしばらくおまちください。",
+    "translation": "あいてをさがしています。\nしばらくおまちください。"
+  },
+  {
+    "index": 9,
+    "key": "Scene_WiFiMenu_ja_wifi_0009",
+    "original": "けんさくちゅう...",
+    "translation": "けんさくちゅう..."
+  },
+  {
+    "index": 10,
+    "key": "Scene_WiFiMenu_ja_wifi_0010",
+    "original": "みつかりませんでした。",
+    "translation": "みつかりませんでした。"
+  },
+  {
+    "index": 11,
+    "key": "Scene_WiFiMenu_ja_wifi_0011",
+    "original": "たいせんあいてが\nけっていしました。",
+    "translation": "たいせんあいてが\nけっていしました。"
+  },
+  {
+    "index": 12,
+    "key": "Scene_WiFiMenu_ja_wifi_0012",
+    "original": "あいてをさがしています。\nしばらくおまちください。\nごしていの じょうけんでは\n４にん あつまらないかも\nしれません。",
+    "translation": "あいてをさがしています。\nしばらくおまちください。\nごしていの じょうけんでは\n４にん あつまらないかも\nしれません。"
+  },
+  {
+    "index": 13,
+    "key": "Scene_WiFiMenu_ja_wifi_0013",
+    "original": "たいせんあいてが\nみつかりませんでした。",
+    "translation": "たいせんあいてが\nみつかりませんでした。"
+  },
+  {
+    "index": 14,
+    "key": "Scene_WiFiMenu_ja_wifi_0014",
+    "original": "フレンドリストに　ともだちが\nとうろくされていないので\nたいせんできません。",
+    "translation": "フレンドリストに　ともだちが\nとうろくされていないので\nたいせんできません。"
+  },
+  {
+    "index": 15,
+    "key": "Scene_WiFiMenu_ja_wifi_0015",
+    "original": "フレンドリストに\nあきがありません。\nいらないデータを けしてから\nフレンドコードを\nにゅうりょくしてください。",
+    "translation": "フレンドリストに\nあきがありません。\nいらないデータを けしてから\nフレンドコードを\nにゅうりょくしてください。"
+  },
+  {
+    "index": 16,
+    "key": "Scene_WiFiMenu_ja_wifi_0016",
+    "original": "フレンドリストを\nへんしゅうしますか?",
+    "translation": "フレンドリストを\nへんしゅうしますか?"
+  },
+  {
+    "index": 17,
+    "key": "Scene_WiFiMenu_ja_wifi_0017",
+    "original": "あなたのフレンドコードは",
+    "translation": "あなたのフレンドコードは"
+  },
+  {
+    "index": 18,
+    "key": "Scene_WiFiMenu_ja_wifi_0018",
+    "original": "フレンドコードがありません。\nWi-Fiコネクションに\nせつぞくすると、\nフレンドコードが\nさくせいされます。",
+    "translation": "フレンドコードがありません。\nWi-Fiコネクションに\nせつぞくすると、\nフレンドコードが\nさくせいされます。"
+  },
+  {
+    "index": 19,
+    "key": "Scene_WiFiMenu_ja_wifi_0019",
+    "original": "Wi-Fiコネクションに\nせつぞくしますか?",
+    "translation": "Wi-Fiコネクションに\nせつぞくしますか?"
+  },
+  {
+    "index": 20,
+    "key": "Scene_WiFiMenu_ja_wifi_0020",
+    "original": "Wi-Fiコネクションに\nせつぞくしています。\nしばらくおまちください。",
+    "translation": "Wi-Fiコネクションに\nせつぞくしています。\nしばらくおまちください。"
+  },
+  {
+    "index": 21,
+    "key": "Scene_WiFiMenu_ja_wifi_0021",
+    "original": "Wi-Fiコネクションに\nせつぞくできません。",
+    "translation": "Wi-Fiコネクションに\nせつぞくできません。"
+  },
+  {
+    "index": 22,
+    "key": "Scene_WiFiMenu_ja_wifi_0022",
+    "original": "「Wi-Fiせってい」で\nせつぞくさきの せっていを\nごかくにんください。",
+    "translation": "「Wi-Fiせってい」で\nせつぞくさきの せっていを\nごかくにんください。"
+  },
+  {
+    "index": 23,
+    "key": "Scene_WiFiMenu_ja_wifi_0023",
+    "original": "Wi-Fiコネクションから\nせつだんしても いいですか?",
+    "translation": "Wi-Fiコネクションから\nせつだんしても いいですか?"
+  },
+  {
+    "index": 24,
+    "key": "Scene_WiFiMenu_ja_wifi_0024",
+    "original": "Wi-Fiコネクションから\nせつだんしています。",
+    "translation": "Wi-Fiコネクションから\nせつだんしています。"
+  },
+  {
+    "index": 25,
+    "key": "Scene_WiFiMenu_ja_wifi_0025",
+    "original": "Wi-Fiコネクションから\nせつだんしました。",
+    "translation": "Wi-Fiコネクションから\nせつだんしました。"
+  },
+  {
+    "index": 26,
+    "key": "Scene_WiFiMenu_ja_wifi_0026",
+    "original": "ランダム",
+    "translation": "ランダム"
+  },
+  {
+    "index": 27,
+    "key": "Scene_WiFiMenu_ja_wifi_0027",
+    "original": "たいせんあいてが\nいなくなりました。",
+    "translation": "たいせんあいてが\nいなくなりました。"
+  },
+  {
+    "index": 28,
+    "key": "Scene_WiFiMenu_ja_wifi_0028",
+    "original": "Wi-Fiコネクションでは\nＤＳカードとＤＳほんたいを\nセットであつかいます。",
+    "translation": "Wi-Fiコネクションでは\nＤＳカードとＤＳほんたいを\nセットであつかいます。"
+  },
+  {
+    "index": 29,
+    "key": "Scene_WiFiMenu_ja_wifi_0029",
+    "original": "ＤＳカードにＤＳほんたいの\nWi-Fiユーザじょうほうを\nほぞんし Wi-Fiコネクションに\nせつぞくしますか？",
+    "translation": "ＤＳカードにＤＳほんたいの\nWi-Fiユーザじょうほうを\nほぞんし Wi-Fiコネクションに\nせつぞくしますか？"
+  },
+  {
+    "index": 30,
+    "key": "Scene_WiFiMenu_ja_wifi_0030",
+    "original": "このＤＳほんたいの\nWi-Fiユーザじょうほうを\nＤＳカードに ほぞんしました。",
+    "translation": "このＤＳほんたいの\nWi-Fiユーザじょうほうを\nＤＳカードに ほぞんしました。"
+  },
+  {
+    "index": 31,
+    "key": "Scene_WiFiMenu_ja_wifi_0031",
+    "original": "こんご Wi-Fiコネクションへの\nせつぞくは このＤＳほんたいを\nおつかいください。",
+    "translation": "こんご Wi-Fiコネクションへの\nせつぞくは このＤＳほんたいを\nおつかいください。"
+  },
+  {
+    "index": 32,
+    "key": "Scene_WiFiMenu_ja_wifi_0032",
+    "original": "ＤＳほんたいとＤＳカードの\nWi-Fiユーザじょうほうが\nちがっているため\nWi-Fiコネクションに\nせつぞくできません。",
+    "translation": "ＤＳほんたいとＤＳカードの\nWi-Fiユーザじょうほうが\nちがっているため\nWi-Fiコネクションに\nせつぞくできません。"
+  },
+  {
+    "index": 33,
+    "key": "Scene_WiFiMenu_ja_wifi_0033",
+    "original": "Wi-Fiユーザじょうほうを\nこうしんすると\nWi-Fiコネクションで これまで\nおつかいになっていたデータは\nうしなわれてしまいます。",
+    "translation": "Wi-Fiユーザじょうほうを\nこうしんすると\nWi-Fiコネクションで これまで\nおつかいになっていたデータは\nうしなわれてしまいます。"
+  },
+  {
+    "index": 34,
+    "key": "Scene_WiFiMenu_ja_wifi_0034",
+    "original": "ＤＳカードにほぞんされている\nWi-Fiユーザじょうほうを\nこうしんしますか？ ",
+    "translation": "ＤＳカードにほぞんされている\nWi-Fiユーザじょうほうを\nこうしんしますか？ "
+  },
+  {
+    "index": 35,
+    "key": "Scene_WiFiMenu_ja_wifi_0035",
+    "original": "このゲームでは　あなたの\nフレンドリストは　そのまま\nつかうことができます。",
+    "translation": "このゲームでは　あなたの\nフレンドリストは　そのまま\nつかうことができます。"
+  },
+  {
+    "index": 36,
+    "key": "Scene_WiFiMenu_ja_wifi_0036",
+    "original": "ただし　Wi-Fiたいせんで\nともだちとたいせんするには\nもういちど　ともだちの\nフレンドリストにとうろくして\nもらうひつようがあります。",
+    "translation": "ただし　Wi-Fiたいせんで\nともだちとたいせんするには\nもういちど　ともだちの\nフレンドリストにとうろくして\nもらうひつようがあります。"
+  },
+  {
+    "index": 37,
+    "key": "Scene_WiFiMenu_ja_wifi_0037",
+    "original": "ほんとうに　こうしんしても\nよろしいですか？",
+    "translation": "ほんとうに　こうしんしても\nよろしいですか？"
+  },
+  {
+    "index": 38,
+    "key": "Scene_WiFiMenu_ja_wifi_0038",
+    "original": "くわしくは\nとりあつかいせつめいしょを\nごらんください。",
+    "translation": "くわしくは\nとりあつかいせつめいしょを\nごらんください。"
+  },
+  {
+    "index": 39,
+    "key": "Scene_WiFiMenu_ja_wifi_0039",
+    "original": "おきゃくさまの\nWi-FiコネクションＩＤは\nながいあいだ\nしようされなかったため\nさくじょされました。",
+    "translation": "おきゃくさまの\nWi-FiコネクションＩＤは\nながいあいだ\nしようされなかったため\nさくじょされました。"
+  },
+  {
+    "index": 40,
+    "key": "Scene_WiFiMenu_ja_wifi_0040",
+    "original": "このソフトの\nWi-Fiコネクションサービスは\nしゅうりょうしました。\nごりよう\nありがとうございました。",
+    "translation": "このソフトの\nWi-Fiコネクションサービスは\nしゅうりょうしました。\nごりよう\nありがとうございました。"
+  },
+  {
+    "index": 41,
+    "key": "Scene_WiFiMenu_ja_wifi_0041",
+    "original": "せつぞくできる\nアクセスポイントが\nみつかりません。",
+    "translation": "せつぞくできる\nアクセスポイントが\nみつかりません。"
+  },
+  {
+    "index": 42,
+    "key": "Scene_WiFiMenu_ja_wifi_0042",
+    "original": "ニンテンドーWi-Fiコネクタに\nせつぞくできません。",
+    "translation": "ニンテンドーWi-Fiコネクタに\nせつぞくできません。"
+  },
+  {
+    "index": 43,
+    "key": "Scene_WiFiMenu_ja_wifi_0043",
+    "original": "「Wi-Fiせってい」で\nニンテンドーWi-Fiコネクタの\nせつぞくを\nごかくにんください。",
+    "translation": "「Wi-Fiせってい」で\nニンテンドーWi-Fiコネクタの\nせつぞくを\nごかくにんください。"
+  },
+  {
+    "index": 44,
+    "key": "Scene_WiFiMenu_ja_wifi_0044",
+    "original": "アクセスポイントが\nみつかりません。\nアクセスポイントにちかづいて\nもういちど おためしください。",
+    "translation": "アクセスポイントが\nみつかりません。\nアクセスポイントにちかづいて\nもういちど おためしください。"
+  },
+  {
+    "index": 45,
+    "key": "Scene_WiFiMenu_ja_wifi_0045",
+    "original": "Wi-Fiコネクションが\nこみあっているか\nサービスがていし しているため\nせつぞくできません。",
+    "translation": "Wi-Fiコネクションが\nこみあっているか\nサービスがていし しているため\nせつぞくできません。"
+  },
+  {
+    "index": 46,
+    "key": "Scene_WiFiMenu_ja_wifi_0046",
+    "original": "しばらくまってから\nやりなおしてください。",
+    "translation": "しばらくまってから\nやりなおしてください。"
+  },
+  {
+    "index": 47,
+    "key": "Scene_WiFiMenu_ja_wifi_0047",
+    "original": "アクセスポイントが\nこみあっているため\nせつぞくできません。",
+    "translation": "アクセスポイントが\nこみあっているため\nせつぞくできません。"
+  },
+  {
+    "index": 48,
+    "key": "Scene_WiFiMenu_ja_wifi_0048",
+    "original": "[255:00000100]エラーコード [1:ff00]",
+    "translation": "[255:00000100]エラーコード [1:ff00]"
+  },
+  {
+    "index": 49,
+    "key": "Scene_WiFiMenu_ja_wifi_0049",
+    "original": "エイトクロスサーキット",
+    "translation": "エイトクロスサーキット"
+  },
+  {
+    "index": 50,
+    "key": "Scene_WiFiMenu_ja_wifi_0050",
+    "original": "ヨッシーフォールズ",
+    "translation": "ヨッシーフォールズ"
+  },
+  {
+    "index": 51,
+    "key": "Scene_WiFiMenu_ja_wifi_0051",
+    "original": "プクプクビーチ",
+    "translation": "プクプクビーチ"
+  },
+  {
+    "index": 52,
+    "key": "Scene_WiFiMenu_ja_wifi_0052",
+    "original": "ルイージマンション",
+    "translation": "ルイージマンション"
+  },
+  {
+    "index": 53,
+    "key": "Scene_WiFiMenu_ja_wifi_0053",
+    "original": "サンサンさばく",
+    "translation": "サンサンさばく"
+  },
+  {
+    "index": 54,
+    "key": "Scene_WiFiMenu_ja_wifi_0054",
+    "original": "モンテタウン",
+    "translation": "モンテタウン"
+  },
+  {
+    "index": 55,
+    "key": "Scene_WiFiMenu_ja_wifi_0055",
+    "original": "ワルイージピンボール",
+    "translation": "ワルイージピンボール"
+  },
+  {
+    "index": 56,
+    "key": "Scene_WiFiMenu_ja_wifi_0056",
+    "original": "キノコリッジウェイ",
+    "translation": "キノコリッジウェイ"
+  },
+  {
+    "index": 57,
+    "key": "Scene_WiFiMenu_ja_wifi_0057",
+    "original": "DKスノーマウンテン",
+    "translation": "DKスノーマウンテン"
+  },
+  {
+    "index": 58,
+    "key": "Scene_WiFiMenu_ja_wifi_0058",
+    "original": "チクタクロック",
+    "translation": "チクタクロック"
+  },
+  {
+    "index": 59,
+    "key": "Scene_WiFiMenu_ja_wifi_0059",
+    "original": "マリオサーキット",
+    "translation": "マリオサーキット"
+  },
+  {
+    "index": 60,
+    "key": "Scene_WiFiMenu_ja_wifi_0060",
+    "original": "キラーシップ",
+    "translation": "キラーシップ"
+  },
+  {
+    "index": 61,
+    "key": "Scene_WiFiMenu_ja_wifi_0061",
+    "original": "ワリオスタジアム",
+    "translation": "ワリオスタジアム"
+  },
+  {
+    "index": 62,
+    "key": "Scene_WiFiMenu_ja_wifi_0062",
+    "original": "ピーチガーデン",
+    "translation": "ピーチガーデン"
+  },
+  {
+    "index": 63,
+    "key": "Scene_WiFiMenu_ja_wifi_0063",
+    "original": "クッパキャッスル",
+    "translation": "クッパキャッスル"
+  },
+  {
+    "index": 64,
+    "key": "Scene_WiFiMenu_ja_wifi_0064",
+    "original": "レインボーロード",
+    "translation": "レインボーロード"
+  },
+  {
+    "index": 65,
+    "key": "Scene_WiFiMenu_ja_wifi_0065",
+    "original": "SFC・マリオサーキット1",
+    "translation": "SFC・マリオサーキット1"
+  },
+  {
+    "index": 66,
+    "key": "Scene_WiFiMenu_ja_wifi_0066",
+    "original": "64・モーモーファーム",
+    "translation": "64・モーモーファーム"
+  },
+  {
+    "index": 67,
+    "key": "Scene_WiFiMenu_ja_wifi_0067",
+    "original": "GBA・ピーチサーキット",
+    "translation": "GBA・ピーチサーキット"
+  },
+  {
+    "index": 68,
+    "key": "Scene_WiFiMenu_ja_wifi_0068",
+    "original": "GC・ルイージサーキット",
+    "translation": "GC・ルイージサーキット"
+  },
+  {
+    "index": 69,
+    "key": "Scene_WiFiMenu_ja_wifi_0069",
+    "original": "SFC・ドーナツへいや1",
+    "translation": "SFC・ドーナツへいや1"
+  },
+  {
+    "index": 70,
+    "key": "Scene_WiFiMenu_ja_wifi_0070",
+    "original": "64・フラッペスノーランド",
+    "translation": "64・フラッペスノーランド"
+  },
+  {
+    "index": 71,
+    "key": "Scene_WiFiMenu_ja_wifi_0071",
+    "original": "GBA・クッパキャッスル2",
+    "translation": "GBA・クッパキャッスル2"
+  },
+  {
+    "index": 72,
+    "key": "Scene_WiFiMenu_ja_wifi_0072",
+    "original": "GC・ベビィパーク",
+    "translation": "GC・ベビィパーク"
+  },
+  {
+    "index": 73,
+    "key": "Scene_WiFiMenu_ja_wifi_0073",
+    "original": "SFC・ノコノコビーチ2",
+    "translation": "SFC・ノコノコビーチ2"
+  },
+  {
+    "index": 74,
+    "key": "Scene_WiFiMenu_ja_wifi_0074",
+    "original": "64・チョコマウンテン",
+    "translation": "64・チョコマウンテン"
+  },
+  {
+    "index": 75,
+    "key": "Scene_WiFiMenu_ja_wifi_0075",
+    "original": "GBA・ルイージサーキット",
+    "translation": "GBA・ルイージサーキット"
+  },
+  {
+    "index": 76,
+    "key": "Scene_WiFiMenu_ja_wifi_0076",
+    "original": "GC・キノコブリッジ",
+    "translation": "GC・キノコブリッジ"
+  },
+  {
+    "index": 77,
+    "key": "Scene_WiFiMenu_ja_wifi_0077",
+    "original": "SFC・チョコレーとう2",
+    "translation": "SFC・チョコレーとう2"
+  },
+  {
+    "index": 78,
+    "key": "Scene_WiFiMenu_ja_wifi_0078",
+    "original": "64・ヒュードロいけ",
+    "translation": "64・ヒュードロいけ"
+  },
+  {
+    "index": 79,
+    "key": "Scene_WiFiMenu_ja_wifi_0079",
+    "original": "GBA・スカイガーデン",
+    "translation": "GBA・スカイガーデン"
+  },
+  {
+    "index": 80,
+    "key": "Scene_WiFiMenu_ja_wifi_0080",
+    "original": "GC・ヨッシーサーキット",
+    "translation": "GC・ヨッシーサーキット"
+  }
+]

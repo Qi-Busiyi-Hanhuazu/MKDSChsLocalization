@@ -1,0 +1,9 @@
+exclude:
+  - arm9_patch/
+  - bin/
+  - files/
+  - original_files/
+  - scripts/
+  - texts/
+  - "*.ps1"
+  - "*.txt"

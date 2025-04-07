@@ -1,0 +1,104 @@
+[
+  {
+    "key": "Scene_Option_ja_option_0000",
+    "original": "サウンド",
+    "translation": "声音",
+    "context": "**翻译辅助**：\n\n声音"
+  },
+  {
+    "key": "Scene_Option_ja_option_0001",
+    "original": "しんどう",
+    "translation": "振动",
+    "context": "**翻译辅助**：\n\n振动"
+  },
+  {
+    "key": "Scene_Option_ja_option_0002",
+    "original": "なかまをさがす",
+    "translation": "找同伴",
+    "context": "**翻译辅助**：\n\n找同伴\n\n寻找同伴"
+  },
+  {
+    "key": "Scene_Option_ja_option_0003",
+    "original": "すべてのデータを\nけしてもいいですか?",
+    "translation": "\n我可以删除所有数据吗？",
+    "context": "**翻译辅助**：\n\n  \n我可以删除所有数据吗？\n\n我可以删除所有的数据吗？"
+  },
+  {
+    "key": "Scene_Option_ja_option_0004",
+    "original": "いちどけしたデータは\nもとにはもどせません。\n\nほんとうに\nけしてもいいですか?",
+    "translation": "一旦删除的数据就无法恢复。\n\n\n真的\n可以取消嘛？",
+    "context": "**翻译辅助**：\n\n一旦删除的数据就无法恢复。  \n  \n  \n真的  \n可以取消嘛？\n\n一旦删除的数据不能恢复。  \n  \n真的可以  \n消掉吗？"
+  },
+  {
+    "key": "Scene_Option_ja_option_0005",
+    "original": "データをけしています。",
+    "translation": "正在删除数据。",
+    "context": "**翻译辅助**：\n\n正在删除数据。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0006",
+    "original": "すべてのデータをけしました。",
+    "translation": "我把所有的数据都删了。",
+    "context": "**翻译辅助**：\n\n我把所有的数据都删了。\n\n删除了所有数据。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0007",
+    "original": "データクリアに\nしっぱいしました。\nこのカードはこわれているので\nつかえません。",
+    "translation": "数据清除\n失败了。\n这张卡坏了\n我抓不到。",
+    "context": "**翻译辅助**：\n\n数据清除  \n失败了。  \n这张卡坏了  \n我抓不到。\n\n  \n数据清除失败。  \n这张卡坏了  \n不能用。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0008",
+    "original": "じぶんのエンブレム",
+    "translation": "自己的徽章",
+    "context": "**翻译辅助**：\n\n自己的徽章"
+  },
+  {
+    "key": "Scene_Option_ja_option_0009",
+    "original": "じぶんのエンブレムを\nつかいます。",
+    "translation": "\n使用自己的徽章。",
+    "context": "**翻译辅助**：\n\n  \n使用自己的徽章。\n\n使用自己的徽章。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0010",
+    "original": "もとのエンブレムを\nつかいます。",
+    "translation": "\n使用原来的徽章。",
+    "context": "**翻译辅助**：\n\n  \n使用原来的徽章。\n\n使用原来的徽章。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0011",
+    "original": "なかまをさがす　について・・・",
+    "translation": "关于拉同伴",
+    "context": "**翻译辅助**：\n\n关于拉同伴\n\n关于寻找同伴……"
+  },
+  {
+    "key": "Scene_Option_ja_option_0012",
+    "original": "「なかまをさがす」を「オン」にしていると\nWi-Fiモードであそんでいるあいだ ともだちとの\nたいせんをもとめている なかまをサーチして、\nみつけたばあいには アイコンをひょうじして\nおしらせします。",
+    "translation": "如果把“寻找同伴”设为“打开”的话，在Wi-Fi模式下玩的时候，搜索和朋友的\n寻找重要的伙伴，\n在找到的时候把图标显示出来\n让他们知道。\n",
+    "context": "**翻译辅助**：\n\n如果把“寻找同伴”设为“打开”的话，在Wi-Fi模式下玩的时候，搜索和朋友的  \n寻找重要的伙伴，  \n在找到的时候把图标显示出来  \n让他们知道。  \n\n\n如果“查找好友”为“开启”，  \n在玩Wi-Fi模式时，搜索搜索好友，并与朋友对战，  \n如果找到，显示图标并通知。"
+  },
+  {
+    "key": "Scene_Option_ja_option_0013",
+    "original": "ちかくに　ピクトチャットで\nあそんでいるひとを　みつけたとき",
+    "translation": "在附近用皮克特聊天\n找到玩的人的时候",
+    "context": "**翻译辅助**：\n\n在附近用皮克特聊天  \n找到玩的人的时候\n\n发现附近有人在和皮克聊天的时候"
+  },
+  {
+    "key": "Scene_Option_ja_option_0014",
+    "original": "ちかくに　マルチプレイのたいせんあいてを\nぼしゅうしているひとを　みつけたとき",
+    "translation": "当你在附近找到一个对多人游戏有兴趣的人时\n",
+    "context": "**翻译辅助**：\n\n当你在附近找到一个对多人游戏有兴趣的人时  \n\n\n发现附近有人在招募多人对战对手的时候"
+  },
+  {
+    "key": "Scene_Option_ja_option_0015",
+    "original": "Wi-Fiモードちゅう　たいせんあいてを\nもとめているともだちを　みつけたとき",
+    "translation": "\n发现朋友想要Wi-Fi模式连线对战的时候",
+    "context": "**翻译辅助**：\n\n  \n发现朋友想要Wi-Fi模式连线对战的时候\n\n在Wi-Fi模式下寻找朋友的时候"
+  },
+  {
+    "key": "Scene_Option_ja_option_0016",
+    "original": "せっていしました。",
+    "translation": "我已设置。",
+    "context": "**翻译辅助**：\n\n我已设置。\n\n已设置。"
+  }
+]
