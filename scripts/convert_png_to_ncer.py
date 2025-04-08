@@ -4,8 +4,7 @@ from helper import (
   DIR_TEMP_IMPORT,
   DIR_UNPACKED_FILES,
 )
-from nitrogfx.convert import NCER, NCGR, NCLR, nclr_to_imgpal
-from nitrogfx.ncer import OAM, Cell
+from nitrogfx.convert import NCER, NCGR, NCLR, OAM, Cell, Tile, nclr_to_imgpal
 from PIL import Image
 
 with open("files/ncer_files.txt", "r", -1, "utf8") as reader:
@@ -39,8 +38,8 @@ for i, line in enumerate(lines[1:]):
       y_offset = (oam.y + 0x80) % 0x100
 
       oam_image = cell_image.crop((x_offset, y_offset, x_offset + oam_width, y_offset + oam_height))
-      alphas = oam_image.getchannel("A").tobytes()
-      if any(a == 0 for a in alphas):
+      alpha_channel = oam_image.getchannel("A").tobytes()
+      if any(a == 0 for a in alpha_channel):
         continue
       oam_image = oam_image.convert("RGB")
 
@@ -58,8 +57,9 @@ for i, line in enumerate(lines[1:]):
           colors = nclr_to_imgpal(nclr, oam.pal)[:0x30]
           palette = Image.new("P", (8, 8))
           palette.putpalette(colors)
-          tile_image = tile_image.quantize(palette=palette, dither=Image.NONE)
-          ncgr.tiles[tile_index].pixels = tile_image.tobytes()
+          tile_image = tile_image.quantize(palette=palette, dither=Image.Dither.NONE)
+          tile: Tile = ncgr.tiles[tile_index]
+          tile.pixels = tile_image.tobytes()
 
           tile_index += 1
 

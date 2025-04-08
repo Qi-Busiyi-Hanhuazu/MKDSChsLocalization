@@ -1,0 +1,24 @@
+NCLR	NCGR	palette
+../files/images/template.nclr	Scene/Emblem_ja/emblem_camera_s_o.NCGR
+Scene/Emblem/emblem_m_o.NCLR	Scene/Emblem_ja/emblem_m_o.NCGR
+../files/images/template.nclr	Scene/Emblem_ja/emblem_s_o.NCGR
+Scene/Menu/common/select_game_m_b.NCLR	Scene/Menu_ja/common/select_game_m_b.NCGR
+Scene/Menu/mr/Mission_run_LVsel_m_b.NCLR	Scene/Menu_ja/mr/Mission_run_LVsel_m_b.NCGR
+Scene/Menu/mr/Mission_run_MSsel_m_b.NCLR	Scene/Menu_ja/mr/Mission_run_MSsel_m_b.NCGR
+Scene/Menu/ta/TimeAttack_top_menu_m_b.NCLR	Scene/Menu_ja/ta/TimeAttack_top_menu_m_b.NCGR
+Scene/Option/Option_top_menu_m_b.NCLR	Scene/Option_ja/Option_top_menu_m_b.NCGR
+Scene/Race/race_goal_m_o.NCLR	Scene/Race_ja/race_goal_m_o.NCGR
+Scene/Race/race_goal_s_o.NCLR	Scene/Race_ja/race_goal_s_o.NCGR
+Scene/Race/race_m_b.NCLR	Scene/Race_ja/race_m_b.NCGR
+Scene/Race/race_m_o.NCLR	Scene/Race_ja/race_m_o.NCGR
+Scene/Race/race_s_o.NCLR	Scene/Race_ja/race_s_o.NCGR
+Scene/Race_mg/race_battle_m_o.NCLR	Scene/Race_mg_ja/race_battle_m_o.NCGR
+Scene/Race_ta/race_new_record_ta_s_o.NCLR	Scene/Race_ta_ja/race_new_record_ta_s_o.NCGR
+Scene/Record/Record_Gpx_m_b.NCLR	Scene/Record_ja/Record_Gpx_m_b.NCGR
+Scene/Record/Record_top_menu_m_b.NCLR	Scene/Record_ja/Record_top_menu_m_b.NCGR
+Scene/Record/Record_T_att_m_b.NCLR	Scene/Record_ja/Record_T_att_m_b.NCGR
+../files/images/template.nclr	Scene/ResultDL_ja/results_battle_draw_m_b.NCGR
+../files/images/template.nclr	Scene/ResultDL_ja/results_battle_lose_m_b.NCGR
+../files/images/template.nclr	Scene/ResultDL_ja/results_battle_victory_m_b.NCGR
+../files/images/template.nclr	Scene/ResultDL_ja/results_battle_VS_m_b.NCGR
+Scene/WiFiMenu/WiFi_VS_course_select_m_b.NCLR	Scene/WiFiMenu_ja/WiFi_VS_course_select_m_b.NCGR

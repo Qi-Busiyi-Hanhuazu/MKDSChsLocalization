@@ -1,7 +1,6 @@
 import os
 
-from nitrogfx.convert import NCER, NCGR, NCLR, nclr_to_imgpal
-from nitrogfx.ncer import OAM, Cell
+from nitrogfx.convert import NCER, NCGR, NCLR, OAM, Cell, Tile, nclr_to_imgpal
 from PIL import Image
 
 with open("files/ncer_files.txt", "r", -1, "utf8") as reader:
@@ -29,7 +28,7 @@ for i, line in enumerate(lines[1:]):
       tile_index = oam.char
       for y in range(0, oam_height, 8):
         for x in range(0, oam_width, 8):
-          tile = ncgr.tiles[tile_index]
+          tile: Tile = ncgr.tiles[tile_index]
           tile_image = Image.frombytes("P", (8, 8), tile.get_data())
           tile_image.putpalette(nclr_to_imgpal(nclr, oam.pal))
           oam_image.paste(tile_image, (x, y))

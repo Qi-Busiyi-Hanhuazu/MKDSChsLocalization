@@ -33,6 +33,7 @@ DUPLICATE_FILES = {
   "Scene/Record_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
   "Scene/Nickname_ja/mission.bmg": "Scene/Logo_ja/mission.bmg",
   "Scene/MenuDL_ja/rule.bmg": "Scene/Menu_ja/rule.bmg",
+  "Scene/MenuDL_ja/common/select_game_s.nce.ncgr": "Scene/Menu_ja/common/select_game_s.nce.ncgr",
 }
 
 
