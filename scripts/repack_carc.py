@@ -5,8 +5,8 @@ import ndspy.narc
 from helper import (
   DIR_DATA,
   DIR_ORIGINAL_FILES,
-  DIR_OUT,
   DIR_TEMP_IMPORT,
+  DIR_TEMP_OUT,
   DUPLICATE_FILES,
   enumrate_narc_files,
 )
@@ -48,4 +48,4 @@ def repack_carc(input_root: str, replace_root: str, output_root: str):
 
 
 if __name__ == "__main__":
-  repack_carc(f"{DIR_ORIGINAL_FILES}/{DIR_DATA}", DIR_TEMP_IMPORT, f"{DIR_OUT}/{DIR_DATA}")
+  repack_carc(f"{DIR_ORIGINAL_FILES}/{DIR_DATA}", DIR_TEMP_IMPORT, f"{DIR_TEMP_OUT}/{DIR_DATA}")

@@ -20,9 +20,11 @@ python scripts\convert_png_to_spr.py
 
 python scripts\repack_carc.py
 
+python scripts\create_xdelta.py
+
 python scripts\edit_banner.py
 
 New-Item -ItemType Directory -Path "out\data\" -Force | Out-Null
 
-Compress-Archive -Path "out/data", "out/banner.bin" -Destination "patch-ds.zip" -Force
+Compress-Archive -Path "out/data", "out/xdelta/", "out/banner.bin" -Destination "patch-ds.zip" -Force
 Move-Item -Path "patch-ds.zip" -Destination "out/patch-ds.xzp" -Force

@@ -14,6 +14,7 @@ DIR_DATA = "data/data"
 DIR_FONT_FILES = "files/fonts"
 DIR_UNPACKED_FILES = "unpacked"
 DIR_TEMP_IMPORT = "temp/import"
+DIR_TEMP_OUT = "temp/out"
 
 BANNER_PATH = "original_files/banner.bin"
 BANNER_OUT_PATH = "out/banner.bin"
