@@ -47,12 +47,13 @@ def draw_char_s(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.
 
 
 def draw_char_mario(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
+  draw.fontmode = "1"
   for y in (-1, 1, 0):
     for x in (-1, 1, 0):
       color = 0xAA if (x == 0 and y == 0) else 0x55
       draw.text(
         (1 + x, 10 + y),
-        char,
+        char + "　　黑鼠龙龟",
         color,
         font,
         "ls",
@@ -61,24 +62,22 @@ def draw_char_mario(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageF
 
 FONT_CONFIG: dict[str, dict] = {
   "Main2D/LC_Font_m.NFTR": {
-    "handle": expand_font,
-    "font": "files/fonts/Zfull-GB.ttf",
+    "font": "C:/Windows/Fonts/simsun.ttc",
     "size": 12,
     "draw": draw_char_m,
     "width": 11,
   },
   "Main2D/LC_Font_s.NFTR": {
-    "handle": expand_font,
     "font": "files/fonts/Zfull-GB.ttf",
     "size": 10,
     "draw": draw_char_s,
-    "width": 11,
+    "width": 9,
   },
   "Main2D/marioFont.NFTR": {
     "font": "files/fonts/Zfull-GB.ttf",
-    "size": 11,
+    "size": 10,
     "draw": draw_char_mario,
-    "width": 12,
+    "width": 11,
   },
 }
 
@@ -116,7 +115,7 @@ def compress_cmap(char_map: dict[int, int]) -> list[CMAP]:
         break
       window += 1
 
-    if False and window > 0x20:
+    if window > 0x20:
       cmap = CMAP.get_blank()
       cmap.type_section = 1
       cmap.first_char_code = char_code

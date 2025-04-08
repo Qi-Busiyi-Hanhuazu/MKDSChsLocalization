@@ -52,7 +52,11 @@ def convert_json_to_bmg(input_root: str, json_root: str, language: str, output_r
       sheet_name = file_path.removesuffix(".json").replace("\\", "/")
       original_json_path = f"{json_root}/ja/{file_path}"
       translation_json_path = f"{json_root}/{language}/{file_path}"
-      if not os.path.exists(original_json_path) or not os.path.exists(translation_json_path):
+      if (
+        not os.path.exists(original_json_path)
+        or not os.path.exists(translation_json_path)
+        or not os.path.exists(f"{input_root}/{sheet_name}.bmg")
+      ):
         continue
 
       translation_dict = load_translation_dict(translation_json_path)

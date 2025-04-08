@@ -15,10 +15,8 @@ DIR_FONT_FILES = "files/fonts"
 DIR_UNPACKED_FILES = "unpacked"
 DIR_TEMP_IMPORT = "temp/import"
 
-
 BANNER_PATH = "original_files/banner.bin"
 BANNER_OUT_PATH = "out/banner.bin"
-
 
 TRASH_PATTERN = re.compile(r"^[\-\. ]*$", re.DOTALL)
 CONTROL_PATTERN = re.compile(r"\^[0-9A-Za-z]|%[ds]|~[CFcf][0-9\-]+")
