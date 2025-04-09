@@ -21,6 +21,7 @@ python scripts\convert_png_to_ncgr.py
 python scripts\convert_png_to_nsbmd.py
 
 python scripts\repack_carc.py
+python scripts\patch_file_size.py
 
 python scripts\create_xdelta.py
 
