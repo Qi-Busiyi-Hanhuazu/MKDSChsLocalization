@@ -32,8 +32,8 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0005",
     "original": "せかいのだれとでも",
-    "translation": "全球",
-    "context": "**翻译辅助**：\n\n全球"
+    "translation": "全世界",
+    "context": "**翻译辅助**：\n\n全世界"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0007",
@@ -291,13 +291,13 @@
     "key": "Scene_WiFiMenu_ja_wifi_0049",
     "original": "エイトクロスサーキット",
     "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路\n\n八十字赛道"
+    "context": "**翻译辅助**：\n\n八交叉电路"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0050",
     "original": "ヨッシーフォールズ",
-    "translation": "耀西福尔斯",
-    "context": "**翻译辅助**：\n\n耀西福尔斯\n\n约西福尔斯"
+    "translation": "耀西瀑布",
+    "context": "**翻译辅助**：\n\n耀西瀑布"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0051",
@@ -308,20 +308,20 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0052",
     "original": "ルイージマンション",
-    "translation": "路易吉的洋馆",
-    "context": "**翻译辅助**：\n\n路易吉的洋馆"
+    "translation": "路易吉洋馆",
+    "context": "**翻译辅助**：\n\n路易吉洋馆"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0053",
     "original": "サンサンさばく",
-    "translation": "姗姗沙漠",
-    "context": "**翻译辅助**：\n\n姗姗沙漠\n\n日光浴"
+    "translation": "日光沙漠",
+    "context": "**翻译辅助**：\n\n日光沙漠"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0054",
     "original": "モンテタウン",
-    "translation": "蒙特敦",
-    "context": "**翻译辅助**：\n\n蒙特敦\n\n蒙特城"
+    "translation": "蒙特小镇",
+    "context": "**翻译辅助**：\n\n蒙特小镇"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0055",
@@ -356,8 +356,8 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0060",
     "original": "キラーシップ",
-    "translation": "弹头杀手飞船",
-    "context": "**翻译辅助**：\n\n弹头杀手飞船"
+    "translation": "炮弹刺客飞船",
+    "context": "**翻译辅助**：\n\n炮弹刺客飞船"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0061",
@@ -380,103 +380,103 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0064",
     "original": "レインボーロード",
-    "translation": "彩虹桥",
-    "context": "**翻译辅助**：\n\n彩虹桥"
+    "translation": "彩虹之路",
+    "context": "**翻译辅助**：\n\n彩虹之路"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0065",
     "original": "SFC・マリオサーキット1",
-    "translation": "SFC马力欧赛道1",
-    "context": "**翻译辅助**：\n\nSFC马力欧赛道1\n\nSFC万豪电路1"
+    "translation": "SFC·马力欧赛道1",
+    "context": "**翻译辅助**：\n\nSFC·马力欧赛道1"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0066",
     "original": "64・モーモーファーム",
-    "translation": "64·莫莫农场",
-    "context": "**翻译辅助**：\n\n64·莫莫农场\n\n64、莫莫农场"
+    "translation": "64·哞哞牧场",
+    "context": "**翻译辅助**：\n\n64·哞哞牧场"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0067",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA桃子赛道",
-    "context": "**翻译辅助**：\n\nGBA桃子赛道\n\nGBA·桃电路"
+    "translation": "GBA·碧姬公主赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0068",
     "original": "GC・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGC路径电路"
+    "translation": "GC·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGC·路易吉赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0069",
     "original": "SFC・ドーナツへいや1",
-    "translation": "SFC甜甜圈",
-    "context": "**翻译辅助**：\n\nSFC甜甜圈\n\nSFC甜甜圈平原1"
+    "translation": "SFC·甜圈平原1",
+    "context": "**翻译辅助**：\n\nSFC·甜圈平原1"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0070",
     "original": "64・フラッペスノーランド",
-    "translation": "64·弗拉佩斯诺兰",
-    "context": "**翻译辅助**：\n\n64·弗拉佩斯诺兰\n\n64 .弗拉佩斯诺兰德"
+    "translation": "64·冰天雪地",
+    "context": "**翻译辅助**：\n\n64·冰天雪地"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0071",
     "original": "GBA・クッパキャッスル2",
-    "translation": "GBA酷霸城堡2",
-    "context": "**翻译辅助**：\n\nGBA酷霸城堡2\n\nGBA库帕城堡2"
+    "translation": "GBA·酷霸城堡2",
+    "context": "**翻译辅助**：\n\nGBA·酷霸城堡2"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0072",
     "original": "GC・ベビィパーク",
-    "translation": "GC贝比公园",
-    "context": "**翻译辅助**：\n\nGC贝比公园\n\n高尔夫婴儿公园"
+    "translation": "GC·宝宝公园",
+    "context": "**翻译辅助**：\n\nGC·宝宝公园"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0073",
     "original": "SFC・ノコノコビーチ2",
-    "translation": "SFC诺科海滩2",
-    "context": "**翻译辅助**：\n\nSFC诺科海滩2\n\nSFC nOKonko海滩2"
+    "translation": "SFC·慢慢龟海滩2",
+    "context": "**翻译辅助**：\n\nSFC·慢慢龟海滩2"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0074",
     "original": "64・チョコマウンテン",
     "translation": "64·巧克力山",
-    "context": "**翻译辅助**：\n\n64·巧克力山\n\n64巧克力山"
+    "context": "**翻译辅助**：\n\n64·巧克力山"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0075",
     "original": "GBA・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGBA路基电路"
+    "translation": "GBA·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGBA·路易吉赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0076",
     "original": "GC・キノコブリッジ",
-    "translation": "蘑菇桥俱乐部",
-    "context": "**翻译辅助**：\n\n蘑菇桥俱乐部\n\nGC蘑菇桥"
+    "translation": "GC·蘑菇大桥",
+    "context": "**翻译辅助**：\n\nGC·蘑菇大桥"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0077",
     "original": "SFC・チョコレーとう2",
-    "translation": "SFC巧克力糖2",
-    "context": "**翻译辅助**：\n\nSFC巧克力糖2\n\nSFC·巧克力糖2"
+    "translation": "SFC·巧克力岛2",
+    "context": "**翻译辅助**：\n\nSFC·巧克力岛2"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0078",
     "original": "64・ヒュードロいけ",
-    "translation": "64·休德罗池",
-    "context": "**翻译辅助**：\n\n64·休德罗池\n\n64、休德罗池塘"
+    "translation": "64·幽灵湖",
+    "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0079",
     "original": "GBA・スカイガーデン",
-    "translation": "GBA天空花园",
-    "context": "**翻译辅助**：\n\nGBA天空花园"
+    "translation": "GBA·空中花园",
+    "context": "**翻译辅助**：\n\nGBA·空中花园"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0080",
     "original": "GC・ヨッシーサーキット",
-    "translation": "耀西赛道",
-    "context": "**翻译辅助**：\n\n耀西赛道\n\nGC约西电路"
+    "translation": "GC·耀西赛道",
+    "context": "**翻译辅助**：\n\nGC·耀西赛道"
   }
 ]

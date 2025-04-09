@@ -2,14 +2,14 @@
   {
     "key": "Scene_Menu_ja_menu_0000",
     "original": "ブロックとりで",
-    "translation": "按区块",
-    "context": "**翻译辅助**：\n\n按区块\n\n块堡"
+    "translation": "四色堡垒",
+    "context": "**翻译辅助**：\n\n四色堡垒"
   },
   {
     "key": "Scene_Menu_ja_menu_0001",
     "original": "どかんひろば",
-    "translation": "土管广场",
-    "context": "**翻译辅助**：\n\n土管广场\n\n土坎广场"
+    "translation": "水管广场",
+    "context": "**翻译辅助**：\n\n水管广场"
   },
   {
     "key": "Scene_Menu_ja_menu_0002",
@@ -20,8 +20,8 @@
   {
     "key": "Scene_Menu_ja_menu_0003",
     "original": "ゆうやみハウス",
-    "translation": "黄昏之家",
-    "context": "**翻译辅助**：\n\n黄昏之家\n\n夜店"
+    "translation": "薄暮之家",
+    "context": "**翻译辅助**：\n\n薄暮之家"
   },
   {
     "key": "Scene_Menu_ja_menu_0004",
@@ -32,8 +32,8 @@
   {
     "key": "Scene_Menu_ja_menu_0005",
     "original": "スイートタルト",
-    "translation": "甜蛋挞",
-    "context": "**翻译辅助**：\n\n甜蛋挞\n\n甜挞"
+    "translation": "香甜蛋挞",
+    "context": "**翻译辅助**：\n\n香甜蛋挞"
   },
   {
     "key": "Scene_Menu_ja_menu_0006",
@@ -44,8 +44,8 @@
   {
     "key": "Scene_Menu_ja_menu_0007",
     "original": "あつめてシャイン",
-    "translation": "召集员工",
-    "context": "**翻译辅助**：\n\n召集员工\n\n集中，集中"
+    "translation": "收集太阳",
+    "context": "**翻译辅助**：\n\n收集太阳"
   },
   {
     "key": "Scene_Menu_ja_menu_0008",
@@ -56,32 +56,32 @@
   {
     "key": "Scene_Menu_ja_menu_0009",
     "original": "ゴーストデータ",
-    "translation": "重影数据",
-    "context": "**翻译辅助**：\n\n重影数据\n\n幽灵数据"
+    "translation": "车影数据",
+    "context": "**翻译辅助**：\n\n车影数据"
   },
   {
     "key": "Scene_Menu_ja_menu_0010",
     "original": "なし",
-    "translation": "的下界",
-    "context": "**翻译辅助**：\n\n的下界\n\n没有"
+    "translation": "无",
+    "context": ""
   },
   {
     "key": "Scene_Menu_ja_menu_0011",
     "original": "マイゴースト",
-    "translation": "我的鬼魂",
-    "context": "**翻译辅助**：\n\n我的鬼魂\n\n我的幽灵"
+    "translation": "我的车影",
+    "context": "**翻译辅助**：\n\n我的车影"
   },
   {
     "key": "Scene_Menu_ja_menu_0012",
     "original": "ダウンロードゴースト",
-    "translation": "下载重影",
-    "context": "**翻译辅助**：\n\n下载重影\n\n下载幽灵"
+    "translation": "下载车影",
+    "context": "**翻译辅助**：\n\n下载车影"
   },
   {
     "key": "Scene_Menu_ja_menu_0013",
     "original": "スタッフゴースト",
-    "translation": "工作人员幽灵",
-    "context": "**翻译辅助**：\n\n工作人员幽灵"
+    "translation": "工作人员车影",
+    "context": "**翻译辅助**：\n\n工作人员车影"
   },
   {
     "key": "Scene_Menu_ja_menu_0014",
@@ -105,7 +105,7 @@
     "key": "Scene_Menu_ja_menu_0017",
     "original": "VS",
     "translation": "VS",
-    "context": "**翻译辅助**：\n\nVS\n\nvs"
+    "context": ""
   },
   {
     "key": "Scene_Menu_ja_menu_0018",
@@ -116,8 +116,8 @@
   {
     "key": "Scene_Menu_ja_menu_0019",
     "original": "あつめてシャイン",
-    "translation": "召集员工",
-    "context": "**翻译辅助**：\n\n召集员工\n\n集中，集中"
+    "translation": "收集太阳",
+    "context": "**翻译辅助**：\n\n收集太阳"
   },
   {
     "key": "Scene_Menu_ja_menu_0020",

@@ -3,13 +3,13 @@
     "key": "Scene_Ghost_ja_ghost_0000",
     "original": "ゴーストをえらんでください。",
     "translation": "请选择车影。",
-    "context": "**翻译辅助**：\n\n请看鬼魂。\n\n选择一个幽灵。"
+    "context": "**翻译辅助**：\n\n请看车影。\n\n选择一个车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0001",
     "original": "ゴーストをもらうあいてを\nえらんでください。",
-    "translation": "\n请选择获得幽灵的对象。",
-    "context": "**翻译辅助**：\n\n  \n请选择获得幽灵的对象。\n\n请给我一个得到幽灵的空手。"
+    "translation": "\n请选择获得车影的对象。",
+    "context": "**翻译辅助**：\n\n  \n请选择获得车影的对象。\n\n请给我一个得到车影的空手。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0002",
@@ -38,8 +38,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0006",
     "original": "やめる",
-    "translation": "住手",
-    "context": "**翻译辅助**：\n\n住手\n\n停止"
+    "translation": "退出",
+    "context": "**翻译辅助**：\n\n退出"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0007",
@@ -56,26 +56,26 @@
   {
     "key": "Scene_Ghost_ja_ghost_0009",
     "original": "ゴーストをわたすあいてが\nくるのをまっています。",
-    "translation": "等着传递幽灵的对象\n来。",
-    "context": "**翻译辅助**：\n\n等着传递幽灵的对象  \n来。\n\n等待着幽灵的到来。"
+    "translation": "等着传递车影的对象\n来。",
+    "context": "**翻译辅助**：\n\n等着传递车影的对象  \n来。\n\n等待着车影的到来。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0010",
     "original": "[255:00000100][1:0000][255:00000000]　さんへ\nゴーストをわたしても\nいいですか?",
-    "translation": "[255:00000100][1:0000][255:00000000]　\n可以把幽灵交给先生\n吗？",
-    "context": "**翻译辅助**：\n\n[255:00000100][1:0000][255:00000000]　  \n可以把幽灵交给先生  \n吗？\n\n[255:00000100][1:0000][255:00000000]　可以给我幽灵吗？"
+    "translation": "[255:00000100][1:0000][255:00000000]　\n可以把车影交给先生\n吗？",
+    "context": "**翻译辅助**：\n\n[255:00000100][1:0000][255:00000000]　  \n可以把车影交给先生  \n吗？\n\n[255:00000100][1:0000][255:00000000]　可以给我车影吗？"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0011",
     "original": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストをダウンロード\nしています。",
-    "translation": "[255:00000100][1:ff00][255:00000000]　正在下载幽灵。\n\n",
-    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]　正在下载幽灵。  \n  \n\n\n[255:00000100][1:ff00][255:00000000]　正在下载  \n幽灵。"
+    "translation": "[255:00000100][1:ff00][255:00000000]　正在下载车影。\n\n",
+    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]　正在下载车影。  \n  \n\n\n[255:00000100][1:ff00][255:00000000]　正在下载  \n车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0012",
     "original": "[255:00000100][1:ff00][255:00000000]　さんが\nゴーストのダウンロードを\nかんりょうしました。",
     "translation": "[255:00000100][1:ff00][255:00000000]　先生\n鬼的下载\n完成了。",
-    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]　先生  \n鬼的下载  \n完成了。\n\n[255:00000100][1:ff00][255:00000000]　下载了鬼魂。"
+    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]　先生  \n鬼的下载  \n完成了。\n\n[255:00000100][1:ff00][255:00000000]　下载了车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0013",
@@ -93,19 +93,19 @@
     "key": "Scene_Ghost_ja_ghost_0015",
     "original": "ゴーストをダウンロード\nしています。",
     "translation": "\n下载鬼。",
-    "context": "**翻译辅助**：\n\n  \n下载鬼。\n\n正在下载鬼魂。"
+    "context": "**翻译辅助**：\n\n  \n下载鬼。\n\n正在下载车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0016",
     "original": "ゴーストのダウンロードが\nおわりました。",
     "translation": "\n鬼的下载结束了。",
-    "context": "**翻译辅助**：\n\n  \n鬼的下载结束了。\n\n幽灵的下载  \n结束了。"
+    "context": "**翻译辅助**：\n\n  \n鬼的下载结束了。\n\n车影的下载  \n结束了。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0017",
     "original": "[255:00000100]つうしんが\nせつだんされました。\n\nゴーストをもらうことは\nできませんでした。",
-    "translation": "[255:00000100]通讯被切断了。\n\n不能得到幽灵。\n\n",
-    "context": "**翻译辅助**：\n\n[255:00000100]通讯被切断了。  \n  \n不能得到幽灵。  \n  \n\n\n[255:00000100]通信被切断了。  \n  \n  \n没能得到幽灵。"
+    "translation": "[255:00000100]通讯被切断了。\n\n不能得到车影。\n\n",
+    "context": "**翻译辅助**：\n\n[255:00000100]通讯被切断了。  \n  \n不能得到车影。  \n  \n\n\n[255:00000100]通信被切断了。  \n  \n  \n没能得到车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0018",
@@ -117,13 +117,13 @@
     "key": "Scene_Ghost_ja_ghost_0019",
     "original": "エイトクロスサーキット",
     "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路\n\n八十字赛道"
+    "context": "**翻译辅助**：\n\n八交叉电路"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0020",
     "original": "ヨッシーフォールズ",
-    "translation": "耀西福尔斯",
-    "context": "**翻译辅助**：\n\n耀西福尔斯\n\n约西福尔斯"
+    "translation": "耀西瀑布",
+    "context": "**翻译辅助**：\n\n耀西瀑布"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0021",
@@ -134,20 +134,20 @@
   {
     "key": "Scene_Ghost_ja_ghost_0022",
     "original": "ルイージマンション",
-    "translation": "路易吉的洋馆",
-    "context": "**翻译辅助**：\n\n路易吉的洋馆"
+    "translation": "路易吉洋馆",
+    "context": "**翻译辅助**：\n\n路易吉洋馆"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0023",
     "original": "サンサンさばく",
-    "translation": "姗姗沙漠",
-    "context": "**翻译辅助**：\n\n姗姗沙漠\n\n日光浴"
+    "translation": "日光沙漠",
+    "context": "**翻译辅助**：\n\n日光沙漠"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0024",
     "original": "モンテタウン",
-    "translation": "蒙特敦",
-    "context": "**翻译辅助**：\n\n蒙特敦\n\n蒙特城"
+    "translation": "蒙特小镇",
+    "context": "**翻译辅助**：\n\n蒙特小镇"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0025",
@@ -182,8 +182,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0030",
     "original": "キラーシップ",
-    "translation": "弹头杀手飞船",
-    "context": "**翻译辅助**：\n\n弹头杀手飞船"
+    "translation": "炮弹刺客飞船",
+    "context": "**翻译辅助**：\n\n炮弹刺客飞船"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0031",
@@ -206,116 +206,116 @@
   {
     "key": "Scene_Ghost_ja_ghost_0034",
     "original": "レインボーロード",
-    "translation": "彩虹桥",
-    "context": "**翻译辅助**：\n\n彩虹桥"
+    "translation": "彩虹之路",
+    "context": "**翻译辅助**：\n\n彩虹之路"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0035",
     "original": "SFC・マリオサーキット1",
-    "translation": "SFC马力欧赛道1",
-    "context": "**翻译辅助**：\n\nSFC马力欧赛道1\n\nSFC万豪电路1"
+    "translation": "SFC·马力欧赛道1",
+    "context": "**翻译辅助**：\n\nSFC·马力欧赛道1"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0036",
     "original": "64・モーモーファーム",
-    "translation": "64·莫莫农场",
-    "context": "**翻译辅助**：\n\n64·莫莫农场\n\n64、莫莫农场"
+    "translation": "64·哞哞牧场",
+    "context": "**翻译辅助**：\n\n64·哞哞牧场"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0037",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA桃子赛道",
-    "context": "**翻译辅助**：\n\nGBA桃子赛道\n\nGBA·桃电路"
+    "translation": "GBA·碧姬公主赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0038",
     "original": "GC・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGC路径电路"
+    "translation": "GC·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGC·路易吉赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0039",
     "original": "SFC・ドーナツへいや1",
-    "translation": "SFC甜甜圈",
-    "context": "**翻译辅助**：\n\nSFC甜甜圈\n\nSFC甜甜圈平原1"
+    "translation": "SFC·甜圈平原1",
+    "context": "**翻译辅助**：\n\nSFC·甜圈平原1"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0040",
     "original": "64・フラッペスノーランド",
-    "translation": "64·弗拉佩斯诺兰",
-    "context": "**翻译辅助**：\n\n64·弗拉佩斯诺兰\n\n64 .弗拉佩斯诺兰德"
+    "translation": "64·冰天雪地",
+    "context": "**翻译辅助**：\n\n64·冰天雪地"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0041",
     "original": "GBA・クッパキャッスル2",
-    "translation": "GBA酷霸城堡2",
-    "context": "**翻译辅助**：\n\nGBA酷霸城堡2\n\nGBA库帕城堡2"
+    "translation": "GBA·酷霸城堡2",
+    "context": "**翻译辅助**：\n\nGBA·酷霸城堡2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0042",
     "original": "GC・ベビィパーク",
-    "translation": "GC贝比公园",
-    "context": "**翻译辅助**：\n\nGC贝比公园\n\n高尔夫婴儿公园"
+    "translation": "GC·宝宝公园",
+    "context": "**翻译辅助**：\n\nGC·宝宝公园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0043",
     "original": "SFC・ノコノコビーチ2",
-    "translation": "SFC诺科海滩2",
-    "context": "**翻译辅助**：\n\nSFC诺科海滩2\n\nSFC nOKonko海滩2"
+    "translation": "SFC·慢慢龟海滩2",
+    "context": "**翻译辅助**：\n\nSFC·慢慢龟海滩2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0044",
     "original": "64・チョコマウンテン",
     "translation": "64·巧克力山",
-    "context": "**翻译辅助**：\n\n64·巧克力山\n\n64巧克力山"
+    "context": "**翻译辅助**：\n\n64·巧克力山"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0045",
     "original": "GBA・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGBA路基电路"
+    "translation": "GBA·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGBA·路易吉赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0046",
     "original": "GC・キノコブリッジ",
-    "translation": "蘑菇桥俱乐部",
-    "context": "**翻译辅助**：\n\n蘑菇桥俱乐部\n\nGC蘑菇桥"
+    "translation": "GC·蘑菇大桥",
+    "context": "**翻译辅助**：\n\nGC·蘑菇大桥"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0047",
     "original": "SFC・チョコレーとう2",
-    "translation": "SFC巧克力糖2",
-    "context": "**翻译辅助**：\n\nSFC巧克力糖2\n\nSFC·巧克力糖2"
+    "translation": "SFC·巧克力岛2",
+    "context": "**翻译辅助**：\n\nSFC·巧克力岛2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0048",
     "original": "64・ヒュードロいけ",
-    "translation": "64·休德罗池",
-    "context": "**翻译辅助**：\n\n64·休德罗池\n\n64、休德罗池塘"
+    "translation": "64·幽灵湖",
+    "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0049",
     "original": "GBA・スカイガーデン",
-    "translation": "GBA天空花园",
-    "context": "**翻译辅助**：\n\nGBA天空花园"
+    "translation": "GBA·空中花园",
+    "context": "**翻译辅助**：\n\nGBA·空中花园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0050",
     "original": "GC・ヨッシーサーキット",
-    "translation": "耀西赛道",
-    "context": "**翻译辅助**：\n\n耀西赛道\n\nGC约西电路"
+    "translation": "GC·耀西赛道",
+    "context": "**翻译辅助**：\n\nGC·耀西赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0051",
     "original": "エイトクロスサーキット",
     "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路\n\n八十字赛道"
+    "context": "**翻译辅助**：\n\n八交叉电路"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0052",
     "original": "ヨッシーフォールズ",
-    "translation": "耀西福尔斯",
-    "context": "**翻译辅助**：\n\n耀西福尔斯\n\n约西福尔斯"
+    "translation": "耀西瀑布",
+    "context": "**翻译辅助**：\n\n耀西瀑布"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0053",
@@ -326,20 +326,20 @@
   {
     "key": "Scene_Ghost_ja_ghost_0054",
     "original": "ルイージマンション",
-    "translation": "路易吉的洋馆",
-    "context": "**翻译辅助**：\n\n路易吉的洋馆"
+    "translation": "路易吉洋馆",
+    "context": "**翻译辅助**：\n\n路易吉洋馆"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0055",
     "original": "サンサンさばく",
-    "translation": "姗姗沙漠",
-    "context": "**翻译辅助**：\n\n姗姗沙漠\n\n日光浴"
+    "translation": "日光沙漠",
+    "context": "**翻译辅助**：\n\n日光沙漠"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0056",
     "original": "モンテタウン",
-    "translation": "蒙特敦",
-    "context": "**翻译辅助**：\n\n蒙特敦\n\n蒙特城"
+    "translation": "蒙特小镇",
+    "context": "**翻译辅助**：\n\n蒙特小镇"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0057",
@@ -374,8 +374,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0062",
     "original": "キラーシップ",
-    "translation": "弹头杀手飞船",
-    "context": "**翻译辅助**：\n\n弹头杀手飞船"
+    "translation": "炮弹刺客飞船",
+    "context": "**翻译辅助**：\n\n炮弹刺客飞船"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0063",
@@ -398,133 +398,133 @@
   {
     "key": "Scene_Ghost_ja_ghost_0066",
     "original": "レインボーロード",
-    "translation": "彩虹桥",
-    "context": "**翻译辅助**：\n\n彩虹桥"
+    "translation": "彩虹之路",
+    "context": "**翻译辅助**：\n\n彩虹之路"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0067",
     "original": "SFC・マリオサーキット1",
-    "translation": "SFC马力欧赛道1",
-    "context": "**翻译辅助**：\n\nSFC马力欧赛道1\n\nSFC万豪电路1"
+    "translation": "SFC·马力欧赛道1",
+    "context": "**翻译辅助**：\n\nSFC·马力欧赛道1"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0068",
     "original": "64・モーモーファーム",
-    "translation": "64·莫莫农场",
-    "context": "**翻译辅助**：\n\n64·莫莫农场\n\n64、莫莫农场"
+    "translation": "64·哞哞牧场",
+    "context": "**翻译辅助**：\n\n64·哞哞牧场"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0069",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA桃子赛道",
-    "context": "**翻译辅助**：\n\nGBA桃子赛道\n\nGBA·桃电路"
+    "translation": "GBA·碧姬公主赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0070",
     "original": "GC・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGC路径电路"
+    "translation": "GC·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGC·路易吉赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0071",
     "original": "SFC・ドーナツへいや1",
-    "translation": "SFC甜甜圈",
-    "context": "**翻译辅助**：\n\nSFC甜甜圈\n\nSFC甜甜圈平原1"
+    "translation": "SFC·甜圈平原1",
+    "context": "**翻译辅助**：\n\nSFC·甜圈平原1"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0072",
     "original": "64・フラッペスノーランド",
-    "translation": "64·弗拉佩斯诺兰",
-    "context": "**翻译辅助**：\n\n64·弗拉佩斯诺兰\n\n64 .弗拉佩斯诺兰德"
+    "translation": "64·冰天雪地",
+    "context": "**翻译辅助**：\n\n64·冰天雪地"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0073",
     "original": "GBA・クッパキャッスル2",
-    "translation": "GBA酷霸城堡2",
-    "context": "**翻译辅助**：\n\nGBA酷霸城堡2\n\nGBA库帕城堡2"
+    "translation": "GBA·酷霸城堡2",
+    "context": "**翻译辅助**：\n\nGBA·酷霸城堡2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0074",
     "original": "GC・ベビィパーク",
-    "translation": "GC贝比公园",
-    "context": "**翻译辅助**：\n\nGC贝比公园\n\n高尔夫婴儿公园"
+    "translation": "GC·宝宝公园",
+    "context": "**翻译辅助**：\n\nGC·宝宝公园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0075",
     "original": "SFC・ノコノコビーチ2",
-    "translation": "SFC诺科海滩2",
-    "context": "**翻译辅助**：\n\nSFC诺科海滩2\n\nSFC nOKonko海滩2"
+    "translation": "SFC·慢慢龟海滩2",
+    "context": "**翻译辅助**：\n\nSFC·慢慢龟海滩2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0076",
     "original": "64・チョコマウンテン",
     "translation": "64·巧克力山",
-    "context": "**翻译辅助**：\n\n64·巧克力山\n\n64巧克力山"
+    "context": "**翻译辅助**：\n\n64·巧克力山"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0077",
     "original": "GBA・ルイージサーキット",
-    "translation": "路易吉赛道",
-    "context": "**翻译辅助**：\n\n路易吉赛道\n\nGBA路基电路"
+    "translation": "GBA·路易吉赛道",
+    "context": "**翻译辅助**：\n\nGBA·路易吉赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0078",
     "original": "GC・キノコブリッジ",
-    "translation": "蘑菇桥俱乐部",
-    "context": "**翻译辅助**：\n\n蘑菇桥俱乐部\n\nGC蘑菇桥"
+    "translation": "GC·蘑菇大桥",
+    "context": "**翻译辅助**：\n\nGC·蘑菇大桥"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0079",
     "original": "SFC・チョコレーとう2",
-    "translation": "SFC巧克力糖2",
-    "context": "**翻译辅助**：\n\nSFC巧克力糖2\n\nSFC·巧克力糖2"
+    "translation": "SFC·巧克力岛2",
+    "context": "**翻译辅助**：\n\nSFC·巧克力岛2"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0080",
     "original": "64・ヒュードロいけ",
-    "translation": "64·休德罗池",
-    "context": "**翻译辅助**：\n\n64·休德罗池\n\n64、休德罗池塘"
+    "translation": "64·幽灵湖",
+    "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0081",
     "original": "GBA・スカイガーデン",
-    "translation": "GBA天空花园",
-    "context": "**翻译辅助**：\n\nGBA天空花园"
+    "translation": "GBA·空中花园",
+    "context": "**翻译辅助**：\n\nGBA·空中花园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0082",
     "original": "GC・ヨッシーサーキット",
-    "translation": "耀西赛道",
-    "context": "**翻译辅助**：\n\n耀西赛道\n\nGC约西电路"
+    "translation": "GC·耀西赛道",
+    "context": "**翻译辅助**：\n\nGC·耀西赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0083",
     "original": "わたすことのできるゴーストを\nもっていません。",
-    "translation": "\n没有可以传递的幽灵。",
-    "context": "**翻译辅助**：\n\n  \n没有可以传递的幽灵。\n\n没有可以传递的幽灵。"
+    "translation": "\n没有可以传递的车影。",
+    "context": "**翻译辅助**：\n\n  \n没有可以传递的车影。\n\n没有可以传递的车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0084",
     "original": "ゴーストをセーブするのを\nやめました。\n",
-    "translation": "\n停止保存幽灵了。\n",
-    "context": "**翻译辅助**：\n\n  \n停止保存幽灵了。  \n\n\n停止保存鬼影。"
+    "translation": "\n停止保存车影了。\n",
+    "context": "**翻译辅助**：\n\n  \n停止保存车影了。  \n\n\n停止保存鬼影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0085",
     "original": "[255:00000100][1:ff00][255:00000000]\nには ダウンロードゴーストが\nすでにセーブされています。\n\nうわがきしても　いいですか？",
-    "translation": "[255:00000100][1:ff00][255:00000000]\n下载重影\n已保存。\n\n可以传一下传闻吗？",
-    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]  \n下载重影  \n已保存。  \n  \n可以传一下传闻吗？\n\n[255:00000100][1:ff00][255:00000000]  \n下载鬼  \n已经保存。  \n  \n我可以加封面吗？"
+    "translation": "[255:00000100][1:ff00][255:00000000]\n下载车影\n已保存。\n\n可以传一下传闻吗？",
+    "context": "**翻译辅助**：\n\n[255:00000100][1:ff00][255:00000000]  \n下载车影  \n已保存。  \n  \n可以传一下传闻吗？\n\n[255:00000100][1:ff00][255:00000000]  \n下载鬼  \n已经保存。  \n  \n我可以加封面吗？"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0086",
     "original": "マイゴースト",
-    "translation": "我的鬼魂",
-    "context": "**翻译辅助**：\n\n我的鬼魂\n\n我的幽灵"
+    "translation": "我的车影",
+    "context": "**翻译辅助**：\n\n我的车影"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0087",
     "original": "ダウンロードゴースト",
-    "translation": "下载重影",
-    "context": "**翻译辅助**：\n\n下载重影\n\n下载幽灵"
+    "translation": "下载车影",
+    "context": "**翻译辅助**：\n\n下载车影"
   }
 ]
