@@ -38,133 +38,133 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0006",
     "original": "スタンダードMR",
-    "translation": "标准ＭＲ",
+    "translation": "标准车MR",
     "context": "**翻译辅助**：\n\n标准MR"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0007",
     "original": "シューティング・スター",
-    "translation": "射击明星",
+    "translation": "流星",
     "context": "**翻译辅助**：\n\n射击明星"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0008",
     "original": "Bダッシュ",
-    "translation": "Ｂ破折号",
+    "translation": "B冲刺",
     "context": "**翻译辅助**：\n\nB破折号\n\nB短跑"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0009",
     "original": "スタンダードLG",
-    "translation": "标准ＬＧ",
+    "translation": "标准车LG",
     "context": "**翻译辅助**：\n\n标准LG"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0010",
     "original": "オバキューム",
-    "translation": "奥巴库姆",
+    "translation": "鬼怪吸尘器",
     "context": "**翻译辅助**：\n\n奥巴库姆\n\n真空"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0011",
     "original": "ストリームライン",
-    "translation": "流水线",
+    "translation": "流线飞驰",
     "context": "**翻译辅助**：\n\n流水线\n\n流线"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0012",
     "original": "スタンダードPC",
-    "translation": "标准电脑",
+    "translation": "标准车PC",
     "context": "**翻译辅助**：\n\n标准电脑\n\n标准PC"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0013",
     "original": "ライトステップ PC",
-    "translation": "光步PC",
+    "translation": "轻盈舞步PC",
     "context": "**翻译辅助**：\n\n光步PC"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0014",
     "original": "ピアレス",
-    "translation": "佩雷斯",
+    "translation": "举世无双",
     "context": "**翻译辅助**：\n\n佩雷斯\n\n无穿孔"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0015",
     "original": "スタンダードYS",
-    "translation": "标准YS",
+    "translation": "标准车YS",
     "context": "**翻译辅助**：\n\n标准YS"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0016",
     "original": "エッグ・ワン",
-    "translation": "汪蛋",
+    "translation": "耀西蛋1号",
     "context": "**翻译辅助**：\n\n汪蛋\n\n蛋汪"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0017",
     "original": "キューカンバー",
-    "translation": "立方酒吧",
+    "translation": "小黄瓜",
     "context": "**翻译辅助**：\n\n立方酒吧\n\n球杆"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0018",
     "original": "スタンダードKO",
-    "translation": "标准KO",
+    "translation": "标准车KO",
     "context": "**翻译辅助**：\n\n标准KO"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0019",
     "original": "マッシュ",
-    "translation": "土豆泥",
+    "translation": "蘑菇",
     "context": "**翻译辅助**：\n\n土豆泥\n\n泥浆"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0020",
     "original": "フォー・ホイール・クレイドル",
-    "translation": "车轮起重机",
+    "translation": "四轮摇篮",
     "context": "**翻译辅助**：\n\n车轮起重机\n\n四轮摇篮"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0021",
     "original": "スタンダードDK",
-    "translation": "标准DK",
+    "translation": "标准车DK",
     "context": "**翻译辅助**：\n\n标准DK"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0022",
     "original": "ワイルドライフ",
-    "translation": "狂野生活",
+    "translation": "野生动物",
     "context": "**翻译辅助**：\n\n狂野生活\n\n野生动物"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0023",
     "original": "ジャングルカーゴ",
-    "translation": "丛林货物",
+    "translation": "丛林货运",
     "context": "**翻译辅助**：\n\n丛林货物\n\n丛林货运"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0024",
     "original": "スタンダードWR",
-    "translation": "标准WR",
+    "translation": "标准车WR",
     "context": "**翻译辅助**：\n\n标准WR"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0025",
     "original": "ブルータル",
-    "translation": "布鲁塔尔",
+    "translation": "野兽",
     "context": "**翻译辅助**：\n\n布鲁塔尔\n\n蓝色萤火虫"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0026",
     "original": "ドラゴンフライ",
-    "translation": "炸龙",
+    "translation": "蜻蜓",
     "context": "**翻译辅助**：\n\n炸龙\n\n龙飞"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0027",
     "original": "スタンダードKP",
-    "translation": "标准KP",
+    "translation": "标准车KP",
     "context": "**翻译辅助**：\n\n标准KP"
   },
   {
@@ -176,67 +176,67 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0029",
     "original": "タイラント",
-    "translation": "泰兰德",
+    "translation": "暴君",
     "context": "**翻译辅助**：\n\n泰兰德\n\n连接"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0030",
     "original": "スタンダードDS",
-    "translation": "标准DS",
+    "translation": "标准车DS",
     "context": "**翻译辅助**：\n\n标准DS"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0031",
     "original": "ライトステップ DS",
-    "translation": "写入步骤DS",
+    "translation": "轻盈舞步DS",
     "context": "**翻译辅助**：\n\n写入步骤DS\n\n光步DS"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0032",
     "original": "フラウリィ",
-    "translation": "弗拉里",
+    "translation": "花朵",
     "context": "**翻译辅助**：\n\n弗拉里\n\n黄牛"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0033",
     "original": "スタンダードKA",
-    "translation": "标准KA",
+    "translation": "标准车KA",
     "context": "**翻译辅助**：\n\n标准KA"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0034",
     "original": "カロン・カノン",
-    "translation": "卡农",
+    "translation": "碎碎龟加农炮",
     "context": "**翻译辅助**：\n\n卡农\n\n卡农卡农"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0035",
     "original": "バニッシュ",
-    "translation": "香草糖",
+    "translation": "放逐",
     "context": "**翻译辅助**：\n\n香草糖\n\n香草"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0036",
     "original": "スタンダードWL",
-    "translation": "标准WL",
+    "translation": "标准车WL",
     "context": "**翻译辅助**：\n\n标准WL"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0037",
     "original": "ゴールド・マンティス",
-    "translation": "goldmantis",
+    "translation": "黄金螳螂",
     "context": "**翻译辅助**：\n\ngoldmantis\n\n金曼蒂斯"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0038",
     "original": "トリッパー",
-    "translation": "tripper",
+    "translation": "三轮",
     "context": "**翻译辅助**：\n\ntripper\n\n跳闸"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0039",
     "original": "スタンダードRB",
-    "translation": "标准RB",
+    "translation": "标准车RB",
     "context": "**翻译辅助**：\n\n标准RB"
   },
   {
