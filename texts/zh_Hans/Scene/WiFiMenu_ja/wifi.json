@@ -68,7 +68,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0012",
     "original": "あいてをさがしています。\nしばらくおまちください。\nごしていの じょうけんでは\n４にん あつまらないかも\nしれません。",
-    "translation": "我在找对象。请稍等。在您指定的条件下，可能无法聚集4个人。\n\n\n\n",
+    "translation": "我在找对象。\n请稍等。\n在您指定的条件下，\n可能无法聚集4个人。",
     "context": "**翻译辅助**：\n\n我在找对象。请稍等。在您指定的条件下，可能无法聚集4个人。  \n  \n  \n  \n\n\n我在找空手。  \n请稍等片刻。  \n在日常的条件下  \n可能不会集中到4。"
   },
   {
@@ -80,19 +80,19 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0014",
     "original": "フレンドリストに　ともだちが\nとうろくされていないので\nたいせんできません。",
-    "translation": "\n因为朋友没有登录到朋友列表\n不能对战。",
+    "translation": "因为朋友\n没有登录到朋友列表\n不能对战。",
     "context": "**翻译辅助**：\n\n  \n因为朋友没有登录到朋友列表  \n不能对战。\n\n朋友名单上没有写朋友，所以很难写。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0015",
     "original": "フレンドリストに\nあきがありません。\nいらないデータを けしてから\nフレンドコードを\nにゅうりょくしてください。",
-    "translation": "\n朋友列表中没有空缺。\n删除不需要的数据后\n请输入好友代码\n",
+    "translation": "朋友列表中没有空缺。\n删除不需要的数据后\n请输入好友代码",
     "context": "**翻译辅助**：\n\n  \n朋友列表中没有空缺。  \n删除不需要的数据后  \n请输入好友代码  \n\n\n朋友列表里没有空。  \n删除不需要的数据后  \n请输入朋友代码。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0016",
     "original": "フレンドリストを\nへんしゅうしますか?",
-    "translation": "\n要编辑好友列表吗？",
+    "translation": "要编辑好友列表吗？",
     "context": "**翻译辅助**：\n\n  \n要编辑好友列表吗？\n\n你要更改好友列表吗？"
   },
   {
@@ -200,19 +200,19 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0034",
     "original": "ＤＳカードにほぞんされている\nWi-Fiユーザじょうほうを\nこうしんしますか？ ",
-    "translation": "您是否想要更新存储在DS卡上的Wi-Fi用户信息？ \n\n",
+    "translation": "您是否想要更新\n存储在DS卡上的\nWi-Fi用户信息？",
     "context": "**翻译辅助**：\n\n您是否想要更新存储在DS卡上的Wi-Fi用户信息？   \n  \n\n\n要更新保存在DS卡上的  \nWi-Fi用户信息吗？"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0035",
     "original": "このゲームでは　あなたの\nフレンドリストは　そのまま\nつかうことができます。",
-    "translation": "在这个游戏中你可以使用你的\n好友列表\n原封不动。",
+    "translation": "在这个游戏中\n你可以使用你的好友列表\n原封不动。",
     "context": "**翻译辅助**：\n\n在这个游戏中你可以使用你的  \n好友列表  \n原封不动。\n\n在这个游戏中你可以直接使用你的好友列表。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0036",
     "original": "ただし　Wi-Fiたいせんで\nともだちとたいせんするには\nもういちど　ともだちの\nフレンドリストにとうろくして\nもらうひつようがあります。",
-    "translation": "但是，在Wi-Fi大战中与朋友对战\n必须再次登录朋友的\n好友列表。\n\n",
+    "translation": "但是，在Wi-Fi大战中\n与朋友对战必须再次登录\n朋友的好友列表。",
     "context": "**翻译辅助**：\n\n但是，在Wi-Fi大战中与朋友对战  \n必须再次登录朋友的  \n好友列表。  \n  \n\n\n但是要想和朋友一起玩Wi-Fi的话，有可能会再次被朋友列入好友名单。"
   },
   {
@@ -248,13 +248,13 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0042",
     "original": "ニンテンドーWi-Fiコネクタに\nせつぞくできません。",
-    "translation": "\n无法连接到任天堂Wi-Fi连接器。",
+    "translation": "无法连接到\n任天堂Wi-Fi连接器。",
     "context": "**翻译辅助**：\n\n  \n无法连接到任天堂Wi-Fi连接器。\n\n无法连接到任天堂Wi-Fi连接器。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0043",
     "original": "「Wi-Fiせってい」で\nニンテンドーWi-Fiコネクタの\nせつぞくを\nごかくにんください。",
-    "translation": "请在“Wi-Fi设置”中确认\n任天堂Wi-Fi连接器的\n连接。\n",
+    "translation": "请在“Wi-Fi设置”中\n确认任天堂Wi-Fi连接器\n的连接。\n",
     "context": "**翻译辅助**：\n\n请在“Wi-Fi设置”中确认  \n任天堂Wi-Fi连接器的  \n连接。  \n\n\n“Wi-Fi请确认任天堂Wi-Fi连接器的连接。"
   },
   {
