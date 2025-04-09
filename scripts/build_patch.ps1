@@ -18,6 +18,7 @@ python scripts\convert_json_to_bmg.py
 python scripts\create_font.py
 python scripts\convert_png_to_ncer.py
 python scripts\convert_png_to_ncgr.py
+python scripts\convert_png_to_nsbmd.py
 
 python scripts\repack_carc.py
 
