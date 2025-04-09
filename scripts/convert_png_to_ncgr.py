@@ -23,7 +23,9 @@ for i, line in enumerate(lines[1:]):
   if not os.path.exists(png_path):
     continue
 
-  colors = nclr_to_imgpal(nclr, palette_index)[:0x30]
+  colors = nclr_to_imgpal(nclr, palette_index)
+  if ncgr.bpp == 4:
+    colors = colors[:0x30]
   palette = Image.new("P", (8, 8))
   palette.putpalette(colors)
 
