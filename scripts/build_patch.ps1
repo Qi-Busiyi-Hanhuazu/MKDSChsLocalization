@@ -27,7 +27,10 @@ python scripts\create_xdelta.py
 
 python scripts\edit_banner.py
 
-New-Item -ItemType Directory -Path "out\data\" -Force | Out-Null
+New-Item -ItemType Directory -Path "out\data\dwc\" -Force | Out-Null
+New-Item -ItemType Directory -Path "out\data\data\dwc\" -Force | Out-Null
+Copy-Item -Path "files\dwc\utility.bin" -Destination "out\data\dwc\utility.bin" -Recurse -Force
+Copy-Item -Path "files\dwc\utility.bin" -Destination "out\data\data\dwc\utility.bin" -Recurse -Force
 
 Compress-Archive -Path "out/data", "out/xdelta/", "out/banner.bin" -Destination "patch-ds.zip" -Force
 Move-Item -Path "patch-ds.zip" -Destination "out/patch-ds.xzp" -Force

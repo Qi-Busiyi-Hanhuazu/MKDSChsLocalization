@@ -2,6 +2,7 @@ import os
 from typing import Callable
 
 from helper import (
+  ADDITIONAL_CHARACTERS,
   DIR_TEMP_IMPORT,
   DIR_TEXT_FILES,
   DIR_UNPACKED_FILES,
@@ -163,7 +164,7 @@ def create_font():
 
     tile = nftr.cglp.tiles[0]
     for chs in characters:
-      if not (chs in characters and (0x4E00 <= ord(chs) <= 0x9FFF or 0x3400 <= ord(chs) <= 0x4DBF)):
+      if not (chs in characters and (0x4E00 <= ord(chs) <= 0x9FFF or chs in ADDITIONAL_CHARACTERS)):
         continue
 
       code += 1
