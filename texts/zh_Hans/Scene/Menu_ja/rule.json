@@ -8,7 +8,7 @@
   {
     "key": "Scene_Menu_ja_rule_0001",
     "original": "COMカート",
-    "translation": "COM购物车",
+    "translation": "COM卡丁车",
     "context": "**翻译辅助**：\n\nCOM购物车\n\nCOM卡特"
   },
   {
@@ -104,43 +104,43 @@
   {
     "key": "Scene_Menu_ja_rule_0017",
     "original": "●かい かったら　かち",
-    "translation": "●买了就赢了",
+    "translation": "胜利次数",
     "context": "**翻译辅助**：\n\n●买了就赢了\n\n●画的话价值"
   },
   {
     "key": "Scene_Menu_ja_rule_0018",
     "original": "●レースの　ポイントすう",
-    "translation": "●比赛点数",
+    "translation": "比赛分数",
     "context": "**翻译辅助**：\n\n●比赛点数\n\n●比赛的分数"
   },
   {
     "key": "Scene_Menu_ja_rule_0019",
     "original": "フリー",
-    "translation": "自由的",
+    "translation": "自由",
     "context": "**翻译辅助**：\n\n自由的\n\n自由"
   },
   {
     "key": "Scene_Menu_ja_rule_0020",
     "original": "ゲームルール　せっていちゅう",
-    "translation": "游戏规则",
+    "translation": "正在设置游戏规则",
     "context": "**翻译辅助**：\n\n游戏规则\n\n游戏规则设置中"
   },
   {
     "key": "Scene_Menu_ja_rule_0021",
     "original": "でチームをえらんでください",
-    "translation": "请用篙划一个队",
+    "translation": "请用选择队伍",
     "context": "**翻译辅助**：\n\n请用篙划一个队\n\n请在选择您的团队"
   },
   {
     "key": "Scene_Menu_ja_rule_0022",
     "original": "[1:ff00]かい かったら　かち",
-    "translation": "[1:ff00]买了就赢",
+    "translation": "胜利[1:ff00]次",
     "context": "**翻译辅助**：\n\n[1:ff00]买了就赢\n\n[1:ff00]开罐价值"
   },
   {
     "key": "Scene_Menu_ja_rule_0023",
     "original": "[1:ff00]レースの ポイントすう",
-    "translation": "[1:ff00]比赛点数",
+    "translation": "[1:ff00]比赛分数",
     "context": "**翻译辅助**：\n\n[1:ff00]比赛点数\n\n[1:ff00]比赛分数"
   }
 ]
