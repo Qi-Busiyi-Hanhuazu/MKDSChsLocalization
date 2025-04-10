@@ -1,0 +1,146 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Menu_ja_rule_0000",
+    "original": "CLASS",
+    "translation": "CLASS"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Menu_ja_rule_0001",
+    "original": "CPU KART",
+    "translation": "CPU KART"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Menu_ja_rule_0002",
+    "original": "COURSE",
+    "translation": "COURSE"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Menu_ja_rule_0003",
+    "original": "RULES",
+    "translation": "RULES"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Menu_ja_rule_0004",
+    "original": "TEAM",
+    "translation": "TEAM"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Menu_ja_rule_0005",
+    "original": "50cc",
+    "translation": "50cc"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Menu_ja_rule_0006",
+    "original": "100cc",
+    "translation": "100cc"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Menu_ja_rule_0007",
+    "original": "150cc",
+    "translation": "150cc"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Menu_ja_rule_0008",
+    "original": "MIRROR",
+    "translation": "MIRROR"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Menu_ja_rule_0009",
+    "original": "ON",
+    "translation": "ON"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Menu_ja_rule_0010",
+    "original": "OFF",
+    "translation": "OFF"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Menu_ja_rule_0011",
+    "original": "EASY",
+    "translation": "EASY"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Menu_ja_rule_0012",
+    "original": "NORMAL",
+    "translation": "NORMAL"
+  },
+  {
+    "index": 13,
+    "key": "Scene_Menu_ja_rule_0013",
+    "original": "HARD",
+    "translation": "HARD"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Menu_ja_rule_0014",
+    "original": "IN ORDER",
+    "translation": "IN ORDER"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Menu_ja_rule_0015",
+    "original": "RANDOM",
+    "translation": "RANDOM"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Menu_ja_rule_0016",
+    "original": "CHOOSE",
+    "translation": "CHOOSE"
+  },
+  {
+    "index": 17,
+    "key": "Scene_Menu_ja_rule_0017",
+    "original": " WIN(S)",
+    "translation": " WIN(S)"
+  },
+  {
+    "index": 18,
+    "key": "Scene_Menu_ja_rule_0018",
+    "original": " RACE(S)",
+    "translation": " RACE(S)"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Menu_ja_rule_0019",
+    "original": "FREE",
+    "translation": "FREE"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Menu_ja_rule_0020",
+    "original": "Setting game rules...",
+    "translation": "Setting game rules..."
+  },
+  {
+    "index": 21,
+    "key": "Scene_Menu_ja_rule_0021",
+    "original": "Use  to choose teams.",
+    "translation": "Use  to choose teams."
+  },
+  {
+    "index": 22,
+    "key": "Scene_Menu_ja_rule_0022",
+    "original": " WIN(S): [1:ff00]",
+    "translation": " WIN(S): [1:ff00]"
+  },
+  {
+    "index": 23,
+    "key": "Scene_Menu_ja_rule_0023",
+    "original": " RACE(S): [1:ff00]",
+    "translation": " RACE(S): [1:ff00]"
+  }
+]

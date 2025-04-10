@@ -1,0 +1,20 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Emblem_ja_emblem_0000",
+    "original": "SAVE & QUIT",
+    "translation": "SAVE & QUIT"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Emblem_ja_emblem_0001",
+    "original": "QUIT WITHOUT SAVING",
+    "translation": "QUIT WITHOUT SAVING"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Emblem_ja_emblem_0002",
+    "original": "CONTINUE",
+    "translation": "CONTINUE"
+  }
+]

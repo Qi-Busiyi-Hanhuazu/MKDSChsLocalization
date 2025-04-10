@@ -1,0 +1,104 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Option_ja_option_0000",
+    "original": "SOUND",
+    "translation": "SOUND"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Option_ja_option_0001",
+    "original": "RUMBLE",
+    "translation": "RUMBLE"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Option_ja_option_0002",
+    "original": "LOCATE FRIEND",
+    "translation": "LOCATE FRIEND"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Option_ja_option_0003",
+    "original": "OK to erase all data?",
+    "translation": "OK to erase all data?"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Option_ja_option_0004",
+    "original": "Once data has been\nerased, it cannot be\nrecovered.\nAre you sure you want\nto erase this data?",
+    "translation": "Once data has been\nerased, it cannot be\nrecovered.\nAre you sure you want\nto erase this data?"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Option_ja_option_0005",
+    "original": "Erasing data...",
+    "translation": "Erasing data..."
+  },
+  {
+    "index": 6,
+    "key": "Scene_Option_ja_option_0006",
+    "original": "All saved data has been\nerased.",
+    "translation": "All saved data has been\nerased."
+  },
+  {
+    "index": 7,
+    "key": "Scene_Option_ja_option_0007",
+    "original": "Saved data could not be\nerased. This Game Card\nhas been damaged and\ncannot be used.",
+    "translation": "Saved data could not be\nerased. This Game Card\nhas been damaged and\ncannot be used."
+  },
+  {
+    "index": 8,
+    "key": "Scene_Option_ja_option_0008",
+    "original": "YOUR EMBLEM",
+    "translation": "YOUR EMBLEM"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Option_ja_option_0009",
+    "original": "Use your emblem on your\nkart.",
+    "translation": "Use your emblem on your\nkart."
+  },
+  {
+    "index": 10,
+    "key": "Scene_Option_ja_option_0010",
+    "original": "Use the original emblem.",
+    "translation": "Use the original emblem."
+  },
+  {
+    "index": 11,
+    "key": "Scene_Option_ja_option_0011",
+    "original": "About Locate Friend...",
+    "translation": "About Locate Friend..."
+  },
+  {
+    "index": 12,
+    "key": "Scene_Option_ja_option_0012",
+    "original": "When Locate Friend is on, the game will\nautomatically search for friends who are\nseeking opponents while you are logged on to\nNintendo Wi-Fi Connection. An icon will appear\nto notify you when a friend has been found.",
+    "translation": "When Locate Friend is on, the game will\nautomatically search for friends who are\nseeking opponents while you are logged on to\nNintendo Wi-Fi Connection. An icon will appear\nto notify you when a friend has been found."
+  },
+  {
+    "index": 13,
+    "key": "Scene_Option_ja_option_0013",
+    "original": "- When people are using\n  PictoChat nearby",
+    "translation": "- When people are using\n  PictoChat nearby"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Option_ja_option_0014",
+    "original": "- When people are playing a\n  VS match nearby",
+    "translation": "- When people are playing a\n  VS match nearby"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Option_ja_option_0015",
+    "original": "- When a Wi-Fi opponent is found\n  if searching for one",
+    "translation": "- When a Wi-Fi opponent is found\n  if searching for one"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Option_ja_option_0016",
+    "original": "Setup complete.",
+    "translation": "Setup complete."
+  }
+]

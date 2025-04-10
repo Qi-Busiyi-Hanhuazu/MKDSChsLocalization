@@ -1,0 +1,254 @@
+[
+  {
+    "index": 0,
+    "key": "CharacterKartSelect_ja_kart_select_0000",
+    "original": "SPEED",
+    "translation": "SPEED"
+  },
+  {
+    "index": 1,
+    "key": "CharacterKartSelect_ja_kart_select_0001",
+    "original": "ACCELERATION",
+    "translation": "ACCELERATION"
+  },
+  {
+    "index": 2,
+    "key": "CharacterKartSelect_ja_kart_select_0002",
+    "original": "WEIGHT",
+    "translation": "WEIGHT"
+  },
+  {
+    "index": 3,
+    "key": "CharacterKartSelect_ja_kart_select_0003",
+    "original": "HANDLING",
+    "translation": "HANDLING"
+  },
+  {
+    "index": 4,
+    "key": "CharacterKartSelect_ja_kart_select_0004",
+    "original": "DRIFT",
+    "translation": "DRIFT"
+  },
+  {
+    "index": 5,
+    "key": "CharacterKartSelect_ja_kart_select_0005",
+    "original": "ITEMS",
+    "translation": "ITEMS"
+  },
+  {
+    "index": 6,
+    "key": "CharacterKartSelect_ja_kart_select_0006",
+    "original": "STANDARD MR",
+    "translation": "STANDARD MR"
+  },
+  {
+    "index": 7,
+    "key": "CharacterKartSelect_ja_kart_select_0007",
+    "original": "SHOOTING STAR",
+    "translation": "SHOOTING STAR"
+  },
+  {
+    "index": 8,
+    "key": "CharacterKartSelect_ja_kart_select_0008",
+    "original": "B DASHER",
+    "translation": "B DASHER"
+  },
+  {
+    "index": 9,
+    "key": "CharacterKartSelect_ja_kart_select_0009",
+    "original": "STANDARD LG",
+    "translation": "STANDARD LG"
+  },
+  {
+    "index": 10,
+    "key": "CharacterKartSelect_ja_kart_select_0010",
+    "original": "POLTERGUST 4000",
+    "translation": "POLTERGUST 4000"
+  },
+  {
+    "index": 11,
+    "key": "CharacterKartSelect_ja_kart_select_0011",
+    "original": "STREAMLINER",
+    "translation": "STREAMLINER"
+  },
+  {
+    "index": 12,
+    "key": "CharacterKartSelect_ja_kart_select_0012",
+    "original": "STANDARD PC",
+    "translation": "STANDARD PC"
+  },
+  {
+    "index": 13,
+    "key": "CharacterKartSelect_ja_kart_select_0013",
+    "original": "LIGHT TRIPPER",
+    "translation": "LIGHT TRIPPER"
+  },
+  {
+    "index": 14,
+    "key": "CharacterKartSelect_ja_kart_select_0014",
+    "original": "ROYALE",
+    "translation": "ROYALE"
+  },
+  {
+    "index": 15,
+    "key": "CharacterKartSelect_ja_kart_select_0015",
+    "original": "STANDARD YS",
+    "translation": "STANDARD YS"
+  },
+  {
+    "index": 16,
+    "key": "CharacterKartSelect_ja_kart_select_0016",
+    "original": "EGG 1",
+    "translation": "EGG 1"
+  },
+  {
+    "index": 17,
+    "key": "CharacterKartSelect_ja_kart_select_0017",
+    "original": "CUCUMBER",
+    "translation": "CUCUMBER"
+  },
+  {
+    "index": 18,
+    "key": "CharacterKartSelect_ja_kart_select_0018",
+    "original": "STANDARD TD",
+    "translation": "STANDARD TD"
+  },
+  {
+    "index": 19,
+    "key": "CharacterKartSelect_ja_kart_select_0019",
+    "original": "MUSHMELLOW",
+    "translation": "MUSHMELLOW"
+  },
+  {
+    "index": 20,
+    "key": "CharacterKartSelect_ja_kart_select_0020",
+    "original": "4-WHEEL CRADLE",
+    "translation": "4-WHEEL CRADLE"
+  },
+  {
+    "index": 21,
+    "key": "CharacterKartSelect_ja_kart_select_0021",
+    "original": "STANDARD DK",
+    "translation": "STANDARD DK"
+  },
+  {
+    "index": 22,
+    "key": "CharacterKartSelect_ja_kart_select_0022",
+    "original": "WILDLIFE",
+    "translation": "WILDLIFE"
+  },
+  {
+    "index": 23,
+    "key": "CharacterKartSelect_ja_kart_select_0023",
+    "original": "RAMBI RIDER",
+    "translation": "RAMBI RIDER"
+  },
+  {
+    "index": 24,
+    "key": "CharacterKartSelect_ja_kart_select_0024",
+    "original": "STANDARD WR",
+    "translation": "STANDARD WR"
+  },
+  {
+    "index": 25,
+    "key": "CharacterKartSelect_ja_kart_select_0025",
+    "original": "BRUTE",
+    "translation": "BRUTE"
+  },
+  {
+    "index": 26,
+    "key": "CharacterKartSelect_ja_kart_select_0026",
+    "original": "DRAGONFLY",
+    "translation": "DRAGONFLY"
+  },
+  {
+    "index": 27,
+    "key": "CharacterKartSelect_ja_kart_select_0027",
+    "original": "STANDARD BW",
+    "translation": "STANDARD BW"
+  },
+  {
+    "index": 28,
+    "key": "CharacterKartSelect_ja_kart_select_0028",
+    "original": "HURRICANE",
+    "translation": "HURRICANE"
+  },
+  {
+    "index": 29,
+    "key": "CharacterKartSelect_ja_kart_select_0029",
+    "original": "TYRANT",
+    "translation": "TYRANT"
+  },
+  {
+    "index": 30,
+    "key": "CharacterKartSelect_ja_kart_select_0030",
+    "original": "STANDARD DS",
+    "translation": "STANDARD DS"
+  },
+  {
+    "index": 31,
+    "key": "CharacterKartSelect_ja_kart_select_0031",
+    "original": "LIGHT DANCER",
+    "translation": "LIGHT DANCER"
+  },
+  {
+    "index": 32,
+    "key": "CharacterKartSelect_ja_kart_select_0032",
+    "original": "POWER FLOWER",
+    "translation": "POWER FLOWER"
+  },
+  {
+    "index": 33,
+    "key": "CharacterKartSelect_ja_kart_select_0033",
+    "original": "STANDARD DB",
+    "translation": "STANDARD DB"
+  },
+  {
+    "index": 34,
+    "key": "CharacterKartSelect_ja_kart_select_0034",
+    "original": "DRY BOMBER",
+    "translation": "DRY BOMBER"
+  },
+  {
+    "index": 35,
+    "key": "CharacterKartSelect_ja_kart_select_0035",
+    "original": "BANISHER",
+    "translation": "BANISHER"
+  },
+  {
+    "index": 36,
+    "key": "CharacterKartSelect_ja_kart_select_0036",
+    "original": "STANDARD WL",
+    "translation": "STANDARD WL"
+  },
+  {
+    "index": 37,
+    "key": "CharacterKartSelect_ja_kart_select_0037",
+    "original": "GOLD MANTIS",
+    "translation": "GOLD MANTIS"
+  },
+  {
+    "index": 38,
+    "key": "CharacterKartSelect_ja_kart_select_0038",
+    "original": "ZIPPER",
+    "translation": "ZIPPER"
+  },
+  {
+    "index": 39,
+    "key": "CharacterKartSelect_ja_kart_select_0039",
+    "original": "STANDARD RB",
+    "translation": "STANDARD RB"
+  },
+  {
+    "index": 40,
+    "key": "CharacterKartSelect_ja_kart_select_0040",
+    "original": "ROB-BLS",
+    "translation": "ROB-BLS"
+  },
+  {
+    "index": 41,
+    "key": "CharacterKartSelect_ja_kart_select_0041",
+    "original": "ROB-LGS",
+    "translation": "ROB-LGS"
+  }
+]

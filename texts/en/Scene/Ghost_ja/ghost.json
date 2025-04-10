@@ -1,0 +1,530 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Ghost_ja_ghost_0000",
+    "original": "SELECT GHOST",
+    "translation": "SELECT GHOST"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Ghost_ja_ghost_0001",
+    "original": "SELECT GHOST HOST",
+    "translation": "SELECT GHOST HOST"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Ghost_ja_ghost_0002",
+    "original": "[255:00000100]Communication Error",
+    "translation": "[255:00000100]Communication Error"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Ghost_ja_ghost_0003",
+    "original": "All save slots are\nfilled. Choose a slot\nto save over.",
+    "translation": "All save slots are\nfilled. Choose a slot\nto save over."
+  },
+  {
+    "index": 4,
+    "key": "Scene_Ghost_ja_ghost_0004",
+    "original": "YES",
+    "translation": "YES"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Ghost_ja_ghost_0005",
+    "original": "NO",
+    "translation": "NO"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Ghost_ja_ghost_0006",
+    "original": "QUIT",
+    "translation": "QUIT"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Ghost_ja_ghost_0007",
+    "original": "BACK",
+    "translation": "BACK"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Ghost_ja_ghost_0008",
+    "original": "Is this data correct?",
+    "translation": "Is this data correct?"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Ghost_ja_ghost_0009",
+    "original": "Awaiting a player to send\nthe data to.",
+    "translation": "Awaiting a player to send\nthe data to."
+  },
+  {
+    "index": 10,
+    "key": "Scene_Ghost_ja_ghost_0010",
+    "original": "Send your ghost data\nto [255:00000100][1:0000][255:00000000]?",
+    "translation": "Send your ghost data\nto [255:00000100][1:0000][255:00000000]?"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Ghost_ja_ghost_0011",
+    "original": "[255:00000100][1:ff00][255:00000000] is\ndownloading ghost data...",
+    "translation": "[255:00000100][1:ff00][255:00000000] is\ndownloading ghost data..."
+  },
+  {
+    "index": 12,
+    "key": "Scene_Ghost_ja_ghost_0012",
+    "original": "[255:00000100][1:ff00] [255:00000000]has\nfinished downloading\nghost data.",
+    "translation": "[255:00000100][1:ff00] [255:00000000]has\nfinished downloading\nghost data."
+  },
+  {
+    "index": 13,
+    "key": "Scene_Ghost_ja_ghost_0013",
+    "original": "[255:00000100]Communication has\nbeen disconnected.",
+    "translation": "[255:00000100]Communication has\nbeen disconnected."
+  },
+  {
+    "index": 14,
+    "key": "Scene_Ghost_ja_ghost_0014",
+    "original": "Is this data correct?",
+    "translation": "Is this data correct?"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Ghost_ja_ghost_0015",
+    "original": "Downloading ghost data...",
+    "translation": "Downloading ghost data..."
+  },
+  {
+    "index": 16,
+    "key": "Scene_Ghost_ja_ghost_0016",
+    "original": "Download of ghost data\ncomplete.",
+    "translation": "Download of ghost data\ncomplete."
+  },
+  {
+    "index": 17,
+    "key": "Scene_Ghost_ja_ghost_0017",
+    "original": "[255:00000100]Communication has been\ndisconnected.\n\nUnable to receive ghost\ndata.",
+    "translation": "[255:00000100]Communication has been\ndisconnected.\n\nUnable to receive ghost\ndata."
+  },
+  {
+    "index": 18,
+    "key": "Scene_Ghost_ja_ghost_0018",
+    "original": "[255:00000100][1:ff00][255:00000000]\nghost data will be\nerased. Once erased, data\ncannot be recovered. OK\nto erase data?",
+    "translation": "[255:00000100][1:ff00][255:00000000]\nghost data will be\nerased. Once erased, data\ncannot be recovered. OK\nto erase data?"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Ghost_ja_ghost_0019",
+    "original": "FIGURE-8 CIRCUIT",
+    "translation": "FIGURE-8 CIRCUIT"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Ghost_ja_ghost_0020",
+    "original": "YOSHI FALLS",
+    "translation": "YOSHI FALLS"
+  },
+  {
+    "index": 21,
+    "key": "Scene_Ghost_ja_ghost_0021",
+    "original": "CHEEP CHEEP BEACH",
+    "translation": "CHEEP CHEEP BEACH"
+  },
+  {
+    "index": 22,
+    "key": "Scene_Ghost_ja_ghost_0022",
+    "original": "LUIGI'S MANSION",
+    "translation": "LUIGI'S MANSION"
+  },
+  {
+    "index": 23,
+    "key": "Scene_Ghost_ja_ghost_0023",
+    "original": "DESERT HILLS",
+    "translation": "DESERT HILLS"
+  },
+  {
+    "index": 24,
+    "key": "Scene_Ghost_ja_ghost_0024",
+    "original": "DELFINO SQUARE",
+    "translation": "DELFINO SQUARE"
+  },
+  {
+    "index": 25,
+    "key": "Scene_Ghost_ja_ghost_0025",
+    "original": "WALUIGI PINBALL",
+    "translation": "WALUIGI PINBALL"
+  },
+  {
+    "index": 26,
+    "key": "Scene_Ghost_ja_ghost_0026",
+    "original": "SHROOM RIDGE",
+    "translation": "SHROOM RIDGE"
+  },
+  {
+    "index": 27,
+    "key": "Scene_Ghost_ja_ghost_0027",
+    "original": "DK PASS",
+    "translation": "DK PASS"
+  },
+  {
+    "index": 28,
+    "key": "Scene_Ghost_ja_ghost_0028",
+    "original": "TICK-TOCK CLOCK",
+    "translation": "TICK-TOCK CLOCK"
+  },
+  {
+    "index": 29,
+    "key": "Scene_Ghost_ja_ghost_0029",
+    "original": "MARIO CIRCUIT",
+    "translation": "MARIO CIRCUIT"
+  },
+  {
+    "index": 30,
+    "key": "Scene_Ghost_ja_ghost_0030",
+    "original": "AIRSHIP FORTRESS",
+    "translation": "AIRSHIP FORTRESS"
+  },
+  {
+    "index": 31,
+    "key": "Scene_Ghost_ja_ghost_0031",
+    "original": "WARIO STADIUM",
+    "translation": "WARIO STADIUM"
+  },
+  {
+    "index": 32,
+    "key": "Scene_Ghost_ja_ghost_0032",
+    "original": "PEACH GARDENS",
+    "translation": "PEACH GARDENS"
+  },
+  {
+    "index": 33,
+    "key": "Scene_Ghost_ja_ghost_0033",
+    "original": "BOWSER CASTLE",
+    "translation": "BOWSER CASTLE"
+  },
+  {
+    "index": 34,
+    "key": "Scene_Ghost_ja_ghost_0034",
+    "original": "RAINBOW ROAD",
+    "translation": "RAINBOW ROAD"
+  },
+  {
+    "index": 35,
+    "key": "Scene_Ghost_ja_ghost_0035",
+    "original": "SNES MARIO CIRCUIT 1",
+    "translation": "SNES MARIO CIRCUIT 1"
+  },
+  {
+    "index": 36,
+    "key": "Scene_Ghost_ja_ghost_0036",
+    "original": "N64 MOO MOO FARM",
+    "translation": "N64 MOO MOO FARM"
+  },
+  {
+    "index": 37,
+    "key": "Scene_Ghost_ja_ghost_0037",
+    "original": "GBA PEACH CIRCUIT",
+    "translation": "GBA PEACH CIRCUIT"
+  },
+  {
+    "index": 38,
+    "key": "Scene_Ghost_ja_ghost_0038",
+    "original": "GCN LUIGI CIRCUIT",
+    "translation": "GCN LUIGI CIRCUIT"
+  },
+  {
+    "index": 39,
+    "key": "Scene_Ghost_ja_ghost_0039",
+    "original": "SNES DONUT PLAINS 1",
+    "translation": "SNES DONUT PLAINS 1"
+  },
+  {
+    "index": 40,
+    "key": "Scene_Ghost_ja_ghost_0040",
+    "original": "N64 FRAPPE SNOWLAND",
+    "translation": "N64 FRAPPE SNOWLAND"
+  },
+  {
+    "index": 41,
+    "key": "Scene_Ghost_ja_ghost_0041",
+    "original": "GBA BOWSER CASTLE 2",
+    "translation": "GBA BOWSER CASTLE 2"
+  },
+  {
+    "index": 42,
+    "key": "Scene_Ghost_ja_ghost_0042",
+    "original": "GCN BABY PARK",
+    "translation": "GCN BABY PARK"
+  },
+  {
+    "index": 43,
+    "key": "Scene_Ghost_ja_ghost_0043",
+    "original": "SNES KOOPA BEACH 2",
+    "translation": "SNES KOOPA BEACH 2"
+  },
+  {
+    "index": 44,
+    "key": "Scene_Ghost_ja_ghost_0044",
+    "original": "N64 CHOCO MOUNTAIN",
+    "translation": "N64 CHOCO MOUNTAIN"
+  },
+  {
+    "index": 45,
+    "key": "Scene_Ghost_ja_ghost_0045",
+    "original": "GBA LUIGI CIRCUIT",
+    "translation": "GBA LUIGI CIRCUIT"
+  },
+  {
+    "index": 46,
+    "key": "Scene_Ghost_ja_ghost_0046",
+    "original": "GCN MUSHROOM BRIDGE",
+    "translation": "GCN MUSHROOM BRIDGE"
+  },
+  {
+    "index": 47,
+    "key": "Scene_Ghost_ja_ghost_0047",
+    "original": "SNES CHOCO ISLAND 2",
+    "translation": "SNES CHOCO ISLAND 2"
+  },
+  {
+    "index": 48,
+    "key": "Scene_Ghost_ja_ghost_0048",
+    "original": "N64 BANSHEE BOARDWALK",
+    "translation": "N64 BANSHEE BOARDWALK"
+  },
+  {
+    "index": 49,
+    "key": "Scene_Ghost_ja_ghost_0049",
+    "original": "GBA SKY GARDEN",
+    "translation": "GBA SKY GARDEN"
+  },
+  {
+    "index": 50,
+    "key": "Scene_Ghost_ja_ghost_0050",
+    "original": "GCN YOSHI CIRCUIT",
+    "translation": "GCN YOSHI CIRCUIT"
+  },
+  {
+    "index": 51,
+    "key": "Scene_Ghost_ja_ghost_0051",
+    "original": "FIGURE-8 CIRCUIT",
+    "translation": "FIGURE-8 CIRCUIT"
+  },
+  {
+    "index": 52,
+    "key": "Scene_Ghost_ja_ghost_0052",
+    "original": "YOSHI FALLS",
+    "translation": "YOSHI FALLS"
+  },
+  {
+    "index": 53,
+    "key": "Scene_Ghost_ja_ghost_0053",
+    "original": "CHEEP CHEEP BEACH",
+    "translation": "CHEEP CHEEP BEACH"
+  },
+  {
+    "index": 54,
+    "key": "Scene_Ghost_ja_ghost_0054",
+    "original": "LUIGI'S MANSION",
+    "translation": "LUIGI'S MANSION"
+  },
+  {
+    "index": 55,
+    "key": "Scene_Ghost_ja_ghost_0055",
+    "original": "DESERT HILLS",
+    "translation": "DESERT HILLS"
+  },
+  {
+    "index": 56,
+    "key": "Scene_Ghost_ja_ghost_0056",
+    "original": "DELFINO SQUARE",
+    "translation": "DELFINO SQUARE"
+  },
+  {
+    "index": 57,
+    "key": "Scene_Ghost_ja_ghost_0057",
+    "original": "WALUIGI PINBALL",
+    "translation": "WALUIGI PINBALL"
+  },
+  {
+    "index": 58,
+    "key": "Scene_Ghost_ja_ghost_0058",
+    "original": "SHROOM RIDGE",
+    "translation": "SHROOM RIDGE"
+  },
+  {
+    "index": 59,
+    "key": "Scene_Ghost_ja_ghost_0059",
+    "original": "DK PASS",
+    "translation": "DK PASS"
+  },
+  {
+    "index": 60,
+    "key": "Scene_Ghost_ja_ghost_0060",
+    "original": "TICK-TOCK CLOCK",
+    "translation": "TICK-TOCK CLOCK"
+  },
+  {
+    "index": 61,
+    "key": "Scene_Ghost_ja_ghost_0061",
+    "original": "MARIO CIRCUIT",
+    "translation": "MARIO CIRCUIT"
+  },
+  {
+    "index": 62,
+    "key": "Scene_Ghost_ja_ghost_0062",
+    "original": "AIRSHIP FORTRESS",
+    "translation": "AIRSHIP FORTRESS"
+  },
+  {
+    "index": 63,
+    "key": "Scene_Ghost_ja_ghost_0063",
+    "original": "WARIO STADIUM",
+    "translation": "WARIO STADIUM"
+  },
+  {
+    "index": 64,
+    "key": "Scene_Ghost_ja_ghost_0064",
+    "original": "PEACH GARDENS",
+    "translation": "PEACH GARDENS"
+  },
+  {
+    "index": 65,
+    "key": "Scene_Ghost_ja_ghost_0065",
+    "original": "BOWSER CASTLE",
+    "translation": "BOWSER CASTLE"
+  },
+  {
+    "index": 66,
+    "key": "Scene_Ghost_ja_ghost_0066",
+    "original": "RAINBOW ROAD",
+    "translation": "RAINBOW ROAD"
+  },
+  {
+    "index": 67,
+    "key": "Scene_Ghost_ja_ghost_0067",
+    "original": "SNES MARIO CIRCUIT 1",
+    "translation": "SNES MARIO CIRCUIT 1"
+  },
+  {
+    "index": 68,
+    "key": "Scene_Ghost_ja_ghost_0068",
+    "original": "N64 MOO MOO FARM",
+    "translation": "N64 MOO MOO FARM"
+  },
+  {
+    "index": 69,
+    "key": "Scene_Ghost_ja_ghost_0069",
+    "original": "GBA PEACH CIRCUIT",
+    "translation": "GBA PEACH CIRCUIT"
+  },
+  {
+    "index": 70,
+    "key": "Scene_Ghost_ja_ghost_0070",
+    "original": "GCN LUIGI CIRCUIT",
+    "translation": "GCN LUIGI CIRCUIT"
+  },
+  {
+    "index": 71,
+    "key": "Scene_Ghost_ja_ghost_0071",
+    "original": "SNES DONUT PLAINS 1",
+    "translation": "SNES DONUT PLAINS 1"
+  },
+  {
+    "index": 72,
+    "key": "Scene_Ghost_ja_ghost_0072",
+    "original": "N64 FRAPPE SNOWLAND",
+    "translation": "N64 FRAPPE SNOWLAND"
+  },
+  {
+    "index": 73,
+    "key": "Scene_Ghost_ja_ghost_0073",
+    "original": "GBA BOWSER CASTLE 2",
+    "translation": "GBA BOWSER CASTLE 2"
+  },
+  {
+    "index": 74,
+    "key": "Scene_Ghost_ja_ghost_0074",
+    "original": "GCN BABY PARK",
+    "translation": "GCN BABY PARK"
+  },
+  {
+    "index": 75,
+    "key": "Scene_Ghost_ja_ghost_0075",
+    "original": "SNES KOOPA BEACH 2",
+    "translation": "SNES KOOPA BEACH 2"
+  },
+  {
+    "index": 76,
+    "key": "Scene_Ghost_ja_ghost_0076",
+    "original": "N64 CHOCO MOUNTAIN",
+    "translation": "N64 CHOCO MOUNTAIN"
+  },
+  {
+    "index": 77,
+    "key": "Scene_Ghost_ja_ghost_0077",
+    "original": "GBA LUIGI CIRCUIT",
+    "translation": "GBA LUIGI CIRCUIT"
+  },
+  {
+    "index": 78,
+    "key": "Scene_Ghost_ja_ghost_0078",
+    "original": "GCN MUSHROOM BRIDGE",
+    "translation": "GCN MUSHROOM BRIDGE"
+  },
+  {
+    "index": 79,
+    "key": "Scene_Ghost_ja_ghost_0079",
+    "original": "SNES CHOCO ISLAND 2",
+    "translation": "SNES CHOCO ISLAND 2"
+  },
+  {
+    "index": 80,
+    "key": "Scene_Ghost_ja_ghost_0080",
+    "original": "N64 BANSHEE BOARDWALK",
+    "translation": "N64 BANSHEE BOARDWALK"
+  },
+  {
+    "index": 81,
+    "key": "Scene_Ghost_ja_ghost_0081",
+    "original": "GBA SKY GARDEN",
+    "translation": "GBA SKY GARDEN"
+  },
+  {
+    "index": 82,
+    "key": "Scene_Ghost_ja_ghost_0082",
+    "original": "GCN YOSHI CIRCUIT",
+    "translation": "GCN YOSHI CIRCUIT"
+  },
+  {
+    "index": 83,
+    "key": "Scene_Ghost_ja_ghost_0083",
+    "original": "You have no ghost data\nto send.",
+    "translation": "You have no ghost data\nto send."
+  },
+  {
+    "index": 84,
+    "key": "Scene_Ghost_ja_ghost_0084",
+    "original": "Ghost save cancelled.",
+    "translation": "Ghost save cancelled."
+  },
+  {
+    "index": 85,
+    "key": "Scene_Ghost_ja_ghost_0085",
+    "original": "There is already a ghost\ndownload saved to\n[255:00000100][1:ff00][255:00000000].\n\nOverwrite?",
+    "translation": "There is already a ghost\ndownload saved to\n[255:00000100][1:ff00][255:00000000].\n\nOverwrite?"
+  },
+  {
+    "index": 86,
+    "key": "Scene_Ghost_ja_ghost_0086",
+    "original": "MY GHOST DATA",
+    "translation": "MY GHOST DATA"
+  },
+  {
+    "index": 87,
+    "key": "Scene_Ghost_ja_ghost_0087",
+    "original": "DOWNLOADED GHOST DATA",
+    "translation": "DOWNLOADED GHOST DATA"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Menu_ja_mission_0000",
+    "original": "Drive through all [255:00000100]5[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]5[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Menu_ja_mission_0001",
+    "original": "Collect all [255:00000100]15[255:00000000] [255:00000100]coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]15[255:00000000] [255:00000100]coins[255:00000000]!"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Menu_ja_mission_0002",
+    "original": "Destroy all [255:00000100]10 item boxes[255:00000000]!",
+    "translation": "Destroy all [255:00000100]10 item boxes[255:00000000]!"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Menu_ja_mission_0003",
+    "original": "Get the Star and use it to\nhit [255:00000100]5[255:00000000] [255:00000100]Cheep Cheeps[255:00000000]!",
+    "translation": "Get the Star and use it to\nhit [255:00000100]5[255:00000000] [255:00000100]Cheep Cheeps[255:00000000]!"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Menu_ja_mission_0004",
+    "original": "Drive through all [255:00000100]6[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]6[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Menu_ja_mission_0005",
+    "original": "Drive out of the mansion...\n[255:00000100]backward[255:00000000]!",
+    "translation": "Drive out of the mansion...\n[255:00000100]backward[255:00000000]!"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Menu_ja_mission_0006",
+    "original": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Menu_ja_mission_0007",
+    "original": "Perform [255:00000100]4 power-slide\nturbo boosts [255:00000000]in [255:00000100]1 lap[255:00000000]!",
+    "translation": "Perform [255:00000100]4 power-slide\nturbo boosts [255:00000000]in [255:00000100]1 lap[255:00000000]!"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Menu_ja_mission_0008",
+    "original": "Use Mushrooms to crash\ninto the Big Bully and\n[255:00000100]knock him off the stage[255:00000000]!",
+    "translation": "Use Mushrooms to crash\ninto the Big Bully and\n[255:00000100]knock him off the stage[255:00000000]!"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Menu_ja_mission_0009",
+    "original": "Crash into all [255:00000100]10 wooden\ncrates[255:00000000] and destroy every\none!",
+    "translation": "Crash into all [255:00000100]10 wooden\ncrates[255:00000000] and destroy every\none!"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Menu_ja_mission_0010",
+    "original": "Collect all [255:00000100]10 coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]10 coins[255:00000000]!"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Menu_ja_mission_0011",
+    "original": "Drive through all [255:00000100]8\nnumbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]8\nnumbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Menu_ja_mission_0012",
+    "original": "Destroy all [255:00000100]5[255:00000000] [255:00000100]item boxes[255:00000000]!",
+    "translation": "Destroy all [255:00000100]5[255:00000000] [255:00000100]item boxes[255:00000000]!"
+  },
+  {
+    "index": 13,
+    "key": "Scene_Menu_ja_mission_0013",
+    "original": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Menu_ja_mission_0014",
+    "original": "Use Bob-ombs to destroy\nall [255:00000100]5 Pokeys[255:00000000]!",
+    "translation": "Use Bob-ombs to destroy\nall [255:00000100]5 Pokeys[255:00000000]!"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Menu_ja_mission_0015",
+    "original": "Drive through all [255:00000100]10[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]10[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Menu_ja_mission_0016",
+    "original": "Perform [255:00000100]6[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts [255:00000000]in [255:00000100]3 laps[255:00000000]!",
+    "translation": "Perform [255:00000100]6[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts [255:00000000]in [255:00000100]3 laps[255:00000000]!"
+  },
+  {
+    "index": 17,
+    "key": "Scene_Menu_ja_mission_0017",
+    "original": "Hit the Eyerok's eyeball\n[255:00000100]3 times[255:00000000] with shells!",
+    "translation": "Hit the Eyerok's eyeball\n[255:00000100]3 times[255:00000000] with shells!"
+  },
+  {
+    "index": 18,
+    "key": "Scene_Menu_ja_mission_0018",
+    "original": "Drive through all [255:00000100]5[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]5[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Menu_ja_mission_0019",
+    "original": "Hit Monty Moles with shells\n[255:00000100]5 times[255:00000000]!",
+    "translation": "Hit Monty Moles with shells\n[255:00000100]5 times[255:00000000]!"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Menu_ja_mission_0020",
+    "original": "Destroy all [255:00000100]5 item boxes[255:00000000]!",
+    "translation": "Destroy all [255:00000100]5 item boxes[255:00000000]!"
+  },
+  {
+    "index": 21,
+    "key": "Scene_Menu_ja_mission_0021",
+    "original": "Collect all [255:00000100]15[255:00000000] [255:00000100]coins [255:00000000]while\navoiding the Chain Chomp!",
+    "translation": "Collect all [255:00000100]15[255:00000000] [255:00000100]coins [255:00000000]while\navoiding the Chain Chomp!"
+  },
+  {
+    "index": 22,
+    "key": "Scene_Menu_ja_mission_0022",
+    "original": "Drive through all [255:00000100]5\nnumbered gates[255:00000000] in order...\n[255:00000100]backward[255:00000000]!",
+    "translation": "Drive through all [255:00000100]5\nnumbered gates[255:00000000] in order...\n[255:00000100]backward[255:00000000]!"
+  },
+  {
+    "index": 23,
+    "key": "Scene_Menu_ja_mission_0023",
+    "original": "Reach the finish before\n[255:00000100]Yoshi[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Yoshi[255:00000000]!"
+  },
+  {
+    "index": 24,
+    "key": "Scene_Menu_ja_mission_0024",
+    "original": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!"
+  },
+  {
+    "index": 25,
+    "key": "Scene_Menu_ja_mission_0025",
+    "original": "Perform [255:00000100]10[255:00000000] [255:00000100]power-slide\nturbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!",
+    "translation": "Perform [255:00000100]10[255:00000000] [255:00000100]power-slide\nturbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!"
+  },
+  {
+    "index": 26,
+    "key": "Scene_Menu_ja_mission_0026",
+    "original": "Reach the finish before\n[255:00000100]Goomboss[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Goomboss[255:00000000]!"
+  },
+  {
+    "index": 27,
+    "key": "Scene_Menu_ja_mission_0027",
+    "original": "Reach the finish before\n[255:00000100]Donkey Kong[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Donkey Kong[255:00000000]!"
+  },
+  {
+    "index": 28,
+    "key": "Scene_Menu_ja_mission_0028",
+    "original": "Blast [255:00000100]20 crabs[255:00000000]!",
+    "translation": "Blast [255:00000100]20 crabs[255:00000000]!"
+  },
+  {
+    "index": 29,
+    "key": "Scene_Menu_ja_mission_0029",
+    "original": "Reach the finish before\nthe [255:00000100]red car[255:00000000]!",
+    "translation": "Reach the finish before\nthe [255:00000100]red car[255:00000000]!"
+  },
+  {
+    "index": 30,
+    "key": "Scene_Menu_ja_mission_0030",
+    "original": "Drive through all [255:00000100]7\nnumbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]7\nnumbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 31,
+    "key": "Scene_Menu_ja_mission_0031",
+    "original": "Collect all [255:00000100]15 coins[255:00000000]. If you\nget squished by a Thwomp,\nyou fail!",
+    "translation": "Collect all [255:00000100]15 coins[255:00000000]. If you\nget squished by a Thwomp,\nyou fail!"
+  },
+  {
+    "index": 32,
+    "key": "Scene_Menu_ja_mission_0032",
+    "original": "Break all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]\nwhile avoiding the Fake\nItems!",
+    "translation": "Break all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]\nwhile avoiding the Fake\nItems!"
+  },
+  {
+    "index": 33,
+    "key": "Scene_Menu_ja_mission_0033",
+    "original": "Drive through all [255:00000100]10 gates[255:00000000]!",
+    "translation": "Drive through all [255:00000100]10 gates[255:00000000]!"
+  },
+  {
+    "index": 34,
+    "key": "Scene_Menu_ja_mission_0034",
+    "original": "Perform [255:00000100]9 power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!",
+    "translation": "Perform [255:00000100]9 power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!"
+  },
+  {
+    "index": 35,
+    "key": "Scene_Menu_ja_mission_0035",
+    "original": "Collect [255:00000100]50 coins[255:00000000] while\navoiding King Boo!",
+    "translation": "Collect [255:00000100]50 coins[255:00000000] while\navoiding King Boo!"
+  },
+  {
+    "index": 36,
+    "key": "Scene_Menu_ja_mission_0036",
+    "original": "Complete [255:00000100]1 lap[255:00000000] in the\nopposite direction within\nthe time limit!\n",
+    "translation": "Complete [255:00000100]1 lap[255:00000000] in the\nopposite direction within\nthe time limit!\n"
+  },
+  {
+    "index": 37,
+    "key": "Scene_Menu_ja_mission_0037",
+    "original": "Reach the finish before\nthe [255:00000100]stray Chain Chomp[255:00000000]!",
+    "translation": "Reach the finish before\nthe [255:00000100]stray Chain Chomp[255:00000000]!"
+  },
+  {
+    "index": 38,
+    "key": "Scene_Menu_ja_mission_0038",
+    "original": "Destroy all [255:00000100]5[255:00000000] [255:00000100]item boxes[255:00000000]!",
+    "translation": "Destroy all [255:00000100]5[255:00000000] [255:00000100]item boxes[255:00000000]!"
+  },
+  {
+    "index": 39,
+    "key": "Scene_Menu_ja_mission_0039",
+    "original": "Drive through all [255:00000100]10[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]10[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 40,
+    "key": "Scene_Menu_ja_mission_0040",
+    "original": "Drive [255:00000100]backward[255:00000000] and collect[255:00000100]\n15[255:00000000] [255:00000100]coins[255:00000000]! If you hit a\nsnowman, you fail!",
+    "translation": "Drive [255:00000100]backward[255:00000000] and collect[255:00000100]\n15[255:00000000] [255:00000100]coins[255:00000000]! If you hit a\nsnowman, you fail!"
+  },
+  {
+    "index": 41,
+    "key": "Scene_Menu_ja_mission_0041",
+    "original": "Collect all [255:00000100]18 coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]18 coins[255:00000000]!"
+  },
+  {
+    "index": 42,
+    "key": "Scene_Menu_ja_mission_0042",
+    "original": "Drive through all [255:00000100]8\nnumbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]8\nnumbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 43,
+    "key": "Scene_Menu_ja_mission_0043",
+    "original": "Reach the finish before\n[255:00000100]Mario[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Mario[255:00000000]!"
+  },
+  {
+    "index": 44,
+    "key": "Scene_Menu_ja_mission_0044",
+    "original": "Hit the Big Bob-omb with\n[255:00000100]3 Bob-ombs[255:00000000]!",
+    "translation": "Hit the Big Bob-omb with\n[255:00000100]3 Bob-ombs[255:00000000]!"
+  },
+  {
+    "index": 45,
+    "key": "Scene_Menu_ja_mission_0045",
+    "original": "Drive [255:00000100]backward[255:00000000] across\nthe spinning bridge!\nIf you fall, you're out!",
+    "translation": "Drive [255:00000100]backward[255:00000000] across\nthe spinning bridge!\nIf you fall, you're out!"
+  },
+  {
+    "index": 46,
+    "key": "Scene_Menu_ja_mission_0046",
+    "original": "Drive through all [255:00000100]8[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]8[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 47,
+    "key": "Scene_Menu_ja_mission_0047",
+    "original": "Collect all [255:00000100]30 coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]30 coins[255:00000000]!"
+  },
+  {
+    "index": 48,
+    "key": "Scene_Menu_ja_mission_0048",
+    "original": "Destroy all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]!",
+    "translation": "Destroy all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]!"
+  },
+  {
+    "index": 49,
+    "key": "Scene_Menu_ja_mission_0049",
+    "original": "Reach the finish before\n[255:00000100]Peach[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Peach[255:00000000]!"
+  },
+  {
+    "index": 50,
+    "key": "Scene_Menu_ja_mission_0050",
+    "original": "Collect all [255:00000100]40 coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]40 coins[255:00000000]!"
+  },
+  {
+    "index": 51,
+    "key": "Scene_Menu_ja_mission_0051",
+    "original": "Get Stars and run over\n[255:00000100]15 Rocky Wrenches[255:00000000]!",
+    "translation": "Get Stars and run over\n[255:00000100]15 Rocky Wrenches[255:00000000]!"
+  },
+  {
+    "index": 52,
+    "key": "Scene_Menu_ja_mission_0052",
+    "original": "Perform [255:00000100]14[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!",
+    "translation": "Perform [255:00000100]14[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!"
+  },
+  {
+    "index": 53,
+    "key": "Scene_Menu_ja_mission_0053",
+    "original": "Use Mushroom boosts to\nhit Chief Chilly and [255:00000100]knock\nhim off the stage 3 times[255:00000000]!",
+    "translation": "Use Mushroom boosts to\nhit Chief Chilly and [255:00000100]knock\nhim off the stage 3 times[255:00000000]!"
+  },
+  {
+    "index": 54,
+    "key": "Scene_Menu_ja_mission_0054",
+    "original": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!",
+    "translation": "Collect all [255:00000100]20[255:00000000] [255:00000100]coins[255:00000000]!"
+  },
+  {
+    "index": 55,
+    "key": "Scene_Menu_ja_mission_0055",
+    "original": "Break all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]\nwhile avoiding the Fake\nItems!",
+    "translation": "Break all [255:00000100]10[255:00000000] [255:00000100]item boxes[255:00000000]\nwhile avoiding the Fake\nItems!"
+  },
+  {
+    "index": 56,
+    "key": "Scene_Menu_ja_mission_0056",
+    "original": "Complete [255:00000100]2 laps[255:00000000] within the\ntime limit!",
+    "translation": "Complete [255:00000100]2 laps[255:00000000] within the\ntime limit!"
+  },
+  {
+    "index": 57,
+    "key": "Scene_Menu_ja_mission_0057",
+    "original": "Drive [255:00000100]backward[255:00000000] and collect\nall [255:00000100]12 coins[255:00000000]! If you hit a\nburner, you fail!",
+    "translation": "Drive [255:00000100]backward[255:00000000] and collect\nall [255:00000100]12 coins[255:00000000]! If you hit a\nburner, you fail!"
+  },
+  {
+    "index": 58,
+    "key": "Scene_Menu_ja_mission_0058",
+    "original": "Use shells to defeat all\n[255:00000100]30 Goombas[255:00000000] within the time\nlimit!",
+    "translation": "Use shells to defeat all\n[255:00000100]30 Goombas[255:00000000] within the time\nlimit!"
+  },
+  {
+    "index": 59,
+    "key": "Scene_Menu_ja_mission_0059",
+    "original": "Drive through all [255:00000100]8[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!",
+    "translation": "Drive through all [255:00000100]8[255:00000000]\n[255:00000100]numbered gates[255:00000000] in order!"
+  },
+  {
+    "index": 60,
+    "key": "Scene_Menu_ja_mission_0060",
+    "original": "Perform [255:00000100]6[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!",
+    "translation": "Perform [255:00000100]6[255:00000000] [255:00000100]power-slide[255:00000000]\n[255:00000100]turbo boosts[255:00000000] in [255:00000100]1 lap[255:00000000]!"
+  },
+  {
+    "index": 61,
+    "key": "Scene_Menu_ja_mission_0061",
+    "original": "Reach the finish before\n[255:00000100]Bowser[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Bowser[255:00000000]!"
+  },
+  {
+    "index": 62,
+    "key": "Scene_Menu_ja_mission_0062",
+    "original": "Reach the finish before\n[255:00000100]Wiggler[255:00000000]!",
+    "translation": "Reach the finish before\n[255:00000100]Wiggler[255:00000000]!"
+  }
+]

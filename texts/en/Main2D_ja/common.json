@@ -1,0 +1,842 @@
+[
+  {
+    "index": 0,
+    "key": "Main2D_ja_common_0000",
+    "original": "YES",
+    "translation": "YES"
+  },
+  {
+    "index": 1,
+    "key": "Main2D_ja_common_0001",
+    "original": "NO",
+    "translation": "NO"
+  },
+  {
+    "index": 2,
+    "key": "Main2D_ja_common_0002",
+    "original": "BACK",
+    "translation": "BACK"
+  },
+  {
+    "index": 3,
+    "key": "Main2D_ja_common_0003",
+    "original": "CONFIRM",
+    "translation": "CONFIRM"
+  },
+  {
+    "index": 4,
+    "key": "Main2D_ja_common_0004",
+    "original": "OK",
+    "translation": "OK"
+  },
+  {
+    "index": 5,
+    "key": "Main2D_ja_common_0005",
+    "original": "CANCEL",
+    "translation": "CANCEL"
+  },
+  {
+    "index": 6,
+    "key": "Main2D_ja_common_0006",
+    "original": "NEXT",
+    "translation": "NEXT"
+  },
+  {
+    "index": 7,
+    "key": "Main2D_ja_common_0007",
+    "original": "Enter a friend code.",
+    "translation": "Enter a friend code."
+  },
+  {
+    "index": 8,
+    "key": "Main2D_ja_common_0008",
+    "original": "Enter a temporary\nname. The correct name\nwill be entered once\nregistered in your\nfriend roster.",
+    "translation": "Enter a temporary\nname. The correct name\nwill be entered once\nregistered in your\nfriend roster."
+  },
+  {
+    "index": 9,
+    "key": "Main2D_ja_common_0009",
+    "original": "This friend code has\nbeen registered.",
+    "translation": "This friend code has\nbeen registered."
+  },
+  {
+    "index": 10,
+    "key": "Main2D_ja_common_0010",
+    "original": "This friend code is\nincorrect.",
+    "translation": "This friend code is\nincorrect."
+  },
+  {
+    "index": 11,
+    "key": "Main2D_ja_common_0011",
+    "original": "This friend code has\nalready been registered.",
+    "translation": "This friend code has\nalready been registered."
+  },
+  {
+    "index": 12,
+    "key": "Main2D_ja_common_0012",
+    "original": "Is the nickname\n[255:00000100][1:0a00]\n[255:00000000]correct? This name can\nbe edited later in\nthe options menu.",
+    "translation": "Is the nickname\n[255:00000100][1:0a00]\n[255:00000000]correct? This name can\nbe edited later in\nthe options menu."
+  },
+  {
+    "index": 13,
+    "key": "Main2D_ja_common_0013",
+    "original": "During races,\n[255:00000100][1:0b00]\n[255:00000000]will appear on-screen.\nIs this OK?",
+    "translation": "During races,\n[255:00000100][1:0b00]\n[255:00000000]will appear on-screen.\nIs this OK?"
+  },
+  {
+    "index": 14,
+    "key": "Main2D_ja_common_0014",
+    "original": "During races,\n[255:00000100][1:ff00]\n[255:00000000]will appear on-screen.\nIs this OK?",
+    "translation": "During races,\n[255:00000100][1:ff00]\n[255:00000000]will appear on-screen.\nIs this OK?"
+  },
+  {
+    "index": 15,
+    "key": "Main2D_ja_common_0015",
+    "original": "Please enter a nickname.",
+    "translation": "Please enter a nickname."
+  },
+  {
+    "index": 16,
+    "key": "Main2D_ja_common_0016",
+    "original": "The nickname has been\nregistered.",
+    "translation": "The nickname has been\nregistered."
+  },
+  {
+    "index": 17,
+    "key": "Main2D_ja_common_0017",
+    "original": "Is this correct?",
+    "translation": "Is this correct?"
+  },
+  {
+    "index": 18,
+    "key": "Main2D_ja_common_0018",
+    "original": "Registration complete.",
+    "translation": "Registration complete."
+  },
+  {
+    "index": 19,
+    "key": "Main2D_ja_common_0019",
+    "original": "Create a custom emblem?\n\nEmblems can also be\nedited later in the\noptions menu.",
+    "translation": "Create a custom emblem?\n\nEmblems can also be\nedited later in the\noptions menu."
+  },
+  {
+    "index": 20,
+    "key": "Main2D_ja_common_0020",
+    "original": "MARIO",
+    "translation": "MARIO"
+  },
+  {
+    "index": 21,
+    "key": "Main2D_ja_common_0021",
+    "original": "LUIGI",
+    "translation": "LUIGI"
+  },
+  {
+    "index": 22,
+    "key": "Main2D_ja_common_0022",
+    "original": "PEACH",
+    "translation": "PEACH"
+  },
+  {
+    "index": 23,
+    "key": "Main2D_ja_common_0023",
+    "original": "YOSHI",
+    "translation": "YOSHI"
+  },
+  {
+    "index": 24,
+    "key": "Main2D_ja_common_0024",
+    "original": "TOAD",
+    "translation": "TOAD"
+  },
+  {
+    "index": 25,
+    "key": "Main2D_ja_common_0025",
+    "original": "DK",
+    "translation": "DK"
+  },
+  {
+    "index": 26,
+    "key": "Main2D_ja_common_0026",
+    "original": "WARIO",
+    "translation": "WARIO"
+  },
+  {
+    "index": 27,
+    "key": "Main2D_ja_common_0027",
+    "original": "BOWSER",
+    "translation": "BOWSER"
+  },
+  {
+    "index": 28,
+    "key": "Main2D_ja_common_0028",
+    "original": "DAISY",
+    "translation": "DAISY"
+  },
+  {
+    "index": 29,
+    "key": "Main2D_ja_common_0029",
+    "original": "DRY BONES",
+    "translation": "DRY BONES"
+  },
+  {
+    "index": 30,
+    "key": "Main2D_ja_common_0030",
+    "original": "WALUIGI",
+    "translation": "WALUIGI"
+  },
+  {
+    "index": 31,
+    "key": "Main2D_ja_common_0031",
+    "original": "R.O.B.",
+    "translation": "R.O.B."
+  },
+  {
+    "index": 32,
+    "key": "Main2D_ja_common_0032",
+    "original": "SHY GUY",
+    "translation": "SHY GUY"
+  },
+  {
+    "index": 33,
+    "key": "Main2D_ja_common_0033",
+    "original": "DONKEY KONG",
+    "translation": "DONKEY KONG"
+  },
+  {
+    "index": 34,
+    "key": "Main2D_ja_common_0034",
+    "original": "DRY BONES",
+    "translation": "DRY BONES"
+  },
+  {
+    "index": 35,
+    "key": "Main2D_ja_common_0035",
+    "original": "NITRO GRAND PRIX",
+    "translation": "NITRO GRAND PRIX"
+  },
+  {
+    "index": 36,
+    "key": "Main2D_ja_common_0036",
+    "original": "RETRO GRAND PRIX",
+    "translation": "RETRO GRAND PRIX"
+  },
+  {
+    "index": 37,
+    "key": "Main2D_ja_common_0037",
+    "original": "MUSHROOM CUP",
+    "translation": "MUSHROOM CUP"
+  },
+  {
+    "index": 38,
+    "key": "Main2D_ja_common_0038",
+    "original": "FLOWER CUP",
+    "translation": "FLOWER CUP"
+  },
+  {
+    "index": 39,
+    "key": "Main2D_ja_common_0039",
+    "original": "STAR CUP",
+    "translation": "STAR CUP"
+  },
+  {
+    "index": 40,
+    "key": "Main2D_ja_common_0040",
+    "original": "SPECIAL CUP",
+    "translation": "SPECIAL CUP"
+  },
+  {
+    "index": 41,
+    "key": "Main2D_ja_common_0041",
+    "original": "SHELL CUP",
+    "translation": "SHELL CUP"
+  },
+  {
+    "index": 42,
+    "key": "Main2D_ja_common_0042",
+    "original": "BANANA CUP",
+    "translation": "BANANA CUP"
+  },
+  {
+    "index": 43,
+    "key": "Main2D_ja_common_0043",
+    "original": "LEAF CUP",
+    "translation": "LEAF CUP"
+  },
+  {
+    "index": 44,
+    "key": "Main2D_ja_common_0044",
+    "original": "LIGHTNING CUP",
+    "translation": "LIGHTNING CUP"
+  },
+  {
+    "index": 45,
+    "key": "Main2D_ja_common_0045",
+    "original": "FIGURE-8 CIRCUIT",
+    "translation": "FIGURE-8 CIRCUIT"
+  },
+  {
+    "index": 46,
+    "key": "Main2D_ja_common_0046",
+    "original": "YOSHI FALLS",
+    "translation": "YOSHI FALLS"
+  },
+  {
+    "index": 47,
+    "key": "Main2D_ja_common_0047",
+    "original": "CHEEP CHEEP BEACH",
+    "translation": "CHEEP CHEEP BEACH"
+  },
+  {
+    "index": 48,
+    "key": "Main2D_ja_common_0048",
+    "original": "LUIGI'S MANSION",
+    "translation": "LUIGI'S MANSION"
+  },
+  {
+    "index": 49,
+    "key": "Main2D_ja_common_0049",
+    "original": "DESERT HILLS",
+    "translation": "DESERT HILLS"
+  },
+  {
+    "index": 50,
+    "key": "Main2D_ja_common_0050",
+    "original": "DELFINO SQUARE",
+    "translation": "DELFINO SQUARE"
+  },
+  {
+    "index": 51,
+    "key": "Main2D_ja_common_0051",
+    "original": "WALUIGI PINBALL",
+    "translation": "WALUIGI PINBALL"
+  },
+  {
+    "index": 52,
+    "key": "Main2D_ja_common_0052",
+    "original": "SHROOM RIDGE",
+    "translation": "SHROOM RIDGE"
+  },
+  {
+    "index": 53,
+    "key": "Main2D_ja_common_0053",
+    "original": "DK PASS",
+    "translation": "DK PASS"
+  },
+  {
+    "index": 54,
+    "key": "Main2D_ja_common_0054",
+    "original": "TICK-TOCK CLOCK",
+    "translation": "TICK-TOCK CLOCK"
+  },
+  {
+    "index": 55,
+    "key": "Main2D_ja_common_0055",
+    "original": "MARIO CIRCUIT",
+    "translation": "MARIO CIRCUIT"
+  },
+  {
+    "index": 56,
+    "key": "Main2D_ja_common_0056",
+    "original": "AIRSHIP FORTRESS",
+    "translation": "AIRSHIP FORTRESS"
+  },
+  {
+    "index": 57,
+    "key": "Main2D_ja_common_0057",
+    "original": "WARIO STADIUM",
+    "translation": "WARIO STADIUM"
+  },
+  {
+    "index": 58,
+    "key": "Main2D_ja_common_0058",
+    "original": "PEACH GARDENS",
+    "translation": "PEACH GARDENS"
+  },
+  {
+    "index": 59,
+    "key": "Main2D_ja_common_0059",
+    "original": "BOWSER CASTLE",
+    "translation": "BOWSER CASTLE"
+  },
+  {
+    "index": 60,
+    "key": "Main2D_ja_common_0060",
+    "original": "RAINBOW ROAD",
+    "translation": "RAINBOW ROAD"
+  },
+  {
+    "index": 61,
+    "key": "Main2D_ja_common_0061",
+    "original": "MARIO CIRCUIT 1",
+    "translation": "MARIO CIRCUIT 1"
+  },
+  {
+    "index": 62,
+    "key": "Main2D_ja_common_0062",
+    "original": "MOO MOO FARM",
+    "translation": "MOO MOO FARM"
+  },
+  {
+    "index": 63,
+    "key": "Main2D_ja_common_0063",
+    "original": "PEACH CIRCUIT",
+    "translation": "PEACH CIRCUIT"
+  },
+  {
+    "index": 64,
+    "key": "Main2D_ja_common_0064",
+    "original": "LUIGI CIRCUIT",
+    "translation": "LUIGI CIRCUIT"
+  },
+  {
+    "index": 65,
+    "key": "Main2D_ja_common_0065",
+    "original": "DONUT PLAINS 1",
+    "translation": "DONUT PLAINS 1"
+  },
+  {
+    "index": 66,
+    "key": "Main2D_ja_common_0066",
+    "original": "FRAPPE SNOWLAND",
+    "translation": "FRAPPE SNOWLAND"
+  },
+  {
+    "index": 67,
+    "key": "Main2D_ja_common_0067",
+    "original": "BOWSER CASTLE 2",
+    "translation": "BOWSER CASTLE 2"
+  },
+  {
+    "index": 68,
+    "key": "Main2D_ja_common_0068",
+    "original": "BABY PARK",
+    "translation": "BABY PARK"
+  },
+  {
+    "index": 69,
+    "key": "Main2D_ja_common_0069",
+    "original": "KOOPA BEACH 2",
+    "translation": "KOOPA BEACH 2"
+  },
+  {
+    "index": 70,
+    "key": "Main2D_ja_common_0070",
+    "original": "CHOCO MOUNTAIN",
+    "translation": "CHOCO MOUNTAIN"
+  },
+  {
+    "index": 71,
+    "key": "Main2D_ja_common_0071",
+    "original": "LUIGI CIRCUIT",
+    "translation": "LUIGI CIRCUIT"
+  },
+  {
+    "index": 72,
+    "key": "Main2D_ja_common_0072",
+    "original": "MUSHROOM BRIDGE",
+    "translation": "MUSHROOM BRIDGE"
+  },
+  {
+    "index": 73,
+    "key": "Main2D_ja_common_0073",
+    "original": "CHOCO ISLAND 2",
+    "translation": "CHOCO ISLAND 2"
+  },
+  {
+    "index": 74,
+    "key": "Main2D_ja_common_0074",
+    "original": "BANSHEE BOARDWALK",
+    "translation": "BANSHEE BOARDWALK"
+  },
+  {
+    "index": 75,
+    "key": "Main2D_ja_common_0075",
+    "original": "SKY GARDEN",
+    "translation": "SKY GARDEN"
+  },
+  {
+    "index": 76,
+    "key": "Main2D_ja_common_0076",
+    "original": "YOSHI CIRCUIT",
+    "translation": "YOSHI CIRCUIT"
+  },
+  {
+    "index": 77,
+    "key": "Main2D_ja_common_0077",
+    "original": "BLOCK FORT",
+    "translation": "BLOCK FORT"
+  },
+  {
+    "index": 78,
+    "key": "Main2D_ja_common_0078",
+    "original": "PIPE PLAZA",
+    "translation": "PIPE PLAZA"
+  },
+  {
+    "index": 79,
+    "key": "Main2D_ja_common_0079",
+    "original": "NINTENDO DS",
+    "translation": "NINTENDO DS"
+  },
+  {
+    "index": 80,
+    "key": "Main2D_ja_common_0080",
+    "original": "TWILIGHT HOUSE",
+    "translation": "TWILIGHT HOUSE"
+  },
+  {
+    "index": 81,
+    "key": "Main2D_ja_common_0081",
+    "original": "PALM SHORE",
+    "translation": "PALM SHORE"
+  },
+  {
+    "index": 82,
+    "key": "Main2D_ja_common_0082",
+    "original": "TART TOP",
+    "translation": "TART TOP"
+  },
+  {
+    "index": 83,
+    "key": "Main2D_ja_common_0083",
+    "original": "VS",
+    "translation": "VS"
+  },
+  {
+    "index": 84,
+    "key": "Main2D_ja_common_0084",
+    "original": "BALLOON BATTLE",
+    "translation": "BALLOON BATTLE"
+  },
+  {
+    "index": 85,
+    "key": "Main2D_ja_common_0085",
+    "original": "SHINE RUNNERS",
+    "translation": "SHINE RUNNERS"
+  },
+  {
+    "index": 86,
+    "key": "Main2D_ja_common_0086",
+    "original": "BIG BULLY",
+    "translation": "BIG BULLY"
+  },
+  {
+    "index": 87,
+    "key": "Main2D_ja_common_0087",
+    "original": "EYEROK",
+    "translation": "EYEROK"
+  },
+  {
+    "index": 88,
+    "key": "Main2D_ja_common_0088",
+    "original": "GOOMBOSS",
+    "translation": "GOOMBOSS"
+  },
+  {
+    "index": 89,
+    "key": "Main2D_ja_common_0089",
+    "original": "KING BOO",
+    "translation": "KING BOO"
+  },
+  {
+    "index": 90,
+    "key": "Main2D_ja_common_0090",
+    "original": "BIG BOB-OMB",
+    "translation": "BIG BOB-OMB"
+  },
+  {
+    "index": 91,
+    "key": "Main2D_ja_common_0091",
+    "original": "CHIEF CHILLY",
+    "translation": "CHIEF CHILLY"
+  },
+  {
+    "index": 92,
+    "key": "Main2D_ja_common_0092",
+    "original": "WIGGLER",
+    "translation": "WIGGLER"
+  },
+  {
+    "index": 93,
+    "key": "Main2D_ja_common_0093",
+    "original": "CONTINUE",
+    "translation": "CONTINUE"
+  },
+  {
+    "index": 94,
+    "key": "Main2D_ja_common_0094",
+    "original": "LOCATE FRIEND",
+    "translation": "LOCATE FRIEND"
+  },
+  {
+    "index": 95,
+    "key": "Main2D_ja_common_0095",
+    "original": "QUIT",
+    "translation": "QUIT"
+  },
+  {
+    "index": 96,
+    "key": "Main2D_ja_common_0096",
+    "original": "NEXT COURSE",
+    "translation": "NEXT COURSE"
+  },
+  {
+    "index": 97,
+    "key": "Main2D_ja_common_0097",
+    "original": "REPLAY",
+    "translation": "REPLAY"
+  },
+  {
+    "index": 98,
+    "key": "Main2D_ja_common_0098",
+    "original": "NEXT",
+    "translation": "NEXT"
+  },
+  {
+    "index": 99,
+    "key": "Main2D_ja_common_0099",
+    "original": "ＶＩＥＷ ＲＥＰＬＡＹ ＦＲＯＭ ＳＴＡＲＴ",
+    "translation": "ＶＩＥＷ ＲＥＰＬＡＹ ＦＲＯＭ ＳＴＡＲＴ"
+  },
+  {
+    "index": 100,
+    "key": "Main2D_ja_common_0100",
+    "original": "RESTART",
+    "translation": "RESTART"
+  },
+  {
+    "index": 101,
+    "key": "Main2D_ja_common_0101",
+    "original": "CHANGE COURSE",
+    "translation": "CHANGE COURSE"
+  },
+  {
+    "index": 102,
+    "key": "Main2D_ja_common_0102",
+    "original": "CHANGE CHARACTERS",
+    "translation": "CHANGE CHARACTERS"
+  },
+  {
+    "index": 103,
+    "key": "Main2D_ja_common_0103",
+    "original": "RETRY",
+    "translation": "RETRY"
+  },
+  {
+    "index": 104,
+    "key": "Main2D_ja_common_0104",
+    "original": "SAVE GHOST",
+    "translation": "SAVE GHOST"
+  },
+  {
+    "index": 105,
+    "key": "Main2D_ja_common_0105",
+    "original": "SELECT MISSION",
+    "translation": "SELECT MISSION"
+  },
+  {
+    "index": 106,
+    "key": "Main2D_ja_common_0106",
+    "original": "CONTINUE REPLAY",
+    "translation": "CONTINUE REPLAY"
+  },
+  {
+    "index": 107,
+    "key": "Main2D_ja_common_0107",
+    "original": "ON",
+    "translation": "ON"
+  },
+  {
+    "index": 108,
+    "key": "Main2D_ja_common_0108",
+    "original": "OFF",
+    "translation": "OFF"
+  },
+  {
+    "index": 109,
+    "key": "Main2D_ja_common_0109",
+    "original": "Unable to save ghost data.",
+    "translation": "Unable to save ghost data."
+  },
+  {
+    "index": 110,
+    "key": "Main2D_ja_common_0110",
+    "original": "50cc",
+    "translation": "50cc"
+  },
+  {
+    "index": 111,
+    "key": "Main2D_ja_common_0111",
+    "original": "100cc",
+    "translation": "100cc"
+  },
+  {
+    "index": 112,
+    "key": "Main2D_ja_common_0112",
+    "original": "150cc",
+    "translation": "150cc"
+  },
+  {
+    "index": 113,
+    "key": "Main2D_ja_common_0113",
+    "original": "MIRROR",
+    "translation": "MIRROR"
+  },
+  {
+    "index": 114,
+    "key": "Main2D_ja_common_0114",
+    "original": "CPU",
+    "translation": "CPU"
+  },
+  {
+    "index": 115,
+    "key": "Main2D_ja_common_0115",
+    "original": "BEST TIME",
+    "translation": "BEST TIME"
+  },
+  {
+    "index": 116,
+    "key": "Main2D_ja_common_0116",
+    "original": "BEST LAP",
+    "translation": "BEST LAP"
+  },
+  {
+    "index": 117,
+    "key": "Main2D_ja_common_0117",
+    "original": "STAFF CREDITS",
+    "translation": "STAFF CREDITS"
+  },
+  {
+    "index": 118,
+    "key": "Main2D_ja_common_0118",
+    "original": "You have not registered\nanyone in your friend\nroster.",
+    "translation": "You have not registered\nanyone in your friend\nroster."
+  },
+  {
+    "index": 119,
+    "key": "Main2D_ja_common_0119",
+    "original": "Thanks for playing!",
+    "translation": "Thanks for playing!"
+  },
+  {
+    "index": 120,
+    "key": "Main2D_ja_common_0120",
+    "original": "Thanks for playing!",
+    "translation": "Thanks for playing!"
+  },
+  {
+    "index": 121,
+    "key": "Main2D_ja_common_0121",
+    "original": "PLEASE WAIT...",
+    "translation": "PLEASE WAIT..."
+  },
+  {
+    "index": 122,
+    "key": "Main2D_ja_common_0122",
+    "original": "VICTORY GOES TO ",
+    "translation": "VICTORY GOES TO "
+  },
+  {
+    "index": 123,
+    "key": "Main2D_ja_common_0123",
+    "original": "Data is corrupted.\nOK to erase all data?",
+    "translation": "Data is corrupted.\nOK to erase all data?"
+  },
+  {
+    "index": 124,
+    "key": "Main2D_ja_common_0124",
+    "original": "OK to erase all data?",
+    "translation": "OK to erase all data?"
+  },
+  {
+    "index": 125,
+    "key": "Main2D_ja_common_0125",
+    "original": "Save data may have been\ncorrupted. Data will be\ndeleted.",
+    "translation": "Save data may have been\ncorrupted. Data will be\ndeleted."
+  },
+  {
+    "index": 126,
+    "key": "Main2D_ja_common_0126",
+    "original": "Erasing data...",
+    "translation": "Erasing data..."
+  },
+  {
+    "index": 127,
+    "key": "Main2D_ja_common_0127",
+    "original": "All saved data has been\nerased.",
+    "translation": "All saved data has been\nerased."
+  },
+  {
+    "index": 128,
+    "key": "Main2D_ja_common_0128",
+    "original": "Corrupted data deleted.",
+    "translation": "Corrupted data deleted."
+  },
+  {
+    "index": 129,
+    "key": "Main2D_ja_common_0129",
+    "original": "Saving...",
+    "translation": "Saving..."
+  },
+  {
+    "index": 130,
+    "key": "Main2D_ja_common_0130",
+    "original": "Communication error.\nPress the A Button.",
+    "translation": "Communication error.\nPress the A Button."
+  },
+  {
+    "index": 131,
+    "key": "Main2D_ja_common_0131",
+    "original": "Unable to load data.\nTurn the power off and\nreinsert the Game Card.",
+    "translation": "Unable to load data.\nTurn the power off and\nreinsert the Game Card."
+  },
+  {
+    "index": 132,
+    "key": "Main2D_ja_common_0132",
+    "original": "The data could not be written.\nPlease turn the power off and\nreinsert the Game Card.",
+    "translation": "The data could not be written.\nPlease turn the power off and\nreinsert the Game Card."
+  },
+  {
+    "index": 133,
+    "key": "Main2D_ja_common_0133",
+    "original": "Game Card was removed.\nTurn the system off and\nreinsert the Game Card.",
+    "translation": "Game Card was removed.\nTurn the system off and\nreinsert the Game Card."
+  },
+  {
+    "index": 134,
+    "key": "Main2D_ja_common_0134",
+    "original": "You were disconnected from Nintendo WFC.\nPress the A Button to return to the menu.\nError Code [1:ff00]",
+    "translation": "You were disconnected from Nintendo WFC.\nPress the A Button to return to the menu.\nError Code [1:ff00]"
+  },
+  {
+    "index": 135,
+    "key": "Main2D_ja_common_0135",
+    "original": "There was no input for 30 seconds, so you\nwere disconnected from Nintendo WFC. Press the\nA Button to return to the Nintendo WFC menu.",
+    "translation": "There was no input for 30 seconds, so you\nwere disconnected from Nintendo WFC. Press the\nA Button to return to the Nintendo WFC menu."
+  },
+  {
+    "index": 136,
+    "key": "Main2D_ja_common_0136",
+    "original": "Your opponent has disconnected.\nPress the A Button to return to the\nmatch-settings screen.",
+    "translation": "Your opponent has disconnected.\nPress the A Button to return to the\nmatch-settings screen."
+  },
+  {
+    "index": 137,
+    "key": "Main2D_ja_common_0137",
+    "original": "The Wi-Fi ID may have\nbeen erased.",
+    "translation": "The Wi-Fi ID may have\nbeen erased."
+  },
+  {
+    "index": 138,
+    "key": "Main2D_ja_common_0138",
+    "original": "Please check your\naccess-point settings\nwith Nintendo WFC setup.",
+    "translation": "Please check your\naccess-point settings\nwith Nintendo WFC setup."
+  },
+  {
+    "index": 139,
+    "key": "Main2D_ja_common_0139",
+    "original": "The selected track is...\n[255:00000100][1:ff00][255:00000000].",
+    "translation": "The selected track is...\n[255:00000100][1:ff00][255:00000000]."
+  }
+]

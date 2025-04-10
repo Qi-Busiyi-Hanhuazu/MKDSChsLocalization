@@ -1,0 +1,488 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_WiFiMenu_ja_wifi_0000",
+    "original": "Choose the conditions\nfor this match.",
+    "translation": "Choose the conditions\nfor this match."
+  },
+  {
+    "index": 1,
+    "key": "Scene_WiFiMenu_ja_wifi_0001",
+    "original": "VS. OPPONENT",
+    "translation": "VS. OPPONENT"
+  },
+  {
+    "index": 2,
+    "key": "Scene_WiFiMenu_ja_wifi_0002",
+    "original": "FRIENDS",
+    "translation": "FRIENDS"
+  },
+  {
+    "index": 3,
+    "key": "Scene_WiFiMenu_ja_wifi_0003",
+    "original": "RIVALS",
+    "translation": "RIVALS"
+  },
+  {
+    "index": 4,
+    "key": "Scene_WiFiMenu_ja_wifi_0004",
+    "original": "REGIONAL",
+    "translation": "REGIONAL"
+  },
+  {
+    "index": 5,
+    "key": "Scene_WiFiMenu_ja_wifi_0005",
+    "original": "WORLDWIDE",
+    "translation": "WORLDWIDE"
+  },
+  {
+    "index": 6,
+    "key": "Scene_WiFiMenu_ja_wifi_0006",
+    "original": "CONTINENTAL",
+    "translation": "CONTINENTAL"
+  },
+  {
+    "index": 7,
+    "key": "Scene_WiFiMenu_ja_wifi_0007",
+    "original": "FRIEND ROSTER",
+    "translation": "FRIEND ROSTER"
+  },
+  {
+    "index": 8,
+    "key": "Scene_WiFiMenu_ja_wifi_0008",
+    "original": "Searching for opponents.\nPlease wait a moment.",
+    "translation": "Searching for opponents.\nPlease wait a moment."
+  },
+  {
+    "index": 9,
+    "key": "Scene_WiFiMenu_ja_wifi_0009",
+    "original": "Searching...",
+    "translation": "Searching..."
+  },
+  {
+    "index": 10,
+    "key": "Scene_WiFiMenu_ja_wifi_0010",
+    "original": "Unable to locate\nopponents.",
+    "translation": "Unable to locate\nopponents."
+  },
+  {
+    "index": 11,
+    "key": "Scene_WiFiMenu_ja_wifi_0011",
+    "original": "Your opponent has been\nselected.",
+    "translation": "Your opponent has been\nselected."
+  },
+  {
+    "index": 12,
+    "key": "Scene_WiFiMenu_ja_wifi_0012",
+    "original": "Searching for opponents.\nPlease wait a moment.\nIt is possible that you\nmay not be able to\ngather four people.",
+    "translation": "Searching for opponents.\nPlease wait a moment.\nIt is possible that you\nmay not be able to\ngather four people."
+  },
+  {
+    "index": 13,
+    "key": "Scene_WiFiMenu_ja_wifi_0013",
+    "original": "Unable to find opponents.",
+    "translation": "Unable to find opponents."
+  },
+  {
+    "index": 14,
+    "key": "Scene_WiFiMenu_ja_wifi_0014",
+    "original": "You have not registered\nanyone in your friend\nroster, so you cannot\nplay.",
+    "translation": "You have not registered\nanyone in your friend\nroster, so you cannot\nplay."
+  },
+  {
+    "index": 15,
+    "key": "Scene_WiFiMenu_ja_wifi_0015",
+    "original": "Your friend roster is full.\nEnter a friend code after\nerasing data.",
+    "translation": "Your friend roster is full.\nEnter a friend code after\nerasing data."
+  },
+  {
+    "index": 16,
+    "key": "Scene_WiFiMenu_ja_wifi_0016",
+    "original": "Edit friend roster now?",
+    "translation": "Edit friend roster now?"
+  },
+  {
+    "index": 17,
+    "key": "Scene_WiFiMenu_ja_wifi_0017",
+    "original": "Your friend code is ",
+    "translation": "Your friend code is "
+  },
+  {
+    "index": 18,
+    "key": "Scene_WiFiMenu_ja_wifi_0018",
+    "original": "You do not have a friend\ncode. Your friend code\nwill be generated once\nyou connect to Nintendo\nWFC.",
+    "translation": "You do not have a friend\ncode. Your friend code\nwill be generated once\nyou connect to Nintendo\nWFC."
+  },
+  {
+    "index": 19,
+    "key": "Scene_WiFiMenu_ja_wifi_0019",
+    "original": "Connect to Nintendo WFC?",
+    "translation": "Connect to Nintendo WFC?"
+  },
+  {
+    "index": 20,
+    "key": "Scene_WiFiMenu_ja_wifi_0020",
+    "original": "Connecting to Nintendo\nWFC...\nPlease wait a moment...",
+    "translation": "Connecting to Nintendo\nWFC...\nPlease wait a moment..."
+  },
+  {
+    "index": 21,
+    "key": "Scene_WiFiMenu_ja_wifi_0021",
+    "original": "Unable to connect to\nNintendo WFC.",
+    "translation": "Unable to connect to\nNintendo WFC."
+  },
+  {
+    "index": 22,
+    "key": "Scene_WiFiMenu_ja_wifi_0022",
+    "original": "Confirm your access point\nsettings in Nintendo\nWFC setup.",
+    "translation": "Confirm your access point\nsettings in Nintendo\nWFC setup."
+  },
+  {
+    "index": 23,
+    "key": "Scene_WiFiMenu_ja_wifi_0023",
+    "original": "Disconnect from Nintendo\nWFC?",
+    "translation": "Disconnect from Nintendo\nWFC?"
+  },
+  {
+    "index": 24,
+    "key": "Scene_WiFiMenu_ja_wifi_0024",
+    "original": "Disconnecting from\nNintendo WFC...",
+    "translation": "Disconnecting from\nNintendo WFC..."
+  },
+  {
+    "index": 25,
+    "key": "Scene_WiFiMenu_ja_wifi_0025",
+    "original": "You have disconnected\nfrom Nintendo WFC.",
+    "translation": "You have disconnected\nfrom Nintendo WFC."
+  },
+  {
+    "index": 26,
+    "key": "Scene_WiFiMenu_ja_wifi_0026",
+    "original": "RANDOM",
+    "translation": "RANDOM"
+  },
+  {
+    "index": 27,
+    "key": "Scene_WiFiMenu_ja_wifi_0027",
+    "original": "Connection to opponent\nhas been lost.",
+    "translation": "Connection to opponent\nhas been lost."
+  },
+  {
+    "index": 28,
+    "key": "Scene_WiFiMenu_ja_wifi_0028",
+    "original": "Nintendo WFC treats your\nMario Kart DS Game Card\nand Nintendo DS as a set.",
+    "translation": "Nintendo WFC treats your\nMario Kart DS Game Card\nand Nintendo DS as a set."
+  },
+  {
+    "index": 29,
+    "key": "Scene_WiFiMenu_ja_wifi_0029",
+    "original": "Save this Nintendo DS\nsystem's Nintendo WFC\nconfiguration to this\nGame Card and connect to\nNintendo WFC?",
+    "translation": "Save this Nintendo DS\nsystem's Nintendo WFC\nconfiguration to this\nGame Card and connect to\nNintendo WFC?"
+  },
+  {
+    "index": 30,
+    "key": "Scene_WiFiMenu_ja_wifi_0030",
+    "original": "The Wi-Fi ID from this\nNintendo DS has been\nsaved to the Game Card.",
+    "translation": "The Wi-Fi ID from this\nNintendo DS has been\nsaved to the Game Card."
+  },
+  {
+    "index": 31,
+    "key": "Scene_WiFiMenu_ja_wifi_0031",
+    "original": "From now on, please use\nthis Nintendo DS when\nattempting to connect to\nNintendo WFC.",
+    "translation": "From now on, please use\nthis Nintendo DS when\nattempting to connect to\nNintendo WFC."
+  },
+  {
+    "index": 32,
+    "key": "Scene_WiFiMenu_ja_wifi_0032",
+    "original": "Unable to connect to\nNintendo WFC because the\nWi-Fi ID from the\nNintendo DS and the Game\nCard do not match.",
+    "translation": "Unable to connect to\nNintendo WFC because the\nWi-Fi ID from the\nNintendo DS and the Game\nCard do not match."
+  },
+  {
+    "index": 33,
+    "key": "Scene_WiFiMenu_ja_wifi_0033",
+    "original": "When you update your\nWi-Fi ID, you will lose\nany data used to connect\nto Nintendo WFC up to\nthis point.",
+    "translation": "When you update your\nWi-Fi ID, you will lose\nany data used to connect\nto Nintendo WFC up to\nthis point."
+  },
+  {
+    "index": 34,
+    "key": "Scene_WiFiMenu_ja_wifi_0034",
+    "original": "Update the Wi-Fi ID\nsaved to this Game Card\nanyway?",
+    "translation": "Update the Wi-Fi ID\nsaved to this Game Card\nanyway?"
+  },
+  {
+    "index": 35,
+    "key": "Scene_WiFiMenu_ja_wifi_0035",
+    "original": "You can use your existing\nlist of friends with this\ngame.",
+    "translation": "You can use your existing\nlist of friends with this\ngame."
+  },
+  {
+    "index": 36,
+    "key": "Scene_WiFiMenu_ja_wifi_0036",
+    "original": "However, to race against\nfriends on Nintendo WFC,\nyour friends will need to\nre-register you in their\nfriend rosters.",
+    "translation": "However, to race against\nfriends on Nintendo WFC,\nyour friends will need to\nre-register you in their\nfriend rosters."
+  },
+  {
+    "index": 37,
+    "key": "Scene_WiFiMenu_ja_wifi_0037",
+    "original": "Do you still want to\nupdate?",
+    "translation": "Do you still want to\nupdate?"
+  },
+  {
+    "index": 38,
+    "key": "Scene_WiFiMenu_ja_wifi_0038",
+    "original": "Please see your Nintendo\nDS Game Card instruction\nbooklet for more info.",
+    "translation": "Please see your Nintendo\nDS Game Card instruction\nbooklet for more info."
+  },
+  {
+    "index": 39,
+    "key": "Scene_WiFiMenu_ja_wifi_0039",
+    "original": "This Wi-Fi ID was\ninactive for a long\nperiod of time and has\nbeen erased.",
+    "translation": "This Wi-Fi ID was\ninactive for a long\nperiod of time and has\nbeen erased."
+  },
+  {
+    "index": 40,
+    "key": "Scene_WiFiMenu_ja_wifi_0040",
+    "original": "Nintendo WFC service for\nthis software has been\nhalted.",
+    "translation": "Nintendo WFC service for\nthis software has been\nhalted."
+  },
+  {
+    "index": 41,
+    "key": "Scene_WiFiMenu_ja_wifi_0041",
+    "original": "No compatible access\npoint in range.",
+    "translation": "No compatible access\npoint in range."
+  },
+  {
+    "index": 42,
+    "key": "Scene_WiFiMenu_ja_wifi_0042",
+    "original": "Unable to connect to the\nNintendo Wi-Fi USB\nConnector.",
+    "translation": "Unable to connect to the\nNintendo Wi-Fi USB\nConnector."
+  },
+  {
+    "index": 43,
+    "key": "Scene_WiFiMenu_ja_wifi_0043",
+    "original": "Please confirm connection\nsettings in the Nintendo\nWFC setup.",
+    "translation": "Please confirm connection\nsettings in the Nintendo\nWFC setup."
+  },
+  {
+    "index": 44,
+    "key": "Scene_WiFiMenu_ja_wifi_0044",
+    "original": "Unable to find a\ncompatible access\npoint. Please try again.",
+    "translation": "Unable to find a\ncompatible access\npoint. Please try again."
+  },
+  {
+    "index": 45,
+    "key": "Scene_WiFiMenu_ja_wifi_0045",
+    "original": "Unable to connect. Either\nthe server is experiencing\nhigh traffic volumes or\nNintendo WFC service is\ncurrently down.",
+    "translation": "Unable to connect. Either\nthe server is experiencing\nhigh traffic volumes or\nNintendo WFC service is\ncurrently down."
+  },
+  {
+    "index": 46,
+    "key": "Scene_WiFiMenu_ja_wifi_0046",
+    "original": "Please wait a little\nwhile, then try again.",
+    "translation": "Please wait a little\nwhile, then try again."
+  },
+  {
+    "index": 47,
+    "key": "Scene_WiFiMenu_ja_wifi_0047",
+    "original": "The access point is busy.\nYou cannot connect.",
+    "translation": "The access point is busy.\nYou cannot connect."
+  },
+  {
+    "index": 48,
+    "key": "Scene_WiFiMenu_ja_wifi_0048",
+    "original": "[255:00000100]Error Code [1:ff00][255:00000000]\nFor help, call\n1-800-895-1672 in the\nUSA or Canada, or visit\nwww.nintendowifi.com.",
+    "translation": "[255:00000100]Error Code [1:ff00][255:00000000]\nFor help, call\n1-800-895-1672 in the\nUSA or Canada, or visit\nwww.nintendowifi.com."
+  },
+  {
+    "index": 49,
+    "key": "Scene_WiFiMenu_ja_wifi_0049",
+    "original": "FIGURE-8 CIRCUIT",
+    "translation": "FIGURE-8 CIRCUIT"
+  },
+  {
+    "index": 50,
+    "key": "Scene_WiFiMenu_ja_wifi_0050",
+    "original": "YOSHI FALLS",
+    "translation": "YOSHI FALLS"
+  },
+  {
+    "index": 51,
+    "key": "Scene_WiFiMenu_ja_wifi_0051",
+    "original": "CHEEP CHEEP BEACH",
+    "translation": "CHEEP CHEEP BEACH"
+  },
+  {
+    "index": 52,
+    "key": "Scene_WiFiMenu_ja_wifi_0052",
+    "original": "LUIGI'S MANSION",
+    "translation": "LUIGI'S MANSION"
+  },
+  {
+    "index": 53,
+    "key": "Scene_WiFiMenu_ja_wifi_0053",
+    "original": "DESERT HILLS",
+    "translation": "DESERT HILLS"
+  },
+  {
+    "index": 54,
+    "key": "Scene_WiFiMenu_ja_wifi_0054",
+    "original": "DELFINO SQUARE",
+    "translation": "DELFINO SQUARE"
+  },
+  {
+    "index": 55,
+    "key": "Scene_WiFiMenu_ja_wifi_0055",
+    "original": "WALUIGI PINBALL",
+    "translation": "WALUIGI PINBALL"
+  },
+  {
+    "index": 56,
+    "key": "Scene_WiFiMenu_ja_wifi_0056",
+    "original": "SHROOM RIDGE",
+    "translation": "SHROOM RIDGE"
+  },
+  {
+    "index": 57,
+    "key": "Scene_WiFiMenu_ja_wifi_0057",
+    "original": "DK PASS",
+    "translation": "DK PASS"
+  },
+  {
+    "index": 58,
+    "key": "Scene_WiFiMenu_ja_wifi_0058",
+    "original": "TICK-TOCK CLOCK",
+    "translation": "TICK-TOCK CLOCK"
+  },
+  {
+    "index": 59,
+    "key": "Scene_WiFiMenu_ja_wifi_0059",
+    "original": "MARIO CIRCUIT",
+    "translation": "MARIO CIRCUIT"
+  },
+  {
+    "index": 60,
+    "key": "Scene_WiFiMenu_ja_wifi_0060",
+    "original": "AIRSHIP FORTRESS",
+    "translation": "AIRSHIP FORTRESS"
+  },
+  {
+    "index": 61,
+    "key": "Scene_WiFiMenu_ja_wifi_0061",
+    "original": "WARIO STADIUM",
+    "translation": "WARIO STADIUM"
+  },
+  {
+    "index": 62,
+    "key": "Scene_WiFiMenu_ja_wifi_0062",
+    "original": "PEACH GARDENS",
+    "translation": "PEACH GARDENS"
+  },
+  {
+    "index": 63,
+    "key": "Scene_WiFiMenu_ja_wifi_0063",
+    "original": "BOWSER CASTLE",
+    "translation": "BOWSER CASTLE"
+  },
+  {
+    "index": 64,
+    "key": "Scene_WiFiMenu_ja_wifi_0064",
+    "original": "RAINBOW ROAD",
+    "translation": "RAINBOW ROAD"
+  },
+  {
+    "index": 65,
+    "key": "Scene_WiFiMenu_ja_wifi_0065",
+    "original": "SNES MARIO CIRCUIT 1",
+    "translation": "SNES MARIO CIRCUIT 1"
+  },
+  {
+    "index": 66,
+    "key": "Scene_WiFiMenu_ja_wifi_0066",
+    "original": "N64 MOO MOO FARM",
+    "translation": "N64 MOO MOO FARM"
+  },
+  {
+    "index": 67,
+    "key": "Scene_WiFiMenu_ja_wifi_0067",
+    "original": "GBA PEACH CIRCUIT",
+    "translation": "GBA PEACH CIRCUIT"
+  },
+  {
+    "index": 68,
+    "key": "Scene_WiFiMenu_ja_wifi_0068",
+    "original": "GCN LUIGI CIRCUIT",
+    "translation": "GCN LUIGI CIRCUIT"
+  },
+  {
+    "index": 69,
+    "key": "Scene_WiFiMenu_ja_wifi_0069",
+    "original": "SNES DONUT PLAINS 1",
+    "translation": "SNES DONUT PLAINS 1"
+  },
+  {
+    "index": 70,
+    "key": "Scene_WiFiMenu_ja_wifi_0070",
+    "original": "N64 FRAPPE SNOWLAND",
+    "translation": "N64 FRAPPE SNOWLAND"
+  },
+  {
+    "index": 71,
+    "key": "Scene_WiFiMenu_ja_wifi_0071",
+    "original": "GBA BOWSER CASTLE 2",
+    "translation": "GBA BOWSER CASTLE 2"
+  },
+  {
+    "index": 72,
+    "key": "Scene_WiFiMenu_ja_wifi_0072",
+    "original": "GCN BABY PARK",
+    "translation": "GCN BABY PARK"
+  },
+  {
+    "index": 73,
+    "key": "Scene_WiFiMenu_ja_wifi_0073",
+    "original": "SNES KOOPA BEACH 2",
+    "translation": "SNES KOOPA BEACH 2"
+  },
+  {
+    "index": 74,
+    "key": "Scene_WiFiMenu_ja_wifi_0074",
+    "original": "N64 CHOCO MOUNTAIN",
+    "translation": "N64 CHOCO MOUNTAIN"
+  },
+  {
+    "index": 75,
+    "key": "Scene_WiFiMenu_ja_wifi_0075",
+    "original": "GBA LUIGI CIRCUIT",
+    "translation": "GBA LUIGI CIRCUIT"
+  },
+  {
+    "index": 76,
+    "key": "Scene_WiFiMenu_ja_wifi_0076",
+    "original": "GCN MUSHROOM BRIDGE",
+    "translation": "GCN MUSHROOM BRIDGE"
+  },
+  {
+    "index": 77,
+    "key": "Scene_WiFiMenu_ja_wifi_0077",
+    "original": "SNES CHOCO ISLAND 2",
+    "translation": "SNES CHOCO ISLAND 2"
+  },
+  {
+    "index": 78,
+    "key": "Scene_WiFiMenu_ja_wifi_0078",
+    "original": "N64 BANSHEE BOARDWALK",
+    "translation": "N64 BANSHEE BOARDWALK"
+  },
+  {
+    "index": 79,
+    "key": "Scene_WiFiMenu_ja_wifi_0079",
+    "original": "GBA SKY GARDEN",
+    "translation": "GBA SKY GARDEN"
+  },
+  {
+    "index": 80,
+    "key": "Scene_WiFiMenu_ja_wifi_0080",
+    "original": "GCN YOSHI CIRCUIT",
+    "translation": "GCN YOSHI CIRCUIT"
+  }
+]

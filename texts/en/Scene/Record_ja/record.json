@@ -1,0 +1,80 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Record_ja_record_0000",
+    "original": "YOUR BATTLE RECORD",
+    "translation": "YOUR BATTLE RECORD"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Record_ja_record_0001",
+    "original": "LAST DAY PLAYED",
+    "translation": "LAST DAY PLAYED"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Record_ja_record_0002",
+    "original": "ERASE WHICH DATA?",
+    "translation": "ERASE WHICH DATA?"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Record_ja_record_0003",
+    "original": "Erase data.",
+    "translation": "Erase data."
+  },
+  {
+    "index": 4,
+    "key": "Scene_Record_ja_record_0004",
+    "original": "Choose the data you\nwant to erase.",
+    "translation": "Choose the data you\nwant to erase."
+  },
+  {
+    "index": 5,
+    "key": "Scene_Record_ja_record_0005",
+    "original": "[255:00000100][1:ff00]\n[255:00000000]will be erased. Once data\nhas been erased,\nit cannot be recovered.\nOK to erase this data?",
+    "translation": "[255:00000100][1:ff00]\n[255:00000000]will be erased. Once data\nhas been erased,\nit cannot be recovered.\nOK to erase this data?"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Record_ja_record_0006",
+    "original": "VS",
+    "translation": "VS"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Record_ja_record_0007",
+    "original": "BATTLE",
+    "translation": "BATTLE"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Record_ja_record_0008",
+    "original": "Nintendo WFC MATCH",
+    "translation": "Nintendo WFC MATCH"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Record_ja_record_0009",
+    "original": "TOTAL RESULTS",
+    "translation": "TOTAL RESULTS"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Record_ja_record_0010",
+    "original": "[255:00000100][1:ff00]\n[255:00000000]will be erased. Once data\nhas been erased,\nit cannot be recovered.\nOK to erase this data?",
+    "translation": "[255:00000100][1:ff00]\n[255:00000000]will be erased. Once data\nhas been erased,\nit cannot be recovered.\nOK to erase this data?"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Record_ja_record_0011",
+    "original": "FRIEND CODE",
+    "translation": "FRIEND CODE"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Record_ja_record_0012",
+    "original": "If you still see this screen after\nregistering each other's friend codes\nand connecting to Nintendo WFC, please\ncheck your friend codes for accuracy.",
+    "translation": "If you still see this screen after\nregistering each other's friend codes\nand connecting to Nintendo WFC, please\ncheck your friend codes for accuracy."
+  }
+]

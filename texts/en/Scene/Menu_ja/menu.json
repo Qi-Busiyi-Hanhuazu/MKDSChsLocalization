@@ -1,0 +1,140 @@
+[
+  {
+    "index": 0,
+    "key": "Scene_Menu_ja_menu_0000",
+    "original": "BLOCK FORT",
+    "translation": "BLOCK FORT"
+  },
+  {
+    "index": 1,
+    "key": "Scene_Menu_ja_menu_0001",
+    "original": "PIPE PLAZA",
+    "translation": "PIPE PLAZA"
+  },
+  {
+    "index": 2,
+    "key": "Scene_Menu_ja_menu_0002",
+    "original": "NINTENDO DS",
+    "translation": "NINTENDO DS"
+  },
+  {
+    "index": 3,
+    "key": "Scene_Menu_ja_menu_0003",
+    "original": "TWILIGHT HOUSE",
+    "translation": "TWILIGHT HOUSE"
+  },
+  {
+    "index": 4,
+    "key": "Scene_Menu_ja_menu_0004",
+    "original": "PALM SHORE",
+    "translation": "PALM SHORE"
+  },
+  {
+    "index": 5,
+    "key": "Scene_Menu_ja_menu_0005",
+    "original": "TART TOP",
+    "translation": "TART TOP"
+  },
+  {
+    "index": 6,
+    "key": "Scene_Menu_ja_menu_0006",
+    "original": "BALLOON BATTLE",
+    "translation": "BALLOON BATTLE"
+  },
+  {
+    "index": 7,
+    "key": "Scene_Menu_ja_menu_0007",
+    "original": "SHINE RUNNERS",
+    "translation": "SHINE RUNNERS"
+  },
+  {
+    "index": 8,
+    "key": "Scene_Menu_ja_menu_0008",
+    "original": "TIME",
+    "translation": "TIME"
+  },
+  {
+    "index": 9,
+    "key": "Scene_Menu_ja_menu_0009",
+    "original": "GHOST DATA",
+    "translation": "GHOST DATA"
+  },
+  {
+    "index": 10,
+    "key": "Scene_Menu_ja_menu_0010",
+    "original": "NONE",
+    "translation": "NONE"
+  },
+  {
+    "index": 11,
+    "key": "Scene_Menu_ja_menu_0011",
+    "original": "MY GHOST DATA",
+    "translation": "MY GHOST DATA"
+  },
+  {
+    "index": 12,
+    "key": "Scene_Menu_ja_menu_0012",
+    "original": "DOWNLOADED GHOST DATA",
+    "translation": "DOWNLOADED GHOST DATA"
+  },
+  {
+    "index": 13,
+    "key": "Scene_Menu_ja_menu_0013",
+    "original": "STAFF GHOST DATA",
+    "translation": "STAFF GHOST DATA"
+  },
+  {
+    "index": 14,
+    "key": "Scene_Menu_ja_menu_0014",
+    "original": "Use your brilliant driving techniques to\nrace past your opponents!",
+    "translation": "Use your brilliant driving techniques to\nrace past your opponents!"
+  },
+  {
+    "index": 15,
+    "key": "Scene_Menu_ja_menu_0015",
+    "original": "Burst your opponents' balloons with items!\nIf all your inflated balloons burst, you lose!\nBlow into the mic to inflate your balloons!",
+    "translation": "Burst your opponents' balloons with items!\nIf all your inflated balloons burst, you lose!\nBlow into the mic to inflate your balloons!"
+  },
+  {
+    "index": 16,
+    "key": "Scene_Menu_ja_menu_0016",
+    "original": "Collect more Shines than anyone else!\nSteal opponents' Shines to add to your total.\nThose with less Shines get booted over time.",
+    "translation": "Collect more Shines than anyone else!\nSteal opponents' Shines to add to your total.\nThose with less Shines get booted over time."
+  },
+  {
+    "index": 17,
+    "key": "Scene_Menu_ja_menu_0017",
+    "original": "VS",
+    "translation": "VS"
+  },
+  {
+    "index": 18,
+    "key": "Scene_Menu_ja_menu_0018",
+    "original": "BALLOON BATTLE",
+    "translation": "BALLOON BATTLE"
+  },
+  {
+    "index": 19,
+    "key": "Scene_Menu_ja_menu_0019",
+    "original": "SHINE RUNNERS",
+    "translation": "SHINE RUNNERS"
+  },
+  {
+    "index": 20,
+    "key": "Scene_Menu_ja_menu_0020",
+    "original": "CONTINUE",
+    "translation": "CONTINUE"
+  },
+  {
+    "index": 21,
+    "key": "Scene_Menu_ja_menu_0021",
+    "original": "QUIT THIS GAME",
+    "translation": "QUIT THIS GAME"
+  },
+  {
+    "index": 22,
+    "key": "Scene_Menu_ja_menu_0022",
+    "original": "DISCONNECT",
+    "translation": "DISCONNECT"
+  }
+]
