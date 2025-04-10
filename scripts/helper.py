@@ -27,8 +27,8 @@ CHINESE_TO_JAPANESE = {
   " ": "　",
   "·": "・",
 }
-FONT_REPLACE_CHAR = {}
-ADDITIONAL_CHARACTERS = "《》"
+FONT_REPLACE_DICT = {}
+ADDITIONAL_CHARACTERS = "，《》"
 DUPLICATE_FILES = {
   "Scene/MenuDL_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
   "Scene/Record_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
