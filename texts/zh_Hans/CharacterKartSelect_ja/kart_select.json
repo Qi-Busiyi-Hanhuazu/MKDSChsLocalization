@@ -20,7 +20,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0003",
     "original": "ハンドリング",
-    "translation": "操作",
+    "translation": "操纵性",
     "context": "**翻译辅助**：\n\n操作\n\n操纵"
   },
   {
@@ -38,7 +38,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0006",
     "original": "スタンダードMR",
-    "translation": "标准车MR",
+    "translation": "标准型MR",
     "context": "**翻译辅助**：\n\n标准MR"
   },
   {
@@ -56,7 +56,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0009",
     "original": "スタンダードLG",
-    "translation": "标准车LG",
+    "translation": "标准型LG",
     "context": "**翻译辅助**：\n\n标准LG"
   },
   {
@@ -74,7 +74,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0012",
     "original": "スタンダードPC",
-    "translation": "标准车PC",
+    "translation": "标准型PC",
     "context": "**翻译辅助**：\n\n标准电脑\n\n标准PC"
   },
   {
@@ -92,13 +92,13 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0015",
     "original": "スタンダードYS",
-    "translation": "标准车YS",
+    "translation": "标准型YS",
     "context": "**翻译辅助**：\n\n标准YS"
   },
   {
     "key": "CharacterKartSelect_ja_kart_select_0016",
     "original": "エッグ・ワン",
-    "translation": "耀西蛋1号",
+    "translation": "蛋蛋1号",
     "context": "**翻译辅助**：\n\n耀西蛋1号"
   },
   {
@@ -110,7 +110,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0018",
     "original": "スタンダードKO",
-    "translation": "标准车KO",
+    "translation": "标准型KO",
     "context": "**翻译辅助**：\n\n标准KO"
   },
   {
@@ -128,7 +128,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0021",
     "original": "スタンダードDK",
-    "translation": "标准车DK",
+    "translation": "标准型DK",
     "context": "**翻译辅助**：\n\n标准DK"
   },
   {
@@ -146,7 +146,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0024",
     "original": "スタンダードWR",
-    "translation": "标准车WR",
+    "translation": "标准型WR",
     "context": "**翻译辅助**：\n\n标准WR"
   },
   {
@@ -164,7 +164,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0027",
     "original": "スタンダードKP",
-    "translation": "标准车KP",
+    "translation": "标准型KP",
     "context": "**翻译辅助**：\n\n标准KP"
   },
   {
@@ -182,7 +182,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0030",
     "original": "スタンダードDS",
-    "translation": "标准车DS",
+    "translation": "标准型DS",
     "context": "**翻译辅助**：\n\n标准DS"
   },
   {
@@ -200,7 +200,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0033",
     "original": "スタンダードKA",
-    "translation": "标准车KA",
+    "translation": "标准型KA",
     "context": "**翻译辅助**：\n\n标准KA"
   },
   {
@@ -218,7 +218,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0036",
     "original": "スタンダードWL",
-    "translation": "标准车WL",
+    "translation": "标准型WL",
     "context": "**翻译辅助**：\n\n标准WL"
   },
   {
@@ -236,7 +236,7 @@
   {
     "key": "CharacterKartSelect_ja_kart_select_0039",
     "original": "スタンダードRB",
-    "translation": "标准车RB",
+    "translation": "标准型RB",
     "context": "**翻译辅助**：\n\n标准RB"
   },
   {

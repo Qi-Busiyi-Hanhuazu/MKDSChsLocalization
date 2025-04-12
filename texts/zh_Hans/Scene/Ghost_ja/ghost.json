@@ -15,7 +15,7 @@
     "key": "Scene_Ghost_ja_ghost_0002",
     "original": "[255:00000100]つうしんエラー",
     "translation": "[255:00000100]连接错误",
-    "context": "**翻译辅助**：\n\n[255:00000100]通信错误"
+    "context": "**翻译辅助**：\n\n[255:00000100]连接错误"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0003",
@@ -81,7 +81,7 @@
     "key": "Scene_Ghost_ja_ghost_0013",
     "original": "[255:00000100]つうしんが\nせつだんされました。",
     "translation": "[255:00000100]连接被切断了。",
-    "context": "**翻译辅助**：\n\n[255:00000100]通讯被切断了。  \n\n\n[255:00000100]通信被切断了。"
+    "context": "**翻译辅助**：\n\n[255:00000100]连接被切断了。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0014",
@@ -105,7 +105,7 @@
     "key": "Scene_Ghost_ja_ghost_0017",
     "original": "[255:00000100]つうしんが\nせつだんされました。\n\nゴーストをもらうことは\nできませんでした。",
     "translation": "[255:00000100]连接被切断了。\n\n\n没能收到车影。",
-    "context": "**翻译辅助**：\n\n[255:00000100]通讯被切断了。  \n  \n不能得到车影。  \n  \n\n\n[255:00000100]通信被切断了。  \n  \n  \n没能得到车影。"
+    "context": "**翻译辅助**：\n\n[255:00000100]连接被切断了。  \n  \n不能得到车影。  \n  \n\n\n[255:00000100]连接被切断了。  \n  \n  \n没能得到车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0018",
@@ -116,8 +116,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0019",
     "original": "エイトクロスサーキット",
-    "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路"
+    "translation": "8字形赛道",
+    "context": "**翻译辅助**：\n\n8字形赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0020",
@@ -128,7 +128,7 @@
   {
     "key": "Scene_Ghost_ja_ghost_0021",
     "original": "プクプクビーチ",
-    "translation": "泡泡怪海滩",
+    "translation": "泡泡鱼海滩",
     "context": "**翻译辅助**：\n\n泡泡怪海滩"
   },
   {
@@ -194,8 +194,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0032",
     "original": "ピーチガーデン",
-    "translation": "碧姬公主花园",
-    "context": "**翻译辅助**：\n\n碧姬公主花园"
+    "translation": "碧姬花园",
+    "context": "**翻译辅助**：\n\n碧姬花园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0033",
@@ -224,8 +224,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0037",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA·碧姬公主赛道",
-    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
+    "translation": "GBA·碧姬赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0038",
@@ -290,7 +290,7 @@
   {
     "key": "Scene_Ghost_ja_ghost_0048",
     "original": "64・ヒュードロいけ",
-    "translation": "64·幽灵湖",
+    "translation": "64·幽灵池",
     "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
@@ -308,8 +308,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0051",
     "original": "エイトクロスサーキット",
-    "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路"
+    "translation": "8字形赛道",
+    "context": "**翻译辅助**：\n\n8字形赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0052",
@@ -320,7 +320,7 @@
   {
     "key": "Scene_Ghost_ja_ghost_0053",
     "original": "プクプクビーチ",
-    "translation": "泡泡怪海滩",
+    "translation": "泡泡鱼海滩",
     "context": "**翻译辅助**：\n\n泡泡怪海滩"
   },
   {
@@ -386,8 +386,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0064",
     "original": "ピーチガーデン",
-    "translation": "碧姬公主花园",
-    "context": "**翻译辅助**：\n\n碧姬公主花园"
+    "translation": "碧姬花园",
+    "context": "**翻译辅助**：\n\n碧姬花园"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0065",
@@ -416,8 +416,8 @@
   {
     "key": "Scene_Ghost_ja_ghost_0069",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA·碧姬公主赛道",
-    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
+    "translation": "GBA·碧姬赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬赛道"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0070",
@@ -482,7 +482,7 @@
   {
     "key": "Scene_Ghost_ja_ghost_0080",
     "original": "64・ヒュードロいけ",
-    "translation": "64·幽灵湖",
+    "translation": "64·幽灵池",
     "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
@@ -507,7 +507,7 @@
     "key": "Scene_Ghost_ja_ghost_0084",
     "original": "ゴーストをセーブするのを\nやめました。\n",
     "translation": "取消了保存车影。\n",
-    "context": "**翻译辅助**：\n\n  \n停止保存车影了。  \n\n\n停止保存鬼影。"
+    "context": "**翻译辅助**：\n\n  \n停止保存车影了。  \n\n\n停止保存车影。"
   },
   {
     "key": "Scene_Ghost_ja_ghost_0085",

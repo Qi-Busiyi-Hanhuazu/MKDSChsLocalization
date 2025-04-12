@@ -20,7 +20,7 @@
   {
     "key": "Main2D_ja_common_0003",
     "original": "けってい",
-    "translation": "决定",
+    "translation": "确定",
     "context": "**翻译辅助**：\n\n判定\n\n决堤"
   },
   {
@@ -45,7 +45,7 @@
     "key": "Main2D_ja_common_0007",
     "original": "フレンドコードを\nにゅうりょくしてください。",
     "translation": "请输入好友编号。",
-    "context": "**翻译辅助**：\n\n  \n请输入好友代码。\n\n请输入好友代码。"
+    "context": "**翻译辅助**：\n\n  \n请输入好友编号。\n\n请输入好友编号。"
   },
   {
     "key": "Main2D_ja_common_0008",
@@ -56,20 +56,20 @@
   {
     "key": "Main2D_ja_common_0009",
     "original": "フレンドコードを\nとうろくしました。",
-    "translation": "登记了好友编号。",
-    "context": "**翻译辅助**：\n\n  \n注册了好友代码。\n\n注册了好友代码。"
+    "translation": "添加了好友编号。",
+    "context": "**翻译辅助**：\n\n  \n注册了好友编号。\n\n注册了好友编号。"
   },
   {
     "key": "Main2D_ja_common_0010",
     "original": "フレンドコードが\nまちがっています。",
     "translation": "好友编号有误。",
-    "context": "**翻译辅助**：\n\n朋友代码  \n错误。\n\n好友代码是错误的。"
+    "context": "**翻译辅助**：\n\n好友编号  \n错误。\n\n好友编号是错误的。"
   },
   {
     "key": "Main2D_ja_common_0011",
     "original": "そのフレンドコードは\nすでにとうろくされています。",
-    "translation": "这个好友编号\n已经登记过了。",
-    "context": "**翻译辅助**：\n\n那个好友代码  \n已经注册了。\n\n那个朋友代码  \n已经被收录了。"
+    "translation": "此好友编号\n已经添加过了。",
+    "context": "**翻译辅助**：\n\n那个好友编号  \n已经注册了。\n\n那个好友编号  \n已经被收录了。"
   },
   {
     "key": "Main2D_ja_common_0012",
@@ -98,7 +98,7 @@
   {
     "key": "Main2D_ja_common_0016",
     "original": "ニックネームを\nとうろくしました。",
-    "translation": "登记了昵称。",
+    "translation": "添加了昵称。",
     "context": "**翻译辅助**：\n\n  \n注册了昵称。\n\n注册了昵称。"
   },
   {
@@ -110,7 +110,7 @@
   {
     "key": "Main2D_ja_common_0018",
     "original": "とうろくしました。",
-    "translation": "已登记。",
+    "translation": "已添加。",
     "context": "**翻译辅助**：\n\n我注册了。\n\n我成功了。"
   },
   {
@@ -134,8 +134,8 @@
   {
     "key": "Main2D_ja_common_0022",
     "original": "ピーチ",
-    "translation": "碧姬公主",
-    "context": "**翻译辅助**：\n\n碧姬公主"
+    "translation": "碧姬",
+    "context": "**翻译辅助**：\n\n碧姬"
   },
   {
     "key": "Main2D_ja_common_0023",
@@ -152,7 +152,7 @@
   {
     "key": "Main2D_ja_common_0025",
     "original": "ドンキー",
-    "translation": "碎碎龟",
+    "translation": "DK",
     "context": "**翻译辅助**：\n\n东基\n\n笨蛋"
   },
   {
@@ -170,8 +170,8 @@
   {
     "key": "Main2D_ja_common_0028",
     "original": "デイジー",
-    "translation": "黛西公主",
-    "context": "**翻译辅助**：\n\n黛西公主"
+    "translation": "黛西",
+    "context": "**翻译辅助**：\n\n黛西"
   },
   {
     "key": "Main2D_ja_common_0029",
@@ -212,7 +212,7 @@
   {
     "key": "Main2D_ja_common_0035",
     "original": "ニトログランプリ",
-    "translation": "硝基大奖赛",
+    "translation": "硝焰大奖赛",
     "context": "**翻译辅助**：\n\n硝基大奖赛"
   },
   {
@@ -272,8 +272,8 @@
   {
     "key": "Main2D_ja_common_0045",
     "original": "エイトクロスサーキット",
-    "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路"
+    "translation": "8字形赛道",
+    "context": "**翻译辅助**：\n\n8字形赛道"
   },
   {
     "key": "Main2D_ja_common_0046",
@@ -350,8 +350,8 @@
   {
     "key": "Main2D_ja_common_0058",
     "original": "ピーチガーデン",
-    "translation": "碧姬公主花园",
-    "context": "**翻译辅助**：\n\n碧姬公主花园"
+    "translation": "碧姬花园",
+    "context": "**翻译辅助**：\n\n碧姬花园"
   },
   {
     "key": "Main2D_ja_common_0059",
@@ -380,8 +380,8 @@
   {
     "key": "Main2D_ja_common_0063",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA·碧姬公主赛道",
-    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
+    "translation": "GBA·碧姬赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬赛道"
   },
   {
     "key": "Main2D_ja_common_0064",
@@ -446,7 +446,7 @@
   {
     "key": "Main2D_ja_common_0074",
     "original": "64・ヒュードロいけ",
-    "translation": "64·幽灵湖",
+    "translation": "64·幽灵池",
     "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
@@ -512,7 +512,7 @@
   {
     "key": "Main2D_ja_common_0085",
     "original": "あつめてシャイン",
-    "translation": "收集太阳",
+    "translation": "太阳之力收集",
     "context": "**翻译辅助**：\n\n收集太阳"
   },
   {
@@ -524,13 +524,13 @@
   {
     "key": "Main2D_ja_common_0087",
     "original": "イワンテ",
-    "translation": "岩手",
+    "translation": "岩魔手",
     "context": "**翻译辅助**：\n\n岩手"
   },
   {
     "key": "Main2D_ja_common_0088",
     "original": "クリキング",
-    "translation": "栗子王",
+    "translation": "栗国王",
     "context": "**翻译辅助**：\n\n栗子王"
   },
   {
@@ -578,7 +578,7 @@
   {
     "key": "Main2D_ja_common_0096",
     "original": "つぎのコースへ",
-    "translation": "前往下一条赛道",
+    "translation": "下一条赛道",
     "context": "**翻译辅助**：\n\n到下一个路线\n\n前往下一条路线"
   },
   {
@@ -620,7 +620,7 @@
   {
     "key": "Main2D_ja_common_0103",
     "original": "もういちど",
-    "translation": "再比一次",
+    "translation": "再来一次",
     "context": "**翻译辅助**：\n\n再比一次"
   },
   {
@@ -728,13 +728,13 @@
   {
     "key": "Main2D_ja_common_0121",
     "original": "しばらくおまちください...",
-    "translation": "请稍等...",
-    "context": "**翻译辅助**：\n\n请稍等。。\n\n请稍等……"
+    "translation": "请您稍等......",
+    "context": "**翻译辅助**：\n\n请您稍等。。\n\n请您稍等……"
   },
   {
     "key": "Main2D_ja_common_0122",
     "original": "ゆうしょうしたのは...",
-    "translation": "获胜的是...",
+    "translation": "获胜的是......",
     "context": "**翻译辅助**：\n\n获胜的是……\n\n我的意思是。。"
   },
   {
@@ -752,7 +752,7 @@
   {
     "key": "Main2D_ja_common_0125",
     "original": "セーブデータが こわれている\nかのうせいがあります。\nもんだいのあるデータを\nしょうきょします。",
-    "translation": "存档数据可能已损坏。\n\n将要删除有问题的数据。",
+    "translation": "保存数据可能已损坏。\n\n即将删除有问题的数据。",
     "context": "**翻译辅助**：\n\n  \n保存数据可能已损坏。  \n删除有问题的数据。  \n\n\n可能是因为存档数据坏了。  \n删除有问题的数据。"
   },
   {
@@ -776,50 +776,50 @@
   {
     "key": "Main2D_ja_common_0129",
     "original": "セーブしています...",
-    "translation": "正在保存...",
+    "translation": "正在保存......",
     "context": "**翻译辅助**：\n\n正在保存……\n\n正在保存。。"
   },
   {
     "key": "Main2D_ja_common_0130",
     "original": "つうしんがせつだんされました。\nAボタンでタイトルにもどります。",
-    "translation": "连接被切断了。\n按A键返回标题。",
-    "context": "**翻译辅助**：\n\n通信被切断了。  \n用A按钮返回标题。\n\n通信被切断了。  \nA按钮返回标题。"
+    "translation": "连接被切断了。\n按A键返回标题画面。",
+    "context": "**翻译辅助**：\n\n连接被切断了。  \n用A按钮返回标题。\n\n连接被切断了。  \nA按钮返回标题。"
   },
   {
     "key": "Main2D_ja_common_0131",
     "original": "データをよめませんでした。\nでんげんをきって　カードを\nさしこみなおしてください。",
-    "translation": "无法读取数据。\n请切断电源，\n重新插入卡带。",
+    "translation": "无法读取数据。\n请切断电源，\n重新插入游戏卡。",
     "context": "**翻译辅助**：\n\n无法读取数据。  \n请切断电源  \n重新插入卡。\n\n无法读取数据。  \n请打开电源重新插入卡片。"
   },
   {
     "key": "Main2D_ja_common_0132",
     "original": "かきこみにしっぱいしました。\nでんげんをきって　カードを\nさしこみなおしてください。",
-    "translation": "写入失败。\n请切断电源，\n重新插入卡带。",
+    "translation": "写入失败。\n请切断电源，\n重新插入游戏卡。",
     "context": "**翻译辅助**：\n\n写入失败。  \n请切断电源  \n重新插入卡。\n\n写入失败了。  \n请打开电源重新插入卡片。"
   },
   {
     "key": "Main2D_ja_common_0133",
     "original": "カードがぬけています。\nでんげんをきって　カードを\nさしこみなおしてください。",
-    "translation": "卡带被拔出了。\n请切断电源\n重新插入卡带。",
+    "translation": "游戏卡被拔出了。\n请切断电源\n重新插入游戏卡。",
     "context": "**翻译辅助**：\n\n卡片不见了。  \n请切断电源  \n重新插入卡。\n\n卡掉了。  \n请打开电源重新插入卡片。"
   },
   {
     "key": "Main2D_ja_common_0134",
     "original": "Wi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。\nエラーコード [1:ff00]",
-    "translation": "Wi-Fi连接被切断了。\n请按A键返回Wi-Fi菜单。\n错误代码 [1:ff00]",
+    "translation": "Wi-Fi Connection已断开连接。\n请按A键返回Wi-Fi菜单。\n错误代码 [1:ff00]",
     "context": "**翻译辅助**：\n\nWi-Fi连接被切断了。  \n用A按钮返回Wi-Fi菜单。  \n错误代码 [1:ff00]\n\nWi-Fi连接断开了。  \nA键返回Wi-Fi菜单。  \n错误代码 [1:ff00]"
   },
   {
     "key": "Main2D_ja_common_0135",
     "original": "30びょうかんキーにゅうりょくがなかったため\nWi-Fiコネクションがせつだんされました。\nＡボタンでWi-Fiメニューにもどります。",
-    "translation": "在30秒内没有按键输入，\n已切断Wi-Fi连接。\n请按A键返回Wi-Fi菜单。",
+    "translation": "在30秒内没有按键输入，\n已切断Wi-Fi Connection。\n请按A键返回Wi-Fi菜单。",
     "context": "**翻译辅助**：\n\n因为30秒没有输入键  \nWi-Fi连接被切断了。  \nA键返回Wi-Fi菜单。\n\n30因为没有输入接口键  \nWi-Fi连接被切断了。  \n用A按钮返回Wi-Fi菜单。"
   },
   {
     "key": "Main2D_ja_common_0136",
     "original": "たいせんあいてがいなくなりました。\nＡボタンで たいせんあいてのせっていに\nもどります。",
-    "translation": "对战对手不见了。\n请按A键返回\n对战对手的设置。",
-    "context": "**翻译辅助**：\n\n对手不见了。  \nA按钮  \n返回到对手的设置。\n\n重要的空闲时间不见了。  \n用A按钮返回到设置。"
+    "translation": "游戏对手不见了。\n请按A键返回\n游戏对手的设置。",
+    "context": "**翻译辅助**：\n\n游戏对手不见了。  \nA按钮  \n返回到游戏对手的设置。\n\n重要的空闲时间不见了。  \n用A按钮返回到设置。"
   },
   {
     "key": "Main2D_ja_common_0137",
@@ -830,7 +830,7 @@
   {
     "key": "Main2D_ja_common_0138",
     "original": "Wi-Fiせってい で\nせつぞくさきのせっていを\nごかくにんください。",
-    "translation": "请在Wi-Fi设置中\n确认接入点的设置。",
+    "translation": "请在Wi-Fi设置中\n确认连接设置。",
     "context": "**翻译辅助**：\n\n  \n请确认Wi-Fi设置  \n连接目的地的设置。\n\n请确认Wi-Fi设置。"
   },
   {

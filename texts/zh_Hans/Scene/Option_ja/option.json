@@ -2,7 +2,7 @@
   {
     "key": "Scene_Option_ja_option_0000",
     "original": "サウンド",
-    "translation": "声音效果 ",
+    "translation": " 音效 ",
     "context": "**翻译辅助**：\n\n音效"
   },
   {
@@ -44,7 +44,7 @@
   {
     "key": "Scene_Option_ja_option_0007",
     "original": "データクリアに\nしっぱいしました。\nこのカードはこわれているので\nつかえません。",
-    "translation": "删除数据失败了。\n\n这张卡带已经损坏，\n无法使用。",
+    "translation": "删除数据失败了。\n\n这张游戏卡已经损坏，\n无法使用。",
     "context": "**翻译辅助**：\n\n数据清除  \n失败了。  \n这张卡坏了  \n我抓不到。\n\n  \n数据清除失败。  \n这张卡坏了  \n不能用。"
   },
   {
@@ -86,13 +86,13 @@
   {
     "key": "Scene_Option_ja_option_0014",
     "original": "ちかくに　マルチプレイのたいせんあいてを\nぼしゅうしているひとを　みつけたとき",
-    "translation": "在附近存在正在寻找\n多人游戏的对手的人时",
-    "context": "**翻译辅助**：\n\n当你在附近找到一个对多人游戏有兴趣的人时  \n\n\n发现附近有人在招募多人对战对手的时候"
+    "translation": "在附近存在正在寻找\n多人游戏的游戏对手的人时",
+    "context": "**翻译辅助**：\n\n当你在附近找到一个对多人游戏有兴趣的人时  \n\n\n发现附近有人在招募多人游戏对手的时候"
   },
   {
     "key": "Scene_Option_ja_option_0015",
     "original": "Wi-Fiモードちゅう　たいせんあいてを\nもとめているともだちを　みつけたとき",
-    "translation": "在发现朋友想要在Wi-Fi模式下\n寻找对手的时候",
+    "translation": "在发现朋友想要在Wi-Fi模式下\n寻找游戏对手的时候",
     "context": "**翻译辅助**：\n\n  \n发现朋友想要Wi-Fi模式连线对战的时候\n\n在Wi-Fi模式下寻找朋友的时候"
   },
   {

@@ -1,7 +1,7 @@
 import math
 import os
 
-from helper import DIR_ORIGINAL_FILES, DIR_OUT, DIR_TEMP_OUT
+from helper import DIR_ORIGINAL_FILES, DIR_TEMP_OUT
 
 PATCH_FILE_PATH = "data/Boot/builddate.bin"
 

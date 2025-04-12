@@ -8,8 +8,8 @@
   {
     "key": "Scene_Logo_ja_mission_0001",
     "original": "コイン40まいを　ぜんぶあつめろ！\nせいげんじかんは　50びょう。",
-    "translation": "把40枚硬币全部收集起来！\n限制时间为50秒。",
-    "context": "**翻译辅助**：\n\n把40枚硬币全部收起来！  \n限制时间为50秒。\n\n收集所有40枚硬币！  \n时间限制为50秒。"
+    "translation": "把40枚金币全部收集起来！\n限制时间为50秒。",
+    "context": "**翻译辅助**：\n\n把40枚金币全部收起来！  \n限制时间为50秒。\n\n收集所有40枚金币！  \n时间限制为50秒。"
   },
   {
     "key": "Scene_Logo_ja_mission_0002",
@@ -20,14 +20,14 @@
   {
     "key": "Scene_Logo_ja_mission_0003",
     "original": "はぐれワンワンよりも\nさきにゴールしろ！",
-    "translation": "比起走散的汪汪\n先到达终点！",
+    "translation": "比起逃逸的汪汪\n先到达终点！",
     "context": "**翻译辅助**：\n\n比起走散的汪汪  \n先到达终点！\n\n比走散汪汪  \n先到达终点！"
   },
   {
     "key": "Scene_Logo_ja_mission_0004",
     "original": "コイン50まいを　ぜんぶあつめろ！\nせいげんじかんは　60びょう。",
-    "translation": "把50枚硬币全部收集起来！\n限制时间为60秒。",
-    "context": "**翻译辅助**：\n\n把50枚硬币全部收起来！  \n限制时间为60秒。\n\n收集全部50枚硬币！  \n时间限制为60秒。"
+    "translation": "把50枚金币全部收集起来！\n限制时间为60秒。",
+    "context": "**翻译辅助**：\n\n把50枚金币全部收起来！  \n限制时间为60秒。\n\n收集全部50枚金币！  \n时间限制为60秒。"
   },
   {
     "key": "Scene_Logo_ja_mission_0005",
@@ -44,7 +44,7 @@
   {
     "key": "Scene_Logo_ja_mission_0007",
     "original": "さくせいちゅう・・・",
-    "translation": "正在制作中···",
+    "translation": "正在制作中・・・・・・",
     "context": "**翻译辅助**：\n\n正在制作中……\n\n索引中"
   }
 ]

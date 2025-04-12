@@ -28,7 +28,7 @@ CHINESE_TO_JAPANESE = {
   "·": "・",
 }
 FONT_REPLACE_DICT = {}
-ADDITIONAL_CHARACTERS = "，《》"
+ADDITIONAL_CHARACTERS = "，：《》"
 DUPLICATE_FILES = {
   "Scene/MenuDL_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
   "Scene/Record_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
@@ -93,11 +93,6 @@ def get_used_characters(json_root: str) -> set[str]:
           characters.add(char)
 
   return characters
-
-
-def half_to_full(char: str) -> str:
-  char = CHINESE_TO_JAPANESE.get(char, char)
-  return char
 
 
 def enumrate_narc_files(folder: ndspy.fnt.Folder, prefix: str = ""):

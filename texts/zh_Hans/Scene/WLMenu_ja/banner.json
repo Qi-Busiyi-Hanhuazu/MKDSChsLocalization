@@ -32,32 +32,32 @@
   {
     "key": "Scene_WLMenu_ja_banner_0005",
     "original": "げんざいのエントリーすう...　",
-    "translation": "现在的报名人数...　",
+    "translation": "现在的加入人数：　",
     "context": "**翻译辅助**：\n\n现在的报名数。。　\n\n目前的报名人数……"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0006",
     "original": "しめきる",
-    "translation": "结束",
+    "translation": "关闭",
     "context": "**翻译辅助**：\n\n关闭\n\n结束"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0007",
     "original": "グループをえらんでください。\nグループがひとつもないときや\nあたらしく　つくりたいときは\n「グループをつくる」\nをえらんでください。",
-    "translation": "请选择群组。\n连1个小组都没有\n或者想要新建小组时，\n请选择“创建小组”。",
+    "translation": "请选择小组。\n连1个小组都没有\n或者想要新建小组时，\n请选择“创建小组”。",
     "context": "**翻译辅助**：\n\n你帮我看一下群。  \n没有一个组合的时候或者想新建的时候请选择  \n组成组合  \n。  \n\n\n请选择一个团体。  \n一个小组也没有的时候或者  \n想要建立新的时候请选择  \n“创建小组”。"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0009",
     "original": "たいせんあいては\nさいだい 7にん。\n「しめきる」をおすと\nさきに すすみます。",
-    "translation": "对手最多有7人。\n\n如果选择“关闭”，\n就会进入下一步。",
-    "context": "**翻译辅助**：\n\n最重要的是7岁。  \n按下“蘑菇”  \n首先前进。  \n\n\n对战对手最多7人。  \n按“关闭”  \n继续前进。"
+    "translation": "最多加入7名游戏对手。\n\n如果选择“关闭”，\n就会进入下一步。",
+    "context": "**翻译辅助**：\n\n最重要的是7岁。  \n按下“蘑菇”  \n首先前进。  \n\n\n游戏对手最多7人。  \n按“关闭”  \n继续前进。"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0010",
     "original": "ほかの たいせんあいてを\nまっています。\nしばらくおまちください。",
-    "translation": "正在等待其他对手。\n请稍等。",
-    "context": "**翻译辅助**：\n\n等待着其他的重要时刻。  \n请稍等片刻。  \n\n\n  \n等待其他对手。请稍等。"
+    "translation": "正在等待其他游戏对手。\n请您稍等。",
+    "context": "**翻译辅助**：\n\n等待着其他的重要时刻。  \n请您稍等。  \n\n\n  \n等待其他游戏对手。请您稍等。"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0011",

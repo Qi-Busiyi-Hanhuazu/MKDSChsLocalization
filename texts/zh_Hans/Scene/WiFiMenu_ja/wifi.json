@@ -2,14 +2,14 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0000",
     "original": "たいせんあいてのじょうけんを\nきめてください。",
-    "translation": "请设置选择对手的条件。",
-    "context": "**翻译辅助**：\n\n  \n请决定对手的条件。\n\n请决定最重要的条件。"
+    "translation": "请设置选择游戏对手的条件。",
+    "context": "**翻译辅助**：\n\n  \n请决定游戏对手的条件。\n\n请决定最重要的条件。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0001",
     "original": "たいせんあいて",
-    "translation": "对手",
-    "context": "**翻译辅助**：\n\n对手\n\n对战空手"
+    "translation": "游戏对手",
+    "context": "**翻译辅助**：\n\n游戏对手\n\n对战空手"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0002",
@@ -21,7 +21,7 @@
     "key": "Scene_WiFiMenu_ja_wifi_0003",
     "original": "ライバルと",
     "translation": "劲敌",
-    "context": "**翻译辅助**：\n\n和对手\n\n与竞争对手"
+    "context": "**翻译辅助**：\n\n和游戏对手\n\n与竞争对手"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0004",
@@ -44,13 +44,13 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0008",
     "original": "あいてをさがしています。\nしばらくおまちください。",
-    "translation": "正在寻找对手。\n请稍等。",
-    "context": "**翻译辅助**：\n\n我在找空手。  \n请稍等片刻。\n\n我在找对象。请稍等。"
+    "translation": "正在寻找对手。\n请您稍等。",
+    "context": "**翻译辅助**：\n\n我在找空手。  \n请您稍等。\n\n我在找对象。请您稍等。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0009",
     "original": "けんさくちゅう...",
-    "translation": "搜索中...",
+    "translation": "搜索中......",
     "context": "**翻译辅助**：\n\n搜索中……\n\n搜索中。。"
   },
   {
@@ -62,32 +62,32 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0011",
     "original": "たいせんあいてが\nけっていしました。",
-    "translation": "决定了对手。",
-    "context": "**翻译辅助**：\n\n决定了。  \n\n\n对手已经决定了。"
+    "translation": "确定了游戏对手。",
+    "context": "**翻译辅助**：\n\n决定了。  \n\n\n游戏对手已经决定了。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0012",
     "original": "あいてをさがしています。\nしばらくおまちください。\nごしていの じょうけんでは\n４にん あつまらないかも\nしれません。",
-    "translation": "正在寻找对手。\n请稍等。\n在此条件下，\n可能无法集齐4个人。",
-    "context": "**翻译辅助**：\n\n我在找对象。请稍等。在您指定的条件下，可能无法聚集4个人。  \n  \n  \n  \n\n\n我在找空手。  \n请稍等片刻。  \n在日常的条件下  \n可能不会集中到4。"
+    "translation": "正在寻找对手。\n请您稍等。\n在此条件下，\n可能无法集齐4个人。",
+    "context": "**翻译辅助**：\n\n我在找对象。请您稍等。在您指定的条件下，可能无法聚集4个人。  \n  \n  \n  \n\n\n我在找空手。  \n请您稍等。  \n在日常的条件下  \n可能不会集中到4。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0013",
     "original": "たいせんあいてが\nみつかりませんでした。",
-    "translation": "没有找到对手。",
-    "context": "**翻译辅助**：\n\n  \n没有找到对手。\n\n找不到。"
+    "translation": "没有找到游戏对手。",
+    "context": "**翻译辅助**：\n\n  \n没有找到游戏对手。\n\n找不到。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0014",
     "original": "フレンドリストに　ともだちが\nとうろくされていないので\nたいせんできません。",
-    "translation": "因为好友列表里\n没有登记好友，\n所以无法对战。",
+    "translation": "因为好友列表里\n没有添加好友，\n所以无法对战。",
     "context": "**翻译辅助**：\n\n  \n因为朋友没有登录到朋友列表  \n不能对战。\n\n朋友名单上没有写朋友，所以很难写。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0015",
     "original": "フレンドリストに\nあきがありません。\nいらないデータを けしてから\nフレンドコードを\nにゅうりょくしてください。",
     "translation": "好友列表已经满了。\n\n请删除不需要的数据后，\n再添加好友编号。",
-    "context": "**翻译辅助**：\n\n  \n朋友列表中没有空缺。  \n删除不需要的数据后  \n请输入好友代码  \n\n\n朋友列表里没有空。  \n删除不需要的数据后  \n请输入朋友代码。"
+    "context": "**翻译辅助**：\n\n  \n朋友列表中没有空缺。  \n删除不需要的数据后  \n请输入好友编号  \n\n\n朋友列表里没有空。  \n删除不需要的数据后  \n请输入好友编号。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0016",
@@ -99,54 +99,54 @@
     "key": "Scene_WiFiMenu_ja_wifi_0017",
     "original": "あなたのフレンドコードは",
     "translation": "你的好友编号是",
-    "context": "**翻译辅助**：\n\n你的朋友代码是\n\n你的好友代码"
+    "context": "**翻译辅助**：\n\n你的好友编号是\n\n你的好友编号"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0018",
     "original": "フレンドコードがありません。\nWi-Fiコネクションに\nせつぞくすると、\nフレンドコードが\nさくせいされます。",
-    "translation": "没有好友编号。\n\n连接到Wi-Fi连接后，\n就会创建好友编号。",
-    "context": "**翻译辅助**：\n\n我没有朋友代码。  \n连接到Wi-Fi连接  \n就会创建  \n朋友代码。  \n\n\n没有好友代码。  \n连接到Wi-Fi连接时，  \n好友代码将创建。"
+    "translation": "没有好友编号。\n\n连接到Wi-Fi Connection后，\n就会创建好友编号。",
+    "context": "**翻译辅助**：\n\n我没有好友编号。  \n连接到Wi-Fi连接  \n就会创建  \n好友编号。  \n\n\n没有好友编号。  \n连接到Wi-Fi连接时，  \n好友编号将创建。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0019",
     "original": "Wi-Fiコネクションに\nせつぞくしますか?",
-    "translation": "要连接Wi-Fi连接吗？",
+    "translation": "要连接Wi-Fi Connection吗？",
     "context": "**翻译辅助**：\n\n  \n连接Wi-Fi连接吗？\n\n连接Wi-Fi连接？"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0020",
     "original": "Wi-Fiコネクションに\nせつぞくしています。\nしばらくおまちください。",
-    "translation": "正在连接Wi-Fi连接。\n请稍等。",
-    "context": "**翻译辅助**：\n\n连接到Wi-Fi连接。  \n请稍等片刻。  \n\n\n  \n连接到Wi-Fi连接。请稍等。"
+    "translation": "正在连接Wi-Fi Connection。\n请您稍等。",
+    "context": "**翻译辅助**：\n\n连接到Wi-Fi连接。  \n请您稍等。  \n\n\n  \n连接到Wi-Fi连接。请您稍等。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0021",
     "original": "Wi-Fiコネクションに\nせつぞくできません。",
-    "translation": "无法连接Wi-Fi连接。",
+    "translation": "无法连接Wi-Fi Connection。",
     "context": "**翻译辅助**：\n\n  \n无法连接Wi-Fi连接。\n\n无法连接到Wi-Fi连接。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0022",
     "original": "「Wi-Fiせってい」で\nせつぞくさきの せっていを\nごかくにんください。",
-    "translation": "请在\n“Wi-Fi设置”中\n确认接入点的信息。",
+    "translation": "请在\n“Wi-Fi设置”中\n确认连接设置。",
     "context": "**翻译辅助**：\n\n请在  \nWi-Fi设置  \n中确认连接地址设置。\n\n请在“Wi-Fi设置”  \n确认连接目的地的设置。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0023",
     "original": "Wi-Fiコネクションから\nせつだんしても いいですか?",
-    "translation": "要切断Wi-Fi连接吗？",
+    "translation": "要切断Wi-Fi Connection吗？",
     "context": "**翻译辅助**：\n\n  \n我可以切断Wi-Fi连接吗？\n\n可以从Wi-Fi连接中断吗？"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0024",
     "original": "Wi-Fiコネクションから\nせつだんしています。",
-    "translation": "正在切断Wi-Fi连接。",
+    "translation": "正在切断Wi-Fi Connection。",
     "context": "**翻译辅助**：\n\n从Wi-Fi连接  \n切断。\n\n  \n断开Wi-Fi连接。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0025",
     "original": "Wi-Fiコネクションから\nせつだんしました。",
-    "translation": "切断了Wi-Fi连接。",
+    "translation": "切断了Wi-Fi Connection。",
     "context": "**翻译辅助**：\n\n从Wi-Fi连接  \n切断了。\n\n  \n断开了Wi-Fi连接。"
   },
   {
@@ -158,49 +158,49 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0027",
     "original": "たいせんあいてが\nいなくなりました。",
-    "translation": "对手不见了。",
-    "context": "**翻译辅助**：\n\n  \n对手不见了。\n\n重要的事情不见了。"
+    "translation": "游戏对手不见了。",
+    "context": "**翻译辅助**：\n\n  \n游戏对手不见了。\n\n重要的事情不见了。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0028",
     "original": "Wi-Fiコネクションでは\nＤＳカードとＤＳほんたいを\nセットであつかいます。",
-    "translation": "Wi-Fi连接会把\nDS卡带和DS主机绑定。",
+    "translation": "Wi-Fi Connection会把\nDS游戏卡和DS主机绑定。",
     "context": "**翻译辅助**：\n\n在Wi-Fi连接  \nDS卡和DS本体  \n组套处理。\n\nWi-Fi连接  \nDS卡和DS主机  \n组合。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0029",
     "original": "ＤＳカードにＤＳほんたいの\nWi-Fiユーザじょうほうを\nほぞんし Wi-Fiコネクションに\nせつぞくしますか？",
-    "translation": "要把这台DS主机的\nWi-Fi用户信息保存到\nDS卡带中，然后\n连接到Wi-Fi连接吗？",
+    "translation": "要把这台DS主机的\nWi-Fi用户信息保存到\nDS游戏卡中，然后\n连接到Wi-Fi Connection吗？",
     "context": "**翻译辅助**：\n\nDS卡  \n保存DS本体的  \nWi-Fi用户信息  \n连接到Wi-Fi连接吗？\n\n您的位置：知道爆料馆＞生活＞娱乐休闲＞无线网用户信息  \n  \n保存DS卡  \n连接到Wi-Fi？"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0030",
     "original": "このＤＳほんたいの\nWi-Fiユーザじょうほうを\nＤＳカードに ほぞんしました。",
-    "translation": "这台DS主机的\nWi-Fi用户信息已经\n保存在DS卡带中了。",
+    "translation": "这台DS主机的\nWi-Fi用户信息已经\n保存在DS游戏卡中了。",
     "context": "**翻译辅助**：\n\n这个DS实体的  \nWi-Fi用户信息  \n保存在DS卡中。\n\n我把这个DS主机的Wi-Fi用户保存到了  \nDS卡上。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0031",
     "original": "こんご Wi-Fiコネクションへの\nせつぞくは このＤＳほんたいを\nおつかいください。",
-    "translation": "今后如果要使用Wi-Fi连接，\n请使用这台DS主机。",
+    "translation": "今后如果要使用Wi-Fi Connection，\n请使用这台DS主机。",
     "context": "**翻译辅助**：\n\n今后向Wi-Fi连接的  \n连接请  \n使用这个DS本体。\n\n连接到这个Wi-Fi连接  \n请使用这个DS。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0032",
     "original": "ＤＳほんたいとＤＳカードの\nWi-Fiユーザじょうほうが\nちがっているため\nWi-Fiコネクションに\nせつぞくできません。",
-    "translation": "由于DS主机和\nDS卡带保存的\nWi-Fi用户信息不同，\n无法连接到Wi-Fi连接。",
+    "translation": "由于DS主机和\nDS游戏卡保存的\nWi-Fi用户信息不同，\n无法连接到Wi-Fi Connection。",
     "context": "**翻译辅助**：\n\n由于DS主机和DS卡的  \nWi-Fi用户信息  \n不同  \n无法连接到Wi-Fi连接。  \n\n\n由于DS本体和DS卡的  \nWi-Fi用户信息  \n不同  \n无法连接到  \nWi-Fi连接。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0033",
     "original": "Wi-Fiユーザじょうほうを\nこうしんすると\nWi-Fiコネクションで これまで\nおつかいになっていたデータは\nうしなわれてしまいます。",
-    "translation": "如果更新Wi-Fi用户信息，\n至今为止的Wi-Fi连接\n使用数据将会丢失。",
+    "translation": "如果更新Wi-Fi用户信息，\n至今为止的Wi-Fi Connection\n使用数据将会丢失。",
     "context": "**翻译辅助**：\n\nWi-Fi用户信息  \n更新的话  \nWi-Fi连接到现在为止  \n使用的数据  \n丢失了。\n\n  \n更新Wi-Fi用户信息的话  \n到现在为止使用Wi-Fi连接  \n的数据  \n丢失。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0034",
     "original": "ＤＳカードにほぞんされている\nWi-Fiユーザじょうほうを\nこうしんしますか？ ",
-    "translation": "是否要更新\n存储在DS卡带上的\nWi-Fi用户信息？ ",
+    "translation": "是否要更新\n存储在DS游戏卡上的\nWi-Fi用户信息？ ",
     "context": "**翻译辅助**：\n\n您是否想要更新存储在DS卡上的Wi-Fi用户信息？   \n  \n\n\n要更新保存在DS卡上的  \nWi-Fi用户信息吗？"
   },
   {
@@ -212,7 +212,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0036",
     "original": "ただし　Wi-Fiたいせんで\nともだちとたいせんするには\nもういちど　ともだちの\nフレンドリストにとうろくして\nもらうひつようがあります。",
-    "translation": "但是，若要在Wi-Fi对战中\n与朋友对战，\n必须再次在好友列表中\n登记好友。",
+    "translation": "但是，若要在Wi-Fi对战中\n与朋友对战，\n必须再次在好友列表中\n添加好友。",
     "context": "**翻译辅助**：\n\n但是，在Wi-Fi大战中与朋友对战  \n必须再次登录朋友的  \n好友列表。  \n  \n\n\n但是要想和朋友一起玩Wi-Fi的话，有可能会再次被朋友列入好友名单。"
   },
   {
@@ -230,43 +230,43 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0039",
     "original": "おきゃくさまの\nWi-FiコネクションＩＤは\nながいあいだ\nしようされなかったため\nさくじょされました。",
-    "translation": "您的Wi-Fi连接ID\n由于长时间未使用，\n已经被删除了。",
+    "translation": "您的Wi-Fi ConnectionID\n由于长时间未使用，\n已经被删除了。",
     "context": "**翻译辅助**：\n\n顾客的  \nWi-Fi连接ID  \n因为长时间  \n不使用  \n被删除了。\n\n您的Wi-Fi连接ID已被删除，因为它在很长一段时间内无法使用。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0040",
     "original": "このソフトの\nWi-Fiコネクションサービスは\nしゅうりょうしました。\nごりよう\nありがとうございました。",
-    "translation": "此软件的\nWi-Fi连接服务\n已经终止。\n感谢您的使用。",
+    "translation": "此软件的\nWi-Fi Connection服务\n已经终止。\n感谢您的使用。",
     "context": "**翻译辅助**：\n\n这个软件的  \nWi-Fi连接服务  \n终止了。  \n感谢您的使用。  \n\n\n这个软件的Wi-Fi连接服务  \n结束了。  \n多谢款待。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0041",
     "original": "せつぞくできる\nアクセスポイントが\nみつかりません。",
-    "translation": "无法找到\n可连接的接入点。",
+    "translation": "无法找到可连接的\n无线接入点。",
     "context": "**翻译辅助**：\n\n  \n无法找到可连接的接入点。  \n\n\n找不到可连接的接入点。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0042",
     "original": "ニンテンドーWi-Fiコネクタに\nせつぞくできません。",
-    "translation": "无法连接到\n任天堂Wi-Fi连接器。",
+    "translation": "无法连接到\nNintendo Wi-Fi USB Connector。",
     "context": "**翻译辅助**：\n\n  \n无法连接到任天堂Wi-Fi连接器。\n\n无法连接到任天堂Wi-Fi连接器。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0043",
     "original": "「Wi-Fiせってい」で\nニンテンドーWi-Fiコネクタの\nせつぞくを\nごかくにんください。",
-    "translation": "请在“Wi-Fi设置”中\n确认任天堂Wi-Fi连接器的连接。",
+    "translation": "请在“Wi-Fi设置”中\n确认Nintendo Wi-Fi USB Connector的连接。",
     "context": "**翻译辅助**：\n\n请在“Wi-Fi设置”中确认  \n任天堂Wi-Fi连接器的  \n连接。  \n\n\n“Wi-Fi请确认任天堂Wi-Fi连接器的连接。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0044",
     "original": "アクセスポイントが\nみつかりません。\nアクセスポイントにちかづいて\nもういちど おためしください。",
-    "translation": "找不到接入点。\n请靠近接入点后，\n再试一次。",
+    "translation": "无法找到无线接入点。\n请靠近无线接入点后，\n再试一次。",
     "context": "**翻译辅助**：\n\n  \n找不到接入点。  \n靠近接入点  \n再试一次。\n\n找不到接入点。  \n靠近接入点  \n请再试一次。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0045",
     "original": "Wi-Fiコネクションが\nこみあっているか\nサービスがていし しているため\nせつぞくできません。",
-    "translation": "由于Wi-Fi连接繁忙，\n服务已停止，\n无法连接。",
+    "translation": "由于Wi-Fi Connection服务器\n正在维护或十分拥堵，\n无法连接。",
     "context": "**翻译辅助**：\n\n由于Wi-Fi连接  \n拥挤  \n服务停止  \n无法连接。\n\nWi-Fi连接  \n紧密或服务中断  \n无法连接。"
   },
   {
@@ -278,7 +278,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0047",
     "original": "アクセスポイントが\nこみあっているため\nせつぞくできません。",
-    "translation": "由于接入点繁忙，\n无法连接。",
+    "translation": "由于无线接入点繁忙，\n无法连接。",
     "context": "**翻译辅助**：\n\n接入点  \n因为拥挤  \n不能连接。\n\n由于接入点  \n拥挤  \n无法连接。"
   },
   {
@@ -290,8 +290,8 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0049",
     "original": "エイトクロスサーキット",
-    "translation": "八交叉电路",
-    "context": "**翻译辅助**：\n\n八交叉电路"
+    "translation": "8字形赛道",
+    "context": "**翻译辅助**：\n\n8字形赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0050",
@@ -302,7 +302,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0051",
     "original": "プクプクビーチ",
-    "translation": "泡泡怪海滩",
+    "translation": "泡泡鱼海滩",
     "context": "**翻译辅助**：\n\n泡泡怪海滩"
   },
   {
@@ -368,8 +368,8 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0062",
     "original": "ピーチガーデン",
-    "translation": "碧姬公主花园",
-    "context": "**翻译辅助**：\n\n碧姬公主花园"
+    "translation": "碧姬花园",
+    "context": "**翻译辅助**：\n\n碧姬花园"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0063",
@@ -398,8 +398,8 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0067",
     "original": "GBA・ピーチサーキット",
-    "translation": "GBA·碧姬公主赛道",
-    "context": "**翻译辅助**：\n\nGBA·碧姬公主赛道"
+    "translation": "GBA·碧姬赛道",
+    "context": "**翻译辅助**：\n\nGBA·碧姬赛道"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0068",
@@ -464,7 +464,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0078",
     "original": "64・ヒュードロいけ",
-    "translation": "64·幽灵湖",
+    "translation": "64·幽灵池",
     "context": "**翻译辅助**：\n\n64·幽灵湖"
   },
   {
