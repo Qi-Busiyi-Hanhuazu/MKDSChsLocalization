@@ -728,13 +728,13 @@
   {
     "key": "Main2D_ja_common_0121",
     "original": "しばらくおまちください...",
-    "translation": "请您稍等......",
+    "translation": "请您稍等……",
     "context": "**翻译辅助**：\n\n请您稍等。。\n\n请您稍等……"
   },
   {
     "key": "Main2D_ja_common_0122",
     "original": "ゆうしょうしたのは...",
-    "translation": "获胜的是......",
+    "translation": "获胜的是……",
     "context": "**翻译辅助**：\n\n获胜的是……\n\n我的意思是。。"
   },
   {
@@ -776,7 +776,7 @@
   {
     "key": "Main2D_ja_common_0129",
     "original": "セーブしています...",
-    "translation": "正在保存......",
+    "translation": "正在保存……",
     "context": "**翻译辅助**：\n\n正在保存……\n\n正在保存。。"
   },
   {

@@ -1,13 +1,15 @@
+import json
 import os
+import sys
 from typing import Callable, TypedDict
 
 from helper import (
-  ADDITIONAL_CHARACTERS,
+  CHAR_TABLE_PATH,
+  CHAR_WIDTH_DICT,
   DIR_TEMP_IMPORT,
-  DIR_TEXT_FILES,
   DIR_UNPACKED_FILES,
   FONT_REPLACE_DICT,
-  get_used_characters,
+  char_table_filter,
 )
 from nftr import CMAP, NFTR, CGLPTile, CWDHInfo
 from PIL import Image, ImageDraw, ImageFont
@@ -20,80 +22,6 @@ class FontConfig(TypedDict):
   draw: Callable[[Image.Image, ImageDraw.ImageDraw, ImageFont.FreeTypeFont, str], None]
   width: int
   length: int
-
-
-def remove_unused_characters(nftr: NFTR) -> NFTR:
-  new_char_map = {}
-  for index, code in nftr.char_map.items():
-    if 0x4E00 <= code <= 0x9FFF:
-      continue
-    new_char_map[index] = code
-
-  nftr.char_map = new_char_map
-  return nftr
-
-
-def draw_char_m(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
-  x, y = 0, 11
-  if char == "，":
-    x -= 1
-    y += 2
-  draw.text(
-    (x, y),
-    char + "　　黑鼠龙龟",
-    0x00,
-    font,
-    "ls",
-  )
-
-
-def draw_char_s(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
-  draw.text(
-    (0, 9),
-    char + "　　黑鼠龙龟",
-    0x00,
-    font,
-    "ls",
-  )
-
-
-def draw_char_mario(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
-  draw.fontmode = "1"
-  for y in (-1, 1, 0):
-    for x in (-1, 1, 0):
-      color = 0xAA if (x == 0 and y == 0) else 0x55
-      draw.text(
-        (1 + x, 10 + y),
-        char + "　　黑鼠龙龟",
-        color,
-        font,
-        "ls",
-      )
-
-
-FONT_CONFIG: dict[str, dict] = {
-  "Main2D/LC_Font_m.NFTR": {
-    "handle": remove_unused_characters,
-    "font": "C:/Windows/Fonts/simsun.ttc",
-    "size": 12,
-    "draw": draw_char_m,
-    "width": 11,
-  },
-  "Main2D/LC_Font_s.NFTR": {
-    "handle": remove_unused_characters,
-    "font": "files/fonts/Zfull-GB.ttf",
-    "size": 10,
-    "draw": draw_char_s,
-    "width": 9,
-  },
-  "Main2D/marioFont.NFTR": {
-    "handle": remove_unused_characters,
-    "font": "files/fonts/Zfull-GB.ttf",
-    "size": 10,
-    "draw": draw_char_mario,
-    "width": 11,
-  },
-}
 
 
 def compress_cmap(char_map: dict[int, int]) -> list[CMAP]:
@@ -161,6 +89,7 @@ def create_font(
   characters: list[str],
   char_encoder: Callable[[str], int] = ord,
   font_replace_dict: dict[str, str] = {},
+  special_char_width: dict[str, int] = {},
 ) -> None:
   for file_name, config in config_dict.items():
     nftr = NFTR(f"{original_root}/{file_name}")
@@ -171,8 +100,6 @@ def create_font(
 
     font = ImageFont.truetype(config["font"], config["size"])
     draw_char = config["draw"]
-    char_width = config["width"]
-    char_length = config.get("length", char_width)
     nftr.finf.default_start = 0
     nftr.finf.default_width = config["width"]
     nftr.finf.default_length = config.get("length", config["width"])
@@ -187,17 +114,25 @@ def create_font(
     for char in characters:
       code = char_encoder(char)
 
+      if code in char_to_index_map:
+        continue
+
+      code = char_encoder(char)
+
       bitmap = Image.new("L", (tile.width, tile.height), 0xFF)
       draw = ImageDraw.Draw(bitmap)
       draw_char(bitmap, draw, font, font_replace_dict.get(char, char))
       new_tile = CGLPTile(tile.width, tile.height, tile.depth, tile.get_bytes(bitmap))
+
+      char_width = special_char_width.get(char, config["width"])
+      char_length = config.get("length", char_width)
 
       if code in char_to_index_map:
         _ = char_to_index_map[code]
         nftr.cglp.tiles[_] = new_tile
         nftr.cwdh.info[_].width = char_width
       else:
-        index += 1
+        index = len(nftr.cglp.tiles)
         char_map[index] = code
         nftr.cglp.tiles.append(new_tile)
         nftr.cwdh.info.append(CWDHInfo(0, char_width, char_length))
@@ -229,7 +164,117 @@ def create_font(
 
 
 if __name__ == "__main__":
-  used_characters = get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans")
-  characters = sorted(list(filter(lambda x: 0x4E00 <= ord(x) <= 0x9FFF, used_characters)) + list(ADDITIONAL_CHARACTERS))
+  version = os.environ.get("XZ_MKDS_VERSION", "normal")
 
-  create_font(DIR_UNPACKED_FILES, DIR_TEMP_IMPORT, FONT_CONFIG, characters, ord, FONT_REPLACE_DICT)
+  def handle_middle_font(nftr: NFTR) -> NFTR:
+    nftr.cwdh.info[0].length = 1
+    nftr.cwdh.info[0].start = 1
+
+    return nftr
+
+  def handle_mario_font(nftr: NFTR) -> NFTR:
+    nftr.cwdh.info[0].length = 1
+    nftr.cwdh.info[0].start = 1
+
+    return nftr
+
+  def remove_unused_characters_for_dlp(nftr: NFTR) -> NFTR:
+    new_char_map = {}
+    for index, code in nftr.char_map.items():
+      if not char_table_filter(code):
+        new_char_map[index] = code
+
+    nftr.char_map = new_char_map
+    nftr.finf.height = 10
+    nftr.cglp.tile_height = 10
+    for tile in nftr.cglp.tiles:
+      old_bitmap = tile.get_image()
+      new_bitmap = old_bitmap.crop((0, 1, 9, 11))
+      tile.height = 10
+      tile.raw_bytes = tile.get_bytes(new_bitmap)
+
+    return nftr
+
+  def draw_char_m(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
+    x, y = 0, 11
+    if char == "，":
+      x -= 1
+      y += 2
+    draw.text(
+      (x, y),
+      char + "　　黑鼠龙龟",
+      0x00,
+      font,
+      "ls",
+    )
+
+  def draw_char_s(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
+    y = 9
+    if version == "dlp":
+      y = 8
+    draw.text(
+      (0, y),
+      char + "　　黑鼠龙龟",
+      0x00,
+      font,
+      "ls",
+    )
+
+  def draw_char_mario(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
+    draw.fontmode = "1"
+    for y in (-1, 1, 0):
+      for x in (-1, 1, 0):
+        color = 0xAA if (x == 0 and y == 0) else 0x55
+        draw.text(
+          (1 + x, 10 + y),
+          char + "　　黑鼠龙龟",
+          color,
+          font,
+          "ls",
+        )
+
+  font_config: dict[str, FontConfig] = {
+    "Main2D/LC_Font_m.NFTR": {
+      "handle": handle_mario_font,
+      "font": "C:/Windows/Fonts/simsun.ttc",
+      "size": 12,
+      "draw": draw_char_m,
+      "width": 11,
+    },
+    "Main2D/LC_Font_s.NFTR": {
+      "font": "files/fonts/Zfull-GB.ttf",
+      "size": 10,
+      "draw": draw_char_s,
+      "width": 9,
+    },
+    "Main2D/marioFont.NFTR": {
+      "handle": handle_mario_font,
+      "font": "files/fonts/Zfull-GB.ttf",
+      "size": 10,
+      "draw": draw_char_mario,
+      "width": 11,
+    },
+  }
+  if version == "dlp":
+    font_config: dict[str, FontConfig] = {
+      "Main2D/LC_Font_s.NFTR": {
+        "handle": lambda x: remove_unused_characters_for_dlp(x),
+        "font": "files/fonts/Zfull-GB.ttf",
+        "size": 10,
+        "draw": draw_char_s,
+        "width": 9,
+      },
+    }
+
+  with open(CHAR_TABLE_PATH, "r", -1, "utf8") as reader:
+    char_table: dict[str, str] = json.load(reader)
+
+  create_font(
+    DIR_UNPACKED_FILES,
+    DIR_TEMP_IMPORT,
+    font_config,
+    list(char_table.keys()),
+    ord,
+    {**char_table, **FONT_REPLACE_DICT},
+    CHAR_WIDTH_DICT,
+  )

@@ -2,7 +2,7 @@
   {
     "key": "Scene_Option_ja_option_0000",
     "original": "サウンド",
-    "translation": " 音效 ",
+    "translation": "音效\u2005",
     "context": "**翻译辅助**：\n\n音效"
   },
   {
@@ -14,7 +14,7 @@
   {
     "key": "Scene_Option_ja_option_0002",
     "original": "なかまをさがす",
-    "translation": "寻找同伴 ",
+    "translation": "寻找同伴\u2005",
     "context": "**翻译辅助**：\n\n找同伴\n\n寻找同伴"
   },
   {
@@ -68,7 +68,7 @@
   {
     "key": "Scene_Option_ja_option_0011",
     "original": "なかまをさがす　について・・・",
-    "translation": "关于寻找同伴···",
+    "translation": "关于寻找同伴……",
     "context": "**翻译辅助**：\n\n关于拉同伴\n\n关于寻找同伴……"
   },
   {

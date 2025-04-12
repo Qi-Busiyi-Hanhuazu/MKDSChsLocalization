@@ -16,6 +16,7 @@ DIR_UNPACKED_FILES = "unpacked"
 DIR_TEMP_IMPORT = "temp/import"
 DIR_TEMP_OUT = "temp/out"
 
+CHAR_TABLE_PATH = "out/char_table.json"
 BANNER_PATH = "original_files/banner.bin"
 BANNER_OUT_PATH = "out/banner.bin"
 
@@ -27,7 +28,12 @@ CHINESE_TO_JAPANESE = {
   " ": "　",
   "·": "・",
 }
-FONT_REPLACE_DICT = {}
+FONT_REPLACE_DICT = {
+  "\u2005": " ",
+}
+CHAR_WIDTH_DICT = {
+  "\u2005": 9,
+}
 ADDITIONAL_CHARACTERS = "，：《》"
 DUPLICATE_FILES = {
   "Scene/MenuDL_ja/ghost.bmg": "Scene/Ghost_ja/ghost.bmg",
@@ -100,3 +106,12 @@ def enumrate_narc_files(folder: ndspy.fnt.Folder, prefix: str = ""):
     yield i + folder.firstID, prefix + file_name
   for folder_name, folder in folder.folders:
     yield from enumrate_narc_files(folder, prefix + folder_name + "/")
+
+
+def char_table_filter(code: int):
+  if code <= 0x80 or 0x2000 <= code <= 0x201D or 0x3000 <= code <= 0x303F or code >= 0xE000:
+    return False
+  if code == 0x30FB:
+    # '・'
+    return False
+  return True

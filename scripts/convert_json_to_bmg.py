@@ -1,8 +1,10 @@
 import io
+import json
 import os
 
 import ndspy.bmg
 from helper import (
+  CHAR_TABLE_PATH,
   CHINESE_TO_JAPANESE,
   DIR_TEMP_IMPORT,
   DIR_TEXT_FILES,
@@ -25,7 +27,10 @@ def to_bmg(reader: io.BytesIO, sheet_name: str, data: dict[str, str]) -> bytes:
     while char_pos < len(text):
       char = text[char_pos]
       if char != "[":
-        string_parts.append(CHINESE_TO_JAPANESE.get(char, char))
+        encoded_char = CHINESE_TO_JAPANESE.get(char, char)
+        if key in ("Scene_WLMenu_ja_banner_0000", "Scene_WLMenu_ja_banner_0001"):
+          encoded_char = char
+        string_parts.append(encoded_char)
         char_pos += 1
         continue
 
@@ -71,4 +76,8 @@ def convert_json_to_bmg(input_root: str, json_root: str, language: str, output_r
 
 
 if __name__ == "__main__":
+  with open(CHAR_TABLE_PATH, "r", -1, "utf8") as reader:
+    char_table: dict[str, str] = json.load(reader)
+  CHINESE_TO_JAPANESE.update({v: k for k, v in char_table.items()})
+
   convert_json_to_bmg(DIR_UNPACKED_FILES, DIR_TEXT_FILES, "zh_Hans", DIR_TEMP_IMPORT)
