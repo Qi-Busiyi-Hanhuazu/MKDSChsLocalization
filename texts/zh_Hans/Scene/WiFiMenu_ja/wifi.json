@@ -230,7 +230,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0039",
     "original": "おきゃくさまの\nWi-FiコネクションＩＤは\nながいあいだ\nしようされなかったため\nさくじょされました。",
-    "translation": "您的Wi-Fi ConnectionID\n由于长时间未使用，\n已经被删除了。",
+    "translation": "您的Wi-Fi Connection ID\n由于长时间未使用，\n已经被删除了。",
     "context": "**翻译辅助**：\n\n顾客的  \nWi-Fi连接ID  \n因为长时间  \n不使用  \n被删除了。\n\n您的Wi-Fi连接ID已被删除，因为它在很长一段时间内无法使用。"
   },
   {
