@@ -1,3 +1,4 @@
+import os
 import struct
 
 import ndspy._common
@@ -17,6 +18,7 @@ def edit_banner(input_path: str, output_path: str, new_text: str):
   crc16 = ndspy._common.crc16(data[0x20:0x840])
   data = data[:0x02] + struct.pack("<H", crc16) + data[0x04:]
 
+  os.makedirs(os.path.dirname(output_path), exist_ok=True)
   with open(output_path, "wb") as writer:
     writer.write(data)
 

@@ -16,8 +16,6 @@ if (-Not (Test-Path -Path "unpacked\Main2D_ja\common.bmg" -PathType "Leaf")) {
   python scripts\unpack_carc.py
 }
 
-python scripts\generate_char_table.py
-python scripts\convert_json_to_bmg.py
 python scripts\convert_png_to_ncer.py
 python scripts\convert_png_to_ncgr.py
 python scripts\convert_png_to_nsbmd.py
@@ -33,6 +31,8 @@ $versions = @("normal", "dlp")
 foreach ($version in $versions) {
   $env:XZ_MKDS_VERSION = $version
 
+  python scripts\generate_char_table.py
+  python scripts\convert_json_to_bmg.py
   python scripts\create_font.py
 
   if ($version -eq "dlp") {

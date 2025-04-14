@@ -24,8 +24,7 @@ def generate_unicode() -> Generator[tuple[int, str], Any, None]:
       yield code, char
 
 
-def generate_char_table(json_root: str) -> dict[str, str]:
-  characters = sorted(get_used_characters(json_root))
+def generate_char_table(characters: list[str]) -> dict[str, str]:
   generator = generate_unicode()
 
   char_table = {}
@@ -41,7 +40,12 @@ def generate_char_table(json_root: str) -> dict[str, str]:
 
 
 if __name__ == "__main__":
-  char_table = generate_char_table(f"{DIR_TEXT_FILES}/zh_Hans")
+  version = os.environ.get("XZ_MKDS_VERSION", "normal")
+
+  characters = sorted(get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans"))
+  char_table = {k: k for k in characters}
+  if version == "dlp":
+    char_table = generate_char_table(characters)
   os.makedirs(os.path.dirname(CHAR_TABLE_PATH), exist_ok=True)
   with open(CHAR_TABLE_PATH, "w", -1, "utf8") as writer:
     json.dump(char_table, writer, ensure_ascii=False, indent=2)

@@ -3,7 +3,7 @@ NCLR	NCGR	palette
 Scene/Emblem/emblem_m_o.NCLR	Scene/Emblem_ja/emblem_m_o.NCGR
 ../files/images/template.nclr	Scene/Emblem_ja/emblem_s_o.NCGR
 Scene/Ending/end_allRightsReserved_s_b.NCLR	Scene/Ending/end_allRightsReserved_s_b.NCGR
-Scene/Ending/logo_end_marioKart_m_b.NCLR	Scene/Ending/logo_end_marioKart_m_b_00.NCGR
+Scene/Ending/logo_end_marioKart_m_b.NCLR	Scene/Ending/logo_end_marioKart_m_b_00.NCGR	4
 Scene/Logo/allRightsReserved_s_b.NCLR	Scene/Logo/allRightsReserved_s_b.NCGR
 Scene/Menu/common/select_game_m_b.NCLR	Scene/Menu_ja/common/select_game_m_b.NCGR
 Scene/Menu/mr/Mission_run_LVsel_m_b.NCLR	Scene/Menu_ja/mr/Mission_run_LVsel_m_b.NCGR
