@@ -7,9 +7,11 @@ from helper import (
   CHAR_TABLE_PATH,
   CHAR_WIDTH_DICT,
   DIR_TEMP_IMPORT,
+  DIR_TEXT_FILES,
   DIR_UNPACKED_FILES,
   FONT_REPLACE_DICT,
   char_table_filter,
+  get_used_characters,
 )
 from nftr import CMAP, NFTR, CGLPTile, CWDHInfo
 from PIL import Image, ImageDraw, ImageFont
@@ -185,13 +187,14 @@ if __name__ == "__main__":
         new_char_map[index] = code
 
     nftr.char_map = new_char_map
-    nftr.finf.height = 10
-    nftr.cglp.tile_height = 10
-    for tile in nftr.cglp.tiles:
-      old_bitmap = tile.get_image()
-      new_bitmap = old_bitmap.crop((0, 1, 9, 11))
-      tile.height = 10
-      tile.raw_bytes = tile.get_bytes(new_bitmap)
+    if nftr.cglp.tile_height > 10:
+      nftr.finf.height = 10
+      nftr.cglp.tile_height = 10
+      for tile in nftr.cglp.tiles:
+        old_bitmap = tile.get_image()
+        new_bitmap = old_bitmap.crop((0, 1, 9, 11))
+        tile.height = 10
+        tile.raw_bytes = tile.get_bytes(new_bitmap)
 
     return nftr
 
@@ -258,7 +261,7 @@ if __name__ == "__main__":
   if version == "dlp":
     font_config: dict[str, FontConfig] = {
       "Main2D/LC_Font_s.NFTR": {
-        "handle": lambda x: remove_unused_characters_for_dlp(x),
+        "handle": remove_unused_characters_for_dlp,
         "font": "files/fonts/Zfull-GB.ttf",
         "size": 10,
         "draw": draw_char_s,
@@ -278,3 +281,25 @@ if __name__ == "__main__":
     {**char_table, **FONT_REPLACE_DICT},
     CHAR_WIDTH_DICT,
   )
+
+  if version == "dlp":
+    font_config_dlp = {
+      "Static2D/MBChild_ja.NFTR": {
+        "handle": remove_unused_characters_for_dlp,
+        "font": "files/fonts/Zfull-GB.ttf",
+        "size": 10,
+        "draw": draw_char_s,
+        "width": 9,
+      },
+    }
+    real_characters = get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans/Static2D")
+    characters = [k for k, v in char_table.items() if v in real_characters]
+    create_font(
+      DIR_UNPACKED_FILES,
+      DIR_TEMP_IMPORT,
+      font_config_dlp,
+      characters,
+      ord,
+      {**char_table, **FONT_REPLACE_DICT},
+      CHAR_WIDTH_DICT,
+    )
