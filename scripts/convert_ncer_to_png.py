@@ -2,6 +2,7 @@ import os
 
 from nitrogfx.convert import NCER, NCGR, NCLR, OAM, Cell, Tile, nclr_to_imgpal
 from PIL import Image
+from convert_nclr_to_act import nclr_to_act
 
 with open("files/ncer_files.txt", "r", -1, "utf8") as reader:
   lines = reader.read().splitlines()
@@ -44,3 +45,5 @@ for i, line in enumerate(lines[1:]):
     png_path = f"temp/images/{line_data['NCER']}_{j}.png"
     os.makedirs(os.path.dirname(png_path), exist_ok=True)
     cell_image.save(png_path)
+    act_path = f"temp/images/{line_data['NCER']}_{j}.act"
+    nclr_to_act(nclr, act_path, index=oam.pal, bpp=ncgr.bpp)

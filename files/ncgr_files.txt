@@ -11,8 +11,8 @@ Scene/Menu/mr/Mission_run_MSsel_m_b.NCLR	Scene/Menu_ja/mr/Mission_run_MSsel_m_b.
 Scene/Menu/ta/TimeAttack_top_menu_m_b.NCLR	Scene/Menu_ja/ta/TimeAttack_top_menu_m_b.NCGR
 Scene/Option/Option_top_menu_m_b.NCLR	Scene/Option_ja/Option_top_menu_m_b.NCGR
 Scene/Race/race_goal_m_o.NCLR	Scene/Race_ja/race_goal_m_o.NCGR
-Scene/Race/race_goal_s_o.NCLR	Scene/Race_ja/race_goal_s_o.NCGR
-Scene/Race/race_m_b.NCLR	Scene/Race_ja/race_m_b.NCGR
+Scene/Race/race_goal_s_o.NCLR	Scene/Race_ja/race_goal_s_o.NCGR	1
+Scene/Race/race_m_b.NCLR	Scene/Race_ja/race_m_b.NCGR	2
 Scene/Race/race_m_o.NCLR	Scene/Race_ja/race_m_o.NCGR
 Scene/Race/race_s_o.NCLR	Scene/Race_ja/race_s_o.NCGR
 Scene/Race_mg/race_battle_m_o.NCLR	Scene/Race_mg_ja/race_battle_m_o.NCGR

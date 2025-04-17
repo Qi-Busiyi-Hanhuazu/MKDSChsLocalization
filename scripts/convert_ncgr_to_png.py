@@ -1,7 +1,8 @@
-import os
+import os, struct
 
 from nitrogfx.convert import NCGR, NCLR, Tile, nclr_to_imgpal
 from PIL import Image
+from convert_nclr_to_act import nclr_to_act
 
 with open("files/ncgr_files.txt", "r", -1, "utf8") as reader:
   lines = reader.read().splitlines()
@@ -26,3 +27,5 @@ for i, line in enumerate(lines[1:]):
   png_path = f"temp/images/{line_data['NCGR']}.png"
   os.makedirs(os.path.dirname(png_path), exist_ok=True)
   image.save(png_path)
+  act_path = f"temp/images/{line_data['NCGR']}.act"
+  nclr_to_act(nclr, act_path, index=palette_index, bpp=ncgr.bpp)
