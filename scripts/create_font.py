@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 from typing import Callable, TypedDict
 
 from helper import (
@@ -13,7 +12,7 @@ from helper import (
   char_table_filter,
   get_used_characters,
 )
-from nftr import CMAP, NFTR, CGLPTile, CWDHInfo
+from nftr import NFTR, CGLPTile, CWDHInfo
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -26,64 +25,6 @@ class FontConfig(TypedDict):
   length: int
 
 
-def compress_cmap(char_map: dict[int, int]) -> list[CMAP]:
-  char_map = {k: v for k, v in char_map.items()}
-
-  cmaps = []
-  type_2_index_map = {}
-
-  char_index = 0
-  char_map_len = len(char_map)
-  while char_index < len(char_map):
-    char_code = char_map[char_index]
-
-    code_index_diff = char_code - char_index
-    window = 0x20
-    while (
-      char_index + window < char_map_len and char_map[char_index + window] - (char_index + window) == code_index_diff
-    ):
-      window += 1
-    if window > 0x20:
-      cmap = CMAP.get_blank()
-      cmap.type_section = 0
-      cmap.first_char_code = char_code
-      cmap.last_char_code = char_map[char_index + window - 1]
-      cmap.index_map = {char_map[index]: index for index in range(char_index, char_index + window)}
-      cmaps.append(cmap)
-      char_index += window
-      continue
-
-    window = 0
-    while char_index + window < char_map_len and char_map[char_index + window] - char_code <= window * 2:
-      if char_index + window > 0 and char_map[char_index + window] - char_map[char_index + window - 1] > 0x10:
-        break
-      window += 1
-
-    if window > 0x20:
-      cmap = CMAP.get_blank()
-      cmap.type_section = 1
-      cmap.first_char_code = char_code
-      cmap.last_char_code = char_map[char_index + window - 1]
-      cmap.index_map = {char_map[index]: index for index in range(char_index, char_index + window)}
-      cmaps.append(cmap)
-
-      char_index += window
-      continue
-
-    type_2_index_map[char_code] = char_index
-    char_index += 1
-    continue
-
-  cmap = CMAP.get_blank()
-  cmap.type_section = 2
-  cmap.first_char_code = min(type_2_index_map.values())
-  cmap.last_char_code = 0xFFFF
-  cmap.index_map = type_2_index_map
-  cmaps.append(cmap)
-
-  return cmaps
-
-
 def create_font(
   original_root: str,
   output_root: str,
@@ -94,7 +35,7 @@ def create_font(
   special_char_width: dict[str, int] = {},
 ) -> None:
   for file_name, config in config_dict.items():
-    nftr = NFTR(f"{original_root}/{file_name}")
+    nftr = NFTR.from_file(f"{original_root}/{file_name}")
 
     handle = config.get("handle")
     if handle:
@@ -124,7 +65,7 @@ def create_font(
       bitmap = Image.new("L", (tile.width, tile.height), 0xFF)
       draw = ImageDraw.Draw(bitmap)
       draw_char(bitmap, draw, font, font_replace_dict.get(char, char))
-      new_tile = CGLPTile(tile.width, tile.height, tile.depth, tile.get_bytes(bitmap))
+      new_tile = CGLPTile(tile.width, tile.height, tile.bpp, tile.get_bytes(bitmap))
 
       char_width = special_char_width.get(char, config["width"])
       char_length = config.get("length", char_width)
@@ -132,12 +73,12 @@ def create_font(
       if code in char_to_index_map:
         _ = char_to_index_map[code]
         nftr.cglp.tiles[_] = new_tile
-        nftr.cwdh.info[_].width = char_width
+        nftr.cwdhs[0].info[_].width = char_width
       else:
         index = len(nftr.cglp.tiles)
         char_map[index] = code
         nftr.cglp.tiles.append(new_tile)
-        nftr.cwdh.info.append(CWDHInfo(0, char_width, char_length))
+        nftr.cwdhs[0].info.append(CWDHInfo(0, char_width, char_length))
 
     sorted_tiles: list[CGLPTile] = []
     sorted_infos: list[CWDHInfo] = []
@@ -146,14 +87,14 @@ def create_font(
     for old_index, code in sorted(char_map.items(), key=lambda x: x[1]):
       sorted_char_map[index] = code
       sorted_tiles.append(nftr.cglp.tiles[old_index])
-      sorted_infos.append(nftr.cwdh.info[old_index])
+      sorted_infos.append(nftr.cwdhs[0].info[old_index])
       index += 1
 
     nftr.cglp.tiles = sorted_tiles
-    nftr.cwdh.info = sorted_infos
+    nftr.cwdhs[0].info = sorted_infos
     char_map = sorted_char_map
 
-    nftr.cmaps = compress_cmap(char_map)
+    nftr.cmaps = NFTR.compress_cmap(char_map)
     nftr.char_map = char_map
 
     new_bytes = nftr.get_bytes()
@@ -169,14 +110,14 @@ if __name__ == "__main__":
   version = os.environ.get("XZ_MKDS_VERSION", "normal")
 
   def handle_middle_font(nftr: NFTR) -> NFTR:
-    nftr.cwdh.info[0].length = 1
-    nftr.cwdh.info[0].start = 1
+    nftr.cwdhs[0].info[0].length = 1
+    nftr.cwdhs[0].info[0].start = 1
 
     return nftr
 
   def handle_mario_font(nftr: NFTR) -> NFTR:
-    nftr.cwdh.info[0].length = 1
-    nftr.cwdh.info[0].start = 1
+    nftr.cwdhs[0].info[0].length = 1
+    nftr.cwdhs[0].info[0].start = 1
 
     return nftr
 
@@ -188,7 +129,7 @@ if __name__ == "__main__":
 
     nftr.char_map = new_char_map
     if nftr.cglp.tile_height > 10:
-      nftr.finf.height = 10
+      nftr.finf.line_height = 10
       nftr.cglp.tile_height = 10
       for tile in nftr.cglp.tiles:
         old_bitmap = tile.get_image()
@@ -283,7 +224,7 @@ if __name__ == "__main__":
   )
 
   if version == "dlp":
-    font_config_dlp = {
+    font_config_dlp: dict[str, FontConfig] = {
       "Static2D/MBChild_ja.NFTR": {
         "handle": remove_unused_characters_for_dlp,
         "font": "files/fonts/Zfull-GB.ttf",

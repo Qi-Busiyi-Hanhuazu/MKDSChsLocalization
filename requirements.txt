@@ -1,5 +1,5 @@
 ndspy>=4.2.0
 pillow>=11.1.0
 pyxdelta>=0.2.0
-git+https://github.com/Xzonn/MachineTranslationTools.git
+xzonn-mt-tools>=0.1.4
 git+https://github.com/Xzonn/nitrogfx-py.git
