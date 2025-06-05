@@ -1,8 +1,8 @@
-import os, struct
+import os
 
+from convert_nclr_to_act import nclr_to_act
 from nitrogfx.convert import NCGR, NCLR, Tile, nclr_to_imgpal
 from PIL import Image
-from convert_nclr_to_act import nclr_to_act
 
 with open("files/ncgr_files.txt", "r", -1, "utf8") as reader:
   lines = reader.read().splitlines()

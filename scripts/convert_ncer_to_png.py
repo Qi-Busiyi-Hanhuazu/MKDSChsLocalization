@@ -1,8 +1,8 @@
 import os
 
+from convert_nclr_to_act import nclr_to_act
 from nitrogfx.convert import NCER, NCGR, NCLR, OAM, Cell, Tile, nclr_to_imgpal
 from PIL import Image
-from convert_nclr_to_act import nclr_to_act
 
 with open("files/ncer_files.txt", "r", -1, "utf8") as reader:
   lines = reader.read().splitlines()
@@ -37,9 +37,9 @@ for i, line in enumerate(lines[1:]):
 
       if oam.rot == 0:
         if (oam.rotsca >> 3) & 1:
-          oam_image = oam_image.transpose(Image.FLIP_LEFT_RIGHT)
+          oam_image = oam_image.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
         if (oam.rotsca >> 4) & 1:
-          oam_image = oam_image.transpose(Image.FLIP_TOP_BOTTOM)
+          oam_image = oam_image.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
       cell_image.paste(oam_image, (x_offset, y_offset))
 
     png_path = f"temp/images/{line_data['NCER']}_{j}.png"
