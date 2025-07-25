@@ -127,10 +127,10 @@ class CGLPTile:
       for x in range(self.width):
         pixel: int = bitmap.getpixel((x, y))
         bits.append(round((0xFF - pixel) / multiplier))
-    bits += [0] * (-len(bits) % 8)
 
     raw_bytes = bytearray()
     if self.bpp == 1:
+      bits += [0] * (-len(bits) % 8)
       pos = 0
       while pos < len(bits):
         byte = 0
@@ -139,6 +139,7 @@ class CGLPTile:
           pos += 1
         raw_bytes.append(byte)
     elif self.bpp == 2:
+      bits += [0] * (-len(bits) % 4)
       pos = 0
       while pos < len(bits):
         byte = 0
@@ -147,6 +148,7 @@ class CGLPTile:
           pos += 1
         raw_bytes.append(byte)
     elif self.bpp == 3:
+      bits += [0] * (-len(bits) % 8)
       pos = 0
       while pos < len(bits):
         triple = 0
@@ -155,6 +157,7 @@ class CGLPTile:
           pos += 1
         raw_bytes += struct.pack(">I", triple)[-3:]
     elif self.bpp == 4:
+      bits += [0] * (-len(bits) % 2)
       pos = 0
       while pos < len(bits):
         byte = 0
