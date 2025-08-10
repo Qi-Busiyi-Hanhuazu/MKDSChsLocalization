@@ -2,7 +2,7 @@
   {
     "key": "Scene_Option_ja_option_0000",
     "original": "サウンド",
-    "translation": "音效\u2005",
+    "translation": "音效 ",
     "context": "**翻译辅助**：\n\n音效"
   },
   {
@@ -14,7 +14,7 @@
   {
     "key": "Scene_Option_ja_option_0002",
     "original": "なかまをさがす",
-    "translation": "寻找同伴\u2005",
+    "translation": "寻找同伴 ",
     "context": "**翻译辅助**：\n\n找同伴\n\n寻找同伴"
   },
   {
@@ -38,13 +38,13 @@
   {
     "key": "Scene_Option_ja_option_0006",
     "original": "すべてのデータをけしました。",
-    "translation": "删除了所有数据。",
+    "translation": "已删除所有数据。",
     "context": "**翻译辅助**：\n\n我把所有的数据都删了。\n\n删除了所有数据。"
   },
   {
     "key": "Scene_Option_ja_option_0007",
     "original": "データクリアに\nしっぱいしました。\nこのカードはこわれているので\nつかえません。",
-    "translation": "删除数据失败了。\n\n这张游戏卡已经损坏，\n无法使用。",
+    "translation": "删除数据失败。\n\n这张游戏卡已经损坏，\n无法使用。",
     "context": "**翻译辅助**：\n\n数据清除  \n失败了。  \n这张卡坏了  \n我抓不到。\n\n  \n数据清除失败。  \n这张卡坏了  \n不能用。"
   },
   {
@@ -74,25 +74,25 @@
   {
     "key": "Scene_Option_ja_option_0012",
     "original": "「なかまをさがす」を「オン」にしていると\nWi-Fiモードであそんでいるあいだ ともだちとの\nたいせんをもとめている なかまをサーチして、\nみつけたばあいには アイコンをひょうじして\nおしらせします。",
-    "translation": "如果把“寻找同伴”设为“打开”，\n在Wi-Fi模式下游玩的时候，\n就可以自动搜索正在寻找对手的朋友，\n如果有的话就会显示图标，\n作为通知。",
+    "translation": "如果把“寻找同伴”设为“开启”，\n在Wi-Fi模式下游玩的时候，\n就可以自动搜索正在寻找对手的朋友，\n如果有的话就会显示图标，\n作为通知。",
     "context": "**翻译辅助**：\n\n如果把“寻找同伴”设为“打开”的话，在Wi-Fi模式下玩的时候，搜索和朋友的  \n寻找重要的伙伴，  \n在找到的时候把图标显示出来  \n让他们知道。  \n\n\n如果“查找好友”为“开启”，  \n在玩Wi-Fi模式时，搜索搜索好友，并与朋友对战，  \n如果找到，显示图标并通知。"
   },
   {
     "key": "Scene_Option_ja_option_0013",
     "original": "ちかくに　ピクトチャットで\nあそんでいるひとを　みつけたとき",
-    "translation": "在附近存在正在使用\nPictoChat聊天的人时",
+    "translation": "在附近有正在游玩\nPictoChat的人时",
     "context": "**翻译辅助**：\n\n在附近用皮克特聊天  \n找到玩的人的时候\n\n发现附近有人在和皮克聊天的时候"
   },
   {
     "key": "Scene_Option_ja_option_0014",
     "original": "ちかくに　マルチプレイのたいせんあいてを\nぼしゅうしているひとを　みつけたとき",
-    "translation": "在附近存在正在寻找\n多人游戏的游戏对手的人时",
+    "translation": "在附近有正在寻找\n多人游戏的对战对手的人时",
     "context": "**翻译辅助**：\n\n当你在附近找到一个对多人游戏有兴趣的人时  \n\n\n发现附近有人在招募多人游戏对手的时候"
   },
   {
     "key": "Scene_Option_ja_option_0015",
     "original": "Wi-Fiモードちゅう　たいせんあいてを\nもとめているともだちを　みつけたとき",
-    "translation": "在发现朋友想要在Wi-Fi模式下\n寻找游戏对手的时候",
+    "translation": "在Wi-Fi模式下发现有\n朋友正在寻找对战对手时",
     "context": "**翻译辅助**：\n\n  \n发现朋友想要Wi-Fi模式连线对战的时候\n\n在Wi-Fi模式下寻找朋友的时候"
   },
   {

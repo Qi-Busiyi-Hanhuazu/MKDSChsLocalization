@@ -20,13 +20,13 @@
   {
     "key": "Scene_WLMenu_ja_banner_0003",
     "original": "マリオカートDSを\nもっているひとだけで　たいせん",
-    "translation": "只有拥有《马力欧卡丁车DS》的人\n才能对战",
+    "translation": "与拥有《马力欧卡丁车DS》的人\n进行对战",
     "context": "**翻译辅助**：\n\n  \n只有拥有马力欧卡丁车DS的人才能对战\n\n只有拥有马力欧赛车DS的人"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0004",
     "original": "マリオカートDSを\nもっていないひともいっしょに　たいせん",
-    "translation": "没有《马力欧卡丁车DS》的人\n也能一起对战",
+    "translation": "与未持有《马力欧卡丁车DS》的人\n一起对战",
     "context": "**翻译辅助**：\n\n  \n没有马力欧卡丁车DS的人也一起对战\n\n没有马力欧赛车DS的人也一起加油"
   },
   {
@@ -50,13 +50,13 @@
   {
     "key": "Scene_WLMenu_ja_banner_0009",
     "original": "たいせんあいては\nさいだい 7にん。\n「しめきる」をおすと\nさきに すすみます。",
-    "translation": "最多加入7名游戏对手。\n\n如果选择“关闭”，\n就会进入下一步。",
+    "translation": "最多加入7名对战对手。\n\n如果选择“关闭”，\n就会进入下一步。",
     "context": "**翻译辅助**：\n\n最重要的是7岁。  \n按下“蘑菇”  \n首先前进。  \n\n\n游戏对手最多7人。  \n按“关闭”  \n继续前进。"
   },
   {
     "key": "Scene_WLMenu_ja_banner_0010",
     "original": "ほかの たいせんあいてを\nまっています。\nしばらくおまちください。",
-    "translation": "正在等待其他游戏对手。\n请您稍等。",
+    "translation": "正在等待其他对战对手。\n请您稍等。",
     "context": "**翻译辅助**：\n\n等待着其他的重要时刻。  \n请您稍等。  \n\n\n  \n等待其他游戏对手。请您稍等。"
   },
   {
