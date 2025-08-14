@@ -30,3 +30,10 @@ maintenance/
 # ARM9 patch
 arm9_patch/build/
 arm9_patch/repl_*
+
+# ROM
+*.gba
+*.nds
+*.3ds
+*.cci
+*.cia
