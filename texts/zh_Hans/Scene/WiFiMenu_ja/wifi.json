@@ -2,13 +2,13 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0000",
     "original": "たいせんあいてのじょうけんを\nきめてください。",
-    "translation": "请设置选择游戏对手的条件。",
+    "translation": "请设置选择对战对手的条件。",
     "context": "**翻译辅助**：\n\n  \n请决定游戏对手的条件。\n\n请决定最重要的条件。"
   },
   {
     "key": "Scene_WiFiMenu_ja_wifi_0001",
     "original": "たいせんあいて",
-    "translation": "游戏对手",
+    "translation": "对战对手",
     "context": "**翻译辅助**：\n\n游戏对手\n\n对战空手"
   },
   {
@@ -50,7 +50,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0009",
     "original": "けんさくちゅう...",
-    "translation": "搜索中……",
+    "translation": "正在搜索……",
     "context": "**翻译辅助**：\n\n搜索中……\n\n搜索中。。"
   },
   {
@@ -62,7 +62,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0011",
     "original": "たいせんあいてが\nけっていしました。",
-    "translation": "确定了游戏对手。",
+    "translation": "已确定对战对手。",
     "context": "**翻译辅助**：\n\n决定了。  \n\n\n游戏对手已经决定了。"
   },
   {
@@ -74,7 +74,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0013",
     "original": "たいせんあいてが\nみつかりませんでした。",
-    "translation": "没有找到游戏对手。",
+    "translation": "没有找到对战对手。",
     "context": "**翻译辅助**：\n\n  \n没有找到游戏对手。\n\n找不到。"
   },
   {
@@ -146,7 +146,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0025",
     "original": "Wi-Fiコネクションから\nせつだんしました。",
-    "translation": "切断了Wi-Fi Connection。",
+    "translation": "已切断Wi-Fi Connection。",
     "context": "**翻译辅助**：\n\n从Wi-Fi连接  \n切断了。\n\n  \n断开了Wi-Fi连接。"
   },
   {
@@ -158,7 +158,7 @@
   {
     "key": "Scene_WiFiMenu_ja_wifi_0027",
     "original": "たいせんあいてが\nいなくなりました。",
-    "translation": "游戏对手不见了。",
+    "translation": "对战对手不见了。",
     "context": "**翻译辅助**：\n\n  \n游戏对手不见了。\n\n重要的事情不见了。"
   },
   {

@@ -68,25 +68,25 @@
   {
     "key": "Scene_Menu_ja_rule_0011",
     "original": "よわい",
-    "translation": "弱",
+    "translation": "新手",
     "context": "**翻译辅助**：\n\n弱\n\n不幸的"
   },
   {
     "key": "Scene_Menu_ja_rule_0012",
     "original": "ふつう",
-    "translation": "普通",
+    "translation": "熟手",
     "context": "**翻译辅助**：\n\n普通"
   },
   {
     "key": "Scene_Menu_ja_rule_0013",
     "original": "つよい",
-    "translation": "强",
+    "translation": "高手",
     "context": "**翻译辅助**：\n\n强\n\n强健"
   },
   {
     "key": "Scene_Menu_ja_rule_0014",
     "original": "じゅんばん",
-    "translation": "依次",
+    "translation": "顺序",
     "context": "**翻译辅助**：\n\n依次"
   },
   {
@@ -140,7 +140,7 @@
   {
     "key": "Scene_Menu_ja_rule_0023",
     "original": "[1:ff00]レースの ポイントすう",
-    "translation": "[1:ff00]比赛分数",
+    "translation": "比赛分数达到[1:ff00]分",
     "context": "**翻译辅助**：\n\n[1:ff00]比赛点数\n\n[1:ff00]比赛分数"
   }
 ]
