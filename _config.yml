@@ -6,4 +6,4 @@ exclude:
   - scripts/
   - texts/
   - "*.ps1"
-  - "*.txt"
+  - "requirements.txt"

@@ -10,33 +10,41 @@
 
 关于 DS Download Play：由于 DS Download Play 受字库大小限制较严重，因此本项目提供两种补丁，即“通常版”和“Download Play 版”。前者无法正常使用 DS Download Play 功能；后者虽然能够正常使用 DS Download Play 功能，但字体表现受到限制（例如不能使用日文假名）。请按照需求使用。并且由于 DS Download Play 存在签名校验，少量文本无法翻译成中文，但基本不影响正常游戏。
 
-如需转载，请保留此说明。
+本汉化以补丁形式提供，如需转载，请保留此说明。
 
 ## 汉化名单
 
-**汉化组 汉化**
+**Monado 汉化组 汉化**
 
-- **破解**：
-- **翻译**：
-- **美工**：
-- **测试**：
+- **破解**：[Xzonn](https://space.bilibili.com/16114399)、[洗涤子](https://space.bilibili.com/4977282)
+- **翻译**：[无敌阿尔宙斯](https://space.bilibili.com/22012231/)
+- **美工**：[扭TYPE-小光](https://space.bilibili.com/25027421)
+- **测试**：[库帕二世](https://space.bilibili.com/401201102)
+
+## 汉化感言
+
+**Xzonn**：虽然这游戏文本量不大，不用汉化也基本能玩，但是有个接近官中的版本总是好的。我最近要开始忙起来了，一些汉化项目不一定能投入太多时间精力，希望大家能够理解。
+
+**扭TYPE-小光**：上大学时，正值 NDS 与 PSP 旷日持久的掌机大战，也与好友们为 NDS 和 PSP 各执一词。在多年，能够有幸参与到《马力欧卡丁车DS》的汉化，就像是与老友的久别重逢。希望通过汉化，能和大家一起回到那个传统掌机的黄金时代，重新感受掌上游戏的乐趣与美好。
 
 ## 使用方式
 
-请自行获取游戏日本版 ROM，然后下载汉化补丁并解压，按照补丁应用工具“NitroPatcher”的说明进行操作。补丁压缩包中包含了 Microsoft Windows 平台的补丁应用工具，其他平台的工具可通过下方下载地址获取。
+请下载压缩包并解压，按照补丁应用工具“NitroPatcher”的说明进行操作。补丁压缩包中包含了 Microsoft Windows 平台的补丁应用工具，其他平台的工具可通过下方下载地址获取。
 
-日本版 ROM 校验码（[No-Intro](https://datomatic.no-intro.org/index.php?page=show_record&s=28&n=0228)）：
+软件使用视频教程：<https://www.bilibili.com/video/BV1oH1xYXEdb/?t=69>
+
+原始 ROM 为日本版，校验码（[No-Intro 0228](https://datomatic.no-intro.org/index.php?page=show_record&s=28&n=0228)）：
 
 - CRC32：`226e8db6`
 - MD5：`67b9666b1dbaaf1e8ca03bf7786ed5b6`
 - SHA-1：`a4c790b6cd1e45a9728001081845c17f06985a17`
 
-汉化补丁下载地址：
+补丁压缩包下载地址：
 
 - GitHub：<https://github.com/Qi-Busiyi-Hanhuazu/MKDSChsLocalization/releases/download/v1.0.0/MKDSChsLocalization.v1.0.0.zip>
 - 百度网盘：<https://pan.baidu.com/s/1KLHwLwhdHQzB2qojiKH21A?pwd=mkds>
 
-补丁应用工具下载地址：
+补丁应用工具下载地址（Windows/Linux/macOS/Android）：
 
 - GitHub：<https://github.com/Xzonn/NitroPatcher/releases/latest/>
 - 百度网盘：<https://pan.baidu.com/s/1vXynSX1WauU3FeGHDnrDfg?pwd=ntro>
