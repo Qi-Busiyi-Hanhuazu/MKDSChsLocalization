@@ -51,17 +51,6 @@ class TEX0:
       repeat_y = (paramaters >> 1) & 0b1
       repeat_x = (paramaters >> 0) & 0b1
 
-      if width == 0:
-        if size & 0x3 == 2:
-          width = 0x200
-        else:
-          width = 0x100
-      if height == 0:
-        if (size >> 4) & 0x3 == 2:
-          height = 0x200
-        else:
-          height = 0x100
-
       textures.append(TexInfo(tex_offset << 3, size, width, height, format, FORMAT_DEPTH[format]))
       if format == 5:
         raise NotImplementedError("Format 5 not implemented")

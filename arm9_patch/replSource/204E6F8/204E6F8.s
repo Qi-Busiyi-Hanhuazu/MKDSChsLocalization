@@ -1,0 +1,2 @@
+.text
+.word RELAY_PARENT_CALLBACK_ADDRESS

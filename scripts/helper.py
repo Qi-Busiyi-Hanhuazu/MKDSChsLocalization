@@ -1,6 +1,9 @@
 import json
 import os
 import re
+import struct
+import subprocess
+from pathlib import Path
 from typing import TypedDict
 
 import ndspy.fnt
@@ -8,6 +11,7 @@ import ndspy.fnt
 DIR_TEXT_FILES = "texts"
 DIR_ORIGINAL_FILES = "original_files"
 DIR_OUT = "out"
+DIR_OUT_WIFI = f"{DIR_OUT}/wifi_tracks"
 DIR_ARM9_PATCH = "arm9_patch"
 
 DIR_DATA = "data/data"
@@ -108,10 +112,70 @@ def enumrate_narc_files(folder: ndspy.fnt.Folder, prefix: str = ""):
     yield from enumrate_narc_files(folder, prefix + folder_name + "/")
 
 
-def char_table_filter(code: int):
-  if code <= 0x80 or 0x2000 <= code <= 0x201D or 0x3000 <= code <= 0x303F or code >= 0xE000:
-    return False
-  if code == 0x30FB:
-    # '・'
-    return False
-  return True
+def elf_symbols(path: Path) -> dict[str, int]:
+  data = path.read_bytes()
+  if data[:7] != b"\x7fELF\x01\x01\x01":
+    raise ValueError("Expected a little-endian ELF32 file")
+  shoff = struct.unpack_from("<I", data, 0x20)[0]
+  shsize, count = struct.unpack_from("<2H", data, 0x2E)
+  sections = [struct.unpack_from("<10I", data, shoff + i * shsize) for i in range(count)]
+  symbols = {}
+  for section in sections:
+    if section[1] != 2:
+      continue
+    strings = sections[section[6]]
+    text = data[strings[4] : strings[4] + strings[5]]
+    for offset in range(section[4], section[4] + section[5], section[9]):
+      name_offset, value = struct.unpack_from("<2I", data, offset)
+      name = text[name_offset:].split(b"\0", 1)[0].decode("ascii")
+      if name:
+        symbols[name] = value
+  return symbols
+
+
+def compile_patch(
+  address: int,
+  source_folder: str = "replSource",
+  defines: dict[str, int] | None = None,
+  sources: str = "",
+  host: str = "",
+):
+  root = Path(__file__).resolve().parents[1]
+  target = f"repl_{address:07X}"
+  cppflags = [f"-include hosts/{host}.h"] if host else []
+  cppflags.extend(f"-D{name}={value}" for name, value in (defines or {}).items())
+  subprocess.run(
+    [
+      "make",
+      "-B",
+      f"TARGET={target}",
+      f"SOURCES={sources or f'{source_folder}/{address:07X}'}",
+      f"CODEADDR=0x{address:07X}",
+      "CPPFLAGS=" + " ".join(cppflags),
+    ],
+    cwd=root / DIR_ARM9_PATCH,
+    check=True,
+  )
+  symbols = elf_symbols(root / DIR_OUT / f"{target}.elf")
+  return (root / DIR_OUT / f"{target}.bin").read_bytes(), symbols
+
+
+def compile_patches(
+  binary: bytearray,
+  source_folder: str = "replSource",
+  defines: dict[str, int] | None = None,
+  ram_address: int = 0x02000000,
+):
+  root = Path(__file__).resolve().parents[1]
+  for folder in sorted((root / DIR_ARM9_PATCH / source_folder).iterdir()):
+    if not folder.is_dir():
+      continue
+    address = int(folder.name, 16)
+    offset = address - ram_address
+    if offset < 0:
+      raise ValueError(f"Patch address {address:08x} precedes the binary's RAM address")
+    patch, _ = compile_patch(address, source_folder, defines)
+    end = offset + len(patch)
+    if end > len(binary):
+      binary.extend(b"\0" * (end - len(binary)))
+    binary[offset:end] = patch

@@ -8,7 +8,7 @@
 
 译名以最新的任天堂官方中文翻译为准，部分简繁不一致的译名参考任天堂译名习惯选取繁体中文译名。
 
-关于 DS Download Play：由于 DS Download Play 受字库大小限制较严重，因此本项目提供两种补丁，即“通常版”和“Download Play 版”。前者无法正常使用 DS Download Play 功能；后者虽然能够正常使用 DS Download Play 功能，但字体表现受到限制（例如不能使用日文假名）。请按照需求使用。并且由于 DS Download Play 存在签名校验，少量文本无法翻译成中文，但基本不影响正常游戏。
+基于 HaxxStation 的技术，实现了第一个 clone boot 类型的 Download Play 完全体汉化，支持在任意刷机或未刷机的 DS 设备上接收使用。之前存在的字体限制现在也没有了，可以正常使用完整大字和翻译所有文本。
 
 本汉化以补丁形式提供，如需转载，请保留此说明。
 
@@ -30,6 +30,11 @@
 ## 使用方式
 
 请下载压缩包并解压，按照补丁应用工具“NitroPatcher”的说明进行操作。补丁压缩包中包含了 Microsoft Windows 平台的补丁应用工具，其他平台的工具可通过下方下载地址获取。
+
+本项目提供以下补丁：
+
+- 完整版（`patch-ds.xzp`）：应用于日本版原 ROM。
+- Wi-Fi 追加补丁（`patch-ds-wifi-tracks.xzp`）：在应用完整版补丁后使用，解锁 Wi-Fi 的 32 条赛道。
 
 软件使用视频教程：<https://www.bilibili.com/video/BV1oH1xYXEdb/?t=69>
 
@@ -68,6 +73,7 @@
 - [Python 3.10+](https://www.python.org/downloads/)（`pip install -r requirements.txt`）
 - [PowerShell 5.0+](https://learn.microsoft.com/powershell/)
 - 字体文件（默认读取以下文件：`files/fonts/Zfull-GB.ttf`）
+- devkitARM（设置 `DEVKITARM` 环境变量）和 GNU Make（加入 `PATH`）
 
 ### 构建
 在 PowerShell 中运行：
