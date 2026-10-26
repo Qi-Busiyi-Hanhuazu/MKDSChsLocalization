@@ -9,7 +9,6 @@ from helper import (
   DIR_TEXT_FILES,
   DIR_UNPACKED_FILES,
   FONT_REPLACE_DICT,
-  char_table_filter,
   get_used_characters,
 )
 from nftr import NFTR, CGLPTile, CWDHInfo
@@ -107,7 +106,6 @@ def create_font(
 
 
 if __name__ == "__main__":
-  version = os.environ.get("XZ_MKDS_VERSION", "normal")
 
   def handle_middle_font(nftr: NFTR) -> NFTR:
     nftr.cwdhs[0].info[0].length = 1
@@ -118,24 +116,6 @@ if __name__ == "__main__":
   def handle_mario_font(nftr: NFTR) -> NFTR:
     nftr.cwdhs[0].info[0].length = 1
     nftr.cwdhs[0].info[0].start = 1
-
-    return nftr
-
-  def remove_unused_characters_for_dlp(nftr: NFTR) -> NFTR:
-    new_char_map = {}
-    for index, code in nftr.char_map.items():
-      if not char_table_filter(code):
-        new_char_map[index] = code
-
-    nftr.char_map = new_char_map
-    if nftr.cglp.tile_height > 10:
-      nftr.finf.line_height = 10
-      nftr.cglp.tile_height = 10
-      for tile in nftr.cglp.tiles:
-        old_bitmap = tile.get_image()
-        new_bitmap = old_bitmap.crop((0, 1, 9, 11))
-        tile.height = 10
-        tile.raw_bytes = tile.get_bytes(new_bitmap)
 
     return nftr
 
@@ -154,8 +134,6 @@ if __name__ == "__main__":
 
   def draw_char_s(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
     y = 9
-    if version == "dlp":
-      y = 8
     draw.text(
       (0, y),
       char + "　　黑鼠龙龟",
@@ -163,6 +141,12 @@ if __name__ == "__main__":
       font,
       "ls",
     )
+
+  def draw_char_mbchild(
+    bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str
+  ) -> None:
+    # MBChild has 9x9 cells with baseline 8; Main2D's small font uses taller cells.
+    draw.text((0, 8), char + "　　黑鼠龙龟", 0x00, font, "ls")
 
   def draw_char_mario(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
     draw.fontmode = "1"
@@ -199,16 +183,6 @@ if __name__ == "__main__":
       "width": 11,
     },
   }
-  if version == "dlp":
-    font_config: dict[str, FontConfig] = {
-      "Main2D/LC_Font_s.NFTR": {
-        "handle": remove_unused_characters_for_dlp,
-        "font": "files/fonts/Zfull-GB.ttf",
-        "size": 10,
-        "draw": draw_char_s,
-        "width": 9,
-      },
-    }
 
   with open(CHAR_TABLE_PATH, "r", -1, "utf8") as reader:
     char_table: dict[str, str] = json.load(reader)
@@ -223,24 +197,19 @@ if __name__ == "__main__":
     CHAR_WIDTH_DICT,
   )
 
-  if version == "dlp":
-    font_config_dlp: dict[str, FontConfig] = {
+  create_font(
+    DIR_UNPACKED_FILES,
+    DIR_TEMP_IMPORT,
+    {
       "Static2D/MBChild_ja.NFTR": {
-        "handle": remove_unused_characters_for_dlp,
         "font": "files/fonts/Zfull-GB.ttf",
         "size": 10,
-        "draw": draw_char_s,
+        "draw": draw_char_mbchild,
         "width": 9,
       },
-    }
-    real_characters = get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans/Static2D")
-    characters = [k for k, v in char_table.items() if v in real_characters]
-    create_font(
-      DIR_UNPACKED_FILES,
-      DIR_TEMP_IMPORT,
-      font_config_dlp,
-      characters,
-      ord,
-      {**char_table, **FONT_REPLACE_DICT},
-      CHAR_WIDTH_DICT,
-    )
+    },
+    sorted(get_used_characters(f"{DIR_TEXT_FILES}/zh_Hans/Static2D")),
+    ord,
+    {**char_table, **FONT_REPLACE_DICT},
+    CHAR_WIDTH_DICT,
+  )

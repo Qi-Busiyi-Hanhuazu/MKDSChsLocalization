@@ -1,20 +1,25 @@
 import json
 import os
 import re
+import subprocess
 from typing import TypedDict
 
 import ndspy.fnt
+from elftools.elf.elffile import ELFFile
 
 DIR_TEXT_FILES = "texts"
 DIR_ORIGINAL_FILES = "original_files"
 DIR_OUT = "out"
+DIR_OUT_WIFI = f"{DIR_OUT}/wifi_tracks"
 DIR_ARM9_PATCH = "arm9_patch"
+DIR_ARM9_BUILD = f"{DIR_ARM9_PATCH}/build"
 
 DIR_DATA = "data/data"
 DIR_FONT_FILES = "files/fonts"
 DIR_UNPACKED_FILES = "unpacked"
 DIR_TEMP_IMPORT = "temp/import"
 DIR_TEMP_OUT = "temp/out"
+DIR_TEMP_WIFI = "temp/wifi_tracks"
 
 CHAR_TABLE_PATH = "out/char_table.json"
 BANNER_PATH = "original_files/banner.bin"
@@ -108,10 +113,41 @@ def enumrate_narc_files(folder: ndspy.fnt.Folder, prefix: str = ""):
     yield from enumrate_narc_files(folder, prefix + folder_name + "/")
 
 
-def char_table_filter(code: int):
-  if code <= 0x80 or 0x2000 <= code <= 0x201D or 0x3000 <= code <= 0x303F or code >= 0xE000:
-    return False
-  if code == 0x30FB:
-    # '・'
-    return False
-  return True
+def elf_symbols(path: str) -> dict[str, int]:
+  with open(path, "rb") as reader:
+    symbols = ELFFile(reader).get_section_by_name(".symtab")
+    return {symbol.name: symbol["st_value"] for symbol in symbols.iter_symbols() if symbol.name}
+
+
+def compile_patch(
+  address: int,
+  source: str,
+  defines: dict[str, int] = {},
+):
+  target = f"repl_{address:07X}"
+  cppflags = [f"-D{name}={value}" for name, value in defines.items()]
+  subprocess.run(
+    [
+      "make",
+      "-B",
+      f"TARGET={target}",
+      f"SOURCES={source}",
+      f"CODEADDR=0x{address:07X}",
+      "CPPFLAGS=" + " ".join(cppflags),
+    ],
+    cwd=DIR_ARM9_PATCH,
+  )
+  with open(f"{DIR_ARM9_BUILD}/{target}.bin", "rb") as reader:
+    return reader.read()
+
+
+def compile_patches(
+  binary: bytearray,
+  source_folder: str = "replSource",
+  defines: dict[str, int] = {},
+):
+  for folder in sorted(os.listdir(f"{DIR_ARM9_PATCH}/{source_folder}")):
+    address = int(folder, 16)
+    offset = address - 0x02000000
+    patch = compile_patch(address, f"{source_folder}/{folder}", defines)
+    memoryview(binary)[offset : offset + len(patch)] = patch

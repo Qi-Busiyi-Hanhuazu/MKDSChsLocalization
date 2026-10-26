@@ -1,0 +1,2 @@
+.text
+.word RELAY_SCENE_UPDATE_ADDRESS

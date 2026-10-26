@@ -1,4 +1,4 @@
-$env:XZ_MKDS_VERSION = "normal"
+$env:XZ_MKDS_WIFI_TRACKS = $null
 
 # Clean output folder
 if (Test-Path -Path "out\" -PathType "Container") {
@@ -28,31 +28,19 @@ Copy-Item -Path "files\dwc\utility.bin" -Destination "temp\out\data\data\dwc\uti
 New-Item -ItemType Directory -Path "out\" -Force | Out-Null
 New-Item -ItemType Directory -Path "out\preprocessing\" -Force | Out-Null
 Copy-Item -Path "files\md5.txt" -Destination "out\md5.txt" -Recurse -Force
-Copy-Item -Path "files\preprocessing\*" -Destination "out\preprocessing" -Recurse -Force
+Copy-Item -Path "files\metadata.json" -Destination "out\metadata.json" -Recurse -Force
+Copy-Item -Path "files\preprocessing\*.xdelta" -Destination "out\preprocessing" -Recurse -Force
 
 python scripts\edit_banner.py
+python scripts\generate_char_table.py
+python scripts\convert_json_to_bmg.py
+python scripts\create_font.py
+python scripts\repack_carc.py
 
-$versions = @("normal", "dlp")
-foreach ($version in $versions) {
-  $env:XZ_MKDS_VERSION = $version
+python scripts\patch_dlp.py
+python scripts\create_xdelta.py
 
-  python scripts\generate_char_table.py
-  python scripts\convert_json_to_bmg.py
-  python scripts\create_font.py
+Compress-Archive -Path "out/xdelta/", "out/data/", "out/preprocessing/", "out/banner.bin", "out/md5.txt", "out/metadata.json" -Destination "out/patch-ds.zip" -Force
+Move-Item -Path "out/patch-ds.zip" -Destination "out/patch-ds.xzp" -Force
 
-  if ($version -eq "dlp") {
-    Copy-Item -Path "temp\import\Main2D\LC_Font_s.NFTR" -Destination  "temp\import\Main2D\LC_Font_m.NFTR"
-    Copy-Item -Path "temp\import\Main2D\LC_Font_s.NFTR" -Destination  "temp\import\Main2D\marioFont.NFTR"
-  }
-
-  python scripts\repack_carc.py
-
-  if ($version -eq "dlp") {
-    python scripts\patch_file_size.py
-  }
-
-  python scripts\create_xdelta.py
-
-  Compress-Archive -Path "out/xdelta/", "out/preprocessing/", "out/banner.bin", "out/md5.txt" -Destination "patch-ds.zip" -Force
-  Move-Item -Path "patch-ds.zip" -Destination "out/patch-ds-$version.xzp" -Force
-}
+. scripts\wifi_tracks.ps1
