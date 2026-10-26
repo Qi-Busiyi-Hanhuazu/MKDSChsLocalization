@@ -8,15 +8,13 @@
 
 译名以最新的任天堂官方中文翻译为准，部分简繁不一致的译名参考任天堂译名习惯选取繁体中文译名。
 
-Download Play 采用基于 HaxxStation 的两阶段下载流程，发送汉化的子机程序并使用完整字库。
-
 本汉化以补丁形式提供，如需转载，请保留此说明。
 
 ## 汉化名单
 
 **Monado 汉化组 汉化**
 
-- **破解**：[Xzonn](https://space.bilibili.com/16114399)、[洗涤子](https://space.bilibili.com/4977282)
+- **技术**：[Xzonn](https://space.bilibili.com/16114399)、[洗涤子](https://space.bilibili.com/4977282)、[卧看微尘](https://space.bilibili.com/67969673)
 - **翻译**：[无敌阿尔宙斯](https://space.bilibili.com/22012231/)
 - **美工**：[扭TYPE-小光](https://space.bilibili.com/25027421)
 - **测试**：[库帕二世](https://space.bilibili.com/401201102)
@@ -29,16 +27,16 @@ Download Play 采用基于 HaxxStation 的两阶段下载流程，发送汉化�
 
 ## 使用方式
 
-请下载压缩包并解压，按照补丁应用工具“NitroPatcher”的说明进行操作。补丁压缩包中包含了 Microsoft Windows 平台的补丁应用工具，其他平台的工具可通过下方下载地址获取。
+本补丁不包含游戏本体，请自行获取合法的日文版游戏 ROM。
 
 本项目提供以下补丁：
 
 - 完整版（`patch-ds.xzp`）：应用于日本版原 ROM。
 - Wi-Fi 追加补丁（`patch-ds-wifi-tracks.xzp`）：在应用完整版补丁后使用，解锁 Wi-Fi 的 32 条赛道。
 
-软件使用视频教程：<https://www.bilibili.com/video/BV1oH1xYXEdb/?t=69>
+请下载压缩包并解压，使用在线网站给游戏打补丁：<https://xzonn.top/NitroPatcher/>。
 
-原始 ROM 为日本版，校验码（[No-Intro 0228](https://datomatic.no-intro.org/index.php?page=show_record&s=28&n=0228)）：
+日文版 ROM 校验码（[No-Intro](https://datomatic.no-intro.org/index.php?page=show_record&s=28&n=0228)）：
 
 - CRC32：`226e8db6`
 - MD5：`67b9666b1dbaaf1e8ca03bf7786ed5b6`
@@ -46,13 +44,8 @@ Download Play 采用基于 HaxxStation 的两阶段下载流程，发送汉化�
 
 补丁压缩包下载地址：
 
-- GitHub：<https://github.com/Qi-Busiyi-Hanhuazu/MKDSChsLocalization/releases/download/v1.0.0/MKDSChsLocalization.v1.0.0.zip>
+- GitHub：<https://github.com/Qi-Busiyi-Hanhuazu/MKDSChsLocalization/releases/latest/>
 - 百度网盘：<https://pan.baidu.com/s/1KLHwLwhdHQzB2qojiKH21A?pwd=mkds>
-
-补丁应用工具下载地址（Windows/Linux/macOS/Android）：
-
-- GitHub：<https://github.com/Xzonn/NitroPatcher/releases/latest/>
-- 百度网盘：<https://pan.baidu.com/s/1vXynSX1WauU3FeGHDnrDfg?pwd=ntro>
 
 ## 截图预览
 ![截图](assets/images/screenshot-01.png) ![截图](assets/images/screenshot-02.png) ![截图](assets/images/screenshot-03.png)
@@ -72,8 +65,8 @@ Download Play 采用基于 HaxxStation 的两阶段下载流程，发送汉化�
 
 - [Python 3.10+](https://www.python.org/downloads/)（`pip install -r requirements.txt`）
 - [PowerShell 5.0+](https://learn.microsoft.com/powershell/)
-- 字体文件（默认读取以下文件：`files/fonts/Zfull-GB.ttf`）
-- devkitARM（设置 `DEVKITARM` 环境变量）和 GNU Make（加入 `PATH`）
+- 字体文件（默认读取以下文件：`files/fonts/Zfull-GB.ttf`、`C:/Windows/Fonts/simsun.ttc`）
+- [devkitPro](https://devkitpro.org/wiki/Main_Page)
 
 ### 构建
 在 PowerShell 中运行：

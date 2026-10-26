@@ -28,7 +28,8 @@ Copy-Item -Path "files\dwc\utility.bin" -Destination "temp\out\data\data\dwc\uti
 New-Item -ItemType Directory -Path "out\" -Force | Out-Null
 New-Item -ItemType Directory -Path "out\preprocessing\" -Force | Out-Null
 Copy-Item -Path "files\md5.txt" -Destination "out\md5.txt" -Recurse -Force
-Copy-Item -Path "files\metadata.json" -Destination "out\metadata.json" -Recurse -Force
+python scripts\create_metadata.py
+Copy-Item -Path "files\README.md" -Destination "out\README.md" -Force
 Copy-Item -Path "files\preprocessing\*.xdelta" -Destination "out\preprocessing" -Recurse -Force
 
 python scripts\edit_banner.py
@@ -40,7 +41,7 @@ python scripts\repack_carc.py
 python scripts\patch_dlp.py
 python scripts\create_xdelta.py
 
-Compress-Archive -Path "out/xdelta/", "out/data/", "out/preprocessing/", "out/banner.bin", "out/md5.txt", "out/metadata.json" -Destination "out/patch-ds.zip" -Force
+Compress-Archive -Path "out/xdelta/", "out/data/", "out/preprocessing/", "out/banner.bin", "out/md5.txt", "out/metadata.json", "out/README.md" -Destination "out/patch-ds.zip" -Force
 Move-Item -Path "out/patch-ds.zip" -Destination "out/patch-ds.xzp" -Force
 
 . scripts\wifi_tracks.ps1
