@@ -1,5 +1,6 @@
 /* AMCJ overlays: keep the original clone-boot state machine and file service. */
 #include "../../dlpSource/dlp_server.h"
+#include "../../hosts/mkds.h"
 
 #define FN(address, type) ((type)(address))
 #define WORD(p, off) (*(u32 *)((u8 *)(p) + (off)))
@@ -35,7 +36,6 @@ struct RelayState
   u32 disconnected;
   u32 released;
   u32 selected;
-  u32 frame;
   u8 original_mac[8][6];
   u8 current_mac[16][6];
   u8 original_aid[16];
@@ -43,8 +43,8 @@ struct RelayState
 };
 struct RelayState relay_state;
 static const struct DlpFile files[] = {
-    {"demomenu", "/ds_demo/demomenu"},
-    {"rom0000d", "/ds_demo/rom0000d"},
+    {{'d', 'e', 'm', 'o', 'm', 'e', 'n', 'u'}, "/ds_demo/demomenu"},
+    {{'r', 'o', 'm', '0', '0', '0', '0', 'd'}, "/ds_demo/rom0000d"},
 };
 static struct DlpInfo info = {{0, 1, 1}};
 
@@ -236,14 +236,16 @@ int relay_mb_init(void *work, const void *user, u32 ggid, u32 tgid, u32 dma)
 u32 relay_segment_size(void *unused)
 {
   FSFile file;
-  u32 size = 0;
+  u32 size;
   (void)unused;
   FS_InitFile(&file);
-  if (FS_OpenFile(&file, "/ds_demo/stage1.srl"))
+  if (!FS_OpenFile(&file, "/ds_demo/stage1.srl"))
   {
-    size = FN(0x02008881, u32 (*)(void *))(&file);
-    FS_CloseFile(&file);
+    NATIVE_ERROR(7);
+    return 0;
   }
+  size = FN(0x02008881, u32 (*)(void *))(&file);
+  FS_CloseFile(&file);
   /* The original MB cache/worker streams the remainder from the ROM archive. */
   return size > 0x20000 ? 0x20000 : size;
 }
@@ -260,8 +262,7 @@ int relay_register(void)
   {
     u32 capacity = WORD(NATIVE_WORK, 0x168c);
     void *buffer = (void *)WORD(NATIVE_WORK, 0x1658);
-    u32 required = FN(0x02008881, u32 (*)(void *))(&file);
-    if (required && buffer && capacity >= 0x10000 &&
+    if (buffer && capacity >= 0x10000 &&
         FN(0x02008571, int (*)(void *, void *, u32))(&file, buffer, capacity))
       result = FN(0x02008311, int (*)(const void *, const void *))((void *)0x02154850, buffer);
     FS_CloseFile(&file);
@@ -305,15 +306,9 @@ void relay_scene_update(void *work)
     expected = BYTE(NATIVE_WORK, 0x1696);
     if (relay_state.failed & expected)
     {
-      /* A retry may clear the affected slot; otherwise use the native error exit. */
-      if (++relay_state.frame > 240)
-      {
-        relay_state.released = 2;
-        NATIVE_ERROR(7);
-      }
+      relay_state.released = 2;
+      NATIVE_ERROR(7);
     }
-    else
-      relay_state.frame = 0;
     if (!relay_state.failed && expected && (relay_state.ready & expected) == expected)
     {
       for (aid = 1; aid < 16; aid++)

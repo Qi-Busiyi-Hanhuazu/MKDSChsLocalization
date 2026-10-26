@@ -59,6 +59,8 @@ def create_font(
       if code in char_to_index_map:
         continue
 
+      code = char_encoder(char)
+
       bitmap = Image.new("L", (tile.width, tile.height), 0xFF)
       draw = ImageDraw.Draw(bitmap)
       draw_char(bitmap, draw, font, font_replace_dict.get(char, char))
@@ -67,10 +69,15 @@ def create_font(
       char_width = special_char_width.get(char, config["width"])
       char_length = config.get("length", char_width)
 
-      index = len(nftr.cglp.tiles)
-      char_map[index] = code
-      nftr.cglp.tiles.append(new_tile)
-      nftr.cwdhs[0].info.append(CWDHInfo(0, char_width, char_length))
+      if code in char_to_index_map:
+        _ = char_to_index_map[code]
+        nftr.cglp.tiles[_] = new_tile
+        nftr.cwdhs[0].info[_].width = char_width
+      else:
+        index = len(nftr.cglp.tiles)
+        char_map[index] = code
+        nftr.cglp.tiles.append(new_tile)
+        nftr.cwdhs[0].info.append(CWDHInfo(0, char_width, char_length))
 
     sorted_tiles: list[CGLPTile] = []
     sorted_infos: list[CWDHInfo] = []
@@ -100,6 +107,12 @@ def create_font(
 
 if __name__ == "__main__":
 
+  def handle_middle_font(nftr: NFTR) -> NFTR:
+    nftr.cwdhs[0].info[0].length = 1
+    nftr.cwdhs[0].info[0].start = 1
+
+    return nftr
+
   def handle_mario_font(nftr: NFTR) -> NFTR:
     nftr.cwdhs[0].info[0].length = 1
     nftr.cwdhs[0].info[0].start = 1
@@ -108,9 +121,8 @@ if __name__ == "__main__":
 
   def draw_char_m(bitmap: Image.Image, draw: ImageDraw.ImageDraw, font: ImageFont.FreeTypeFont, char: str) -> None:
     x, y = 0, 11
-    if char in ("，", "《"):
-      x -= 1
     if char == "，":
+      x -= 1
       y += 2
     draw.text(
       (x, y),
@@ -152,7 +164,7 @@ if __name__ == "__main__":
   font_config: dict[str, FontConfig] = {
     "Main2D/LC_Font_m.NFTR": {
       "handle": handle_mario_font,
-      "font": "files/fonts/Zfull-GB.ttf",
+      "font": "C:/Windows/Fonts/simsun.ttc",
       "size": 12,
       "draw": draw_char_m,
       "width": 11,

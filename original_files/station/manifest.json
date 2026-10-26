@@ -1,9 +1,0 @@
-{
-  "source_rom_sha1": "f18b55f3e1259c03e10d0ecb549693b42905ceb5",
-  "files": {
-    "ds_demo_client.srl": {
-      "size": 306824,
-      "sha256": "deaec313106e34d8290b4c9c6e3405b8bb2eaec1db6c2cad38ee2771aef1ca2b"
-    }
-  }
-}

@@ -6,7 +6,6 @@ typedef struct
 #define FS_InitFile ((void (*)(FSFile *))0x02004D80)
 #define FS_OpenFile ((int (*)(FSFile *, const char *))0x02004A30)
 #define FS_CloseFile ((int (*)(FSFile *))0x020049E8)
-#define FS_ReadFile ((int (*)(FSFile *, void *, int))0x020048AC)
 #define FS_ReadFileAsync ((int (*)(FSFile *, void *, int))0x020048BC)
 #define FS_CancelFile ((void (*)(FSFile *))0x020048CC)
 #define FS_SeekFile ((int (*)(FSFile *, int, int))0x02004840)

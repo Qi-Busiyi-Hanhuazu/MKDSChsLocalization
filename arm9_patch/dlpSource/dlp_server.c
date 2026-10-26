@@ -1,11 +1,11 @@
 #include "dlp_server.h"
+#include "../hosts/mkds.h"
 
 #define WORD(p, off) (*(u32 *)((u8 *)(p) + (off)))
 #define HALF(p, off) (*(u16 *)((u8 *)(p) + (off)))
 
 /* Both buffers contain complete 126-byte game blocks and remain 32-byte aligned. */
 #define CACHE_SIZE 2016
-#define PROGRAM_BLOCKS 0x5f40
 #define RETRIES 240
 
 struct Receiver
@@ -14,7 +14,6 @@ struct Receiver
   u32 bytes;
   u32 generation;
   u16 attempts[3];
-  u16 state;
 };
 
 struct Transfer
@@ -69,7 +68,6 @@ struct Server
   u32 reset;
   u32 failed;
   u32 serial;
-  u32 frame;
   u32 interrupts;
   u32 file_count;
   u16 requested[3][16];
@@ -77,7 +75,6 @@ struct Server
   u16 failure_file[16];
   struct Receiver receivers[16];
   volatile u32 sending;
-  volatile u32 replaying;
   volatile u32 status_busy;
   volatile u32 status_dirty;
   volatile u32 terminal_busy;
@@ -90,8 +87,6 @@ struct Server
   struct Reply replies[2];
   struct Transfer transfers[2];
   u16 status[16] __attribute__((aligned(32)));
-  u8 last[16][128] __attribute__((aligned(32)));
-  u8 last_size[16];
   struct
   {
     struct DlpFile file;
@@ -162,7 +157,6 @@ static void fail(u32 aid, u32 file)
   if (!(server->connected & mask) || (server->failed & mask))
     return;
   server->failure_file[aid] = file;
-  server->receivers[aid].state = DLP_PROGRESS_FAILED;
   server->failed |= mask;
   server->reset |= mask;
   server->ready &= ~mask;
@@ -182,7 +176,6 @@ static void ready(u32 aid)
   u32 mask = 1u << aid;
   server->pending[3] &= ~mask;
   server->ready |= mask;
-  server->receivers[aid].state = DLP_PROGRESS_READY;
   server->status_dirty = 1;
   server->notify(aid, DLP_READY, server->program[aid]);
 }
@@ -208,10 +201,8 @@ static void update_receivers(void)
     if (server->reset & mask)
     {
       server->reset &= ~mask;
-      if (r->state != DLP_PROGRESS_FAILED)
-        r->bytes = 0;
+      r->bytes = 0;
       zero(r->attempts, sizeof(r->attempts));
-      server->last_size[aid] = 0;
     }
     if (server->failed & mask)
     {
@@ -223,37 +214,27 @@ static void update_receivers(void)
       u32 size = server->files[server->program[aid]].size;
       u32 generation = r->generation;
       u32 blocks = 0;
-      if (size > PROGRAM_BLOCKS * 126u)
-      {
-        fail(aid, server->program[aid]);
-        continue;
-      }
       for (; size; blocks++)
         size = size > 126 ? size - 126 : 0;
-      if (!blocks)
-        ready(aid);
-      else
+      u8 *map;
+      unlock();
+      map = NNS_FndAllocFromExpHeapEx(server->heap, (blocks + 7) >> 3, 4);
+      if (map)
+        zero(map, (blocks + 7) >> 3);
+      lock();
+      if (generation != r->generation || !(server->pending[3] & mask) || (server->reset & mask) || stopping)
       {
-        u8 *map;
-        unlock();
-        map = NNS_FndAllocFromExpHeapEx(server->heap, (blocks + 7) >> 3, 4);
         if (map)
-          zero(map, (blocks + 7) >> 3);
-        lock();
-        if (generation != r->generation || !(server->pending[3] & mask) || (server->reset & mask) || stopping)
         {
-          if (map)
-          {
-            unlock();
-            NNS_FndFreeToExpHeap(server->heap, map);
-            lock();
-          }
+          unlock();
+          NNS_FndFreeToExpHeap(server->heap, map);
+          lock();
         }
-        else if (!map)
-          fail(aid, server->program[aid]);
-        else
-          r->received = map;
       }
+      else if (!map)
+        fail(aid, server->program[aid]);
+      else
+        r->received = map;
     }
   }
 }
@@ -261,35 +242,24 @@ static void update_receivers(void)
 static void send_done(void *cb)
 {
   (void)cb;
-  if (server)
-    server->sending--;
-}
-
-static void replay_done(void *cb)
-{
-  if (server)
-    server->replaying--;
-  send_done(cb);
+  server->sending--;
 }
 
 static void reply_done(u32 index, void *cb)
 {
-  if (server)
+  struct Reply *r = &server->replies[index];
+  if (r->generation == server->receivers[r->aid].generation)
   {
-    struct Reply *r = &server->replies[index];
-    if (r->generation == server->receivers[r->aid].generation)
+    if (HALF(cb, 2) == 0)
     {
-      if (HALF(cb, 2) == 0)
-      {
-        if (!index || server->requested[0][r->aid] == r->file)
-          server->pending[index] &= ~(1u << r->aid);
-        r->attempts = 0;
-      }
-      else
-        r->attempts++;
+      if (!index || server->requested[0][r->aid] == r->file)
+        server->pending[index] &= ~(1u << r->aid);
+      r->attempts = 0;
     }
-    r->busy = 0;
+    else
+      r->attempts++;
   }
+  r->busy = 0;
 }
 
 static void metadata_done(void *cb)
@@ -306,55 +276,48 @@ static void size_done(void *cb)
 
 static void status_done(void *cb)
 {
-  if (server)
+  u32 mask = server->status_sent;
+  u32 missing = HALF(cb, 2) == 0 ? 0 : mask;
+  if (HALF(cb, 2) == 15)
+    missing &= HALF(cb, 0xe);
+  while (mask)
   {
-    u32 mask = server->status_sent;
-    u32 missing = HALF(cb, 2) == 0 ? 0 : mask;
-    if (HALF(cb, 2) == 15)
-      missing &= HALF(cb, 0xe);
-    while (mask)
+    u32 aid = first(mask), bit = 1u << aid;
+    struct Receiver *r = &server->receivers[aid];
+    mask &= ~bit;
+    if (server->status_generation[aid] != r->generation || !(server->connected & bit))
+      server->status_mask &= ~bit;
+    else if (!(missing & bit))
     {
-      u32 aid = first(mask), bit = 1u << aid;
-      struct Receiver *r = &server->receivers[aid];
-      mask &= ~bit;
-      if (server->status_generation[aid] != r->generation || !(server->connected & bit))
-        server->status_mask &= ~bit;
-      else if (!(missing & bit))
-      {
-        server->status_mask &= ~bit;
-        r->attempts[1] = 0;
-      }
-      else if (++r->attempts[1] > RETRIES)
-        fail(aid, server->program[aid]);
+      server->status_mask &= ~bit;
+      r->attempts[1] = 0;
     }
-    server->status_busy = 0;
+    else if (++r->attempts[1] > RETRIES)
+      fail(aid, server->program[aid]);
   }
+  server->status_busy = 0;
   send_done(cb);
 }
 
 static void terminal_done(void *cb)
 {
-  if (server)
+  u32 mask = server->terminal_mask & server->connected & server->ready;
+  u32 aid = first(server->terminal_mask);
+  if (server->terminal_generation != server->receivers[aid].generation)
+    mask = 0;
+  if (mask && HALF(cb, 2) == 0)
   {
-    u32 mask = server->terminal_mask & server->connected & server->ready;
-    u32 aid = first(server->terminal_mask);
-    if (server->terminal_generation != server->receivers[aid].generation)
-      mask = 0;
-    if (mask && HALF(cb, 2) == 0)
+    server->finished |= mask;
+    while (mask)
     {
-      server->finished |= mask;
-      while (mask)
-      {
-        u32 aid = first(mask);
-        mask &= ~(1u << aid);
-        server->receivers[aid].state = DLP_PROGRESS_FINISHED;
-        server->notify(aid, DLP_FINISHED, server->program[aid]);
-      }
+      u32 aid = first(mask);
+      mask &= ~(1u << aid);
+      server->notify(aid, DLP_FINISHED, server->program[aid]);
     }
-    else if (mask && ++server->receivers[aid].attempts[2] > RETRIES)
-      fail(aid, server->program[aid]);
-    server->terminal_busy = 0;
   }
+  else if (mask && ++server->receivers[aid].attempts[2] > RETRIES)
+    fail(aid, server->program[aid]);
+  server->terminal_busy = 0;
   send_done(cb);
 }
 
@@ -362,68 +325,63 @@ static void send_block(struct Transfer *t);
 
 static void block_done(u32 index, void *cb)
 {
-  if (server)
+  struct Transfer *t = &server->transfers[index];
+  t->busy = 0;
+  if (t->failed)
+    return;
+  if (index)
   {
-    struct Transfer *t = &server->transfers[index];
-    t->busy = 0;
-    if (t->failed)
-      return;
-    if (index)
-    {
-      u32 mask = t->destination;
-      u32 acknowledged = HALF(cb, 0x10);
-      if (HALF(cb, 2) == 15)
-        acknowledged &= ~HALF(cb, 0xe);
-      else if (HALF(cb, 2) != 0)
-        acknowledged = 0;
-      while (mask)
-      {
-        u32 aid = first(mask), bit = 1u << aid;
-        struct Receiver *r = &server->receivers[aid];
-        mask &= ~bit;
-        if (t->generation[aid] != r->generation || !(server->pending[3] & bit))
-          continue;
-        if (acknowledged & bit)
-        {
-          r->attempts[0] = 0;
-          if (!received(aid, t->block))
-          {
-            r->received[t->block >> 3] |= 1u << (t->block & 7);
-            r->bytes += t->length - 2;
-            copy(server->last[aid], t->packet, t->length);
-            server->last_size[aid] = t->length;
-            if (r->bytes == t->size)
-              ready(aid);
-          }
-        }
-        else if (++r->attempts[0] > RETRIES)
-          fail(aid, t->resource);
-      }
-    }
-    else if (t->cancelled || t->generation[t->aid] != server->receivers[t->aid].generation)
-      return;
+    u32 mask = t->destination;
+    u32 acknowledged = HALF(cb, 0x10);
+    if (HALF(cb, 2) == 15)
+      acknowledged &= ~HALF(cb, 0xe);
     else if (HALF(cb, 2) != 0)
+      acknowledged = 0;
+    while (mask)
     {
-      t->attempts++;
-      return;
+      u32 aid = first(mask), bit = 1u << aid;
+      struct Receiver *r = &server->receivers[aid];
+      mask &= ~bit;
+      if (t->generation[aid] != r->generation || !(server->pending[3] & bit))
+        continue;
+      if (acknowledged & bit)
+      {
+        r->attempts[0] = 0;
+        if (!received(aid, t->block))
+        {
+          r->received[t->block >> 3] |= 1u << (t->block & 7);
+          r->bytes += t->length - 2;
+          if (r->bytes == t->size)
+            ready(aid);
+        }
+      }
+      else if (++r->attempts[0] > RETRIES)
+        fail(aid, t->resource);
     }
-    t->attempts = 0;
-    if (t->length == 2)
-    {
-      t->done = 1;
-      return;
-    }
-    t->position += t->length - 2;
-    t->block++;
-    t->used += t->length - 2;
-    if (t->used == t->available[t->reader])
-    {
-      t->available[t->reader] = 0;
-      t->reader ^= 1;
-      t->used = 0;
-    }
-    send_block(t);
   }
+  else if (t->cancelled || t->generation[t->aid] != server->receivers[t->aid].generation)
+    return;
+  else if (HALF(cb, 2) != 0)
+  {
+    t->attempts++;
+    return;
+  }
+  t->attempts = 0;
+  if (t->length == 2)
+  {
+    t->done = 1;
+    return;
+  }
+  t->position += t->length - 2;
+  t->block++;
+  t->used += t->length - 2;
+  if (t->used == t->available[t->reader])
+  {
+    t->available[t->reader] = 0;
+    t->reader ^= 1;
+    t->used = 0;
+  }
+  send_block(t);
 }
 
 static void menu_done(void *cb)
@@ -445,8 +403,7 @@ static void send_block(struct Transfer *t)
   void (*callback)(void *) = t->port == 14 ? menu_done : program_done;
   if (stopping || !t->aid || t->busy || t->cancelled || t->failed || t->done)
     return;
-  /* A new program must not replace a last-block buffer still used by WM. */
-  if (t->port == 15 && (server->replaying || !(server->pending[3] & (1u << t->aid)) ||
+  if (t->port == 15 && (!(server->pending[3] & (1u << t->aid)) ||
       server->program[t->aid] != t->resource))
     return;
   if (t->position == t->size)
@@ -593,12 +550,7 @@ static void update_transfer(u32 index)
       t->failed = 1;
       return;
     }
-    t->size = FS_GetLength(&t->file);
-    if (t->size != server->files[t->resource].size || t->size > (index ? PROGRAM_BLOCKS * 126u : 0xfffe * 30u))
-    {
-      t->failed = 1;
-      return;
-    }
+    t->size = server->files[t->resource].size;
     server->status_dirty = 1;
   }
   if (index && !t->busy && t->position < t->size && received(t->aid, t->block))
@@ -648,7 +600,7 @@ void *dlp_init(void *heap, const struct DlpFile *files, u32 count, const struct 
 {
   u32 i;
   FSFile file;
-  if (updating || !files || !info || !notify || !count || count > 256 || !dlp_stop())
+  if (updating || !dlp_stop())
     return 0;
   server = NNS_FndAllocFromExpHeapEx(heap, sizeof(*server) + count * sizeof(server->files[0]), 32);
   if (!server)
@@ -663,7 +615,7 @@ void *dlp_init(void *heap, const struct DlpFile *files, u32 count, const struct 
   {
     server->files[i].file = files[i];
     FS_InitFile(&file);
-    if (!files[i].path || !FS_OpenFile(&file, files[i].path))
+    if (!FS_OpenFile(&file, files[i].path))
     {
       dlp_stop();
       return 0;
@@ -680,41 +632,14 @@ void *dlp_init(void *heap, const struct DlpFile *files, u32 count, const struct 
 void dlp_set_info(const struct DlpInfo *info)
 {
   u32 interrupts = OS_DisableInterrupts();
-  if (server && info)
+  if (server)
     copy(&server->info, info, sizeof(*info));
   OS_RestoreInterrupts(interrupts);
 }
 
-int dlp_get_progress(u32 aid, struct DlpProgress *progress)
-{
-  u32 interrupts, result = 0;
-  if (!progress)
-    return 0;
-  zero(progress, sizeof(*progress));
-  progress->file = 0xffff;
-  interrupts = OS_DisableInterrupts();
-  if (server && !stopping && aid > 0 && aid < 16 && (server->connected & (1u << aid)))
-  {
-    struct Receiver *r = &server->receivers[aid];
-    struct Transfer *t = &server->transfers[1];
-    progress->state = r->state;
-    progress->file = r->state == DLP_PROGRESS_FAILED ? server->failure_file[aid] : server->program[aid];
-    if (progress->file < server->file_count)
-      progress->size = server->files[progress->file].size;
-    if (progress->file == server->program[aid])
-      progress->received = r->bytes;
-    if (r->state == DLP_PROGRESS_QUEUED && !(server->reset & (1u << aid)) &&
-        t->aid && t->resource == progress->file && !t->cancelled && !t->failed)
-      progress->state = t->reading && !t->available[t->reader] ? DLP_PROGRESS_READING : DLP_PROGRESS_SENDING;
-    result = 1;
-  }
-  OS_RestoreInterrupts(interrupts);
-  return result;
-}
-
 void dlp_connect(u32 aid)
 {
-  if (server && aid > 0 && aid < 16)
+  if (server)
   {
     dlp_disconnect(aid);
     server->connected |= 1u << aid;
@@ -725,7 +650,7 @@ void dlp_request(u32 port, u32 aid, const void *data, u32 size)
 {
   const u8 *name = data;
   u32 i, file = 0;
-  if (!server || stopping || aid == 0 || aid >= 16 || !(server->connected & (1u << aid)) || port < 12 || port > 15)
+  if (!server || stopping || !(server->connected & (1u << aid)))
     return;
   if (port != 12)
   {
@@ -762,7 +687,6 @@ void dlp_request(u32 port, u32 aid, const void *data, u32 size)
   if (port == 15)
   {
     server->program[aid] = file;
-    server->receivers[aid].state = DLP_PROGRESS_QUEUED;
     server->receivers[aid].bytes = 0;
     server->ready &= ~(1u << aid);
     server->finished &= ~(1u << aid);
@@ -778,7 +702,7 @@ void dlp_request(u32 port, u32 aid, const void *data, u32 size)
 void dlp_disconnect(u32 aid)
 {
   u32 i, mask;
-  if (!server || aid == 0 || aid >= 16)
+  if (!server)
     return;
   mask = 1u << aid;
   server->connected &= ~mask;
@@ -789,10 +713,8 @@ void dlp_disconnect(u32 aid)
   server->reset |= mask;
   server->status_mask &= ~mask;
   server->receivers[aid].generation++;
-  server->receivers[aid].state = DLP_PROGRESS_IDLE;
   server->receivers[aid].bytes = 0;
   server->program[aid] = 0xffff;
-  server->last_size[aid] = 0;
   for (i = 0; i < 4; i++)
     server->pending[i] &= ~mask;
   for (i = 0; i < 2; i++)
@@ -820,7 +742,6 @@ void dlp_update(void)
   }
   updating = 1;
   server->interrupts = interrupts;
-  server->frame++;
   update_receivers();
   for (i = 0; i < 2; i++)
   {
@@ -918,22 +839,6 @@ void dlp_update(void)
     }
   }
   update_receivers();
-  if (!stopping && !server->replaying && server->frame % 30 == 0)
-  {
-    mask = server->ready & server->connected & ~server->finished;
-    while (mask)
-    {
-      u32 aid = first(mask);
-      mask &= ~(1u << aid);
-      if (server->last_size[aid])
-      {
-        server->sending++;
-        server->replaying++;
-        if (WM_SetMPDataToPortEx(replay_done, 0, server->last[aid], server->last_size[aid], 1u << aid, 15, 3) != 2)
-          replay_done(0);
-      }
-    }
-  }
 end:
   unlock();
   updating = 0;
