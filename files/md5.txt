@@ -1,5 +1,11 @@
 # JP
 67b9666b1dbaaf1e8ca03bf7786ed5b6
 
-# Translation version
+# Old translation version
 63964bf611415d01994935767d2ed74d
+
+# 1.0.0 (Normal)
+0ec7194b48e86dd12e8ddcde5d5296bd
+
+# 1.0.0 (Download Play)
+b4d7a8ab50f09823c1c3cac67bee1909
